@@ -1,0 +1,2139 @@
+Title,Authors,Created at
+Investigate Cypress for UI tests,dwelle,2020-01-03T13:59:13Z
+Suggestion - create a GatsbyJS transformer,joewood,2020-01-12T18:08:49Z
+Ability to Print directly from the editor,lipis,2020-01-17T00:00:38Z
+suggestion: moving to a border of the viewport while resizing/selecting triggers scrolling,ncypme,2020-01-25T00:20:19Z
+"If the main mouse button is being held and visibilitychange is triggered, perform the corresponding onMouseUp action.",ncypme,2020-02-02T17:22:20Z
+show finish-arrow button always or on touchscreens,vjeux,2020-02-24T02:29:03Z
+Close menu when deselecting,dwelle,2020-02-24T12:29:55Z
+Compress before sending over network,vjeux,2020-03-15T16:47:20Z
+Better touch handling,j-f1,2020-03-15T19:21:17Z
+Share a live view without collaborating,dasblitz,2020-03-18T15:41:36Z
+We should have a different hint when drawing multisegments lines on mobile,lipis,2020-03-18T19:13:32Z
+[Brainstorm] Teams use case,vjeux,2020-03-24T15:08:34Z
+Allow loading a drawing from URL,gaelollivier,2020-03-26T15:52:46Z
+Synchronize cursor type,vjeux,2020-03-29T02:24:41Z
+Support colors for ranges in text,gaearon,2020-03-29T23:50:39Z
+excalidraw CLI,eunjae-lee,2020-04-06T08:19:57Z
+Explore migrating to IndexedDB for data storage,shrirambalaji,2020-04-06T18:18:25Z
+Collaboration performance on slow upload connections,azz,2020-04-08T00:27:42Z
+Feature: Marker / Highlighter,Haroenv,2020-04-08T09:40:52Z
+Rotate in discrete steps on mobile phone,Unknown,2020-04-10T06:45:55Z
+Allow to use excalidraw as vue component in other apps,rajatjindal,2020-04-12T15:50:42Z
+Cache fonts for offline usage,kbariotis,2020-04-13T19:25:27Z
+Feature Request: Allow basic prototyping functionality,donaldpipowitch,2020-04-20T03:41:18Z
+Intermediate slider changes shouldn't persist in the undo stack,gaearon,2020-04-22T15:03:16Z
+Text gets blurred after text editing looses focus,blipp,2020-04-29T18:51:21Z
+Debounce/set interval to syncing in collaborative mode,ad1992,2020-05-01T10:59:35Z
+Tabs in Excalidraw,rajikaimal,2020-05-04T06:55:08Z
+title tooltips are not discoverable enough,vjeux,2020-05-08T21:25:20Z
+Free draw with many points fails to filp,dai-shi,2020-05-17T16:03:21Z
+Canvas background color is not synced in collaborative mode,petehunt,2020-05-23T19:14:02Z
+Import geographic geometries and or SVGs,sorodrigo,2020-05-24T09:22:46Z
+[grouping] selected and editing groups should be shared in collaborative mode,petehunt,2020-05-26T20:56:32Z
+Display the current filename somewhere in the UI,sompylasar,2020-05-29T09:06:22Z
+add test helpers for element manipulation,dwelle,2020-05-30T13:54:41Z
+write more regression tests,dwelle,2020-05-30T14:04:41Z
+fix test cases leaks/race conditions,dwelle,2020-05-30T14:10:06Z
+Non breaking space in text breaks SVG output,TeddyDD,2020-06-09T11:36:19Z
+Allow Rotation by hovering near corner,GeorgeNance,2020-06-15T15:51:15Z
+Self hosting Excalidraw - Umbrella issue,kbariotis,2020-06-15T22:21:58Z
+Collaborator state changes do not always cause re-render,oliverbenns,2020-06-21T20:42:22Z
+Excalidraw does not work with a lot of users,kolaente,2020-06-23T07:13:43Z
+Lines of text change line spacing between OSes,mvxt,2020-06-24T05:56:44Z
+Add ability to add a point on either side of a linear element,xixixao,2020-07-09T04:20:35Z
+Double click should pass through selected forefront objects for editing,xixixao,2020-07-09T04:34:14Z
+It's not clear that the Library auto-expands or that a placeholder is empty,dvir,2020-07-10T17:59:16Z
+Grid mode: Allow dot-sized circles,xixixao,2020-07-11T03:50:25Z
+Context menu is breaking zoom on mobile,xixixao,2020-07-12T00:48:24Z
+sentry doesn't map source for console.error events,dwelle,2020-07-16T20:58:16Z
+Improve selection,xixixao,2020-07-30T05:54:09Z
+Umbrella: Line editing improvements,dwelle,2020-07-30T13:31:33Z
+Remove uncommitted point when alt is lifted,xixixao,2020-08-05T04:57:16Z
+Umbrella: shape binding,dwelle,2020-08-10T14:27:19Z
+dark mode: detect user's color theme preference,Fausto95,2020-08-13T11:45:49Z
+behavior: closing multi-point shapes,dwelle,2020-08-14T11:29:55Z
+Allow setting shouldForceLoadScene from url parameter,magicseth,2020-08-20T20:52:49Z
+Service worker doesn't always update,dwelle,2020-08-26T12:28:59Z
+Remove PWA (SW) until guaranteed fix,dwelle,2020-08-28T19:31:22Z
+Cmd/ctrl-drag of parent element should unbind it from all bound elements,dwelle,2020-08-29T16:02:55Z
+Configured grid size,defint,2020-08-29T20:01:51Z
+clearing color picker input should set color to transparent,dwelle,2020-08-30T11:35:39Z
+Viewer embeded,ricardojlrufino,2020-09-08T19:36:17Z
+Feature request: Minimap,mikefrancis,2020-09-23T15:20:48Z
+Imported items from the library should land to the board as a group,lipis,2020-09-23T20:36:20Z
+Proposal: plugin API,petehunt,2020-09-28T01:40:59Z
+The menu's position should auto adjust according to editing position,zmen,2020-09-28T08:29:09Z
+File produced by `npm run build-node` throws an exception at runtime `window is not defined`,ggrossetie,2020-10-03T11:51:34Z
+set up firebase CORS,dwelle,2020-10-06T19:20:11Z
+Do not use production firebase in development,dwelle,2020-10-06T19:23:46Z
+copying styles should set it as default,dwelle,2020-10-08T15:39:51Z
+Tiled rendering,dwelle,2020-10-11T10:16:13Z
+export dialog: show relative size increase when embedding scene,dwelle,2020-10-13T21:08:49Z
+Collaboration slow on low end devices,McToel,2020-10-14T15:26:16Z
+Add an import library functionality that will get as an input a URL to gist or something,lipis,2020-10-27T23:49:58Z
+Ability to set canvas properies via URL (like background color),leventalpsal,2020-11-04T15:23:11Z
+Add regression tests for WS server,dwelle,2020-11-09T12:32:05Z
+Improve contextmenu UX on mobile when selecting,dwelle,2020-12-05T23:09:17Z
+Add announcement support for announcing new features inside the app.,lipis,2020-12-06T23:01:46Z
+Changing the sloppines of straight arrows/lines changing their width. It shouldn't,lipis,2020-12-08T19:26:18Z
+"The text elements seems to have a background color set, but they shouldn't",lipis,2020-12-08T20:59:31Z
+Shortcuts for RTL languages are not consistent,lipis,2020-12-12T22:27:01Z
+changelog,dwelle,2020-12-14T12:54:10Z
+Native Tabbed mode in standalone Excalidraw PWA window,tomayac,2020-12-15T09:40:35Z
+Stroke width vs. stroke style,luc4leone,2020-12-15T10:02:19Z
+Separate Excalidraw canvas from application UI,tomhicks,2020-12-17T10:11:10Z
+Feature request : add a save to Gitlab|Github|Google Drive option,YannBrrd,2020-12-18T09:26:52Z
+Reduce over rendering when loading a room scene,vjeux,2020-12-21T01:36:54Z
+make library items filterable,dwelle,2020-12-21T15:47:25Z
+Excalidraw hangs on Samsung FLIP2 smart board,pascal71,2020-12-26T12:38:01Z
+Paste for chart not working in mobile Safari,j-f1,2020-12-27T13:55:35Z
+Helm chart?,aboutte,2021-01-03T16:36:39Z
+Embedding share links,tommoor,2021-01-04T06:16:35Z
+Double-clicking and dragging goes into unexpected text mode,davidkpiano,2021-01-04T17:53:28Z
+Show changes made after last visit in collaboration mode,sojusnik,2021-01-04T18:13:19Z
+Text is blurry when rendered on canvas,kdueber,2021-01-04T22:35:44Z
+Canvas size is too large to export.,torgerson,2021-01-05T16:45:02Z
+add UI to open collaboration links from PWAs,dwelle,2021-01-05T22:50:41Z
+Ask to save unsaved changes before closing,sojusnik,2021-01-05T22:53:02Z
+Autosave support,dwelle,2021-01-06T12:45:32Z
+review and fix potentially significant late-render cases,piyusharorawork,2021-01-07T12:12:45Z
+Feature request: Add the option to set id in elements when exporting as SVG,abusedmedia,2021-01-08T08:39:28Z
+Arrow bounding box/size incorrect during export,dwelle,2021-01-11T12:10:05Z
+Live-collaboration has strange participants,AaronRobinson,2021-01-13T21:45:15Z
+"takes many clicks to get to ""nested"" groups of text boxes",bzupnick,2021-01-13T22:14:12Z
+Rework collaborative session UI/flow,inwardmovement,2021-01-15T12:49:39Z
+Improve error message dialogs,lipis,2021-01-16T18:54:12Z
+Zooming is extremely slow and laggy on Safari 14,Exelord,2021-01-22T09:19:57Z
+Share second URL that will be only readonly for the viewers (collaborators),lipis,2021-01-22T22:35:22Z
+feat: Add `.excalidrawlib` support for file handling and bottom sheet install support in Web App Manifest,tomayac,2021-01-27T20:46:47Z
+"Publish Excalidraw PWA to available stores (Microsoft Store, Play Store)",lipis,2021-01-27T21:09:17Z
+Update Description to be the same on all available places,lipis,2021-01-27T21:24:47Z
+replace crosshair cursor with small red dot when drawing,luigirizzo,2021-01-28T16:55:07Z
+handwriting incomplete,longdong-tai,2021-01-30T06:08:21Z
+feature request: link to PNG,andyczerwonka,2021-02-01T20:13:09Z
+Redirect non existing URL to the root,lipis,2021-02-03T18:49:59Z
+The number of participants and the avatars do not match.,lipis,2021-02-04T12:09:14Z
+remote selection doesn't account for groups,dwelle,2021-02-04T16:08:29Z
+Can't zoom in in view mode and the keyboard is popping up on mobile,lipis,2021-02-04T17:43:26Z
+Allow user to set min Y-axis value when selecting line chart,dbs-sticky,2021-02-04T18:20:27Z
+Overdraw issue,vjeux,2021-02-04T20:22:03Z
+Firebase has a size limit for scenes,vjeux,2021-02-04T20:58:36Z
+wrap toolbar on small screens,dwelle,2021-02-05T15:02:17Z
+Can't import @excalidraw/excalidraw in Node environment,gaearon,2021-02-07T21:40:06Z
+Some grouped objects has no anchor for arrows,Alastor-Pilkine,2021-02-09T18:16:42Z
+Ghost user / Unknown user,utkarshxs,2021-02-10T08:25:59Z
+Expose action manager to Excalidraw API,ad1992,2021-02-10T17:38:41Z
+Support hiding UI elements in the Excalidraw embed package,gaearon,2021-02-12T03:39:58Z
+Onchange function getting triggered on each and every component render,CJ190795,2021-02-12T07:35:28Z
+The page crashes when I resize the box of a long text,SiegfriedEhret,2021-02-16T09:47:01Z
+Support passing of username via collaboration link,cnollite,2021-02-16T10:27:32Z
+Inaccessible shortcuts on non-QWERTY keyboards,tleb,2021-02-17T08:37:21Z
+Add internal support for rendering and import/export of Path data,brochington,2021-02-20T21:32:19Z
+Add support for Apple Pencil scribble,sibartlett,2021-02-21T02:25:52Z
+It's difficult to free-draw an angle,gaearon,2021-02-21T17:55:34Z
+Adding points to line or arrow on touch device,valiyaveedan,2021-02-26T15:26:42Z
+It's difficult to determine what changed from onChange,gaearon,2021-03-01T22:00:09Z
+Ability to add custom ID to a shape or Group or can reuse the IDs for a shape or group when it is saved into the library.,valiyaveedan,2021-03-02T21:19:47Z
+Set default settings for new users,aaronpie,2021-03-06T17:45:57Z
+rewrite `getSceneVersion`,dwelle,2021-03-06T18:29:53Z
+Custom id generator,zsviczian,2021-03-07T08:34:12Z
+Extending the keyboard usage to element selection and modification,manoelpqueiroz,2021-03-08T01:16:05Z
+Operations for collaborative editing,streamich,2021-03-08T19:47:36Z
+Introducing Backpressure mechanism for live collaboration,vjeux,2021-03-09T17:11:58Z
+feat: Implement the Web Share API for the export dialog,tomayac,2021-03-09T18:06:48Z
+feat: guess visitor's spoken languages,Mejans,2021-03-09T18:32:40Z
+hide Web Share button on desktop,dwelle,2021-03-11T13:18:41Z
+Feature: Merging excalidraw,lein1013,2021-03-12T12:12:54Z
+Option to hide object selection & movement controls in Zen Mode,aakashns,2021-03-13T03:36:42Z
+Autohide the shape selection bar and other UI elements in Zen mode for extra Zen,aakashns,2021-03-13T03:39:55Z
+Improve arrow head sizing?,wietsevenema,2021-03-16T09:52:50Z
+Trying to change stroke color while text is selected hides the text element,h7y,2021-03-17T17:10:34Z
+Pinch to zoom on Safari mac doesn't consider modals,h7y,2021-03-22T18:37:37Z
+Show Text Selection across network,greggman,2021-03-23T00:07:51Z
+Don't show a selected item as a pending item in library when its already added,ad1992,2021-03-23T15:36:59Z
+Move url manipulation away from core,dwelle,2021-03-24T21:41:12Z
+Seeing duplicate version of my user in collaboration,adiun,2021-03-24T23:30:45Z
+Support line merging,dwelle,2021-03-26T17:57:25Z
+Canvas crashed while zooming and resizing a square at the same time,JVictorV,2021-03-26T23:54:51Z
+Terms of use on the hosted version,mgudmund,2021-03-31T20:41:44Z
+Hide filename unless you have an active file handle,dwelle,2021-04-01T21:27:54Z
+[Feature or Idea] support edit local file and bash operate?,daidai21,2021-04-03T11:31:47Z
+don't render UI until scene is initialized,dwelle,2021-04-03T21:13:31Z
+Styling issue when using the background picker in mobile mode,pomdtr,2021-04-04T19:27:33Z
+Support updating offsets whenever excalidraw position is updated,ad1992,2021-04-07T16:20:16Z
+Failed to import .excalidraw save file,delberthbeti,2021-04-08T06:37:31Z
+"UX: Collaboration, Saving, Exporting",ElectricCookie,2021-04-09T14:35:07Z
+Export with grid,Dani3I,2021-04-09T19:32:42Z
+Feature: Allow loading exalidraw scene into library,xixixao,2021-04-10T01:42:23Z
+Allow free draw to be attached like arrows,bric3,2021-04-15T12:20:43Z
+"onSave, onSaveAs, onLoad event handlers",zsviczian,2021-04-18T09:42:29Z
+Feat Request: Markdown Support for texts,sohamsshah,2021-04-18T15:59:10Z
+Embed scene diagram when exporting to clipboard,pomdtr,2021-04-18T23:56:41Z
+Prevent a URL from being publicly accessible forever,jeffthompson-chownow,2021-04-23T15:57:30Z
+Suggestion: GitHub bot to auto update and render files,Milo123459,2021-04-25T10:47:26Z
+UI suggestion: Single top toolbar,Kadagaden,2021-04-26T10:23:52Z
+Suggestions for sidebar tool option names,Kadagaden,2021-04-26T11:59:52Z
+Host Excalidraw on local machine,rishik-00,2021-04-28T10:43:38Z
+Dynamically switching to mobile layout removes some UI affordances needed for desktop,jeremypress,2021-04-28T22:14:21Z
+Groups are exited when doing a drag selection,PierBover,2021-04-29T19:36:05Z
+Write DPI information to exported PNG images,borekb,2021-05-01T09:18:03Z
+Dark mode - custom color hexcodes don't display accurately,pmnord,2021-05-03T20:30:00Z
+Free hand drawing snapping to grid,pvaliyaveedan,2021-05-05T16:18:33Z
+Freedraw exported svg can contain NaN,dai-shi,2021-05-11T12:38:36Z
+Freedraw lines tend to go beyond bounding box,dwelle,2021-05-13T16:50:45Z
+Freedraw lines endings turn sharply despite minimal deltas,dwelle,2021-05-13T17:08:02Z
+Reintroduce stack traces to top error boundary dialog,dwelle,2021-05-13T20:32:48Z
+Reflect the zoom level and location in the url.,theoryshaw,2021-05-14T13:53:33Z
+Install excalidraw on OpenShift,ErhardSiegl,2021-05-18T21:34:39Z
+Set roundness (border radius) of a rectangle?,borekb,2021-05-19T13:44:04Z
+SVG export error,zsviczian,2021-05-19T17:20:37Z
+Stop using `move` cursor,dwelle,2021-05-20T12:48:14Z
+Arrow not drawn on correct position when moving linked element,wietsevenema,2021-05-24T12:32:18Z
+Add non-alphabetic font-family similar to BLOKK or Redacted,erperion,2021-05-24T14:56:49Z
+Subscript and Superscript Text,zsviczian,2021-05-25T11:59:08Z
+Wrap shape menu items on mobile,dwelle,2021-05-25T20:46:30Z
+Allow custom colors in color picker and save palette to AppState,zsviczian,2021-05-26T12:14:33Z
+Issue after using the Text Tool,okbel,2021-05-27T11:09:11Z
+Documentation for running a self-hosted collaboration server is missing,mikkorantalainen,2021-05-28T10:34:48Z
+Multi-point lines doesn't create points on tap,dwelle,2021-05-30T09:38:43Z
+zenMode should allow opening color pickers via shortcuts,dwelle,2021-05-30T15:13:50Z
+Allow the host to customise the keyboard shortcuts,sumanth355,2021-06-09T07:29:11Z
+Add F2 keyboard shortcut to edit text boxes,zapatacarlos,2021-06-09T09:14:35Z
+url hash gets replaced with random elements ids,dwelle,2021-06-11T17:12:47Z
+display aspect ratio in stats,dwelle,2021-06-14T11:33:40Z
+Extreme sluggishness when drawing slowly in collaboration mode,Tozuko,2021-06-20T21:27:42Z
+Line Jump for intersection lines,sam33rch,2021-06-21T17:22:14Z
+Adding option to paste tabular data as a rough table,ferminrp,2021-06-24T22:05:01Z
+Split existing shapes by defining intersections,maxime1992,2021-06-27T09:15:11Z
+freehand tool problems,guiok,2021-06-29T10:22:52Z
+onBeforeTextEdit and onBeforeTextSubmit callbacks,zsviczian,2021-07-01T20:25:47Z
+Buggy/glitchy scrolling behavior with graphics tablet (pen),JakubKoralewski,2021-07-04T11:18:09Z
+set up a `postinstall` script to copy `excalidraw-assets` to `public`,dwelle,2021-07-04T21:22:59Z
+Memory leak,dwelle,2021-07-04T21:47:59Z
+Support tablet pressure for more expressive drawing,unfa,2021-07-08T14:52:25Z
+make excalidraw css selectors more specific,dwelle,2021-07-11T17:14:45Z
+"Support ""Zoom To Fit All elements"" as a UI action",ad1992,2021-07-13T19:37:52Z
+Persist fileHandle for all image files,dwelle,2021-07-15T14:05:09Z
+don't mirror undo/redo buttons in RTL?,dwelle,2021-07-15T16:57:45Z
+Keybindings do not work with non English language,TheAsda,2021-07-19T12:15:45Z
+Feature Request: Customizable keybindings,leandwo,2021-07-21T07:12:08Z
+Idea: Reset tools to default styles,jberk-godaddy,2021-07-27T00:29:34Z
+Feature: New shared whiteboard with initial content,pimotte,2021-07-29T14:09:00Z
+Difficult to selecting overlapping elements,xmatthewx,2021-08-04T20:52:31Z
+PWA not installing on Samsung Browser 14.2.3.14,fitduarte,2021-08-06T20:17:49Z
+hachure SVG Export Error,zsviczian,2021-08-10T18:42:58Z
+Features wishlish,realmatelon,2021-08-10T21:08:51Z
+Postprocess freehand - edit points,lein1013,2021-08-14T08:27:30Z
+development: storybook for isolated component dev,hydrosquall,2021-08-14T09:47:26Z
+Feature Request - Private Sharing or Reduce Admin's Access,AaronRobinson,2021-08-22T11:48:01Z
+zooming on a shape stops rendering it,dwelle,2021-08-22T21:52:11Z
+Feature Request: more padding on image export,jberk-godaddy,2021-08-26T00:21:19Z
+Infinite zoom,boehs,2021-09-02T22:18:39Z
+Provide option to hide activity of other users when in a collaboration session,JonathanHarvey,2021-09-03T05:38:57Z
+Sorting Library Items,alexbarbato,2021-09-15T21:48:48Z
+Reverse cross hair selection to select partially covered objects,anashashmi,2021-09-17T15:53:28Z
+Content disappeared,carlsonad,2021-09-23T20:02:15Z
+use key control to copy and paste a component,Unknown,2021-09-23T21:59:52Z
+disallow resizing single-point freedraw elements,dwelle,2021-09-26T14:58:16Z
+Size of new added text should be respective to the current zoom level.,sanketkheni01,2021-09-27T03:56:21Z
+node_modules/@excalidraw/excalidraw/types library failing giving errors on compile in angular,Shivugethub,2021-09-28T17:15:13Z
+Select on `pointerup` for `touch` events,dwelle,2021-10-01T15:31:06Z
+"Image_support: API hook to saveFiles, loadFiles and resolve dataURLs",zsviczian,2021-10-03T09:58:49Z
+Handle canvas cache GC ourselves,dwelle,2021-10-08T21:11:46Z
+Support self-hosted Supabase as backend,nileshtrivedi,2021-10-09T18:33:09Z
+open excalidraw files from Github and write changes to Github hosted excalidraw file,pavinduLakshan,2021-10-12T11:39:51Z
+Cant rotate to 90 degrees while in grid mode,pvaliyaveedan,2021-10-14T18:56:15Z
+Control points not showing up for line/curve after updating iPad OS to v15,pvaliyaveedan,2021-10-15T20:11:04Z
+support importing images using `load` button,dwelle,2021-10-22T11:27:54Z
+Stroke options should show keyboard shortcut,saibotsivad,2021-10-22T20:17:03Z
+feat: Limit canvas size to imported image / photo / SVG as background image.,mmmd-am,2021-10-23T13:59:53Z
+Feature Enhancement: Define Canvas Size,mmmd-am,2021-10-24T01:12:35Z
+Feat: Cursor Chat,mmmd-am,2021-10-27T10:28:50Z
+Multi-point lines on tablet,melsophos,2021-11-04T22:33:05Z
+"After paying, the document storage method has changed, but it affects my sharing and collaboration",ottopan,2021-11-05T02:32:08Z
+Add dyslexia-friendly (default?) font,khs26,2021-11-05T08:10:43Z
+Add Background Patterns,emhl,2021-11-07T10:32:36Z
+Wrong image import,pioz,2021-11-08T14:32:37Z
+resize paradigm,epec254,2021-11-08T20:50:06Z
+Feature Request: Support Programatically Hiding Canvas Actions,viglucci,2021-11-09T03:27:10Z
+Unable to auth with Notion,eob,2021-11-09T13:23:17Z
+support background removal for images,dwelle,2021-11-10T18:14:47Z
+Feature Request: Save to github,munanadi,2021-11-13T21:50:52Z
+"Can we support Mindmap, that would be a cool thing",hexiaowen,2021-11-15T03:45:24Z
+Feature Request: Pie Chart Generation,RiccLQL,2021-11-15T21:45:19Z
+Voice Input,jtschanter,2021-11-16T13:24:21Z
+automatically rearrange text,JJger148,2021-11-16T17:07:55Z
+Proposal to show coloured canvas action buttons and better UI states,ad1992,2021-11-18T15:05:02Z
+Make app.excalidraw.com a PWA,mfbx9da4,2021-11-25T11:52:18Z
+How does sync work in the free version?,mfbx9da4,2021-11-25T11:55:10Z
+Support text background,dwelle,2021-11-26T16:08:14Z
+feature request: opacity slider for crosshatch fills,woodensquares,2021-11-26T19:53:33Z
+CI: fix lint and commit is needed,dwelle,2021-11-30T10:08:30Z
+Multiple opened  PWA windows all named Excalidraw,joel-loewenstein,2021-12-01T07:57:15Z
+Pictures disappear from scenes during switching between them,anartahirzade,2021-12-02T05:22:36Z
+Always fill multi-line when fill color is set,dwelle,2021-12-04T15:55:47Z
+Export as read-only creates editable link,mhmmtucan,2021-12-05T14:16:36Z
+inplace of browse library can we show some dropdown of categories .. on select on each dropdown we can add shapes into our library,Sohailamjad1,2021-12-06T07:37:28Z
+Rectangle and Diamond produce different corner shapes,jai-dewani,2021-12-06T16:46:16Z
+"When opening the mac native emoji picker, I'm then stuck in ""grab"" mode",antoineduban,2021-12-07T17:29:56Z
+How can I import the PFD just like images?,Tushar-Beladiya,2021-12-10T06:41:12Z
+Opaque Error when creating new Scene,seigel,2021-12-15T17:05:17Z
+[Feature Request] Page Template and Size,yoursamlan,2021-12-16T19:08:13Z
+Feature Request: Read-only view in live share,dpalay,2021-12-24T17:06:14Z
+Feature request: Set view for others,dpalay,2021-12-24T17:30:49Z
+Add pen presets - Feature Request,S0urC10ud,2021-12-26T11:55:10Z
+Feature request: select all objects inside an enclosing shape,adityagodbole,2021-12-28T07:39:43Z
+[Feature request] change the location the items from library injected into the canvas,Archie-2021,2021-12-28T09:02:55Z
+Make text container padding adapt to size,dwelle,2021-12-28T11:45:32Z
+library item drag-n-drop doesn't work on Android,dwelle,2021-12-29T12:55:28Z
+Reorder collections and scenes (Excalidraw+),inwardmovement,2022-01-04T08:02:39Z
+Problem with importing file size exceed 50MB on Excalidraw Plus,snn2spade,2022-01-09T01:30:35Z
+Ability to bind image inside of Shape,bonecast,2022-01-10T20:01:59Z
+Zoom & Pan with hand when using Apple Pencil : parasitic strokes,Elaws,2022-01-11T01:32:55Z
+`updateScene` doesn't restore data,dwelle,2022-01-12T22:32:51Z
+[Bug] Inconsistent trackpad input on Ipad,gchwalik,2022-01-13T06:49:06Z
+Opening local file with PWA causes the browser to crash,aur3l14no,2022-01-17T10:36:00Z
+Feature Request: Bidirectional arrow in the Arrow heads section,cliffordfajardo,2022-01-17T23:01:52Z
+feat:Add a Zoom mode key for pen & tablet use,iancustoica,2022-01-21T05:40:05Z
+Can center of element be aligned to grid?,svenn71,2022-01-23T08:23:28Z
+Feature Request: Actually route connectors,drewm1980,2022-01-27T11:34:19Z
+Can't change Shapes by number shortcuts,dlfdyd96,2022-01-28T07:10:14Z
+Rvert persistent alt/option-duplication,dwelle,2022-01-29T20:29:03Z
+Edit line gets stuck,zsviczian,2022-01-30T19:44:29Z
+Hangs when exporting massive canvas,mfbx9da4,2022-01-30T19:54:59Z
+Feature: Grid units for scaled drawings,nathanwinder,2022-02-01T13:33:59Z
+Drawing issue with pen mode.,narendrasinghrathore,2022-02-02T15:37:46Z
+Color gradient feature (if possible),selpolselpol,2022-02-05T14:59:37Z
+[Feature Request] Ability to apply sort the scene list,seigel,2022-02-07T05:44:49Z
+Link to headings and blocks,Missionary-OSBS,2022-02-07T08:30:27Z
+Link icons can be intrusive when you have many links,zsviczian,2022-02-09T08:38:19Z
+Feature Request : Sketch-ify uploaded photos,openbookings26,2022-02-09T18:34:18Z
+Link icon not transparent,zsviczian,2022-02-09T19:44:35Z
+Fill-in incomplete line object,zsviczian,2022-02-09T21:35:48Z
+Delay in collaborating session,dodalovic,2022-02-12T09:41:16Z
+"Embedded Excalidraw component not getting keyboard focus on touch, but only on click",zsviczian,2022-02-13T12:22:49Z
+Feature request : redraw shape.,sugoidesune,2022-02-16T11:08:22Z
+Translation for Hindi,limshark,2022-02-17T06:23:17Z
+Feature Request - Langauge support for Marathi “Marathi (India)” (mr_IN),limshark,2022-02-17T06:35:57Z
+Perfect Freehand Drawing,Signynt,2022-02-17T08:11:07Z
+Integrating it in Angular project,rIGMORSOMRAR,2022-02-21T12:09:19Z
+Groups are not moved when moving bound to objects,cryptix,2022-02-21T16:31:42Z
+Export (save) dialog doesn't respect iOS safe area,tomayac,2022-02-22T07:55:30Z
+"Amazing app - nervous around web apps, consider making a downloaded app . .",charlesmlamb,2022-02-23T11:56:31Z
+"The value of property ""ciphertext"" is longer than 1048487 bytes.",evan-boissonnot,2022-02-23T12:16:34Z
+"Please add a ""table"" template so can be easily added to the drawings",masoudshab,2022-02-26T15:37:53Z
+How to Install on netlify,abhaymahajanwh,2022-03-01T04:36:38Z
+Cannot save a newly created and changed excalidraw,mnasirova,2022-03-01T16:50:13Z
+add warning that you can only upload .png,ethanneff,2022-03-01T23:00:03Z
+Editing text color of sticky note in mobile view is not possible,zsviczian,2022-03-03T14:23:33Z
+Some drawings fill screen upon copy and paste?,realbearsmith,2022-03-03T23:03:01Z
+Left-handed mode,zsviczian,2022-03-08T08:41:08Z
+Increase range of click to type within a shape,daweth,2022-03-10T00:02:57Z
+support different eraser sizes,dwelle,2022-03-11T16:17:43Z
+non-atomic erasing for linear & freedraw shapes,dwelle,2022-03-11T16:30:16Z
+Mermaid object support,leorochael,2022-03-11T20:02:06Z
+Android Tablet | Odd Offset,Gitkubikon,2022-03-13T10:58:35Z
+measureText results in different metrics on different devices,zsviczian,2022-03-15T15:56:33Z
+add option to disable snap to grid in grid mode,valvas29,2022-03-21T14:48:49Z
+bind text to container on ipad - accessing context menu is difficult,zsviczian,2022-03-21T20:12:44Z
+Support custom elements,dwelle,2022-03-22T13:12:51Z
+Hole in a shape,pocomane,2022-03-22T15:27:10Z
+spherical / wheel / radial / circular / pie context menu,zsviczian,2022-03-29T08:57:41Z
+Object rotation broken in Chrome,janrueth,2022-03-29T09:43:01Z
+Can only perform 1 action with Wacom tablet. Firefox 98.0.2,amdkam,2022-03-29T14:47:15Z
+Couldn't connect to the collab server. Please reload the page and try again,shenlei190810,2022-03-30T05:42:57Z
+! ! console error..when iam trying to call update scene functions inside the use effect,Sohailamjad1,2022-04-06T06:53:34Z
+Typescript type files are missing from NPM package.,Timmmm,2022-04-07T10:06:47Z
+support images in libraries,dwelle,2022-04-13T15:51:56Z
+Add color swatch on the side directly,ericsia,2022-04-16T21:15:02Z
+Self-hosting not possible,zinerva,2022-04-19T12:52:01Z
+support importing multiple excalidrawlib files at once,dwelle,2022-04-23T12:29:21Z
+Background and stroke colors are not equally affected by opacity,inwardmovement,2022-04-23T12:52:25Z
+The root icon is displayed incorrectly,DaSh-More,2022-04-28T11:24:05Z
+"When I try to open an external link which is not a website url , the browser page will still pop up",goodluck233,2022-04-29T11:30:14Z
+Highlight words in a paragraph,YummyGyros,2022-05-03T08:56:45Z
+Disable updating locked elements,ad1992,2022-05-03T15:51:55Z
+Enable selection of single elements  to unlock when locked for better UX,ad1992,2022-05-03T16:03:22Z
+Arrow / connector jumping `bug` when grouped elements move,al-bal,2022-05-05T19:39:23Z
+Rendering bug using draw tool with background,ychinghin,2022-05-06T02:02:33Z
+charts should support comma-separated and space-separated columns,dwelle,2022-05-07T17:02:39Z
+"Refactor suggestion: add immer to simplify `changeProperty`, `actions.perform`, and others",tom-sherman,2022-05-08T11:14:00Z
+Pen / Stylus Eraser support (on button hold),TomasKliner,2022-05-09T17:33:42Z
+zooming in on the canvas with two fingers triggers drawing,nxboo,2022-05-11T08:50:17Z
+"Text editing focus is lost if switching to and back from another browser tab/window/application, which hurts `usability`",al-bal,2022-05-11T20:05:33Z
+Zen mode for mobiles,avidseeker,2022-05-12T05:31:02Z
+I want to have self-host server.,jingesky,2022-05-12T10:08:11Z
+chrome extension Icons are too large to fit the OS theme,lltx,2022-05-14T03:28:25Z
+improve the performance Ink,anatoliibakhtin,2022-05-14T10:02:26Z
+"Text size difference between S, M, L, XL should be double",Zaffer,2022-05-14T10:50:14Z
+App.tsx Refactoring,kerimcharfi,2022-05-15T22:07:09Z
+Color palette issue,vivekbhg,2022-05-16T11:50:47Z
+Launching .excalidraw from file manager opens incorrect file in PWA,adam-wood,2022-05-17T07:49:42Z
+Connected arrow disappears,i-c-u-p,2022-05-18T17:25:31Z
+Support exporting in specific aspect ratios,dwelle,2022-05-20T16:33:53Z
+The drawing disappears at high zoom values on iPad,zsviczian,2022-05-21T13:21:27Z
+Keyboard Shortcuts inaccessible on iOS without physical keyboard,aiyer-commits,2022-06-01T21:05:26Z
+fail to package at branch l10n_master due to createPortal at Modal.tsx,ruifeng96150,2022-06-02T02:54:50Z
+Add LaTeX rendering support,daweth,2022-06-02T07:56:09Z
+`visibilitychange` while actively drawing draws a straight line to the top left of the screen,with-heart,2022-06-05T21:06:14Z
+Support Microsoft Surface Pen’s eraser (with workaround),dtinth,2022-06-06T07:43:39Z
+Bug review,MCLeut,2022-06-06T19:03:39Z
+“'TopErrorBoundary' cannot be used as a JSX component.,rogeti,2022-06-09T18:46:23Z
+Error on yarn start: ERR_PACKAGE_PATH_NOT_EXPORTED,alexflint,2022-06-12T15:13:31Z
+"""Copy styles"" to include objects and its size",sojusnik,2022-06-12T20:58:07Z
+Feature Request: Code Eagle Mode,7flash,2022-06-13T08:32:59Z
+Feature Request: Import GIF pictures,7flash,2022-06-14T00:25:38Z
+Feature Request: Draw like notes app ipad or like goodnotes,testaccount4568,2022-06-14T04:02:29Z
+FR: Add draw classification on draw library,YIRU69,2022-06-16T04:39:30Z
+Feature Request: Scenes reorder,Geogee007,2022-06-16T14:26:06Z
+"Feature Request: [Import PDF Button] Algorithm Concept Select PDF, convert PDF to Image, Import Image. Now everyone can write on PDF",MartinStuwe,2022-06-16T22:22:19Z
+Feature request: support plantuml diagram or any textual descriptions diagram,mchoraine,2022-06-17T14:41:47Z
+keeping element references up to date,dwelle,2022-06-17T17:22:03Z
+Imported images lose resolution,7flash,2022-06-20T05:39:34Z
+All JPEG'S import pink/teal,ihasaflavour,2022-06-21T18:17:54Z
+Text entry is blind (black text on black background) under Chrome Version 101.0.4951.67 (Official Build) (64-bit) in dark-mode,Cyberdim1234,2022-06-27T11:12:16Z
+Finishing text entry by hitting 'Enter' adds spurious trailing blank-line to entered text under Chrome Version 101.0.4951.67 (Official Build) (64-bit),Cyberdim1234,2022-06-27T11:13:21Z
+Unable to draw curved arrows after exporting canvas to file under Chrome Version 101.0.4951.67 (Official Build) (64-bit),Cyberdim1234,2022-06-27T11:14:10Z
+[Feature Request] Support for Samsung Spen,pooluut,2022-06-28T16:35:27Z
+No easy way to get sharing link from UI alone,mitko,2022-07-01T03:42:57Z
+Feature Request: File Tags,7flash,2022-07-01T06:49:01Z
+Feature Request: Search by Picture,7flash,2022-07-01T06:49:15Z
+CMD+C default option change,epec254,2022-07-01T07:20:09Z
+Copying and pasting text results in blurry text,erahn-safejump,2022-07-01T18:11:26Z
+investigate batching collab socket events,dwelle,2022-07-02T17:18:56Z
+introduce `UnrestoredExcalidrawElement` type,dwelle,2022-07-02T20:16:04Z
+[Feature Request] Allow to open different documents in multiple tabs / instances,7flash,2022-07-06T03:54:56Z
+Support extensions in Excalidraw,DanielJGeiger,2022-07-06T20:47:30Z
+scrollbars don't show,dwelle,2022-07-09T22:35:29Z
+Feature Request: Embed browser tabs and other apps,7flash,2022-07-14T05:06:03Z
+Self-Hosting documents storage & collaborative,7flash,2022-07-14T16:13:59Z
+右侧菜单位置,gxyb1314,2022-07-15T03:21:37Z
+Nested Documents / Collaborative Library,7flash,2022-07-16T18:15:28Z
+Search Suggestions / External Commands,7flash,2022-07-16T18:17:32Z
+Time based grouping option,javiavid,2022-07-18T10:31:16Z
+SDK Library,7flash,2022-07-19T01:24:13Z
+Feature Request: start drawing by pressing a key/button,albertobissacco,2022-07-19T18:00:09Z
+feat: Show connection status in the UI if the websocket connection fails,annyanich,2022-07-26T16:17:16Z
+docker excalidraw/excalidraw cannot upload own asset packs,tysb7,2022-07-27T06:31:39Z
+Elements with floating position,7flash,2022-07-27T11:02:16Z
+excalidraw incompatible with Samsung S6 Lite?,dicerollaaaaaaa,2022-07-28T01:22:44Z
+"The shortcut menu ""Copy"" is only available in View mode and Cmd+C does not work in any mode.",zsviczian,2022-07-29T05:03:16Z
+Handwriting,cjaguilera,2022-07-29T21:16:52Z
+shape recognition,emseidov,2022-07-29T21:18:08Z
+Run external commands,7flash,2022-08-03T15:03:01Z
+importing from shareable link not working some of the time,dwelle,2022-08-05T22:57:11Z
+tab-sync can be triggered before initial init,dwelle,2022-08-06T18:55:52Z
+the space between lines wont perserved when viewd in mobile,dumbdreamed,2022-08-07T10:48:42Z
+hide line points when there's too many of them,dwelle,2022-08-10T09:29:26Z
+Can we have auto completion of text in Excalidraw?,raspberriesonmyprofilepic,2022-08-10T11:28:39Z
+"Bag: When copying an object with Alt pressed, it changes its location",DaSh-More,2022-08-12T08:44:03Z
+Feature request: Binding the center of an object to a grid,DaSh-More,2022-08-12T08:55:53Z
+Having problems with the Context menu on mobile,pikatwinky,2022-08-13T03:01:31Z
+Can't unlock element on Android,zsviczian,2022-08-14T17:51:51Z
+context menu scrolling not working consistently on Android,zsviczian,2022-08-14T18:22:04Z
+"FR: drag and drop multiple .excalidrawlib from OS file explorer should import all files, not only one",zsviczian,2022-08-16T19:06:02Z
+FR: Hex color Picker,cydoniansky,2022-08-17T13:05:10Z
+panning on trackpad on chrome tends to trigger history bf behavior,dwelle,2022-08-17T22:44:42Z
+iPad 12.9 2022 lag only during full-screen,LeonMaa,2022-08-20T22:55:56Z
+Disappearing Drawings,lanadelreysummer,2022-08-22T03:35:17Z
+Disconnected users don't disappear from the board in collab mode,nikitapozdeev,2022-08-24T19:28:24Z
+when to add Page Template and Size,acsamson,2022-08-26T15:07:00Z
+[Proposal] Support native desktop version to draw directly over the screens,xuanswe,2022-08-26T16:27:56Z
+handle text elements w/ width/height missing,7flash,2022-08-28T14:00:25Z
+Support Hebrew hand written font,yhacohen,2022-08-28T15:52:28Z
+One Click Save Option,r4z4,2022-08-28T23:55:32Z
+Format Painter Option,r4z4,2022-08-29T01:32:41Z
+4. 🐞 self-changing tools,anatoliibakhtin,2022-08-31T11:02:44Z
+5. 🌟too much action to change the color,anatoliibakhtin,2022-08-31T11:02:58Z
+6. 🌟set of preconfigured tools,anatoliibakhtin,2022-08-31T11:03:03Z
+7. 🌟group several elements with the button,anatoliibakhtin,2022-08-31T11:03:08Z
+9. 🌟Switching between viewing modes via the button,anatoliibakhtin,2022-08-31T11:03:17Z
+10. 🌟it is difficult to unlock a locked element,anatoliibakhtin,2022-08-31T11:03:21Z
+12. 🌟linear context menu not quickest way,anatoliibakhtin,2022-08-31T11:03:29Z
+"𝕏 (form twitter) ""If you've answered ""not using on mobile"", is it because:",anatoliibakhtin,2022-08-31T11:11:35Z
+Support for arcs,ShadiestGoat,2022-09-02T09:32:30Z
+linear element's hitbox interweaved with holes,dwelle,2022-09-03T21:23:21Z
+cache rendered text elements,7flash,2022-09-07T08:01:24Z
+In the library section library should show list wise or say images should appear with respect to the library name,yuvrajchaudhari03,2022-09-08T16:59:30Z
+removing line points doesn't properly sync to remote clients,dwelle,2022-09-08T22:00:09Z
+"When zoomed in, the drawing content is not displayed.",sdw-m-watanabe,2022-09-09T05:58:14Z
+Proposal: Meta-Elements,7flash,2022-09-09T14:37:29Z
+Feature: Record Audio Notes,7flash,2022-09-12T10:11:14Z
+Feature: Drag&Drop Links,7flash,2022-09-12T10:12:03Z
+Feature:  Excalidraw as a Web Component,Unknown,2022-09-12T23:24:25Z
+Proposal: StretchText Elements,7flash,2022-09-13T15:45:39Z
+"I'm hosting locally, but I have a 2mb limit per file, is there any way to change the import limit?",sholms,2022-09-14T04:28:04Z
+svg generation outside of browser contexts,dwelle,2022-09-14T20:45:21Z
+"""Backlink"" á la Obsidian/Logseq disappears after coming back to it",falsethesis,2022-09-18T14:58:51Z
+When a filled library is open the app is very slow,danielbeutner,2022-09-19T07:12:45Z
+Opening excalidraw in new folder breaks obsidian,raspberriesonmyprofilepic,2022-09-21T09:59:49Z
+Feature Request: Notification button in drawing view,ipsquiggle,2022-09-21T16:38:45Z
+FR: Gestures to undo and redo,zsviczian,2022-09-25T09:37:25Z
+Double-tap to create a new text item closes the on-screen keyboard,manuelmorales,2022-09-25T12:17:22Z
+Text jumps when double-tapped to edit on Android,manuelmorales,2022-09-25T12:20:24Z
+[Bug] Backtracking creates dots on end of lines,YIRU69,2022-09-25T13:23:44Z
+Excalidraw icon on MAC dock looks weird,SH5H,2022-09-26T00:14:52Z
+Feature Request: Show Grid count on objects,apat183,2022-09-27T08:24:39Z
+fr: Nextcloud integration,artemanufrij,2022-09-30T17:58:29Z
+fr: disable description area,artemanufrij,2022-09-30T18:13:39Z
+rethinking the defaults,dwelle,2022-10-02T16:31:03Z
+Swipe-to-go-back Gesture Clashing,ChrisOwen101,2022-10-04T09:58:15Z
+[feature request] Sharing collection publicly,louis030195,2022-10-04T15:50:42Z
+Keyboard shortcuts are not working on non Qwerty layouts,aziham,2022-10-05T20:42:59Z
+Content overridden by shared content,sagi-melio,2022-10-06T07:17:57Z
+Offer more and better text colors?,rolias4031,2022-10-07T16:11:40Z
+feature proposal: render web page on the canvas,7flash,2022-10-11T08:29:57Z
+Color blindness simulator / views,leighmcculloch,2022-10-11T18:43:46Z
+be able to add audio and video files into the excalidraw files,dumbdreamed,2022-10-12T20:37:03Z
+[Discussion] Excalidraw accessibility,DanielJGeiger,2022-10-13T01:15:13Z
+Usualibity improvment - change the keybind of elipse?,WilliamVoong,2022-10-13T01:31:41Z
+PWA icon size doesn't fit macOS,1sm23,2022-10-13T09:28:40Z
+Left Handed Mode doesn't work for me,Hu-Cian,2022-10-13T14:47:46Z
+feature recommendation: ratio display during shape tranformation,TiborSomogyi,2022-10-14T20:22:38Z
+[Feature Request] Redesign the </> format for the pipe operator (|>),r4z4,2022-10-15T19:12:47Z
+Active shape primary color issue,zsviczian,2022-10-16T12:17:42Z
+Install/Update Scripts Popup Window won’t scroll on iPad,danlandrum,2022-10-17T15:39:36Z
+program freeze on ipad after loading a lot of free strokes,Edornel10,2022-10-24T15:28:25Z
+Proposal: find shapes in personal and imported libraries should be easier,xuanswe,2022-10-26T19:11:48Z
+Task bar in installed PWA is white despite dark mode,filipjnc,2022-10-28T09:39:54Z
+How to add custom shape type?,webshared,2022-10-28T22:52:27Z
+How to change file extension?,solomonshalom,2022-10-29T12:06:06Z
+App crashes when all cookies are blocked,HerbertGit,2022-11-03T08:48:33Z
+Offline Mode for Excalidraw+,mfahlandt,2022-11-04T13:08:49Z
+Feature Request: Align Center,alpaylan,2022-11-07T05:42:10Z
+Arrow auto connect,artemanufrij,2022-11-09T12:32:54Z
+Setting stroke to transparent makes text transparent,eproxus,2022-11-10T11:54:06Z
+Improve subscript and superscript characters in text,zadeviggers,2022-11-10T21:31:01Z
+BUG: color picker is misaligned when parent container has the contain:strict rule applied,zsviczian,2022-11-13T17:42:35Z
+error in wxporting as svg file,dumbdreamed,2022-11-13T18:01:44Z
+"Web ICONS and menu bar have become larger, do not know how to restore, drawing operation is very inconvenient.",GrantKnoche,2022-11-14T20:00:26Z
+Do not bind to container when using text tool,ad1992,2022-11-16T07:28:47Z
+Redesign Context menu 🔥,ad1992,2022-11-16T11:23:59Z
+How do I save diagrams as a png?,ethanneff,2022-11-16T15:09:08Z
+MathJax extension (PR #2993),DanielJGeiger,2022-11-16T23:21:40Z
+"Feature: Post-It sections/frames, which are own Excalidraws again",Kongolan,2022-11-18T12:07:56Z
+add a new file in existing drawing,ramesh61285,2022-11-18T12:31:07Z
+Correct display of colors in a dark theme,DaSh-More,2022-11-19T12:43:35Z
+Feature request - Add documentation mechanism,kfirgollan,2022-11-21T08:18:28Z
+BUG: project pages list not showing/ not loading,CnaDoCna,2022-11-21T09:34:39Z
+Double tap and triple tap gestures on iPad,johnathon-b,2022-11-21T17:19:56Z
+details popup container,cooltnt,2022-11-22T01:58:31Z
+"Font should be ""Virgil 3 YOFF"" not ""Virgil""",cmorty,2022-11-22T09:50:29Z
+Scene was erased after I used live collaboration,Giaccam,2022-11-22T16:28:59Z
+Line midpoint often incorrect,dwelle,2022-11-27T22:11:02Z
+midpoint shouldn't be created if holding Opt/Cmd,dwelle,2022-11-29T19:00:04Z
+copy/pasting excalidraw text element(s) should pate their text content,dwelle,2022-11-30T23:00:51Z
+Feature Request: Allow code snippets,ethanneff,2022-12-01T21:00:33Z
+Copy pasting an image from 4K laptop screen results in error (2mb size limit),torpisoul,2022-12-02T08:33:15Z
+Build error after react-scripts bump to 5.0.1 (#5904),zsviczian,2022-12-02T18:07:43Z
+Excalidraw Slow Performance on Samsung Tablets,devinat1,2022-12-03T02:38:13Z
+Prevent close window,behnammodi,2022-12-03T23:36:26Z
+Stroke autocompletion can make u to o,tmielsch,2022-12-04T13:56:49Z
+Show a message about potential reason for filesystem permission error,dwelle,2022-12-05T09:18:08Z
+Slow loading times for drawing(one user),QwertyIsCoding,2022-12-05T13:05:53Z
+please support free transform feature,OriginalSinCat,2022-12-06T05:36:05Z
+[Feature Request] Allow Degrouping and Regrouping of Label Text with Arrows,0xTheProDev,2022-12-06T07:42:12Z
+Add a toolbar with favorite pens for quick access,ctwhome,2022-12-06T09:08:32Z
+change how `appState.scrollX/Y` works,dwelle,2022-12-06T20:02:59Z
+Not able to use pencil to add a binding text to a container,saeedesmaili,2022-12-06T21:01:40Z
+[Feature Request] Notepad mode,Johannesfjeldsaa,2022-12-07T08:07:02Z
+"[ipad:] Unable to change the color of a binding text, without changing the color of the container",saeedesmaili,2022-12-07T19:43:43Z
+Feature request: saved styles and quick switching,wimlep,2022-12-08T16:03:12Z
+Diamond-type element shape does not turn out to be a perfect diamond.,sdw-m-watanabe,2022-12-09T09:44:34Z
+"Embed external videos (YouTube, Odysee, PeerTube etc.)",unfa,2022-12-09T14:25:24Z
+Stabilize stroke,Nickonimus,2022-12-11T11:40:51Z
+pan in edit mode changes zoom,itaysk,2022-12-13T09:38:49Z
+[FEATURE] Add option to move shape into existing group/create shape inside the group,Jagholin,2022-12-13T12:54:55Z
+stroke not constant for round non-transparent rectangles/diamonds,dwelle,2022-12-13T13:13:08Z
+[Bug] Freedraw thickness differs between devices,josephbuchma,2022-12-16T09:55:24Z
+Open the Settings/Options pane being content aware (left or right depending on where user has selected,ace4port,2022-12-18T13:22:23Z
+Enhance drawing flow with automatic object addition at arrow mouseUp,sedghi,2022-12-20T22:16:31Z
+Offset changes not detected/calculated when container scrolled while in viewMode,dwelle,2022-12-21T17:19:48Z
+Shortcuts not working,ramboe,2022-12-23T07:01:51Z
+typescript backwards compatibility,dwelle,2022-12-29T10:18:17Z
+state rewrite,dwelle,2023-01-01T00:05:34Z
+collaborations sync errors,nikolra,2023-01-01T18:56:50Z
+Create Connection arrows from object itself like Miro and Figjam,akshatg,2023-01-04T16:16:26Z
+export `<LanguageList/>`,dwelle,2023-01-04T20:09:43Z
+Feature Request:: Group Selection hold button on android,tz182736,2023-01-05T04:29:03Z
+"After socket reconnection, I am wondering if there is an intention not to send additional ExcalidrawElement to the client.",cshacker-web,2023-01-05T06:50:33Z
+Remove component rendering from Action objects,dwelle,2023-01-05T21:28:27Z
+Bug:  Palm reject not working properly in certain devices/browsers,vulcan-spacemage,2023-01-09T06:12:57Z
+[Feature Request] Thumbnail view of other objects,jaredatron,2023-01-11T23:43:23Z
+Recover unsaved space,Urban-JonathanCohen,2023-01-12T03:50:20Z
+reuse Button internally,dwelle,2023-01-12T11:10:22Z
+align icon naming,dwelle,2023-01-12T12:43:25Z
+"I hope you can have more than one page online, which is perfect!",18476305640,2023-01-13T12:19:54Z
+Save file to disk fail when saved to a Google Drive folder,alex-roc,2023-01-14T14:55:54Z
+Баг в ARTi,AndreychukAI,2023-01-15T17:04:05Z
+[FR - paid plan] reducing friction in read-only to access drawing,louis030195,2023-01-18T10:01:31Z
+[FR] Using Stable Diffusion/AI to kick-start drawing quickly,louis030195,2023-01-18T10:23:12Z
+Text on path,chrisyelf,2023-01-19T08:17:29Z
+Arrows are clipped,vjeux,2023-01-20T21:17:13Z
+customizing ContextMenu,dwelle,2023-01-21T11:32:48Z
+toolbar tool grouping/dropdown,dwelle,2023-01-21T12:26:27Z
+customizing element properties sidebar,dwelle,2023-01-21T16:15:01Z
+erase with button on s-pen,radiodawn5,2023-01-21T22:02:15Z
+min rectangle width (with text),ignacio-cuadra,2023-01-23T23:13:23Z
+vite compile error,kulame,2023-01-28T03:57:17Z
+Ipad Apple pencil double tap switch,Irvingouj,2023-01-29T01:48:26Z
+"Excalidraw react component should support react server components, aka nextjs 13 without ""use client""",NateRadebaugh,2023-01-29T04:16:10Z
+Esc doesn't work to close HELP menu,abylaip,2023-02-04T07:41:12Z
+flicker when confirming the text editor,dwelle,2023-02-04T17:17:46Z
+Ctl+Z doesn't work in Russian Keyboard,LiraBrik,2023-02-04T18:47:15Z
+library optimizations,dwelle,2023-02-04T23:25:15Z
+feature request: ability to make scale drawings,WickyNilliams,2023-02-06T11:06:15Z
+"Hide the Background option for.. type: ""freedraw"";",mtrud,2023-02-06T15:00:02Z
+changing color during text creation on mobile doesn't work,dwelle,2023-02-07T12:50:33Z
+Text entry issues with zoom (macOS13.1/Safari16.2),KasparsKursiss,2023-02-07T17:25:31Z
+bug: incorrect RTL in help dialog,Brikaa,2023-02-09T09:49:57Z
+Manually mutating localStorage['excalidraw-collab'] username causes crash for all collaborators,Brikaa,2023-02-09T10:43:45Z
+Feature request : Categorized Library items,umschaudhary,2023-02-10T18:22:29Z
+"During the collab, an error message pops up",LiraBrik,2023-02-11T17:05:04Z
+Collaborator name offset in RTL languages,Brikaa,2023-02-11T18:54:24Z
+"Feature: add ""replace color"" option",soliviantar,2023-02-12T21:40:06Z
+SVG import bug,mxstbr,2023-02-13T13:40:11Z
+Feature Request: Add more shapes,Rajdave69,2023-02-13T16:29:59Z
+Disable auto connecting,johannesCmayer,2023-02-14T14:27:14Z
+BoardMix是一个很好的闭源产品，那我们可以模仿它来完善功能吗？,DaisyHunter,2023-02-16T09:56:24Z
+Writting with pen glitches,ctwhome,2023-02-16T15:31:13Z
+Please have an option to hide the pen menu when drawing,julian31186,2023-02-18T02:40:33Z
+"In ""Draw"" mode with Apple Pencil, allow panning with finger",huzaifahj,2023-02-18T07:48:25Z
+"Option to turn on ""pen mode"" for better experience with using pen",LukaHietala,2023-02-19T16:59:18Z
+[Feature Request] Layers in canvas,santiagobasulto,2023-02-21T03:45:10Z
+"text ordering of ""copy as text""",7flash,2023-02-22T06:44:48Z
+"error, and can not reload",lannykov,2023-02-23T09:00:30Z
+Add support to export as LaTeX and Tikz,kunaltyagi,2023-02-23T09:10:50Z
+Possible to embed/preview only part of another excalidraw drawing?,haemi,2023-02-23T12:41:10Z
+Feature request: Customizable export padding,dimateos,2023-02-23T16:38:28Z
+Library Icon issue ?,JMSCT,2023-02-23T23:24:32Z
+Keyboard based tool selection not working in brave browser,kishaningithub,2023-02-24T13:49:36Z
+POC for hiding bounding box when dragging/resizing,dwelle,2023-02-27T12:21:13Z
+typecheck fail,riceyeh,2023-02-28T00:58:29Z
+will you publish chrome plugin for notion,Angel0726,2023-02-28T10:44:01Z
+[FR] shortcut to create new drawing,louis030195,2023-03-02T10:56:53Z
+Unintentional Circles in Freehand Strokes,Spongeyboi,2023-03-02T11:38:24Z
+Shadow text when editing text containers without keyboard on iOS,zsviczian,2023-03-07T18:12:50Z
+Pinch zooming while editing text in a text container,zsviczian,2023-03-07T18:27:47Z
+Images blank,wpb1,2023-03-08T00:16:46Z
+Support create link for a group of elements,riceyeh,2023-03-08T10:42:49Z
+Allow other end of a drawing pen trigger eraser?,Ciel-MC,2023-03-08T14:15:02Z
+All my images break,RicardoSbeghen,2023-03-09T06:12:09Z
+Add a shortcut for wrapping text in a container,ad1992,2023-03-09T13:01:01Z
+Change/customize the shape of cursor when drawing?,lealedo,2023-03-09T16:42:00Z
+WebCatalog browser issue,ysandule,2023-03-11T13:52:25Z
+excalidraw+ can't change language,MangGoDio,2023-03-15T02:37:14Z
+multi-selection allows resizing below min-width of text element,dwelle,2023-03-17T10:02:01Z
+"Feature Request: ""Scroll/panning border"" API option",maielo,2023-03-17T10:56:42Z
+"Feature request: API to hide the ""link"" icon",yeger00,2023-03-18T11:45:02Z
+Cannot import *.excalidraw file on macOS Safari,lukepighetti,2023-03-18T20:56:32Z
+Full Screen Support on Tablets via `apple-mobile-web-app-capable`,djsipe,2023-03-19T15:27:06Z
+Excalidraw becomes crazy sometimes - seems to refresh and undo what I am trying to do...,mora-phi,2023-03-23T09:04:42Z
+Still seeing analytics requests with self-hosting Docker container,dzhg,2023-03-23T16:44:42Z
+Allow for adaptive colors in SVG exports,NiloCK,2023-03-23T18:47:28Z
+What is the right way to build live 'collaboration' ?,shahriarhossain,2023-03-24T20:46:51Z
+split current-item-defaults per element type,dwelle,2023-03-25T22:49:06Z
+rename `stroke` to `text color` for text elements,dwelle,2023-03-25T22:50:27Z
+behavior of changing the default shape style(s),dwelle,2023-03-27T12:14:36Z
+Link tag does not include shape text in exported SVG,tmandry,2023-03-30T01:27:36Z
+Undo files changed through ExcalidrawImperativeAPI.addFiles,ahsan-sabir,2023-04-06T07:29:30Z
+Generalise storage and collaboration backends,MarZab,2023-04-07T06:57:23Z
+Expose the collaboration endpoint in the component state,ivailop7,2023-04-07T16:31:05Z
+[BUG] Circle's borders arent perfect,abhinav2712,2023-04-09T15:01:11Z
+Reproducible: Replacing RO canvas with another RO canvas does not update scene without manually clearing,RickSayd,2023-04-10T22:11:34Z
+How to prevent updateScene and onChange loop?,crapthings,2023-04-14T02:33:41Z
+[Feature Request] Quick Search and Add Image from Google Images,pedro-cf,2023-04-14T12:43:41Z
+Deleting information when working with multiple tabs,ma4ypic4y,2023-04-14T23:24:49Z
+[Feature Request] Pages,alyxdow,2023-04-15T12:54:03Z
+Excalidraw getting slow in Obsidian,jpralle,2023-04-17T09:51:08Z
+Can not type √ into excalidraw,Rajdave69,2023-04-19T10:42:02Z
+Custom themes,abaykka,2023-04-20T18:04:21Z
+Open API for click and double-click events when in view mode,riceyeh,2023-04-24T03:32:05Z
+"Inserted images become blurry / fuzzy, exports have large filesize (image compression)",karlhorky,2023-04-24T16:40:16Z
+excalidraw-room is working with client only in localhost,ashokkumarideapoke,2023-04-27T12:59:16Z
+small `q` looks too much like a,Rajdave69,2023-04-28T07:28:23Z
+[Feature] Can we have a small icon attach to the box?,vicky469,2023-04-30T14:20:37Z
+"[Feature Request] To be able to lock ""resizing"" of elements",edgar-g-q,2023-05-02T11:04:41Z
+Add roundness type only for points,scruel,2023-05-02T16:34:46Z
+[Feature Request] Disable Container Text Binding On Filled Shapes,Apesosmarc,2023-05-04T12:15:01Z
+[Feature request] : Ability to rotate arrows at an angle,trkmh19,2023-05-09T01:58:46Z
+Text does not appear correctly in MD file,deyna256,2023-05-09T15:44:58Z
+disallow grouping bound containers to themselves,dwelle,2023-05-11T22:20:21Z
+[Feature Request] Increase or reduce space between elements,p2gdeveloper,2023-05-14T11:53:31Z
+"drawing tablet issue on chrome, edge and obsidian",hyperphysin,2023-05-17T00:53:53Z
+Polyline with mixed curved and straight segments,pi3141,2023-05-18T10:55:14Z
+linux/arm64/v8,ripaire,2023-05-18T15:01:27Z
+The old color picker was way better.,Rajdave69,2023-05-19T08:22:35Z
+Added support for line forking,Tptogiar,2023-05-19T17:05:25Z
+[Feature Request] Add a search bar in collection level.,Harrish-Selvarajah,2023-05-20T05:18:05Z
+"[Feature Request] Add an option to add a ""Drew with excalidraw"" watermark on exported PNGs",itzwam,2023-05-21T14:26:08Z
+"[Need Help] If I opened a saved file, my current page disappears. Is there anyway I can find last edited page back?",vicky469,2023-05-22T14:29:31Z
+Local collaboration demo,stormbinary,2023-05-23T09:05:17Z
+help: can we align in a grid by group?,walker-zheng,2023-05-25T11:47:23Z
+Drawing size limit,JoelSjogren,2023-05-27T13:19:32Z
+Position mismatch of freedraw in fixed container size,ifndefdeadmau5,2023-06-02T00:49:36Z
+Issue for Android in SiYian,Pd-69,2023-06-04T06:59:42Z
+Lost all my drawing from live collaboration room,AliakseiKaniaveha,2023-06-05T08:31:16Z
+"I can't add any images, for some reason it just freeze then nothing are added.",Georges-SR,2023-06-06T23:42:33Z
+"Firefox, images are not visible when copied from Excalidraw obsidian plugin",balta2ar,2023-06-07T09:12:29Z
+[Feature Request] onDrop Prop,samuelnunoo,2023-06-07T15:34:59Z
+Scroll to Content Off Centre - bug or expected behaviour?,p2gdeveloper,2023-06-11T09:08:44Z
+wrong colors handling in dark theme,Alcarmor,2023-06-12T15:58:29Z
+Synchronize grid settings in live session,vicary,2023-06-13T03:42:44Z
+Rich Text Editor / Powerful WYSIWYG support,ad1992,2023-06-15T07:19:48Z
+Support more handwritten fonts in different languages,ad1992,2023-06-15T07:54:34Z
+Introduce a property Text Color for Text containers and labelled arrows,ad1992,2023-06-15T09:11:33Z
+Improve documentation :),ad1992,2023-06-15T09:38:00Z
+"Excalidraw objects texts dissapear for no reason, randomly",deajan,2023-06-15T22:39:23Z
+pan canvas using keyboard in view mode,dwelle,2023-06-16T14:59:19Z
+Text on objects in frames disappears when aligning,noamnelke,2023-06-20T21:07:54Z
+Error while exporting Canvas,melekabbassi,2023-06-20T23:38:14Z
+Arrowheads are too big and cant be changed of size,davbrito,2023-06-22T17:00:54Z
+[Feature request] Make Excalidraw compatible with Svelte.,ankified,2023-06-26T03:36:09Z
+Frame - Background color to white - Object disappears,Amulya-sb,2023-06-26T10:08:41Z
+Unlock option dissapear when the element is in a frame,snackmasta,2023-06-27T06:32:21Z
+Rendering differences / errors in excalidraw-utils,mtrossbach,2023-06-28T13:26:12Z
+Collaborative mode cannot sync picture,IamTaoChen,2023-06-28T20:29:40Z
+[Feature] Expand support for additional sketch styles,tristinDLC,2023-07-03T23:02:21Z
+Enable SVG Editing in External Text Editor?,karlhorky,2023-07-04T15:11:14Z
+disable font ligatures?,dwelle,2023-07-05T18:11:32Z
+Open files in android Browsers partially not working,Lil-Dank,2023-07-06T07:10:23Z
+Appstate does not properly updates,joaofelipelliccione,2023-07-07T21:20:13Z
+Arrows cannot cross between frames,petarkolaric,2023-07-10T04:07:41Z
+`fileSave` does not work when used inside of Electron,baibhavbista,2023-07-10T04:33:49Z
+Failed to open. excalidraw file,RobKing9,2023-07-10T08:47:55Z
+"bound arrow to same rect, move rect, arrow goes wrong",WBbug,2023-07-13T10:29:10Z
+[feature request] zoom box,pavelkostychev,2023-07-13T10:55:54Z
+Splash screen for PWA that is Dark Mode Friendly,alx-xlx,2023-07-14T07:47:13Z
+Framing tool as links,robmcphers0n,2023-07-15T11:10:04Z
+Adding Grid Background Feature like Math Notebook Background,TUNA-NOPE,2023-07-16T15:39:02Z
+【Feature】auto save canvas,vicky469,2023-07-17T18:06:10Z
+[Question] A ZIP for my marketplace,paulocoutinhox,2023-07-18T06:02:07Z
+Ratio not (always) preserved when copying elements,alexaatm,2023-07-21T14:46:54Z
+[Recommendation] Add Gridlines to align elements horizontally and vertically,Yash-Chandan38,2023-07-28T11:20:02Z
+Excalidraw on play/app store,fire17,2023-07-29T00:14:44Z
+Excali draw files on Google drive not opening,AldasUzdila,2023-07-31T07:37:56Z
+Dragging linear element's endpoint after flipping results in inconsistent shifting,ryan-di,2023-07-31T10:20:11Z
+Feature allotment between the various packages and applications,Aqua1ung,2023-07-31T15:55:17Z
+Install fail: Self-hosting docker build fail,JocelynFloresz,2023-08-01T03:42:38Z
+Open from Camera on Android Google Chrome,order4lynchy,2023-08-01T06:21:56Z
+Web embed: please add tides.gc.ca to the inclusion list,jonathanbell,2023-08-02T04:21:08Z
+Preloading libraries,tenekev,2023-08-02T12:02:27Z
+Moving items in multiple frames removes them from their frames,ThomWright,2023-08-02T17:13:17Z
+align action removes elements from containing frame,dwelle,2023-08-03T12:00:46Z
+[Feature Request] Add identifiers to the SVG export,rafael-pinheiro,2023-08-04T10:53:17Z
+resize arrow ends and label to match binding font size,7flash,2023-08-04T18:08:36Z
+Browser/Web version of Excalidraw does not allow joining or creating collaboration server.,AdrianAdamZ,2023-08-05T13:31:43Z
+Missing CODE_OF_CONDUCT,N3v1,2023-08-05T20:35:31Z
+cross-group selection incorrectly allowed in specific cases,dwelle,2023-08-06T10:11:34Z
+box-selection while holding shift doesn't undo selection,dwelle,2023-08-06T10:14:44Z
+Fixing the readme.md file,Anushka-Bhowmick,2023-08-07T19:08:07Z
+[FEAT] Xournal support,avidseeker,2023-08-08T09:46:29Z
+[Bug] High CPU Utilization and Memory footprint with Excalidraw library integration,Harshita-Kanal,2023-08-11T14:50:55Z
+[FR] Grid reference Point for Library Objects,Tsukeyo0,2023-08-12T07:56:50Z
+stop updating labeled-arrow text's position on updates,dwelle,2023-08-14T16:38:03Z
+don't rely on container text position when rendering bound text,dwelle,2023-08-14T16:38:51Z
+[feature request] Group library items + wider panel,dimateos,2023-08-15T19:13:18Z
+"[feature request] Grid with no snapping, just for visual reference",dimateos,2023-08-15T20:13:08Z
+Panning on VDI doesn't work... Maybe add using HOLD RIGHT CLICK to Pan,WRUIZ2023,2023-08-16T16:27:29Z
+Idea of new feature for hide/show the HUD in the UI for presentation purposes,fq962,2023-08-16T23:01:25Z
+`isLocalLink` is not local,azu,2023-08-17T00:13:17Z
+Question - Documentation / install,secretsquirrelwearingaspyhat,2023-08-17T02:52:07Z
+bug: build utils package,7flash,2023-08-18T00:47:51Z
+Request: Allow users to disable shortcuts like double-click for text,IzMichael,2023-08-18T01:16:03Z
+[Feature Request] Enhance Frames to Function Like Rectangles in Excalidraw,yuriyward,2023-08-19T20:34:39Z
+Pro subscriber - Whitelist more URLs for webembed? Or have custom setting in pro to whitelist?,riekusr,2023-08-21T07:36:45Z
+"Are repeatable Components<->Instances possible, or in the roadmap?",ijpatricio,2023-08-21T10:02:00Z
+Color picker shortcut set the background color,heitor57,2023-08-21T20:51:30Z
+Vim motions or keybindins,Notnobcoder,2023-08-23T07:44:43Z
+Feature Request: One of The Most Important Features Excalidraw Needs!,mjund,2023-08-24T16:18:13Z
+[Feature request] Add a keyboard shortcut for 'Save to' option.,gokulk16,2023-08-25T04:51:57Z
+[Feature request] Grid rotation / ruler.,masiv1001,2023-08-25T15:58:04Z
+Setting appState.editingElement does not put the element into edit mode,dpcesx,2023-09-01T18:20:09Z
+Support `ExcalidrawElement` subtypes,DanielJGeiger,2023-09-04T15:09:21Z
+Exported SVGs lack SVG path data,terheyden,2023-09-05T20:40:54Z
+Can't fix the alignment of text inside shapes,rushi3691,2023-09-06T09:26:09Z
+Bring to Front / Back hotkey incorrect,nickfreemandesign,2023-09-07T17:35:37Z
+Arquitecture Question (Database),rossaai,2023-09-08T02:15:19Z
+sync with files in github repository,0x8f701,2023-09-09T08:31:24Z
+pop-up menu position,jnhyeon,2023-09-10T15:07:26Z
+Rethink keymappings to make them available for left hand,datacubeR,2023-09-14T05:32:50Z
+uploading images doesn't always work,eundev,2023-09-15T04:54:54Z
+Website embedding issue,VaibhavAPatil,2023-09-15T06:27:08Z
+Tests location proposal,DanielJGeiger,2023-09-15T19:34:49Z
+Intermittent test failure,DanielJGeiger,2023-09-15T20:50:10Z
+Croatian Language Support,Digital39999,2023-09-17T09:12:19Z
+convertToExcalidrawElements NaN position,7flash,2023-09-17T12:35:49Z
+Belarusian translation,bielarusajed,2023-09-17T19:03:10Z
+Embed request ^_^ https://blocks.glass,BryanChrisBrown,2023-09-18T15:37:29Z
+Canvas background color picker not working on Safari/Chrome,jtalmi,2023-09-19T14:29:16Z
+Remove all shareable links created?,syckki,2023-09-19T19:31:41Z
+Control-z does not work when making an arrow and not yet finished,allan-simon,2023-09-19T19:52:53Z
+Image url render,itsArfinn,2023-09-21T12:45:52Z
+[Nextjs13 App Router][Bug] Select the same shape twice in one row won't work,noteverseio,2023-09-22T05:48:01Z
+Embedding this url is currently not allowed ?,accforgithubtest,2023-09-22T09:20:11Z
+BUG: Weird jumping behavior when using the API's `initialData` compared to `updateScene`,ShayDavidson,2023-09-22T12:34:49Z
+"[bug] labeled arrow has wrong angle after rotation, if the label exceeds the arrow's bounds",alex-kim-dev,2023-09-23T05:30:31Z
+feature: make Island App-menu__left (div container) collapse,bhaktibhatt,2023-09-24T13:17:10Z
+SVG export fails when embed is selected,sinedied,2023-09-25T09:42:16Z
+[Discussion] What are the control points in the Bezier curved line/arrow,sedghi,2023-09-25T16:40:17Z
+Feature: Text Casing Conversion🍏🖋️,S0ZU,2023-09-26T09:33:59Z
+can't save Sketch if I use Arrow with text on it,samiraluee,2023-09-26T20:16:52Z
+onChange Postion catcher ?,caferyukseloglu,2023-09-27T13:22:42Z
+OnZoom mac can't unzoom or reset zoom interface,theofrgs,2023-09-28T19:32:28Z
+Self hosting,Asfahan007,2023-09-29T05:14:44Z
+"Unable to Anchor Lines to rectangle, diamond, circle, However arrows work",flakrat,2023-09-29T21:04:40Z
+Feature Request: ChatGPT-based Plugin to facilitate excalidraw,sonigeez,2023-10-02T06:54:36Z
+Collaborator's color setting is not working,maruric,2023-10-02T09:53:32Z
+Collaborator's mouse can,SamstyleGhost,2023-10-02T17:56:55Z
+Browser Compatibility Issue,EswaraSatya,2023-10-03T13:01:20Z
+after create few design of anything that can change into video,AnshuPathak-88825,2023-10-05T00:07:17Z
+continue Hebrew translation,sivanbecker,2023-10-06T10:42:27Z
+Keyboard shortcut not usable in ipad,samiraluee,2023-10-06T15:20:42Z
+laser pointer offset in Obsidian.md,zsviczian,2023-10-07T06:09:42Z
+setting the default palette background color for iframe introduction method,Never99,2023-10-11T10:03:36Z
+Form Field Missing ID or Name Attribute,starlove54,2023-10-11T12:35:50Z
+How to replay the data?,yurnery,2023-10-12T03:31:06Z
+"Assign short-cut key for ""Live collaboration"" tab",AkashKumarSingh11032001,2023-10-12T09:09:06Z
+Change SVG color,inwardmovement,2023-10-13T18:27:02Z
+Outdated docs on serializeAsJson,pavinduLakshan,2023-10-14T12:40:53Z
+Long liner element would cause problems. ??,sdw-m-watanabe,2023-10-17T02:15:03Z
+Draw individual shapes instead of completed editor <Excalidraw />,piyushmani,2023-10-17T06:43:14Z
+rewrite `App` class instance fields methods to class methods,dwelle,2023-10-18T12:22:31Z
+[filesystem] reduce file size by minify the `.excalidraw` file,saccarosium,2023-10-18T13:01:27Z
+lost last legends after auto refresh,mistyliu,2023-10-19T09:02:31Z
+not visible grouping line on a dark background in a light theme,anatoliibakhtin,2023-10-21T12:47:30Z
+Can you support brew installation?,jaxonister,2023-10-22T17:14:50Z
+Elements are not adding on cursor position in popup modals,GurdeepSingh55,2023-10-26T16:29:59Z
+How to  add horizontel scroll bar in excalidraw,GurdeepSingh55,2023-10-26T16:32:34Z
+Extend default menu,bartekczosnyka,2023-10-27T13:24:19Z
+Image not loading on board after selection ( throwing console error ),Amark19,2023-10-29T17:08:50Z
+Couldn't save to the backend database,DonnaFang,2023-10-30T07:34:12Z
+Cursor color becomes invisible (white) in excalidraw's light mode when cursor leaves the canvas,salesp07,2023-10-30T22:33:34Z
+Cannot use cmd+C and cmd+V on ipad,danieltoggl,2023-10-31T08:37:37Z
+Image upload doesn't work(ImageBlobReduce: failed to create Image() from blob error),w2daemon,2023-11-01T07:38:04Z
+FR - Feature Request - Lines/Grids,ben-loui,2023-11-01T20:27:28Z
+Different Color Shapes on Mobile and Desktop (Obsidian),alarisf,2023-11-01T21:40:34Z
+Inconsistent Shortcut Key Combinations Across Keyboard Language Settings,Halkfr,2023-11-02T09:05:05Z
+Images not appearing in Collaborative view,nouhad,2023-11-03T05:59:29Z
+Thoughts on using Excalidraw as a presentation tool for the first time,bobbydigitales,2023-11-03T15:49:13Z
+groups cause big performance issue when inside frames,dwelle,2023-11-03T22:15:00Z
+"feat: Adding Pagination, BG Changing System and QOL Changes",TheDarkSoulster,2023-11-04T05:42:55Z
+Lag with many elements,JosephDemarest,2023-11-05T04:56:32Z
+Integration of Mind map with the shapes,EswaraSatya,2023-11-06T12:24:42Z
+[Feature request] OpenAI integration (visual & text),louis030195,2023-11-08T16:33:26Z
+Incorrect text display,deyna256,2023-11-08T18:15:30Z
+Excalidraw Performance Degraded with Large Drawings,EswaraSatya,2023-11-14T08:59:17Z
+Request for Assistance - MindMap Conversion from Mermaid to Excalidraw Elements,EswaraSatya,2023-11-14T09:26:36Z
+Fallback to old FileReader / download API,benglvr,2023-11-14T20:52:21Z
+Include excalidraw inside iframe and control it trough window object,symo4b,2023-11-15T17:37:04Z
+Unwanted zoom on <space> drag,zowber,2023-11-15T23:11:43Z
+window.ExcalidrawLib.Excalidraw is no longer exported in 0.17.0?,zadam,2023-11-16T23:50:17Z
+Text stuck when Zooming in iPad Air Gen 4,iamnatalie,2023-11-17T14:29:45Z
+"""Error Installing Script"" on Android",tsbertalan,2023-11-17T18:14:04Z
+Docker build failing on MacOS - FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory,mberlanda,2023-11-18T09:52:57Z
+Incorrect mouse position when showing Excalidraw editor inside Dialog window,BleedingDev,2023-11-18T13:55:16Z
+Disappear laser pointer drawings only when the user stopped writing,karuturi,2023-11-20T15:18:40Z
+Support for Shadow DOM,paulf-texthelp,2023-11-21T15:17:41Z
+Slideshow content is invisible occasionally,simonski,2023-11-22T16:20:15Z
+[Bug]: Incorrect/Unexpected filling behaviour,sedghi,2023-11-23T13:55:37Z
+"Regarding indexeddb, Priority change...",cajmorgan,2023-11-25T12:59:15Z
+Docs question: Frame Ordering,7flash,2023-11-26T05:59:36Z
+Enhancement Request: Increase Board Size,quantosh,2023-11-27T09:03:21Z
+Excalidraw elements position mismatched with my mouse pointer on dynamically changing Excalidraw component width in my react project.,Shweta21a,2023-11-28T13:42:04Z
+Error opening Excalidraw,topher200,2023-11-28T21:23:45Z
+Issue with Applying Hyperlinks at Text Level in Excalidraw #7357,EswaraSatya,2023-11-29T07:00:55Z
+Feature Request: Make libraryReturnUrl more dynamic,p2gdeveloper,2023-11-29T13:57:18Z
+How can I select an element that appears below another element?,dreambit,2023-11-29T20:50:22Z
+The latest (0.17.0) library in https://unpkg.com/@excalidraw/excalidraw does not work,mdaxf,2023-12-01T16:55:14Z
+Android Excali Web Embed does not show contents,medneumi,2023-12-03T08:13:39Z
+docs: tutorial or extra help navigating through user interface,kiranair101,2023-12-05T01:39:27Z
+fix: description of pull requests changelog,kiranair101,2023-12-05T04:09:20Z
+"Self-deployment, `Text to diagram` AI requests CORS",rubickecho,2023-12-05T07:38:57Z
+Ability to rotate canvas for drawing,AwaisBhatti1,2023-12-05T10:20:25Z
+Mobile shortcuts,Xyndra,2023-12-05T13:21:47Z
+[Feature request] Enable using custom AI models,sulton-max,2023-12-06T12:53:56Z
+[Question] Transparent fill instead of transparent background?,LECOQQ,2023-12-06T16:54:05Z
+AI - Generate Code from Wireframe just churns and never generates anything,clickbrain,2023-12-06T18:11:10Z
+[Feature request] Create Nginx healthcheck endpoint,modem7,2023-12-06T19:05:28Z
+[Feature request] Add version to help menu,modem7,2023-12-06T19:14:16Z
+iam freshman. how to pageaging this with npm package?,wenshuoge,2023-12-08T09:22:36Z
+[Feature request] Script ecosystem,kjameer0,2023-12-09T21:51:56Z
+Question: How do I hide the default library button?,PavelOlkhovoi,2023-12-11T09:25:41Z
+Problem with collaboration,fedikan,2023-12-13T07:13:00Z
+Annoying error message,Teheremiti,2023-12-13T14:58:59Z
+mermaid: opening a new mermaid tab erases the 'compose Mermaid' dialog and all your progress,air,2023-12-13T16:24:59Z
+Pointer offset incorrect when position in page changed (not scrolling),yarrichar,2023-12-16T22:35:03Z
+Error Loading Drawing,ABlueGiraffe,2023-12-17T18:06:05Z
+[Feature request] Copy 'export image' to clipboard with keyboard shortcut,anvesh9652,2023-12-17T19:06:15Z
+Translating Excalidraw into Uyghur,keramjan,2023-12-19T13:25:29Z
+Docker compose throws cross-env: not found,diminDDL,2023-12-19T19:29:26Z
+fix: The key combination ctr+z does not work in Russian keyboard layout.,ddbvGit,2023-12-20T08:26:02Z
+Firebase Integration Issue: Elements Hidden on 'Send to Back' and 'Bring to Front' in Excalidraw after 10 to 15 sec,EswaraSatya,2023-12-21T06:19:31Z
+Feature Request: Add support to enter instructions for the AI model in Wireframe to code or add a chat back-and-forth with the AI,joshuajohncohen,2023-12-21T23:04:42Z
+updateScene/updateLibrary not working,bookvacuum,2023-12-23T20:53:56Z
+Circle shortcut isn't practical,oalodaini,2023-12-24T14:26:01Z
+Override Keyboard Events in Component,A-fandino,2023-12-28T09:25:10Z
+Changes reverted to the initial version,thehacklady,2023-12-28T15:10:27Z
+[Bug] Extreme latency when drawing with Ipad,Oxker1,2023-12-28T19:55:44Z
+I want remove the automatic close of the line with the pen in freedraw,HoodyEz,2023-12-28T20:42:21Z
+Feature Request: Table Creation for Data Modeling,Latish705,2023-12-29T00:53:27Z
+Excalidraw whiteboard accessibility issues reported in Deque Audit,msk4862,2023-12-29T07:57:23Z
+Realtime Image Update Visually Annoying,rossaai,2023-12-30T16:30:01Z
+Whitelist Cawemo URL,vankejan,2024-01-01T15:02:02Z
+Add turbo repo,Shu12388y,2024-01-02T09:54:33Z
+[Bug] Performance issue and website crash due to high CPU spike,mritunjayz,2024-01-02T10:31:10Z
+How can I bundle the new esm output into a single umd package?,zsviczian,2024-01-02T21:58:42Z
+`convertToExcalidrawElements()` frame position not positioned as expected.,jamesbradlee,2024-01-03T05:41:22Z
+"BUG: ""Stats for nerds"" window no longer displays an object's size while it is being resized, when ""Snap to objects"" is off",TPO-POMGOM,2024-01-03T21:42:34Z
+the hex codes for color are inverted or wrong,Sayak-Bhunia,2024-01-04T12:59:23Z
+BUG: Image not showing after clicking to paste (IOS - IPad),DalmoHenrique,2024-01-04T18:42:35Z
+Google sheets url is not whitelisted while trying to embed the url,alexOAppS,2024-01-05T17:13:59Z
+Change cursor while handwriting,Osama-REOPRO,2024-01-06T15:53:24Z
+Issue in dealing Hex codes in dark mode,EduHerranz,2024-01-06T20:16:37Z
+FR: Perceptual Image Hashing,7flash,2024-01-07T10:21:17Z
+Elements are hiding  on 'Send to Back' and 'Bring to Front' while in collabration,EswaraSatya,2024-01-09T13:53:09Z
+BUG: Color Picker does not work when Excalidraw is not full screen (Includes Solution),JamMaster1999,2024-01-10T21:32:56Z
+Feature request: Flip arrow direction,sj26,2024-01-11T00:04:18Z
+Feature Request: Measuring Tools + Background Template,arthantyo,2024-01-11T19:01:04Z
+NO FUNCIONA EL Deshacer,LuisGH7,2024-01-12T18:33:52Z
+Old file versions,Celeryz,2024-01-13T04:18:57Z
+Duplicate form ids,dean5368,2024-01-14T14:29:49Z
+BUG: Texts grouped inside a frame do not move in accordance with the frame,luxmargos,2024-01-15T09:41:58Z
+Paste image under different zooming cause different image size,kaala,2024-01-15T11:31:43Z
+Feature Request: Markdown support element,ComanSoftware,2024-01-15T13:27:54Z
+make drag markdown files & images compatible with File Tree Alternative Plugin,ksdavidc,2024-01-15T20:43:03Z
+The example of Footer for mobile mode is not working,mikecat,2024-01-16T10:32:51Z
+"Saved scene after ""loading a new scene will erase your data"" contains no data",cezarmathe,2024-01-16T15:08:48Z
+Light/Dark theme keyboard shortcut toggle interferes with tab duplication in Chrome,rsa16,2024-01-18T01:19:48Z
+Editing while on presentation mode,EduardoRodriguesF,2024-01-18T17:01:44Z
+"ERROR: failed to solve: process ""/bin/sh -c yarn build:app:docker"" did not complete successfully: exit code: 1",zuoyangs,2024-01-19T10:12:56Z
+Customize the main toolbar,hakotaco,2024-01-19T13:01:49Z
+Elements set via updateScene() just after getting the API is overwritten to initialData,mikecat,2024-01-19T13:48:49Z
+[Feature Request][Shortcut] Center Vertically & Center Horizontally,ThisIsJustUs,2024-01-20T15:54:32Z
+[BUG] Error in clipboard when copy text element,ADevsays,2024-01-22T00:22:07Z
+concealing cross pointer when using pen,mahan101,2024-01-23T10:42:24Z
+two touch finger in escalidraw when using pen(stylus),mahan101,2024-01-23T10:46:53Z
+[Bug] Frames cannot be aligned,pinakbheed,2024-01-23T18:09:02Z
+Implement optional user-controlled opacity levels,muhammadshakkeerp,2024-01-24T05:04:25Z
+Missed Data,sanakanani,2024-01-24T10:17:45Z
+[BUG] After stylizing an arrow or line the app doesn't allow drawing another arrow or line,n-nikolaou,2024-01-24T13:38:26Z
+bug: Insert image fails with DOMException: Request Aborted,stormbinary,2024-01-25T19:55:35Z
+"When copying an element, the layer depth is ignored and copied element being moved to the top",KarolGralewski,2024-01-25T21:16:01Z
+[Feature Request] Enable customizable context menus,EtienneThompson,2024-01-25T23:16:43Z
+Add library for R language and R common libraries,F041,2024-01-26T12:15:21Z
+Support for templates,nagavenkateshgavini,2024-01-27T02:09:38Z
+type conflict because of conflicting type definition: <<project root>>\node_modules\@excalidraw\excalidraw,zsviczian,2024-01-28T13:59:11Z
+Images missing when loading from blob,mson4550,2024-01-28T21:01:26Z
+💞🤝Update `dev-docs`  from `docusaurus2` to `docusaurus3`,editfund-3rd,2024-01-29T02:31:00Z
+"excalidraw.app is unavailable, Google App not working",evil-pechenka,2024-01-29T07:06:29Z
+old-deployment artifacts unavailability problem,dwelle,2024-01-29T23:10:48Z
+Desktop app,sanghanihimanshu,2024-01-30T05:23:12Z
+"If you select saveFileToDisk on the PC side, you cannot save the file",macoomac,2024-01-30T09:48:01Z
+"I have added excaidraw in react project but the ""more tools"" option is not opening when click",Asiya1330,2024-01-30T11:25:34Z
+ability to multiple pivot points for complex curved lines (missing in action!),tezzaworks,2024-01-31T02:20:04Z
+[Bug]: Text history is not maintained,parmesh-bhatt,2024-02-01T07:34:59Z
+Rotated element offset is off in SVG export,zsviczian,2024-02-02T10:12:53Z
+Issue with Shortcut Keys on Russian Keyboard Layout,illyashh,2024-02-05T04:52:43Z
+Unable to use excalidraw in browser extension [CSP lvl. 3],krzysztofMlczk,2024-02-06T09:47:33Z
+[Feat] Drop shadow option for shapes,KyleKlus,2024-02-06T19:17:10Z
+"""Zoom to fit all elements"" leaves space for clipped frame contents",aribn,2024-02-06T23:07:52Z
+Eraser Device,LennyPhoenix,2024-02-07T19:13:53Z
+Allow setting EXCALIDRAW_ASSET_PATH as env variable,krzysztofMlczk,2024-02-09T08:53:52Z
+ERROR: failed to solve: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount3484530783/Dockerfile: no such file or directory,vikramwalia,2024-02-10T01:44:35Z
+drawing over an html webpage ?,aliamiri1380,2024-02-12T17:17:06Z
+Add options to hide/modify default toolbars,krzysztofMlczk,2024-02-12T20:19:40Z
+Expose more declarative API,krzysztofMlczk,2024-02-12T20:43:55Z
+Allow to disable / overwrite keyboard shortcuts,krzysztofMlczk,2024-02-13T09:11:16Z
+Locking text does not work with convertToExcalidrawElements,krzysztofMlczk,2024-02-13T09:31:28Z
+Streaking lines when free drawing.,Malcolmt129,2024-02-14T18:44:34Z
+deduplicate `<g>` when grouping frame children in SVG,dwelle,2024-02-14T22:17:16Z
+Website embed whitelist request gsheets,OuterLimitsZone,2024-02-15T01:58:05Z
+Needs improved Save UX/UI,mattjaekeldesign,2024-02-16T14:28:27Z
+Include Montserrat typography,lucaszhh,2024-02-16T19:32:33Z
+Mermaid support for the DB shape,QuittyMR,2024-02-17T12:24:24Z
+Regression: Laser point collaboration broke onPointerUpdate button state,zsviczian,2024-02-18T15:03:03Z
+"Using ""reset the canvas"" tool doesnt free ram",alximikl2,2024-02-18T21:28:02Z
+Can we add a mindmap feature by adding a node that is specific to mindmap,hashd2035,2024-02-18T23:41:41Z
+Example in the documentation not working,krzysztofMlczk,2024-02-20T08:33:43Z
+Weird stroke to the top left of the screen when using with Huion h1060p (pen tablet),TamadoIchikai,2024-02-20T09:13:54Z
+since laser pointer 1.3.1 the Obsidian plugin does not load on iOS 15.x and lower,zsviczian,2024-02-20T22:56:32Z
+should allow to paste multiple images from clipboard,7flash,2024-02-22T00:56:48Z
+Saved file could not been opened,Wodiergehao,2024-02-22T02:28:27Z
+Embed Loom videos,Zamen,2024-02-23T16:21:26Z
+how to add custom font to excladraw?,Tahmasb,2024-02-24T08:44:07Z
+Hotkeys for another languages,modeod,2024-02-25T13:29:42Z
+Layers,petrasl1976,2024-02-25T14:52:55Z
+Library Use in Docker,ItsJamesMurray,2024-02-25T21:41:10Z
+Add importing PDFs,coolCucumber-cat,2024-02-26T07:47:43Z
+Erase Function Select Function,Lerchien,2024-02-27T01:18:05Z
+Fat Arrows out of the box,maxkosty,2024-02-27T06:58:40Z
+Insert Image - Chunk Load Error,anishtkapps,2024-02-28T05:39:53Z
+[Suggestion] Add point eraser,NotYoojun,2024-02-29T03:57:59Z
+"the ""+"" cursor is big for drawing with thin pen",xpsn,2024-02-29T19:03:10Z
+Prośba o blokowanie uczestników.,administracyjny,2024-03-01T15:50:31Z
+whitelist Pinterest.com,saadbasheer,2024-03-01T17:40:15Z
+where's the mermaid code in the gpt?,patchshorts,2024-03-02T05:50:04Z
+I am unable to use ai converter,Chiragchandewar72,2024-03-05T16:33:29Z
+Add a physical scale widget and measurement tool,alexkreidler,2024-03-06T17:17:02Z
+Font size too small,dezren39,2024-03-06T18:12:49Z
+Exporting to png problem,NelsonCavalcante1,2024-03-06T22:05:14Z
+Excalidraw integration for Google Drive uses dead domain name,bates64,2024-03-08T04:29:11Z
+Typing inside an object on Firefox only displays the current word,NickantX,2024-03-08T21:27:10Z
+Exporting Png Problem,AngelMarudhu,2024-03-09T04:26:21Z
+have automatic separate functions for finger and stylus,mightyflyte,2024-03-09T10:58:29Z
+[Feature Request] Add Azure OpenAI in addition to OpenAI,TudorAndrei,2024-03-11T09:47:51Z
+[Feature request] Suffix for croppings and sync with original filename,mairav,2024-03-12T10:59:46Z
+Internet issues while sharing excalidraw in Google meetings from Chrome,Dhrumil-Sentry,2024-03-12T23:40:48Z
+New Slides are empty,mhubig,2024-03-13T10:11:17Z
+[Feature Request](AI) Support Custom Open Proxy Endpoint like Azure etc.,shikelong,2024-03-14T08:42:05Z
+Is there any way to control the thickness of the pen?,srimouli04,2024-03-14T13:47:08Z
+"[Feature Request] While using Pen - change pointer crosshair to pen tip symbol, annoying as crosshair pointer.",vijaytamada,2024-03-16T17:14:21Z
+Add an architecture.md or other guidance on how the code is structured,jdittrich,2024-03-17T11:55:16Z
+Unable to open file created using google drive extension,devdeep1987,2024-03-19T02:04:06Z
+font size,fpavox,2024-03-19T09:47:42Z
+LTI Internafe Moodle,hnazmy,2024-03-20T16:04:12Z
+Can you provide smooth curve control in draw tool options please,tilmamakes,2024-03-21T04:33:56Z
+Feature request for frame-only actions; frame context as a default action receiver,T3sT3ro,2024-03-21T13:10:55Z
+I can't clear the whiteboard  if use multiple instances of Excalidraw,maposia,2024-03-21T15:47:41Z
+Opening a `.excalidraw` file clobbers all ad hoc drawings that weren't saved to a file,ezradyck,2024-03-21T16:57:39Z
+Zoom with just Stylus/Mouse + Keyboard (No mouse wheel),painttist,2024-03-21T18:18:20Z
+opening a file overwrites current file,osbyrne,2024-03-22T00:14:27Z
+very bad UI (for me) as a new comer (I am forced to use this tool since my workplace purchased a license...),Gadi4Checkout,2024-03-24T20:20:23Z
+Excalidraw obsdian plugin is not working on onix boox Air 3C,krasnovsa,2024-03-25T16:33:54Z
+How to make laser show in colloboration,Asiya1330,2024-03-25T17:11:51Z
+"Insert, drag drop multi image svg to app",hoanghaix86,2024-03-27T08:04:34Z
+CTRL + Z don't work in cyrrilyc keyboard layout,dkchshv,2024-03-27T09:00:06Z
+Json Exposure Bug,GaBaljaintheroom,2024-03-27T16:02:40Z
+unable to paste images from the clipboard on Android,Tery84,2024-03-28T11:12:36Z
+Arrow created between 2 objects contained in 2 different frames become invible,npastoCSTB,2024-03-29T11:11:08Z
+locked objects can be edited after right clicking them,Himanshu-Singh-Chauhan,2024-04-01T05:01:21Z
+FR: Move screen with one finger on ipad,AsleepX,2024-04-01T13:17:44Z
+I can't put my hand on the tablet to write right now,zhraa11,2024-04-01T13:20:16Z
+The `escape` key down event is not bubbled up to parent container for `onKeyDown`,banjo,2024-04-03T15:33:46Z
+Detach Capability for Nodes from Arrows,alpaylan,2024-04-03T15:55:34Z
+Need a Icons Set in  Navbar,Vishal2002,2024-04-03T16:55:04Z
+Performance degradation occurs when opened in a wide browser window (ultra-wide screen).,alexdmtv,2024-04-03T18:14:40Z
+Text size in container not calculated correctly depending on window.devicePixelRatio,zsviczian,2024-04-03T19:57:19Z
+Suggestion: Flip direction button,jakekimptonss,2024-04-04T13:00:14Z
+Default pan mode,SinanAkkoyun,2024-04-05T19:13:19Z
+Support for custom OpenAI endpoint and headers,davisuga,2024-04-10T13:36:23Z
+Content in the canvas getting erase when switching Tab,TenzDelek,2024-04-13T05:10:43Z
+SVG images not loading from initial data,letapjar,2024-04-13T09:48:28Z
+"The ""base_url"" in the Google Drive extension is out of date",icarojerry,2024-04-16T15:52:41Z
+typescript error when starting the cloned project,aisiklar,2024-04-17T05:54:49Z
+[Feature Request] Boolean,grmon,2024-04-18T11:02:10Z
+`Store` improvements,Mrazator,2024-04-21T22:58:14Z
+Editing label in Firefox hides portions of the text,viktomas,2024-04-22T12:39:30Z
+Improve handling and exchanging of ephemerals,Mrazator,2024-04-23T12:00:33Z
+Decouple `History` from `Store`,Mrazator,2024-04-23T12:21:15Z
+Exchange `Store` increments between clients,Mrazator,2024-04-23T13:15:31Z
+Persist `Store` increments on the clients,Mrazator,2024-04-23T13:15:36Z
+Stabilize `Snapshot` diffing,Mrazator,2024-04-23T15:39:05Z
+Simplify conflict resolution when applying increments,Mrazator,2024-04-23T16:08:52Z
+`History` improvements,Mrazator,2024-04-23T20:11:32Z
+Keep appState in sync with elements,Mrazator,2024-04-23T21:33:52Z
+Persist undo / redo stacks between sessions,Mrazator,2024-04-23T21:33:57Z
+Prevent default for Ctrl+Z when inside WYSIWYG,Mrazator,2024-04-24T10:37:06Z
+Capture increments when moving element with arrows,Mrazator,2024-04-24T10:39:12Z
+Unify `selectedElementIds` and `selectedLinearElement`,Mrazator,2024-04-24T10:50:40Z
+Revisit undo/redo with different `actionFinalize` cases,Mrazator,2024-04-24T10:56:14Z
+Refactor `Ordered` type away,Mrazator,2024-04-24T12:03:06Z
+Introduce internal transaction-like API for element mutations,Mrazator,2024-04-24T12:20:48Z
+Introduce performance related tests,Mrazator,2024-04-24T12:38:14Z
+Can we please white list Notion so I can embed Notion docs?,calvinKsense,2024-04-24T22:42:59Z
+Arrow disappears when adjusting the size of its surrounding Box,hidaviddong,2024-04-25T03:49:28Z
+FR: Detect Apple Pencil's double tap on iPad,jjdiazo1,2024-04-28T01:17:09Z
+huge delay after using the picture tool,MichaelMarom,2024-04-28T16:38:50Z
+laser tool does not mirror to the other side.,MichaelMarom,2024-04-28T16:41:31Z
+OPENAI REVERSE PROXY,ryanzhaorx,2024-04-29T09:24:49Z
+[Feature Request] Frames with Multiple States,kunaltyagi,2024-05-01T10:48:01Z
+Stroke (Colour Palette),yaz94,2024-05-01T19:19:27Z
+Question: Is there anything similar to Figma components?,rossaai,2024-05-02T03:29:32Z
+Feature Request Excalidraw+ - Allow a scene to be shared between different workspace/collections,bquinart,2024-05-02T09:45:01Z
+Feature Request Excalidraw+ - Allow a workspace or collection between different billing accounts,bquinart,2024-05-02T09:48:48Z
+iPad PWA Missing Features,TariqMK,2024-05-03T00:14:17Z
+Request for toolbox position adjustment feature,jnhyeon,2024-05-03T20:51:37Z
+Preventing Color Changes in drawio SVGs When Switching to Dark Mode,jiangnanqw12,2024-05-08T03:08:55Z
+"Feature Request: Double tap on the screen (!!not apple pencil, which is not currently possible!!) to toggle between eraser and the active tool while working with ipad",T-duality,2024-05-08T06:22:09Z
+Arrows not Auto Binding / ATTACHING on Shapes,orvpagadua,2024-05-08T07:51:45Z
+Dialog remains after exporting to image,yongjoon-km,2024-05-11T13:51:24Z
+"After saving as an image, the arrow has shifted",LOVETOO,2024-05-12T06:29:34Z
+"[Feat]: Ability to add font size in numbers instead of `S`, `M`, `L` and `XL`",Haimantika,2024-05-13T13:47:03Z
+No issue_template,penrowd,2024-05-13T19:13:31Z
+[feat] Right click drag to move,justise,2024-05-13T23:53:01Z
+Excalidraw PNG Export no longer works with IDEs,pswenson,2024-05-16T21:32:38Z
+The diamond's vertices do not line up exactly on the grid.,SWBaek,2024-05-17T23:16:02Z
+zoom function not super predictable,anatoliibakhtin,2024-05-19T22:12:38Z
+Feat: Mechanism for managing font box,TechinMama,2024-05-20T14:12:12Z
+Could not load image elements properly after storing in LocalStorage,toby12352,2024-05-20T23:14:37Z
+rewrite `pointerDownState.originalElements`,dwelle,2024-05-21T11:01:49Z
+Click to create text inside shape,6dayspizza,2024-05-21T14:00:56Z
+link/room report/delete flow,dwelle,2024-05-23T21:42:31Z
+Slow arrow navigation when elements are selected,Mrazator,2024-05-24T11:16:37Z
+dropdowns need a z-index higher than links,nishanthkarthik,2024-05-25T00:29:15Z
+excalidraw with qutebrowser,520521mayuan,2024-05-25T01:39:38Z
+Excalidraw is great but without shortcuts for changing colors it is absolutely unbearable.,Anos-17,2024-05-25T16:51:13Z
+Trying to install @next version but running into issues,jpike88,2024-05-25T17:24:55Z
+Request for adding shortcuts for changing the stroke width of elements,Anos-17,2024-05-26T09:05:07Z
+Request for align text justify,Judge-Paul,2024-05-26T18:35:51Z
+Excalidraw library is difficult to navigate when add many libraries.,kaala,2024-05-27T02:44:21Z
+Feature request: Export Presentation to Keynote,theevilbit,2024-05-27T11:24:14Z
+feat: Hand draw to shape,avidseeker,2024-05-29T22:50:41Z
+Bug - strange behavior when zooming in/out,xdhrvt,2024-05-30T07:28:42Z
+Add black outline of white text. Needed for creating memes.,tonyzorin,2024-05-30T19:38:45Z
+Vue3 how use this,tenglongwentian,2024-05-31T07:12:18Z
+[Accessibility] Support for high-contrast themes,alex-titarenko,2024-06-01T03:17:33Z
+"Issue - When using selection tool, content rises up",ShakeSphereStuff,2024-06-03T00:26:19Z
+"MP4 embed , links to local files",Ulf3000,2024-06-04T19:54:35Z
+Docker language,lokomass,2024-06-05T11:44:04Z
+Feature request: Fast shapes adjacency,luzhixing12345,2024-06-06T06:26:08Z
+refresh share links: so past viewers don't have access,alexfurm7,2024-06-06T16:36:07Z
+Split distribution packages?,nishanthkarthik,2024-06-06T22:27:49Z
+Clicking a button in the toolbar doesn't select the tool (Firefox 126.0.1),togglebyte,2024-06-07T16:53:52Z
+Missing `ə` glyph,kerimovok,2024-06-08T12:08:07Z
+Define initial/start nodes/behavior,msolano00,2024-06-09T14:49:31Z
+Straight Arrows shouldn't be Hold and Drag.,orvpagadua,2024-06-10T02:15:32Z
+"If there is an iPad version, that would be even better.",ursasi,2024-06-11T06:17:17Z
+"Publishing the container image with tags in addition to ""latest""",johanneskastl,2024-06-11T19:25:51Z
+Excalidraw AI,yunuuuk1,2024-06-12T03:38:14Z
+"ERROR: GlobalThis is not defined"" coming on Android 9 Chrome And WebView version",bhagyashree-bothra,2024-06-13T10:43:53Z
+Rearrange slide frames based on slide order,renke,2024-06-13T14:30:47Z
+Question: This is around Tags,HippyCraig,2024-06-14T23:14:05Z
+more of a question then a issue,jason-shen,2024-06-15T07:48:36Z
+Embedded drawings showing as grey,eresdf,2024-06-16T06:04:24Z
+Failed to fetch dynamically imported module: https://excalidraw.com/assets/index.esm-Dctzu5xt.js,aohanhongzhi,2024-06-17T06:47:52Z
+"Unable to save the canvas to your Excalidraw+ workspace, showing this issue",gamersky998,2024-06-18T03:02:12Z
+Grid Affects Performance on Safari,jorgedanisc,2024-06-19T10:15:33Z
+Firefox for Android: Consistently freezes entire browser after a few seconds of use.,NickOveracker,2024-06-20T06:09:46Z
+Whitelist the site,su-resh,2024-06-20T14:59:41Z
+URL whitelist request,xplosionmind,2024-06-21T09:57:36Z
+Using Excalidraw React build in a vanilla JS application,Favourz1,2024-06-22T22:35:47Z
+[FEATURE REQUEST] Bookmarked Locations/Markers/Areas to jump to?,Unknown,2024-06-25T04:23:19Z
+"AI Model influence: If you got errors in mermaid generation with text to AI, try to change model",Superkikim,2024-06-25T08:18:05Z
+change the toggle bar to cross when it is opend,shabdpatel,2024-06-25T15:01:52Z
+"Cursor invisible when using text feature (Standard Notes Excalidraw plug-in, Apple desktop app)",barkhuizen,2024-06-25T16:05:21Z
+My Exalidraw Save File Get Corupted,vedantpatel07756,2024-06-26T04:09:32Z
+"[Feature Request] Use right-click to navigate (consistent with UX pattern in Miro, recently Figma)",fmaiabatista,2024-06-26T12:05:23Z
+Don't succeed to integrate collaboration,CAnto64,2024-07-01T07:13:21Z
+"change ""hotkey"" for dragging the drawing using mouse",nnako,2024-07-03T12:58:36Z
+get selected elements,izr8809,2024-07-04T07:24:45Z
+Excalidraw unable to reuse existing files from vault. Creates duplicate.,Olkris,2024-07-04T19:16:28Z
+version `@next` with upcoming major version,dwelle,2024-07-07T08:03:13Z
+Implement Different types arrow marks for UML,AngelMarudhu,2024-07-07T10:21:22Z
+[pdf] elements are moved after pdf export,louis030195,2024-07-08T08:35:51Z
+images upload  are not shown in  people with collaboration,zoewang789,2024-07-08T16:12:01Z
+素材库预览功能,daizhansheng,2024-07-09T07:15:09Z
+Font not loading correctly in the Excalidraw component,mohzameer,2024-07-10T13:12:30Z
+"If the parent element is scaled, all tool positions will be abnormal.",StringKe,2024-07-11T08:25:39Z
+Constant flickering in Firefox,azuline,2024-07-12T03:45:03Z
+"Failed to parse source map from ""data"" URL",Jiaodaoyi,2024-07-12T09:37:11Z
+Feature Update: Lazer tool,pantharshit007,2024-07-12T18:47:35Z
+super slow when zoomed in with disappearing elements,Mrazator,2024-07-15T09:58:14Z
+Excalidraw add library issue,Unknown,2024-07-15T13:45:28Z
+Select all items linked by arrows,robmcphers0n,2024-07-16T10:12:48Z
+Language....,CreadorLanda,2024-07-17T21:33:53Z
+[Question] Snapping to SVG created shapes,mapa17,2024-07-18T11:05:07Z
+[Bug] Default Highlighter Layer,mapa17,2024-07-19T13:38:06Z
+fix: Export to PNG creates 'All Files' File,KiranBhati,2024-07-19T15:22:37Z
+Setting max_zoom in constants.ts doesn't appear to change max zoom allowed,johnrbnsn,2024-07-20T20:58:34Z
+[Feature Request] Add Support for `Base URL` Configuration in AI Settings,DDDDD12138,2024-07-22T07:49:44Z
+[BUG]: Lagging issues on large canvas,maxgttph,2024-07-23T08:29:36Z
+Unable to insert images located in `~/Library/Application Support/` on macOS,dragonman225,2024-07-23T10:14:26Z
+Mouse position,CAnto64,2024-07-23T12:18:12Z
+Add Option to disable Analytics,maurerle,2024-07-24T07:23:54Z
+Copy-pasting the component copies the JSON code inside the component.,Piyushpatil03,2024-07-30T00:45:56Z
+Option to add title to svg to make key words searchable in GitHub,Mrazator,2024-07-30T20:53:49Z
+"feat: Search library, Resize library pane and objects",sammcj,2024-08-01T00:25:12Z
+[BUG]: history.ts appears in package.,s1lverfish,2024-08-01T21:48:08Z
+text-related `history` issues,dwelle,2024-08-02T21:38:44Z
+"export png/svg bug: extra margins in result, besides in firefox transparent areas turn black",imanzaker,2024-08-03T16:06:47Z
+Build for React from Fork,johnrbnsn,2024-08-04T08:55:19Z
+Sans font option,rudeyak,2024-08-06T14:08:49Z
+Add allowed URL,ElliNet13,2024-08-06T14:09:52Z
+Feature Request: “Paste to Replace” Functionality,arthurmonnet,2024-08-06T20:37:07Z
+Can't draw/use pen from drawing tablet,ElihuJ,2024-08-07T10:08:34Z
+FR: allow to set text element size when creating a text element on top of another element,zsviczian,2024-08-08T12:09:36Z
+"My scene is deleted automatically, I want to restore it.",ishan180,2024-08-09T10:32:22Z
+nested frames,backcover7,2024-08-10T20:37:53Z
+CMD+Left (Right) when editing text,tonyzorin,2024-08-11T11:22:27Z
+"Feat: Delete, Adjust or Highlight same colour strokes",deezeddd,2024-08-13T14:33:31Z
+The error with identifier d14ee2fd60134d2d82951092dcca4666 was tracked on our system.,A-caibird,2024-08-15T02:29:16Z
+Text breaks out of shape when pasting in left aligned mode,mtolmacs,2024-08-15T09:40:28Z
+Google wont work,Itsamejonah,2024-08-15T15:45:12Z
+[OSS] Pasted image over ~1MiB uploads but it doesn't load on connected clients in sharing session mode,mtolmacs,2024-08-16T12:59:44Z
+Issue with Excalidraw Real-time Collaboration in Docker Setup,dfhuangqq,2024-08-18T04:28:33Z
+Auto Scroll for handwriting quickly,hata6502,2024-08-18T12:16:06Z
+Suggestion: Add a font for Arabic/Persian,movahhedi,2024-08-19T05:45:51Z
+Going over the local storage limit while using Excalidraw can lead to unintended data loss,mtolmacs,2024-08-19T10:46:38Z
+[new feature] connection flow animation,jaihao,2024-08-20T09:44:36Z
+Integrate it with angular apps,kkadam31,2024-08-21T08:36:58Z
+Feature: Open & Save can control for myself,zhangwei900808,2024-08-21T09:28:12Z
+"[Bug]: When copying shapes and pasting it on the text, all details related shapes displaying",deezeddd,2024-08-21T18:33:21Z
+"when webstorage quota gets exceeded, recent work gets erased",ducin,2024-08-21T20:52:33Z
+the web embed is not working,Hayaanpatel,2024-08-22T14:39:02Z
+AI-Driven Character Drawing in Excalidraw,gazwannagm,2024-08-23T13:58:31Z
+bug: when deleting the magic frame the text elements remain in the scene and cannot be removed,zsviczian,2024-08-24T11:30:20Z
+Offsets are incorrect after content earlier in the page pushes excalidraw down,yarrichar,2024-08-24T14:28:24Z
+Please whitelist this site,lutzgo,2024-08-24T14:59:27Z
+[Question]: Custom react components/elements inside excalidraw,A-Yucel,2024-08-24T21:18:44Z
+Forking Excalidraw to customise UI and use our own collab server as package,mbj36,2024-08-26T09:28:17Z
+Importing Mermaid diagram with markdown text syntax does not seem to support auto-wrap behavior,nerdo,2024-08-26T16:53:13Z
+bug: minor sticky-note formatting issue on paste,zsviczian,2024-08-27T07:42:00Z
+BUG: Elbow Arrow ALT+drag duplication results in fuzzy/confusing UX,zsviczian,2024-08-27T10:39:35Z
+Inconsistent behavior when locking elements inside frames,Krakor92,2024-08-28T12:09:47Z
+window.EXCALIDRAW_ASSET_PATH work error on vscode,wszgrcy,2024-08-29T02:56:41Z
+Error: invalid file,france87,2024-08-29T14:59:54Z
+support online storages,MirS0bhan,2024-08-30T11:29:57Z
+Digital pen eraser button not interacting with Excalidraw,heyitsrodrigo,2024-09-03T17:08:48Z
+"Pinch to zoom doesn't work while on ""draw mode""",heyitsrodrigo,2024-09-03T17:15:05Z
+Button labels not showing on mobile version,heyitsrodrigo,2024-09-03T17:20:07Z
+Translation automation,yhacohen,2024-09-04T19:42:21Z
+Latency issue,nhermis,2024-09-05T09:46:55Z
+Context menu items depend on user-agent/browser styles and some styles change unexpectedly,joaopalmeiro,2024-09-05T15:15:11Z
+Stuck in zoom/pan mode after Wacom pen click,thomasabbott,2024-09-06T18:22:56Z
+File added to Google Drive from excalidraw.com export does not show the text content. Need to double click for the text to be brought upfront,skodavalla,2024-09-08T09:23:51Z
+New release,farapholch,2024-09-09T09:34:00Z
+No way to make strict vertical or horizontal lines on tablet,StevenStavrakis,2024-09-10T16:29:30Z
+Broken rearrange behaviour,robmcphers0n,2024-09-11T07:07:13Z
+Request to whitelist url,saurav-bytive03,2024-09-11T11:48:47Z
+Please add this website into white list,Joey-Mars,2024-09-11T15:25:08Z
+Horizontal and vertical disctibution of childs behave weirdly,Ptitet,2024-09-14T12:21:30Z
+Request to whitelist url,AskingQuestions,2024-09-16T02:29:42Z
+Request to whitelist url for education,lutzgo,2024-09-16T09:34:11Z
+Duplication of element while dragging with switching other software on Windows (because Alt + Tab),KishanVyas308,2024-09-16T17:48:26Z
+"Excalidraw Plus: Presentation export in PDF or PPTX is set to 4:3 ratio, presentation frames are 16:9 default.",tommodev,2024-09-17T04:15:33Z
+support `enter` to edit group,dwelle,2024-09-17T09:54:08Z
+How to can I add custom tool to the toolbar?,Rvvijays,2024-09-18T20:32:21Z
+No warning or documentation with regards to unfamiliar use case,kmurphypolygon,2024-09-19T08:04:26Z
+How to publish packages/excalidraw to npmjs.com,guinanlin,2024-09-20T03:14:49Z
+No Text Preview while writing,Forbrave,2024-09-20T06:19:06Z
+Elbow arrow binding jumps to highest element.,s1lverfish,2024-09-20T13:58:09Z
+Unable to search the Help modal,andreincu,2024-09-22T09:15:52Z
+Switching themes messes up image colors,cn1t,2024-09-22T13:21:14Z
+Suggested features for the whiteboard,mamouthe,2024-09-24T12:56:40Z
+Cannot open sign up page,suldamir03,2024-09-25T06:54:36Z
+text-align hotkey,niderhoff,2024-09-25T07:24:42Z
+"Translation request for ""stats for nerds"" not yet reflected",ehek01,2024-09-26T00:20:54Z
+Suggestion for whiteboard,BlackKnight-15,2024-09-26T06:39:19Z
+Whitelist https://web.dev to be embedded,Cmoen11,2024-09-27T06:21:42Z
+Add or remove selected objects to/from a specific(selected) group,imanzaker,2024-09-27T06:30:10Z
+Not able to clear library,magnusbirko,2024-09-27T11:12:45Z
+Whitelist Url https://web.tutar.app for Embedding in Excalidraw,shyampradeepalil,2024-09-28T05:58:49Z
+Enhance eraser function to remove only drawing above an inserted images,Leiyi548,2024-09-28T07:12:02Z
+Suddenly locked into pinch-zoom mode when using pen mode,cdvillard,2024-09-30T02:32:18Z
+The cordova plugin inacppbrowser sometimes pops up a prompt saying 'Confirm to leave this page' when closing the window.,liangnani,2024-09-30T03:22:04Z
+Add support of Ukrainian (or Cyrillic in general) language for Lilita One and  Comic Shanns fonts,vasylkorchynskyi,2024-09-30T13:39:09Z
+Whitelist https://coderrrrr.site,turbomaster95,2024-10-02T13:39:01Z
+Excalidraw+ : scene name input + `esc` key,gg-mmill,2024-10-02T14:50:24Z
+Support angle constrained freedraw (Shift + draw straight line in discrete angles) just like with the line tool,mtolmacs,2024-10-03T08:35:39Z
+BUG - Elements created within bounds of a group automatically added to group,n-konig,2024-10-04T12:51:13Z
+Paste Event doesn't get invoked within Shadow Root,yorrd,2024-10-04T13:51:29Z
+Passing a read only object as initialData throws an exception and blows up the app,mukeshsoni,2024-10-06T04:55:52Z
+Enhance the color picker with a zoom-in pixel feature for better precision on detailed designs.,Othniel01,2024-10-06T16:13:48Z
+Does not open color palette on vertical screen,LeonelRFF,2024-10-06T21:51:42Z
+all items on library and all images on canvas have been removed,RatDante,2024-10-06T22:42:06Z
+"When selecting a rectangle, ellipse, diamond, image, linear or arrow tool, clicking on the canvas should create a default sided shape",mtolmacs,2024-10-08T13:40:38Z
+Word search highlighting is flipped in RTL languages,yhacohen,2024-10-08T16:16:16Z
+Adding a Line in Mobile/Tablet View Generates Two Control Points even with a single tap.,LDSmj,2024-10-09T06:53:04Z
+optimize eraser performance,dwelle,2024-10-10T10:46:42Z
+Background color picker,askadityapandey,2024-10-12T14:53:18Z
+"AppState type inconsistency: ""`collaborators.forEach` is not a function""",wuguishifu,2024-10-14T04:00:49Z
+Feature - Preview map,ChenxiangWang,2024-10-15T06:54:13Z
+Option to disable the add text function on double tap in mobile,LDSmj,2024-10-16T07:28:44Z
+Add 2 new urls to the Web Embed URLs whitelist,dxnxk-0,2024-10-17T18:05:03Z
+text not synced if pasted into wysiwyg,dwelle,2024-10-17T19:14:31Z
+Failure to Automatically Read and Save to Existing Excalidraw Canvas File After Reload,MuhammadBilalEllahi,2024-10-17T20:06:39Z
+Japanese x Chinese unicode issue,Mrazator,2024-10-19T20:52:27Z
+"""Copy to clipboard as SVG"" fails with `NotAllowedError` in Safari",Mrazator,2024-10-19T21:04:38Z
+Webview embedding error,handsome-xiaowang,2024-10-21T11:19:19Z
+Uncaught SyntaxError: Invalid Regular expression,jtmuller5,2024-10-22T03:43:07Z
+Snapping when drawing a line to another existing line,Mrazator,2024-10-22T09:38:11Z
+Context Menu Placement Issues on Right and Bottom Edges when Embedding Excalidraw in a Modal,FrancicoVerdu,2024-10-22T10:16:55Z
+Pasting multiple paragraphs creates overflowing text,Mrazator,2024-10-22T12:20:03Z
+Lazy load font face definitions for our fallback fonts,Mrazator,2024-10-22T12:23:59Z
+Cmd+C and Cmd+V not working on iPadOS,ManniCS,2024-10-23T01:30:53Z
+Setting the default save path in the settings,Sergey-A-Osipov,2024-10-24T01:01:00Z
+Prevent unintentional element movement at selection,SrGnis,2024-10-25T09:10:58Z
+Dark mode in the url #dark or ?theme=dark,Greatz08,2024-10-25T15:23:46Z
+feature request: excalidraw to mermaid,louis030195,2024-10-26T17:21:53Z
+feature request: add support for google fonts,hirenrafaliya,2024-10-27T03:03:33Z
+feature request: quick color selection using number keys (1-5) while using the drawing tool,backpropogated,2024-10-28T18:58:01Z
+feature request: voice annotations in excalidraw,backpropogated,2024-10-28T19:08:57Z
+[✨] Remove traditional slides sidebar and use frames instead to organize slides on the canvas itself,maiieul,2024-10-29T20:50:10Z
+excalidrawApi don't execute on update for work HMR,BataevDaniil,2024-10-30T05:30:56Z
+Add CJK fallback for other fonts,Mrazator,2024-10-30T11:37:41Z
+Arrow navigation through flow chart is not intuitive,Mrazator,2024-10-30T18:39:36Z
+Feature Request: Increase Zoom-Out Ratio for Better Board Overview,Tish254,2024-10-31T11:31:37Z
+Option to not automatically turn on pen mode when selecting the pen pointerType,something12356,2024-10-31T14:46:12Z
+Unable to align frames,marcospgp,2024-11-03T12:41:44Z
+Feature request: predefined frame sizes,marcospgp,2024-11-03T12:46:23Z
+Change keybind for panning,Provmawn,2024-11-03T21:40:30Z
+Whitelist wishlist,nc-kyle-mcphail,2024-11-04T16:01:22Z
+[feat] Remove background of image uploaded,arslan-ahm,2024-11-05T12:30:26Z
+Feature Request: Spaced node-style connections on shapes,35743,2024-11-07T03:47:07Z
+Vertical text with upright direction,tisonkun,2024-11-07T15:21:46Z
+GIF PNG ANIMATED,pablo-hp,2024-11-07T16:07:35Z
+Canvas panning on the right mouse button,wangenius,2024-11-08T02:10:13Z
+Pan with one finger in pen mode,ctwhome,2024-11-09T12:38:14Z
+"`packages/excalidraw/components/Modal.tsx` uses `role=""dialog""` instead of `<dialog>` tags",hirehamir,2024-11-09T16:37:41Z
+Keep original ratio when updating width/height of multiple elements through properties panel,Yueve-Wu,2024-11-12T08:14:22Z
+FR: Easy to  grid selected images,Yueve-Wu,2024-11-12T08:31:51Z
+Installation:  Please explain ENV Vars,ns-mglaske,2024-11-12T13:47:36Z
+Auto-Save Feature not working,mp52753493,2024-11-12T19:57:57Z
+Acept Chat gpt as an Web embet,Lennartrex,2024-11-13T08:51:53Z
+Revert arrow binding when moving single arrow,Mrazator,2024-11-13T10:19:56Z
+"Bug: Local storage overflow fails silently, without letting the user know",bgevko,2024-11-13T16:14:40Z
+excalidraw lost my data,nictuku,2024-11-18T12:34:34Z
+Support Power BI Embed Links,jonhigh1,2024-11-19T01:05:25Z
+web embed,ziguishian,2024-11-19T12:38:53Z
+Increase text element padding in rectangle,Mrazator,2024-11-20T15:43:43Z
+[Feature Request] - Add a document to the canvas,niceiq,2024-11-20T22:25:48Z
+Add additional characters to Excalifont,Mrazator,2024-11-21T10:52:19Z
+UI scaling,Mrazator,2024-11-21T10:54:00Z
+Saving to the same file leads to data loss,Mrazator,2024-11-21T11:24:21Z
+Feature Request: Option to make shapes not invert their colors,BearDad,2024-11-21T16:55:49Z
+[Feature Request] Add Master Frame/Template functionality similar to PowerPoint master slides,qumino2,2024-11-25T06:16:58Z
+Arrow navigation in canvas search moves text cursor,Mrazator,2024-11-25T22:01:22Z
+lorem text generator? like in VSCode,oybekx3d,2024-11-26T12:30:15Z
+Align text shortcut not working.,vikash047,2024-11-28T19:00:57Z
+embed dropbox video link inside the excalidraw online,piloadami,2024-11-29T16:23:03Z
+Lock position of elements,HoodyEz,2024-11-30T22:46:55Z
+Error while trying to insert math formula,ElModdy,2024-12-01T16:57:31Z
+Copy and paste items do not snap to grid properly,leto-ux,2024-12-01T19:05:43Z
+TypeError: Failed to construct 'URL': Invalid URL,Benn-Lau,2024-12-03T08:20:40Z
+Building the @excalidraw/excalidraw package causes the example app to stop working,ariamckinley,2024-12-03T21:45:09Z
+Which model is used behind the /v1/ai/text-to-diagram/generate API?,murray-z,2024-12-05T09:13:05Z
+"""glyf: empty gid 410 used as component in glyph 16"" right after loading the dev environment in Firefox",mtolmacs,2024-12-10T17:05:01Z
+excalidraw to mermaid?,connor-pph,2024-12-12T20:55:32Z
+Feature Request: Can Excalidraw Create Visualizations in Stepwise Format?,theaminulai,2024-12-13T06:57:36Z
+Option to Lock Sizes within a Group,AdityaPGit,2024-12-13T10:54:21Z
+Text breaks at slash during editing but doesn't otherwise,IceFreez3r,2024-12-14T20:18:29Z
+frame add background color,A-caibird,2024-12-17T05:01:36Z
+Adding Entity-Relationship Diagram Symbols and Notation,ChobinhoNL,2024-12-18T12:20:40Z
+TypeError: Cannot read properties of undefined (reading 'user'),vital000,2024-12-20T16:34:25Z
+PNG copy & paste results in black stroke around the pasted element,mtolmacs,2024-12-21T16:10:10Z
+Painting board and brush issues,handsome-xiaowang,2024-12-24T07:14:14Z
+"426 Errors ,though Application works",scalenow,2024-12-24T14:25:16Z
+Issue with Double-Tap Text Input on Excalidraw (Windows Tablet with Stylus),HoodyEz,2024-12-25T15:36:29Z
+safari: double-click to create text doesn't work due to focus issues,dwelle,2024-12-26T12:44:50Z
+Add triangle shape,nguyendinhkhiem123,2024-12-27T02:46:16Z
+Shortcut to write[needed QOL feature],frieza213,2024-12-27T09:58:08Z
+Can't upload image files and select stencil libraries from the file system on iOS 18,zsviczian,2024-12-28T18:56:56Z
+Feature: Squared Paper,Kurzhalsgiraffe,2024-12-30T21:27:44Z
+Issue with Image Embedding in SVG Output,SinaVan,2024-12-31T14:10:43Z
+TypeError: ReactSharedInternals is undefined,SOG-web,2025-01-03T15:44:26Z
+Typing diacritics in positions other than the end of a text field results in them being erased,sergi0g,2025-01-04T12:05:41Z
+Rendering Problem on Linux(Debian),Manohar-Penta,2025-01-05T17:19:59Z
+Cursor reappearing while writing on tablet,Mrazator,2025-01-06T11:29:57Z
+"[API - feature request] Be able to create ExcalidrawElementSkeleton from ""Excalidraw library"" programatically",hartmut-co-uk,2025-01-06T16:59:28Z
+How to enable AI features (Text To Mermaid) in @excalidraw/excalidraw,DevDeepakBhattarai,2025-01-07T04:10:44Z
+Arrow does not stay in place when moving around in group,Missionary-OSBS,2025-01-07T06:10:06Z
+radix popup overflowing viewport issues,dwelle,2025-01-08T10:55:07Z
+Bug: Png Rasterization of arrow cropping issue,ryanolee,2025-01-10T01:37:33Z
+Partial group selection & other ungrouped selection leads to crash,ryan-di,2025-01-13T09:39:32Z
+initial text container resize not undoable,dwelle,2025-01-13T10:57:25Z
+Embed pages from Inkdrop,venikman,2025-01-13T13:04:03Z
+Request to whitelist url,x6b726173,2025-01-15T10:43:45Z
+Rendering issue on Excalidraw Plus on Windows,EnzoPV25,2025-01-16T10:52:16Z
+Add color wheel picker to board,ukpagrace,2025-01-16T11:54:01Z
+feature: fuzzy search scene text,chrisdoherty4,2025-01-16T12:57:19Z
+How to create webpackage from cloned and built instance of excalidraw.? To be used for integration into another MVC site?,rhagstrand,2025-01-17T14:18:27Z
+Request for Serbian language,PolarniMeda,2025-01-17T19:38:21Z
+Need website whitelisted,KiraDraws4Skool,2025-01-20T05:17:42Z
+Feature Request: Subfolders within Collections,mbbowker,2025-01-20T11:11:19Z
+Continuous Line Doesn't Add the Last Line When Using a Stylus on iPad,LDSmj,2025-01-21T05:20:32Z
+Request for more pen customization,MahiroCh,2025-01-22T17:57:25Z
+Remote element drag updates are slow,Mrazator,2025-01-22T22:27:32Z
+Feature: both a background color and a scratch fill type?,karalabe,2025-01-23T09:38:24Z
+Weird canvas blinking behaviour when changing from light to dark mode,Erhan1706,2025-01-23T20:26:00Z
+Avif images wont export to png,koloved,2025-01-24T12:40:51Z
+Eraser is slow.,apoorvapendse,2025-01-25T13:03:03Z
+"Export Image should always show ""Only selected"" (disable if n/a) with a help hint on how to use it",ADTC,2025-01-26T12:08:13Z
+creating an elbow arrow from a frame adds it to the frame incorrectly,dwelle,2025-01-27T19:48:53Z
+Gap between the words,Anijeet,2025-01-28T14:40:34Z
+The handle's area (for scale or roatate obj) is too small to easily target with the mouse or pen,anatoliibakhtin,2025-01-28T20:19:33Z
+Automatic saving not working,HQCaptify,2025-01-30T16:30:23Z
+Background color picker box and eyedrop selector are bugged.,HorvathStefanDaniel,2025-01-30T19:45:21Z
+after adding this package i am facing heap memory allocation issue,manasnandi-innerstrength,2025-01-31T05:29:09Z
+language: we should add hindi translations for our Indian audience,aakarsh-2004,2025-01-31T10:30:31Z
+[Feature Request] Custom File Name for New Embedded Drawing,bitbalancer,2025-01-31T17:38:26Z
+Feature Request: Implement a feature that allows for dynamic calculations within text elements,26bz,2025-02-04T07:58:37Z
+"""Unsupported File Type"" Error dialog shows up when embedding images on Samsung devices after a recent ONEUI update",AfzGit,2025-02-04T12:23:39Z
+Want a auto complete bracket feature in mermaid,ganeshmshetty,2025-02-05T10:38:49Z
+Enhancement: Add linerider fun mode to exclaidraw,JJKnegtel,2025-02-08T06:31:46Z
+"Arrow bindings error when i drag element or use undo, redo feature",nguyendinhkhiem123,2025-02-10T08:05:29Z
+Enhacement request: Add more stroke width (Draw option),mbv401920150,2025-02-10T15:19:44Z
+Automatically decrease font when text no longer fit rectangle,Mrazator,2025-02-11T12:01:59Z
+Enable Web Embed whitelist control when Embedding Excalidraw,knackstedt,2025-02-11T16:30:30Z
+Enable custom fonts when embedded as an npm package,knackstedt,2025-02-13T00:53:53Z
+excalidraw+ presentation to PDF or PPTX not working for two days now ?!,pantobalony,2025-02-13T17:20:48Z
+Adjusting elbow arrows on phone flickers screen,tankmohit,2025-02-13T20:54:09Z
+Docker latest image not working (image from https://hub.docker.com/r/excalidraw/excalidraw from 2 days ago),fred-levernet,2025-02-15T13:37:32Z
+"[Feture Request] ""New"" Button",retro-dwsz,2025-02-16T03:28:56Z
+Error loading dynamically imported module: https://excalidraw.com/assets/index.esm-hU9D1OXy.js,Arizab02,2025-02-17T04:58:30Z
+FR - Remembering on new note,cypher437,2025-02-17T12:51:52Z
+Feature request: Support arrows connecting to other arrows or arrow labels,Mrazator,2025-02-18T12:03:27Z
+Move src files of @excalidraw packages into src/ subfolder,Mrazator,2025-02-18T13:38:41Z
+Inserted images show up as grey placeholders after re-opening the drawing,benberli,2025-02-19T13:47:24Z
+Prefer dist over src inside our yarn workspace,Mrazator,2025-02-19T17:13:41Z
+Can't do anything in my project,UserManger,2025-02-20T11:48:34Z
+Add Desmos graphing calculator to Web Embed whitelist,cas-thekid,2025-02-21T01:17:57Z
+When hovering the cursor on the name of the Frame Navigation Tachpad does not work,anatoliibakhtin,2025-02-21T18:26:07Z
+Add Support for Bilibili (B站) Integration,zhuzai21,2025-02-23T09:08:54Z
+Language - Create English (United Kingdom) as an option,andibing,2025-02-24T11:05:33Z
+Text elements created with `convertToExcalidrawElements` have incorrect metrics,Mrazator,2025-02-24T12:21:37Z
+Make example scene content more representative,Mrazator,2025-02-24T13:28:44Z
+Undo/redo breaks some arrows,olanti-p,2025-02-26T17:00:44Z
+Eraser Tool Erases Entire Stroke Instead of Partial Erasing,prathameshgaikwad123,2025-02-28T11:07:08Z
+"When an item is clicked, the picker should automatically switch to 'Select' mode.",ukpagrace,2025-02-28T11:28:36Z
+Please add unique dockerhub tag together with latest,oscni,2025-02-28T14:50:16Z
+feat: Rotate the View,Hugosabb,2025-02-28T15:00:59Z
+On menu: click ignored while scroll animation on ipad version. Have to wait until scroll stops.,FreyzerFault,2025-02-28T22:11:42Z
+Support for mermaid expanded node shapes,b-rhodes,2025-03-04T00:18:46Z
+Clickable Arrow Edges to Change Arrowheads,ukpagrace,2025-03-04T08:56:57Z
+Diagram is not responding,dmappel,2025-03-05T05:14:11Z
+Feature Request: Auto-convert Hand-drawn Shapes to Predefined Shapes in Freehand Mode,zhanghuamin-start,2025-03-06T06:24:30Z
+Feat: multiple selection of items in the side menu with command/shift key.,kota-yata,2025-03-06T08:08:18Z
+[Feature Request]: Add a Toggle Button to Hide the Drawing Toolbar in Split View,sohamsk13,2025-03-06T10:59:51Z
+ERROR  error during build:,Chopin85,2025-03-07T13:33:18Z
+Undo doesn't work for the first element added after using resetScene,Aws-Rayyan,2025-03-09T18:39:28Z
+"No longer possible to bind by moving non-arrow object, but it's still handeled in the code.",s1lverfish,2025-03-10T08:45:30Z
+"[IDEA] Paste an image into excalidraw, turned into excalidraw-style drawing",Mrazator,2025-03-11T13:57:50Z
+Change the default folder in vercel.json,Mrazator,2025-03-11T14:00:22Z
+Keybind to rotate rather than translate,pbsds,2025-03-12T10:04:49Z
+Arrow tool breaks if switching to selection tool while drawing arrow.,s1lverfish,2025-03-12T11:37:55Z
+farrashome.com whitelist,WhiteBlackChicken,2025-03-12T18:43:33Z
+Text visiblity issue on dark mode.,tech-dipesh,2025-03-13T05:31:14Z
+Library image color incorrect in dark mode,y1rn,2025-03-13T06:52:27Z
+Feature request: Include scene data when using 'Copy image to clipboard' shortcut,kindermoumoute,2025-03-13T16:01:36Z
+move to `iTXt` png chunks,dwelle,2025-03-13T22:15:37Z
+Whitelist ThreatPad,hewerlin,2025-03-15T16:12:09Z
+Ctrl + F does not work in help menu,volomeyer,2025-03-16T15:34:35Z
+excalidraw.com diagrams not auto-migrating to Excalidraw+,alitiknazoglu,2025-03-16T19:04:15Z
+FR: Per-Segment Stroke Style for Lines,HoodyEz,2025-03-19T18:02:23Z
+context length for generating diagrams from text is really low,rbavery,2025-03-19T20:36:02Z
+Webpack 5 Compatibility: Missing .js Extensions in Imports for roughjs modules.,abhishekayu,2025-03-20T05:21:45Z
+Tooltips on elements like in diagrams.net? ☁️,tgotwig,2025-03-23T07:37:28Z
+"Refactor point types ` { x, y }` to the proper unified point type in `@excalidraw/math`",mtolmacs,2025-03-24T14:10:41Z
+Losing Text Field Focus When Switching Tabs,antelcha,2025-03-26T11:07:15Z
+[BUG] Arrow Line editor not available,kesch095,2025-03-27T09:38:35Z
+Reopen issue #9292 with Mermaid example,qduy119,2025-03-27T15:19:59Z
+Unable to focus on the newly created text.,tech-dipesh,2025-03-28T10:17:18Z
+Allow disabling web workers,eliandoran,2025-03-28T23:17:21Z
+ALLOW_SAME_ORIGIN does not inherit from the validateEmbeddable logic in custom apps,atyrode,2025-04-02T20:39:42Z
+could not load static resources and abnormal url,programerQin,2025-04-04T01:52:34Z
+non-proportional resize for multiple elements when rotated,dwelle,2025-04-04T13:46:38Z
+non-proportional resize for groups,dwelle,2025-04-04T13:48:37Z
+Load initial drawing,LucasDevelopers,2025-04-04T19:15:04Z
+Build fails in Docker container due to PWA file size limitation,YuriyKabanenko,2025-04-07T19:34:47Z
+[Bug]: Zoom resets unexpectedly during annotation/drawing on whiteboard,etplusco,2025-04-08T20:35:19Z
+[Bug]: Images disappear and show gray squares instead on whiteboard,etplusco,2025-04-08T20:39:16Z
+Web embedding support for Claude's Artifact,Mrazator,2025-04-09T20:31:51Z
+The right-click dropdown menu should be consistent with the current design language.,sayfulislamshakib,2025-04-10T04:05:19Z
+Feature Request : Shape Recognizer,akhilub,2025-04-10T19:17:44Z
+Blazor web uygulamalarında kullanabilir miyiz?,mummyildiz,2025-04-11T12:42:41Z
+Issue with Image White  Flash When Opening Excalidraw Documents,sfu2008,2025-04-11T15:05:03Z
+problem show library next 15,sajadab,2025-04-13T09:40:32Z
+Whitelist Twitch,Unknown,2025-04-13T11:06:59Z
+"Navigating through the sceen keeps triggering browser's ""back"" action",elenaroncevic,2025-04-14T13:59:09Z
+Whitest additional providers,Mrazator,2025-04-17T13:11:12Z
+[Bug][Enhancement] Shortcut for Changing Stroke Color (S + I) Inconsistently Edits HEX Instead of Picking Color,Rizkiacry,2025-04-17T15:11:12Z
+alt-duplicating group member outside frame doesn't ungroup bound text,dwelle,2025-04-17T21:19:33Z
+Support Vietnamese Typing,anhkhoakz,2025-04-26T15:32:38Z
+pad上画笔画不太出来,Z1721,2025-04-27T03:33:58Z
+Embed Emoji fallback font for consistent emojis across platforms,Mrazator,2025-04-27T21:43:08Z
+code blocks,MirS0bhan,2025-04-30T07:53:23Z
+docs next@0.19.0,Mrazator,2025-04-30T10:30:24Z
+File import Bug,blizzard201,2025-05-01T04:38:05Z
+Emojis rendered in the canvas are blurry on Firefox,sachintha-lk,2025-05-02T14:43:08Z
+Importing appState fails due to invalid JSON structure,LucasDevelopers,2025-05-02T20:04:09Z
+FEAT: Record the audio with the timeline of the laser or the selection actions,theturling,2025-05-05T21:03:10Z
+"Imported file size error ""File is too large. The maximum permitted size is 3MB.""",elenniko,2025-05-06T08:00:27Z
+Using URL to store image instead of base64 encoding,Ikanaa,2025-05-07T11:59:57Z
+prevent double-click to edit/create text scenarios,dwelle,2025-05-07T20:45:53Z
+No shareable link / Konnte keinen teilbaren Link erstellen Error,noaimbs,2025-05-08T11:32:04Z
+coudnt create shareable link,njukar,2025-05-08T14:11:10Z
+canvas search results unstable,dwelle,2025-05-10T10:59:42Z
+In iPad air 4th gen no lag but while writing the pen gets interrupted (stops working). I love the app buts it's really irritating to a point its being unusable :(,gourabdg47,2025-05-12T09:08:27Z
+"Ȳ ȳ is not rendered in canvas, but it is in wysiwyg",Mrazator,2025-05-12T11:01:17Z
+line editor active point highlight cache issue,dwelle,2025-05-12T11:33:40Z
+collaborators popup shows even if not necessary,dwelle,2025-05-12T21:56:26Z
+Invoking context menu with multiple elements selected changes selection to single element,s3fs,2025-05-13T09:07:00Z
+Only one output visible if both users edit same text box,steven-safeai,2025-05-13T13:49:37Z
+[Feature Request] Support Multiple Slide Decks per Canvas,iamfj,2025-05-14T12:03:18Z
+Improve Feedback:  Shortcut Ctrl + Shift + [  and Ctrl + [ brings element to front instead of sending to back,Leticia-Arisa-K-Higa,2025-05-16T15:09:05Z
+Improve Feedback: Ctrl + Shift + ]  and Ctrl + ] shortcut not working,Leticia-Arisa-K-Higa,2025-05-16T15:29:34Z
+Draw icon is causing and canvas is crashing.,KingGoku910,2025-05-16T15:57:03Z
+Embed Scene option not working correctly when re-importing exported file,JoaoPC10,2025-05-16T17:42:08Z
+Images pasted from other sources are lost,andres-lizarazo,2025-05-19T21:36:57Z
+excalidraw api - disable freedraw line when two touches happen,min-pulley,2025-05-20T08:54:26Z
+Add room deletion option for link holders,djnbs,2025-05-20T12:26:55Z
+Mermaid renders all arrow heads the same,dannyyy,2025-05-21T09:16:52Z
+request to whitelist URL,VGumny,2025-05-24T14:32:23Z
+[Feature Request]  Add Live Captions During Voice Hangouts for Accessibility,cerberlink,2025-05-25T21:37:28Z
+Example code can not load image,tapstoone,2025-05-26T02:36:15Z
+"""Better Unlock"" is interfering with UX when attempting to select unlocked element covered by locked element (e.g. by locked transparent image)",zsviczian,2025-05-26T18:39:39Z
+Refactor: Improve browser detection reliability in ShareDialog,christine-hart,2025-05-27T04:19:27Z
+Editing multiple lines together,imanzaker,2025-05-28T18:06:29Z
+Feature request: multitouch drawing support,xezpeleta,2025-05-29T14:16:53Z
+Feature Request: Layer/Element Visibility Toggle Within Frames,Mrazator,2025-05-30T20:24:21Z
+Bug: Drawings not rendered on iPhone Safari/Chrome (touch coordinates off),Hassan313,2025-05-31T19:03:05Z
+Double-click on text box does not open edit dialog in Excalidraw,steveITpro,2025-06-02T16:02:24Z
+add and remove elements from group is imposible,imanzaker,2025-06-03T13:33:09Z
+FR: Three additional Crow's Foot Arrowheads,inc0nnu,2025-06-03T15:29:03Z
+🧪 Improve Test Coverage for analytics.ts,thaleseuflauzino,2025-06-05T03:35:54Z
+Improved Board Management / Auto-Save / Board-Library,E-Sieben,2025-06-05T10:22:43Z
+[Feature Request] line/touch selection - improved lasso selection,jollaWellbuur,2025-06-06T10:03:37Z
+Feature request: Built-in Calculator for Text Tool,Unknown,2025-06-06T20:00:42Z
+Small bug: back-of-note card does not work if excladraw file inside [Folder] with brackets,WizarDX3m,2025-06-08T17:44:22Z
+Links on objects open when clicking on object on desktop but not on mobile,Yarden-zamir,2025-06-09T08:21:15Z
+The help dialog seems to be a bit too small making it unattractive and the display text seems to lack the appeal,A-Rohit-Reddy,2025-06-09T09:55:07Z
+access to images on corporate PC/network,zsviczian,2025-06-10T06:43:09Z
+Eraser should delete just the top most element,Mrazator,2025-06-13T07:31:29Z
+"Security issue: Use of postMessage(""*"") with wildcard origin",selfiekonrad,2025-06-13T08:50:49Z
+"Allow to switch into different arrow types when using ""Tab"" switcher when bound to element/s or text",zsviczian,2025-06-15T06:20:15Z
+"bug：Click on ""Upload Picture"", but an error occurs",AmesyLi,2025-06-17T05:32:34Z
+"Command palette - show the ""recently used"" command based on the selection context",Bartek532,2025-06-17T16:10:25Z
+Azure DevOps breaks HTML link,maaft,2025-06-19T06:50:32Z
+Allow embed of github pages links,Rtificer,2025-06-19T17:37:58Z
+"If i add an second level indentation to a slide, it renders at the same level for PDF export",rohmishra,2025-06-20T00:04:36Z
+[Feature Request]: Ghost Preview of Shape Before Placement (like Eraser.io),0xRadioAc7iv,2025-06-20T14:00:43Z
+Changing canvas color gets adjusted by dark setting,cyotov-skyward,2025-06-20T17:25:01Z
+Bug: Incomplete Drawing when exporting.,Praveenstein,2025-06-21T15:28:40Z
+Support for  shapes with multi-colored backgrounds,bjourne,2025-06-23T10:25:53Z
+"Issue: The determinant check only catches exact zero, but floating-point arithmetic can produce very small numbers that are effectively zero but not exactly zero. This can cause numerical instability",PATTASWAMY-VISHWAK-YASASHREE,2025-06-23T13:09:18Z
+BUG: Incorrect Gradient Calculation in curve.ts,PATTASWAMY-VISHWAK-YASASHREE,2025-06-23T13:10:22Z
+Feature Request: Rasterized Pencil Tool for Improved Tablet Performance and Handwriting Experience,HoodyEz,2025-06-25T15:47:09Z
+[BUG] 404 Errors for Assistant font files due to incorrect path in CSS,Raman236,2025-06-26T22:31:47Z
+Support search in help dialog,ad1992,2025-06-27T15:05:10Z
+Touch Device Support (Meta/collection issue),dimitrieh,2025-06-28T09:35:11Z
+Clicking on corrected version of a  spell-checked word doesn't fix it,zaidarafeh,2025-06-28T21:16:35Z
+Importing Mermaidjs diagrams with <br> tags don't get resolved correctly,thibaultmol,2025-06-29T13:13:09Z
+element transparency option bar is not compatible with RTL,khali70,2025-06-30T07:37:59Z
+"希望Excaildraw可以嵌入Notion的页面,使我可以直接在Excaildraw项目中访问notion",Fomalhaut-hub,2025-07-04T13:01:56Z
+Enancement: Additional snap zone at center of shape,lucasahartmann,2025-07-06T15:10:20Z
+Excessive document size on Excalidraw Share,leumasme,2025-07-07T15:35:02Z
+frame label not disappering on svg export after frame was deleted,marnec,2025-07-07T18:16:55Z
+Unable to change tab with keyboard shortcut CTRL+Tab or CTRL+Shift+Tab in fullscreen mode,faridreaming,2025-07-09T10:22:20Z
+"ESM build includes require() due to internal dependencies — breaks browser use with <script type=""module"">",nishanth-cn,2025-07-09T14:44:59Z
+exportToSvg boundingbox,marnec,2025-07-09T18:08:38Z
+bug: Black background color to white color,drujbanjo,2025-07-10T04:05:46Z
+"Quick ""Connected Shape""",Risiamu,2025-07-11T18:03:23Z
+MCP Server Integration: Real-time Claude + Excalidraw Canvas Sync,yctimlin,2025-07-12T17:46:04Z
+Scroll to content is not showing when the edit menu is closed via outside click not via edit menu button.,Dhanapalr3519,2025-07-14T08:37:39Z
+Importing excalidraw causes Vite to crash after tree shake,elongist,2025-07-14T11:33:40Z
+The issue of compression when importing images causes the content displayed on the canvas to become blurry,Studiocuif,2025-07-15T03:45:54Z
+build packages error,pooluut,2025-07-15T09:46:28Z
+Please add spell checking,zaidarafeh,2025-07-15T18:16:11Z
+Bug: Trying to move another linear element while a line editor is open leads to a weird state,Brikaa,2025-07-16T18:49:51Z
+Is it possible to help improve the alignment function?,Ricksanchez000,2025-07-17T04:05:36Z
+arrow point-dragging on mobile drifts,dwelle,2025-07-17T20:57:51Z
+Bug: Cannot change colour of the selected text,AnanyaNagar,2025-07-18T11:08:07Z
+Sketch Load Fails from API (Works with localStorage) – React + Vite,hiteshcreator,2025-07-18T18:48:23Z
+Labels work but the link hint icon is not visible,caryfitz,2025-07-20T23:41:52Z
+Render images in nodejs,pranavmappoli,2025-07-21T04:37:21Z
+Unicode characters appear in slides but not when exported to PDF,famura,2025-07-21T10:28:46Z
+How do I import fonts in the Local Host Version,Tequeromtv,2025-07-23T06:56:40Z
+"When clicking on the eraser, it is hoped that the size of the eraser can be selected. The size of the eraser remains unchanged, which often makes it very difficult to erase",Tiang-88,2025-07-24T07:47:42Z
+"[Bug]The export function outputs a blank image (PNG, clipboard).",tzmtk,2025-07-24T13:45:54Z
+Add the following programming related websites in the web embed functionality,Saidul-1,2025-07-24T14:56:44Z
+[Bug] Inconsistency in focus management inside Dialog and didn't comply with ARIA standards,akilvishnum,2025-07-24T18:50:02Z
+Enhancement: Add an AI tool beside the drawing board to assist in optimizing the user architecture.,Paikchu,2025-07-25T01:07:43Z
+"UX: Change ""Stop Session"" to ""Leave Session""",Brikaa,2025-07-26T13:43:37Z
+CSS import missing from documentation,pdkovacs,2025-07-27T15:08:09Z
+Final Whiteboard Content is Lost,paiamramzi,2025-07-27T18:23:17Z
+Imagenes,wanda1977,2025-07-28T10:12:33Z
+拼音输入法丢字母问题,paaboo2013,2025-07-28T10:26:00Z
+The layout gets corrupted after moving window from macOS retina monitor to an hp monitor (excalidraw math preview),kkew3,2025-07-29T12:51:16Z
+Official helm chart,patroldo,2025-07-29T13:52:34Z
+[Bug]: Clipped and wrongly scaled arrowheads for large strokeWidth's,lebalz,2025-07-30T15:19:22Z
+highlightcode,Tiang-88,2025-07-31T02:15:12Z
+Head of L-shaped arrow disappears,lawcho,2025-07-31T14:36:36Z
+Conver element type floating menu glitch,s1lverfish,2025-08-01T15:48:33Z
+Option to Disable Voice Hangouts in Excalidraw+,bit-odoo,2025-08-02T08:03:07Z
+CMD + C / CMD + V shortcuts not working,DudeThatsErin,2025-08-02T22:08:13Z
+Copying from Excalidraw to OneNote results in the image metadata being pasted.,DudeThatsErin,2025-08-02T22:18:50Z
+Please support IOS  gesture like goodnotes for Ipad users,arindampradhan,2025-08-04T10:18:04Z
+Arrow display is incomplete,player868,2025-08-04T11:29:59Z
+"Whitelist linkedin.com for ""web embed""",nielleoh,2025-08-04T15:51:50Z
+"Corrupted element causes Select, Eraser and Text tools to break.",hakotaco,2025-08-07T09:20:18Z
+Feature request: onZIndexChange callback,gthomas2,2025-08-07T10:29:13Z
+Feature Request：Allow Controlled Playback and Pause of Handwriting Process Animation,wzhlf,2025-08-08T04:45:42Z
+Pen size is too big,Coding-yashji,2025-08-08T05:42:41Z
+The embedded link limit needs to be changed to an optional,XJY00,2025-08-08T12:06:02Z
+No native language seems to be loaded,Libpzzz,2025-08-08T13:13:10Z
+"Type Resolution Fails for @excalidraw/excalidraw in (Node v22, Next.js 14, TS 5)",ss-cmd,2025-08-09T10:08:08Z
+Disappearing Content,anago-albert,2025-08-11T15:38:31Z
+I think the non arrow line (6) should stick to and connect boxes like the arrow,luismartinezs,2025-08-12T04:16:48Z
+Intercept element creation to change data of new elements,grnd-alt,2025-08-12T11:26:02Z
+Need Seperate Tabs for different pages to save project markups,mahendra189,2025-08-12T17:05:28Z
+Please Add Table hehe,Gbert0192,2025-08-13T03:30:46Z
+Scene search doesn't work with dashes,ph55,2025-08-13T09:52:39Z
+Eraser behaving weirdly with pictures,shivamsaini124,2025-08-13T15:18:04Z
+Changing dark mode also changes my emoji skin color from yellow to... dark skin.,ThiagoBarbosaDev,2025-08-14T16:02:00Z
+Writing text inside lines not just arrows.,sugoidesune,2025-08-15T20:12:45Z
+Rhombus shape is crooked,T3sT3ro,2025-08-16T15:42:46Z
+Translation for Mongolian,endigo,2025-08-18T09:34:05Z
+Feature Request: Option to make laser drawings persistent (like iPad laser),Ayushjhawar8,2025-08-18T17:40:17Z
+"excalidraw+ loss of content, images, etc.",louis030195,2025-08-20T06:39:24Z
+Uncaught SyntaxError: Invalid regular expression:,kaiaiz,2025-08-21T09:08:06Z
+Feature request: add optional AI assistant that turns natural-language prompts into diagrams,saikethan27,2025-08-22T05:23:19Z
+Tweak the thickness of the lines in the built-in tools.,Orlicz,2025-08-23T13:40:27Z
+not able to erase dots,Zeeshan2629,2025-08-24T11:09:13Z
+window is not defined,cnyejiasheng,2025-08-25T02:25:36Z
+window is not defined,cnyejiasheng,2025-08-25T02:33:00Z
+Blurry canvas,Andreas-Hofstetter,2025-08-25T14:45:28Z
+Grid step does not align with object size except step = 5,mjw9100,2025-08-25T17:32:33Z
+[Feature Request] Half Page Up/Down shortcuts,OsicKwon,2025-08-25T22:07:59Z
+Problem with the eraser,Amine0008,2025-08-27T14:12:19Z
+[Bug - Break entire canvas] with inserting picture >3MB,shubhambhar007,2025-08-27T14:29:28Z
+Login Link Marked As Spam,jon-sully,2025-08-28T12:41:38Z
+Feature Request: Eraser Tool Option to Target Only Pen Strokes,kanghangsu,2025-08-28T20:05:02Z
+Feature Request: Option to Restrict Canvas Panning to One Direction,kanghangsu,2025-08-29T23:03:17Z
+Быстрые сочетания клавиш не срабатывает при включенной русской раскладке,drag0njericho,2025-08-31T03:39:15Z
+Drawing polylines/arrows is impossible with touch / mobile,wlinna,2025-08-31T07:27:40Z
+[Feature Request] change individual corner radius for 4 corners of a rectangle,PCoding-lab,2025-08-31T10:13:18Z
+support parsing images from HTML dataURL src,dwelle,2025-09-01T21:27:40Z
+Feature request: Share only selected area of canvas in free mode,pallava-joshi,2025-09-02T19:39:58Z
+How do i remove lasso as default selection cursor,FarzyYT,2025-09-02T20:14:42Z
+Container does not match individual text colors when wrapping multiple text elements (with different colors),levi42x,2025-09-03T10:05:10Z
+[Feature Request] - Allow adding metadata to elements,amithegde,2025-09-05T03:24:48Z
+shapes(canvas) position when reopen,sunnyawake5,2025-09-05T09:32:46Z
+Stylus stuck in move or zoom mode after lowering stylus whilst a finger is on the touchscreen,Papierkorb2292,2025-09-05T15:25:02Z
+Excalidraw+ issue with icons not synchronizing,zsviczian,2025-09-06T20:27:04Z
+Excalidraw Hindi language code not working.,kapeka0,2025-09-07T10:29:40Z
+[UI Issue]: Properties Panel Obstructs View When Moving Large Elements on Small Screens,gedo123,2025-09-08T05:51:26Z
+activating snap on the editing line and moving its points,imanzaker,2025-09-10T13:42:30Z
+Feat: Add setting to round corners of images,knackstedt,2025-09-10T14:56:33Z
+Feat: add Invert option for images uploaded into canvas,knackstedt,2025-09-10T14:57:33Z
+Feat: Add margins to images for better alignment,knackstedt,2025-09-10T14:59:34Z
+group items zindex bug,imanzaker,2025-09-10T15:19:13Z
+NotAllowedError : Issue with showSaveFilePicker when downloading PNG or saving to file on the disk,enimiste,2025-09-11T09:44:22Z
+Why is Cascadia a hidden font,nickfreemandesign,2025-09-11T12:29:17Z
+"feat: add ""export selection"" to context menu",andrew-knackstedt-pango,2025-09-11T15:18:58Z
+No longer works off-line,Mark2M,2025-09-11T20:49:54Z
+[Feature Request] Animated moving arrows,binary-amigo,2025-09-12T03:47:06Z
+[Feature request],anon1789,2025-09-12T14:55:12Z
+Contents glitching,TomasECarvalho,2025-09-13T01:54:25Z
+[Feature] Add support for multiple series in charts,csiknor,2025-09-14T15:12:09Z
+Need Better Mind Map and Web-Embed,XJY00,2025-09-15T04:33:48Z
+zoom problem is in help modal.,rodi38,2025-09-15T05:28:12Z
+Issue with fixed anchor points on both sides of the arrow,player868,2025-09-15T10:39:45Z
+Rotate control points,lawcho,2025-09-15T13:41:04Z
+Close splinegon,lawcho,2025-09-15T14:22:42Z
+Add Persian/Arabic font,AkbarAsghari,2025-09-15T14:54:25Z
+Feature request: replace texts,aisiklar,2025-09-16T10:34:57Z
+[Feature request] Bold/italic/etc. selected text,evanellis,2025-09-16T17:07:39Z
+A bumpy road to print to a printer or PDF on mac,jpravetz,2025-09-18T21:04:41Z
+Hot-reload support for .excalidraw files with viewport preservation,kamilchm,2025-09-20T06:05:55Z
+connection relationship will be invalid when use hot key  ctrl + shift  to select multi element,Tlonglan,2025-09-20T15:35:58Z
+Freehand Auto-Correct,LDSmj,2025-09-22T06:36:39Z
+A list to add new domains to the whitelist of supported domains for the web embeds,JonathanCE,2025-09-22T20:17:56Z
+feature-request: flow animation,dalvir-singh,2025-09-23T01:10:06Z
+feature-request KaTeX or LaTeX rendering,varun-ahlawat,2025-09-23T04:12:26Z
+feature-request Color table,Dreamaker203,2025-09-23T07:58:28Z
+Text to Diagram text in the action panel does not update properly on language change,akib22,2025-09-23T17:18:49Z
+Performance issue: Canvas becomes very slow with minimal shapes/diagrams,yashnerkar,2025-09-25T04:37:09Z
+deletion and registration problem,yarennn-code,2025-09-25T14:11:41Z
+Feature request: improve shareable links customizability,BulbaWarrior,2025-09-25T15:05:42Z
+"""Clear canvas"" (Cmd + Backspace on macOS) does not reset to initialData state",speardragon,2025-09-27T08:30:48Z
+Feature Request: Import Flowchart Images and Auto-Convert to Excalidraw Shapes,AparAgarwal,2025-09-27T19:10:51Z
+[Feature Request] Improve navigation between same-level rectangles after editing with Ctrl+Enter,gedo123,2025-09-28T08:06:32Z
+[Feature Request] Native Code Block Support with Syntax Highlighting,yash-sisodia22,2025-09-29T17:43:33Z
+Shape filling bug on some specific cases;,mlarabi,2025-09-30T10:37:00Z
+"Add Issue Template for Bug, Feature, and Enhancement",dimpal-yadav,2025-10-01T09:22:51Z
+Stylized ASCII arrows,JasonGross,2025-10-03T06:26:17Z
+Feature Request - Import Visio Stencils,LetsAppPro,2025-10-03T14:56:29Z
+Canvas Rendering Performance Optimization,Satya900,2025-10-04T06:53:07Z
+ESC key doesn't cancel text size changes in Properties panel,luc4leone,2025-10-04T09:26:51Z
+[Feature Request] Make Text Within Linked Shapes Clickable,acitd,2025-10-04T11:23:17Z
+Superscript and subscript feature,su92-university,2025-10-04T14:07:25Z
+[FEATURE] Is it possible to set custom (or preset) size of canvas? Any way to set default position when opening a new drawing (eg make a copy of a template)?,GAC-Machine,2025-10-04T21:59:37Z
+Custom Font Size option,anvithkashyap,2025-10-05T15:42:20Z
+Feature Request: Skewing/Shearing Support,Flinner,2025-10-05T20:42:46Z
+Feature Request: Offline Mode for Collaboration,Prateekiiitg56,2025-10-06T05:35:56Z
+[UI Issue] Bottom panels obstructed by Android interface on mobile,Solanaar,2025-10-06T09:04:20Z
+[BUG] Notes completely disappeared after re-opening app and switching to another document.,GAC-Machine,2025-10-06T11:10:03Z
+fix: A bug fix Report Extra Line ends Appearing on Top of Oval Shape,MohitMehtre,2025-10-06T19:45:48Z
+Mapping a key to simulate left mouse button hold,IvanRadeljevic,2025-10-07T08:38:14Z
+Add Bengali (bn) translation to Excalidraw,akib22,2025-10-07T14:40:11Z
+Feature Request: Font Ligatures,Jay-Karia,2025-10-07T14:51:27Z
+Feat: Add fine grain controls to font size,Gauravpadam,2025-10-07T19:14:24Z
+[UI Issue] Poor visibility and inconsistent warning behavior when attempting to start a live collaboration session offline,BrunoBReis,2025-10-07T22:45:27Z
+Users can access and modify content from a terminated live collaboration session,BrunoBReis,2025-10-07T22:51:19Z
+Artificially generated room keys can create valid collaboration sessions without authorization,BrunoBReis,2025-10-07T22:54:53Z
+add info tooltip to local storage quota exceeded alert,h0lm1,2025-10-08T08:32:17Z
+UX Improvement: Show “No active peers” message when joining a random or inactive #room URL,OneHitKing,2025-10-08T09:50:53Z
+Enhancement: Validate file extension before processing content on import,danielle-soaress,2025-10-08T21:55:21Z
+"Scaling multi-selected items sometimes scales dimensionally, sometimes aspect-ratio",lunaleaps,2025-10-09T21:46:51Z
+features issue,dharshan18102006,2025-10-10T03:14:43Z
+Emoji issues,Rickypatelcoding,2025-10-10T12:01:56Z
+"Stylus color panel in middle left section does not show just general icon, but instead it remains opening even after selecting color.",GAC-Machine,2025-10-10T21:58:32Z
+Arrow issue,Rickypatelcoding,2025-10-11T05:04:00Z
+Background color option is enabled but non-functional for open-path lines,Acciolyy,2025-10-13T01:51:46Z
+Input Validation: Invalid 4-character hex codes are processed inconsistently instead of being rejected,Acciolyy,2025-10-13T02:04:36Z
+"UX: Remember last used style per element type, not globally",luc4leone,2025-10-13T14:22:31Z
+[UX Bug] Invalid Email Error Displays Raw JSON Object Instead of User-Friendly Message,caiomsabino,2025-10-13T18:21:47Z
+[UI Bug] Controls and other elements on canvas appear zoomed-in,sashpawar11,2025-10-14T04:36:22Z
+Get normal font by default instead of super-fancy hand-draw font,NazmusSayad,2025-10-14T06:05:12Z
+Add Map Support in Excalidraw,vaijaaaaa,2025-10-14T06:35:37Z
+Feature: User Avatar,KushalXCoder,2025-10-14T09:00:00Z
+Feature Request: Option to Zoom with Mouse Wheel Without Holding Ctrl,acitd,2025-10-16T10:51:25Z
+Custom fonts,datachess,2025-10-16T17:48:04Z
+Border radius,datachess,2025-10-16T17:49:41Z
+Text formatting,datachess,2025-10-16T17:51:27Z
+[BUG] Web Embed Not working properly.,kumbhar-sarthak,2025-10-18T08:54:37Z
+Feature Request: Advanced Laser Tool Options (Pointer Modes),selimAP,2025-10-18T12:21:12Z
+Feature Request: Save to Disk as a PDF,dragon-slayer27,2025-10-19T14:46:15Z
+Web Embed URL Whitelist Request,KaiCodesWithGithub,2025-10-20T00:53:18Z
+Feature Request: Add Lorem Ipsum Text Generator inside Excalidraw,PATILYASHH,2025-10-21T02:29:24Z
+Add malayalam as a language,noraegeorge,2025-10-21T04:22:49Z
+[Docs] Provide full build instructions,johannes-z,2025-10-21T08:43:41Z
+Web Embed Not working properly,sanshidndjeke-svg,2025-10-22T03:03:10Z
+connecting arrows to line,imanzaker,2025-10-22T06:25:04Z
+Two feature requests…,LOGISSIMO,2025-10-22T10:43:38Z
+FEATURE PROPOSAL: Ability to rotate frames,emnik,2025-10-22T18:19:41Z
+feat: Add a Collapse Button for Sidebar Panel,MohitMehtre,2025-10-22T21:35:35Z
+Bug,akhilub,2025-10-23T04:38:49Z
+Canvas Zoom Reset Issue in Excalidraw Plugin for Obsidian,sajjad-sys,2025-10-24T18:22:33Z
+[UI BUG] Toolbar hint overlaps with logo on the welcome screen,nabarvn,2025-10-25T00:25:24Z
+Images are not loading,samvel-ritual,2025-10-29T08:19:46Z
+Dutch Web Embed URL Whitelist Request,GreenMan36,2025-10-29T09:03:15Z
+Font Options,Firestorm7120,2025-10-29T13:13:42Z
+Auto-format for percent values,bitigchi,2025-10-30T05:56:25Z
+Image import fails if focus returns to excalidraw before choosing,mbpowers,2025-10-31T03:02:25Z
+Comment notifications don't use HTTPS URL,josh-williams,2025-11-03T16:18:32Z
+Backend Database not saving fairly small whiteboards,DataX8,2025-11-03T23:55:44Z
+"When creating a new canvas, the data of the old canvas is lost",AliaKaTong,2025-11-07T03:44:28Z
+Request history,rdardennes-dot,2025-11-07T09:03:11Z
+Transforming a mixed figure in element,rdardennes-dot,2025-11-07T13:13:13Z
+Allow command palette to be opened with non-US keyboards (e.g. cmd-k),ballet-mecanique,2025-11-07T14:16:27Z
+I paid 60$ a year for a draft ! lots of bugs !!! lots of misses,rdardennes-dot,2025-11-08T13:26:20Z
+Bug: Basic Shapes library shapes on Android lose resize frame after recent Excalidraw update,HowsYourFather,2025-11-09T09:34:02Z
+Weird behavior with programmatically created elements.,darshil-2005,2025-11-09T11:29:57Z
+More Stroke width options & shortcut to increase or decrease stroke width,tilmamakes,2025-11-09T17:46:06Z
+"Hi, i need to whitelist this url, cause i use app.arcade as video tutorial link, so if i can embed web directy it will be nice",davidcast95,2025-11-10T03:07:40Z
+How to render math formulas in Excalidraw?,o7si,2025-11-10T03:31:04Z
+Use type binary (File or Blob) instead dataURL,BataevDaniil,2025-11-10T14:53:34Z
+Feature Request : Waypoints,SoumilB7,2025-11-11T06:46:45Z
+Wrong snap coordinates of arrows connected to a rotated rectangle,dgon-jd,2025-11-12T17:18:24Z
+how to prevent the curved arrows from dragging when I drag the box?,liangbing8612-jpg,2025-11-13T06:19:09Z
+Eraser deletes the entire element instead of erasing only a small portion of a line,Karthikeya1500,2025-11-13T09:26:01Z
+Feature Request: Multiple groups / libraries,alltiagocom,2025-11-13T23:46:15Z
+Feature Request: Dotted background,antelcha,2025-11-14T12:48:55Z
+feat: Add Kanada as a language,Owais-cmd,2025-11-15T10:35:04Z
+Old default file name (date) as 2024-01-12,Julrob199,2025-11-17T08:55:08Z
+Memory leak: Document event listeners not cleaned up in Collab component,VIDHITTS,2025-11-18T04:54:55Z
+Error occurred while uploading the image.,1650948655-pixel,2025-11-18T05:57:31Z
+Save you excalidraw changes to you google drive,anktrj,2025-11-18T18:54:46Z
+New releease after v0.18.1,harryzcy,2025-11-19T02:19:48Z
+Issue with responsive layout,SergeyOhryamkin,2025-11-19T15:18:01Z
+[FEATURE] Is possible to have truly full screen mode in Excalidraw  plugin for Android?,GAC-Machine,2025-11-19T22:58:12Z
+Move isBound to @excalidraw/math,johannesPosedio,2025-11-20T10:46:42Z
+Add missing implementations for bounds for line and quadratic curve,lukasposedio,2025-11-20T13:58:58Z
+"The ""XXX.excalidraw"" file manually created locally cannot be read or opened in the browser.",jin6yang,2025-11-20T18:24:50Z
+Missing zh_CN translation of searching related UI,YuxinZhaozyx,2025-11-21T02:56:15Z
+Missing Persian translations in fa-IR.json,sakina1303,2025-11-22T05:14:01Z
+Background-color picker becomes invisible when its swatch matches the canvas color,sachq,2025-11-22T22:11:50Z
+Support running unprivileged Docker with limited capabilities,stratself,2025-11-24T09:27:32Z
+"Collab.tsx:1006 FirebaseError: The value of property ""ciphertext"" is longer than 1048487 bytes.",w-barros,2025-11-25T22:41:23Z
+Lint error: MetaProperty could not be resolved,Sahil5H4RD4,2025-11-26T06:20:31Z
+New snapping behavior breaks existing diagrams,mstuyven,2025-11-26T10:17:48Z
+Deep-ML Web Embed URL Whitelist Request,moe18,2025-11-26T13:58:59Z
+Straight lines are not added to undo history,DarkblooM-IO,2025-11-27T09:20:47Z
+Feature Request: Add pointer cursor for the Pen-Tool,lynxforge,2025-11-27T13:46:41Z
+Error: spawn xdg-open ENOENT when running yarn start on Headless Linux Server,MrThePatcher,2025-11-27T16:19:27Z
+Whitelist: Please add google slide publish site to white board,hautvfami,2025-12-01T04:45:54Z
+React 17 compatibility for `@excalidraw/excalidraw` 0.18.0?,bencodeorg,2025-12-02T21:51:08Z
+Christmas release,hpvd,2025-12-03T14:40:17Z
+Feature Request: Add Color Picker UI for Canvas Background,MAHEK-ops,2025-12-03T17:49:15Z
+FeatureRequest: A tab Area that goes on to bring the  index section,SamikshyaNanda4,2025-12-05T08:36:24Z
+Deleting an image and uploading a new image shows a placeholder image for other viewers,ansonl,2025-12-05T23:12:37Z
+Adding Camunda Embed Capabilities,cschellenberger,2025-12-05T23:42:55Z
+"how to hide the button on the top right, when element type is embeddable ?",vual,2025-12-07T10:59:05Z
+frame snapping with non existing objects,imanzaker,2025-12-08T06:03:06Z
+Can I use Voice Hangout with the API?,raoraoraoraorao,2025-12-09T13:16:07Z
+"When drawing multiple lines, there is a break in this current version.",liuyuanchengweb,2025-12-10T05:39:47Z
+Missing aria-labels for share and visualDebug,tobwa-on,2025-12-10T09:42:16Z
+Christmas Event,eliakuestner,2025-12-10T13:30:47Z
+Please add to whitelist so I can embed,web907,2025-12-10T17:06:24Z
+Feature Request: Adding an option to change the laser pointer color,VishishtaDilsara,2025-12-12T14:55:03Z
+add more text size like 2xl .. 10xl etc,dandaniel5,2025-12-14T02:09:08Z
+how can i add some interaction ?,dandaniel5,2025-12-14T03:23:27Z
+申请网址白名单,JackeyCloud,2025-12-14T10:26:07Z
+Renderer performance degrades due to full scene traversal on viewport updates,jas011,2025-12-14T13:24:58Z
+申请网址白名单,biaohu48-ops,2025-12-15T03:43:47Z
+Grid mode shortcut too hard to reach,SpicyRicecaker,2025-12-15T04:16:27Z
+bug storing and editing the scene,Timoniche,2025-12-15T16:48:40Z
+Google drive integrations:,iemafzalhassan,2025-12-15T20:52:49Z
+Online interaction,Mzulliev,2025-12-16T11:20:54Z
+Feature Request: Add ability to change text orientation (horizontal/vertical),trvux,2025-12-16T19:21:51Z
+Remove arrow binding,ThomasVrancken,2025-12-18T12:19:17Z
+Outdated document to createRoot,Ryuno-Ki,2025-12-19T13:34:01Z
+SVG files lose definition when zooming in,jandresampaio,2025-12-19T16:43:33Z
+Specific SVG image cropped when using addFiles,jandresampaio,2025-12-19T16:50:49Z
+没有显示项目标题的能力，没有误删恢复的能力,wangaili,2025-12-20T04:09:32Z
+⌘ + mouse wheel zooms to an unexpected location instead of the cursor position after focus change,DexLuthor,2025-12-20T16:04:21Z
+Action predicate method doesn't work,masawik,2025-12-20T20:16:20Z
+How to create finite canvas in Excalidraw?,spe987-create,2025-12-22T11:22:22Z
+Add shortcut to Clear Canvas menu item,JayadityaGit,2025-12-22T16:16:29Z
+exporting as image consistently crashes my computer,selmetwa,2025-12-23T06:04:03Z
+selecting multiple points of a line by drawing mouse has been disabled,imanzaker,2025-12-23T11:32:56Z
+AI text to diagram rendering,roadchimp,2025-12-23T14:42:25Z
+Accidental overwrite with no way to recover,SimantaRajSarma,2025-12-23T19:58:17Z
+"BUG: line tool breaks when ""keep selected tool active after drawing"" is enabled (Repost)",lolling-rock,2025-12-23T20:56:39Z
+Allow for Dpaste.com Embeds,KingJ23341,2025-12-24T01:28:05Z
+The arrow can't correctly snap to the edge of the shape.,xuegui-cao,2025-12-25T12:21:40Z
+Arrow: Holding Shift doesn't snap to 0/90/180 anymore,danielhadar-at-investing,2025-12-28T15:44:41Z
+Logseq DB,jhs1965net,2025-12-28T16:31:56Z
+Feature Request: Option to conduct surveys in collaboration mode,PiaKuehnle,2025-12-30T12:31:30Z
+play video to loop.,jdmlvwr,2026-01-02T01:43:00Z
+Sharp corners on elbowed arrows,aghangurde,2026-01-03T07:57:26Z
+Excalidraw+ PWA / Ability to download,Marten-Mrfc,2026-01-04T10:11:25Z
+exportToSvg in Node.js: font-face CSS transformation fails with 'Cannot read properties of undefined',mavam,2026-01-05T12:20:16Z
+SVG export not working: Exports WebP image (RIFF data) instead of vecot SVG,ecaglar,2026-01-05T22:20:34Z
+Arrow has a break in some place,ufresh2013,2026-01-06T01:53:09Z
+Enable zoom in/out using mouse wheel while pressing the middle mouse button,PATILYASHH,2026-01-06T10:32:50Z
+Enable `https://app.powerbi.com/reportEmbed` URLs for Web Embeds,cschellenberger,2026-01-07T15:57:26Z
+"[Bug] Editor stuck on ""Loading..."" in Antigravity",YifeiDevs,2026-01-09T01:43:21Z
+"on Android Tablet, Undo/Redo and Zoom buttons overlapped by navigation bar",nowell-morris,2026-01-11T14:56:38Z
+Reloaded page changes layer order,jkw1989,2026-01-12T05:11:59Z
+Image is broken suddenly,joyoffice9832-png,2026-01-13T06:13:20Z
+Progress lost after clipboard export error,fran-plutto,2026-01-13T12:36:27Z
+"When using via Rollup/Vite, it appears to be inlining the fonts and creating a 20MB JS file",EternityForest,2026-01-13T15:08:00Z
+"When the tablet is in landscape mode, the color input box crashes when the keyboard is called up.",yufuhuang13,2026-01-15T08:02:33Z
+docker compose up failure,PedrelliMath,2026-01-15T21:23:08Z
+Feature request - PDF annotations,nalinikotecha,2026-01-16T04:11:48Z
+Request to add a domain to the embedded webpage whitelist,qffuture,2026-01-16T06:29:41Z
+How to limit internal canvas size?,saintnun150,2026-01-16T07:38:57Z
+Arrow is not making curve inside a closed figure but outside it's working correctly,ashutosh017,2026-01-16T10:04:11Z
+Excalidraw global vs per-tool settings,secondbrain4-coder,2026-01-17T03:10:04Z
+It is suggested to add a thumbnail plugin to .excalidraw for PC to facilitate file preview,tiger7651,2026-01-19T08:53:58Z
+"keyboard shortcut ""Cmd-/ or Ctrl-/"" not working on QWERTZ keyboards",Sammeeey,2026-01-19T12:05:12Z
+bug!!!!!!,microchila,2026-01-20T12:56:45Z
+Define custom translations during runtime,smc-heiser,2026-01-21T14:18:07Z
+Feature adding request: snap-to-grid,SOYYSK,2026-01-22T08:18:56Z
+New UI for excalidraw is missing on excalidraw.com for Desktop/Laptop Screens at zoom level 125%. Did it got revert?,akhilub,2026-01-22T16:18:48Z
+bug(ui): side panel spacing wrong in stroke and background,GiovanniEliasDaRosa,2026-01-22T23:26:00Z
+Add support for opening .excalidraw.png and .excalidraw.svg files using the Excalidraw PWA,h,2026-01-22T23:32:57Z
+Outline arrowheads have white fill in dark mode,LowByteFox,2026-01-24T13:22:09Z
+"circle doesn't appear, they are invisible evne with all option a background and opacity to 100%",arnaudprc,2026-01-26T15:22:43Z
+Add the links from Canvas into the whitelist please,jjc-arch,2026-01-27T05:33:21Z
+error :  canvas too big,only8578,2026-01-29T02:51:29Z
+FRUSTRATING ERASER.,adityaprog,2026-01-31T19:21:17Z
+Editing on text,Masslow97,2026-02-03T17:55:01Z
+Failed to execute 'showSaveFilePicker' on 'Window': The request is not allowed by the user agent or the platform in the current context.,daniporr,2026-02-03T19:16:32Z
+No pixel eraser,CreateModFan154,2026-02-03T20:35:07Z
+Text fill and stroke,BunsilinSunburst,2026-02-03T23:35:42Z
+Chrome/macOS: ‘Open’ file picker selects .excalidraw but nothing happens (drag & drop works),gabriela-ivanova1,2026-02-06T15:09:03Z
+Request: Whitelist tana.pub for embedding,JaPossert,2026-02-06T15:32:44Z
+Korean locale (ko-KR) for Excalidraw Web UI,Hyeonjun0527,2026-02-08T02:21:25Z
+Is color picker gone?,damat,2026-02-09T06:53:28Z
+Lost all images,GuapChaserr,2026-02-10T18:30:59Z
+Multiple Tabs Overwriting,chadsten,2026-02-12T00:22:46Z
+Request to Add ChatGPT Website to Whitelist,Earr22,2026-02-14T03:45:10Z
+Request to whitelist domain for embedding: successjournal.com,ChristinaZhang-zz,2026-02-14T22:09:11Z
+Path resolution for index.css fails by default when custom condition is not set,ItsTheWhale,2026-02-15T09:58:53Z
+Remove dead legacy mobile detection code in editorinterface.ts,kyofyufufufufufufufu,2026-02-19T00:47:24Z
+[FEATURE REQUEST] - Auto-pan canvas while dragging selections (edge scrolling),AdamLinCodes,2026-02-19T01:12:04Z
+Customize the UI controls,zelenskyds,2026-02-19T08:35:31Z
+Add Escape-to-cancel for in-progress pointer drawing (before element is created),rinkitadhana,2026-02-21T15:25:05Z
+Feature Request: Add TikTok to embeddable domains whitelist,AquaAquaFlow,2026-02-22T15:52:17Z
+Feature: Make eraser tool selective,chromaticsequence,2026-02-23T01:14:16Z
+"Undo button does not revert ""open file"" operation",Emily021130,2026-02-24T00:49:31Z
+Import fails on hosted Excalidraw,mihneagiurgea,2026-02-24T00:50:49Z
+Feature Proposal: Attach formatted notes to text elements,rafiya618,2026-02-24T15:18:39Z
+Adding more fonts to the list,srirae,2026-02-24T18:40:12Z
+Feature Request: Allow user-defined URL embedding / Dev-friendly embeds,Abdulllah321,2026-02-25T04:31:33Z
+transparent storke for iframe element generated by diagram-to-code funciton,YuxinZhaozyx,2026-02-25T17:15:26Z
+[DOCKER] Build failures: Node version mismatch (`marked@16` requires Node >=20) and PWA precache size limit exceeded,rafaself,2026-02-26T00:28:22Z
+[Language] Portuguese (`pt-BR` / `pt-PT`) not shown in language selector due to completion threshold filter,rafaself,2026-02-26T00:53:43Z
+Bug - Tool flickering while holding H key,aashmanVerma,2026-02-27T03:42:20Z
+[Bug] Hex code popover overlaps and obscures sidebar menu items,koleajeolayinka,2026-02-28T21:24:08Z
+"SVG files with .excalidraw extension produce cryptic ""Error: invalid file""",ajdavis,2026-03-01T23:06:53Z
+[Embed Whitelisting Request] Add spotify and Youtube Music to whitelist,DodoLeDev,2026-03-05T16:13:21Z
+bug - inverted scaling,V14es,2026-03-06T07:15:39Z
+Lost My Excalidraw Content,itsAimad,2026-03-06T21:38:58Z
+Add “Full Screen” Button for Excalidraw on Android (Chrome – Tablets & Mobile),authmane512,2026-03-07T10:58:32Z
+excalidraw能不能通过快捷键直接在任意网页调用，直接在页面上写草稿,wo-zai,2026-03-08T04:01:00Z
+Bug | Rotated lines are scaling incorrectly,adamjosefus,2026-03-09T19:40:32Z
+Error message keeps popping up,maia-fw,2026-03-10T22:33:54Z
+my data lost- after saving and opening files from disk - only getting this https://www.microsoft.com/en-us/power-platform#modal12,vijayitone,2026-03-11T04:53:34Z
+"ndroid Chrome: “Save to…” can’t overwrite the currently opened .excalidraw file (existing file greyed out, forced to rename)",toni-ba,2026-03-11T08:10:45Z
+China UnionPay account cannot complete payment,xuq812170-debug,2026-03-13T07:17:13Z
+Hold down the H key to toggle between the two tools.,BrotherShort,2026-03-13T13:42:55Z
+Mermaid import: <br> tags rendered as literal text instead of line breaks,mango766,2026-03-14T01:58:05Z
+为什么我无法付款呢，提示Stripe error,4682B4LEE,2026-03-15T11:28:29Z
+Please add my personal website to the whitelist. Thanks,4682B4LEE,2026-03-15T11:35:55Z
+smooth panning/inertia panning on android label:enhancement,ricezs,2026-03-15T22:18:40Z
+"Feature Request: Selection UI customization API (padding, hover state, CSS variables)",rcoenen,2026-03-16T18:42:49Z
+feat: Connect with Github/Google Drive Account,TanishqSharma2022,2026-03-18T08:06:00Z
+Ipad drawing Lags,lern-dev,2026-03-18T09:36:44Z
+For Theme,sidd-harth830,2026-03-19T14:52:53Z
+feat: (with impl) Ability to stack shapes to show multiple copies -- great for system design interviews,dharm1k987,2026-03-19T16:28:11Z
+request: Ability to search shapes within your local library by keywords,oscarmtzo,2026-03-19T16:39:53Z
+feat: allow exporting bigger canvas to png,hiimstevejin,2026-03-19T22:09:09Z
+Animations in presentations,darena-pjindal,2026-03-20T01:30:57Z
+Batch export frames,sagikazarmark,2026-03-20T13:58:38Z
+Excalidraw Pen Tablet User Suggestions,victorchudmax,2026-03-22T06:01:58Z
+PDF export prints text in grey,marcadella,2026-03-23T10:06:34Z
+Bug: Missing Shortcut Label on Hand Tool Icon in Navigation bar,sandipkumardey,2026-03-23T12:57:58Z
+Support HTML hyperlink creation in Excalidraw elements,asilverman,2026-03-23T20:10:11Z
+Bug:   rectangleIntersectRectangle  incorrectly returns false for adjacent rectangles,Jadu07,2026-03-25T00:28:59Z
+Feat: Support the use of specific keys instead of the left mouse button 支持使用按键替代鼠标按键,Y-R-T,2026-03-25T15:25:46Z
+"Feature Request: Linked Instances / ""Sync"" for Reusable Groups",feridsassi,2026-03-25T17:41:46Z
+Feature request: Smart Auto-Layout for connected elements,feridsassi,2026-03-25T17:47:04Z
+Bug: Text before `/q` command disappears when preceded by Korean (IME) input,rimgosu,2026-03-26T00:36:20Z
+Bug,ch0udry,2026-03-26T07:34:18Z
+drawing cursor occasionally turns white (hard to see),andrewsmints,2026-03-28T00:18:14Z
+Clicking move from the overflow menu of a scene in dashboard screen doesn't work,anshulsahni,2026-03-30T09:48:52Z
+Bug: Canvas Search Results Overflow and Scrolling Issue,71203mayank,2026-03-31T19:20:42Z
+Feature Request : Add Numeric Shortcut for Stroke Style Toggle (Key 9),Revive-Curiosity,2026-04-01T08:23:44Z
+Please add custom ai provider,krishn03id,2026-04-02T08:42:50Z
+Feature request: Stroke width slider,shioprince,2026-04-03T21:44:55Z
+Mobile: Preferences submenu cannot be closed by tapping again,ElyesBoughedir,2026-04-05T11:18:29Z
+"French locale missing keys despite Crowdin showing ""100% translation, 0% approval""",ElyesBoughedir,2026-04-06T18:42:39Z
+Feature Request: Bullet points/lists,TheyCallMeFatbird,2026-04-06T19:07:03Z
+Feature request: add a way to purge deleted elements from the board,peltsippi,2026-04-07T05:38:04Z
+Development docs: add guidance for users who cannot install Yarn globally,qageneral,2026-04-07T23:50:10Z
+Bug: matchHostname ignores the passed-in Set and always checks ALLOWED_DOMAINS,mango766,2026-04-09T06:35:29Z
+Feature request: Add triangle as a supported shape element,taralshah09,2026-04-11T03:49:38Z
+"Feature Request: Dynamic Timestamps, similar to Discord's ones",Aevarkan,2026-04-11T14:24:03Z
+Bug: Canvas background color picker is inaccessible in mobile menu (Safari iOS),feridsassi,2026-04-11T18:12:41Z
+"Mermaid HTML-like tags (e.g., <br/>, <b>) not rendered in Excalidraw and displayed as plain text",rudraditya21,2026-04-13T16:19:58Z
+BUG: Multi point creation with pen broken,Kiubek8,2026-04-14T17:50:27Z
+"feat: Add ability to cancel in-progress drawing (e.g., via Esc key)",rutvikparmar01,2026-04-15T07:03:46Z
+"[Feature Request] Animated ""Flow"" Arrows for Data & Logic Visualization",i-see-pixels,2026-04-15T07:32:52Z
+Unable to pull in an excalidraw file,rkothiyal,2026-04-15T17:17:06Z
+Feature request: Add Cloud as a supported shape element,Kabukimono-Sakura,2026-04-16T08:16:23Z
+Hex color input does not show validation error for invalid values like #GGGGGG or partial hex strings,Vansh1811,2026-04-16T10:04:26Z
+Feature request: modifier key for applying styles to selection only,lobre,2026-04-17T06:41:56Z
+Feature Request: Convert Excalidraw flowchart back to Mermaid,amydosomething,2026-04-17T09:11:22Z
+Feature request: View shared drawings without overwriting local canvas,justinemar,2026-04-18T11:46:24Z
+Feature request: Double-click toolbar tool to lock it,feridsassi,2026-04-18T19:23:09Z
+Preact: Handwriting flashing while releasing the mouse,eliandoran,2026-04-19T08:00:09Z
+"Request: expose text measurement, binding utilities, and a standalone mermaid converter from @excalidraw/excalidraw",shreyasbharath,2026-04-21T12:31:02Z
+[Request] Hotkey to start presentation,MostlyBen,2026-04-21T14:21:31Z
+feat: Excalidraw AI draws what i prompt,SimantaRajSarma,2026-04-21T14:47:29Z
+Snap to angle broken when pointer is over another element,sebastianmueller01,2026-04-21T17:27:40Z
+无法保存,Rebacca-s,2026-04-22T02:57:50Z
+Ability to revoke/invalidate live collaboration links,ananya438,2026-04-22T08:07:11Z
+[Feature request] Blur effect,KaKi87,2026-04-23T12:58:50Z
+Slides Randomly Lose Their Content,joshinda,2026-04-24T11:29:58Z
+Slides Deleted Content,joshinda,2026-04-24T11:51:30Z
+加入网页,tpz320,2026-04-25T02:46:16Z
+Whitelist *.minimaxi.com for web embed,harrietzhu123-web,2026-04-26T03:28:08Z
+Vector drawings distort when scaled,mcdonohe,2026-04-27T17:09:54Z
+Keyboard-navigable outline/bookmarks for drawings,drifting-shard,2026-04-28T07:56:11Z
+Canvas content erase after clicking back on the md file,Red-Unicorn,2026-04-28T11:29:48Z
+Add a keyboard shortcut to open the arrowhead picker,tuzmusic,2026-04-28T20:33:11Z
+fix(eraser): groupsToErase Set polluted with undefined for ungrouped elements,HrushiYadav,2026-04-29T18:58:02Z
+fix(clipboard): cut action silently loses data when clipboard write fails,HrushiYadav,2026-04-30T03:51:49Z
+Need a New Canvas Button Without Resetting Existing Collaborative Boards,thomas-jeberson,2026-04-30T17:51:15Z
+Enhancement: Show tooltip or hint when no drawing tool is selected,prisha-sh,2026-05-03T15:04:18Z
+Enhancement: Add alignment guides for consistent spacing between elements,prisha-sh,2026-05-03T15:05:12Z
+[FEATURE REQUEST] Better Arrows,AE-SAY-WAY,2026-05-05T16:00:16Z
+"[BUG]  text to diagram - can't access property ""type"", Z[e].raw.startTime is undefined",joaoreider,2026-05-06T00:00:59Z
+CMYK в бесконечной доске,ValeriyPlenis,2026-05-06T10:37:00Z
+"[Bug] The ‘Library’, ‘Share (Live collaboration)’ and ‘Excalidraw+’ controls are blocked by the right edge of the window with some resolutions",boddolk,2026-05-06T22:31:27Z
+a11y: no accesible label for main menu button,szamanr,2026-05-07T07:02:44Z
+doesn't repsond to stylus,Mikhael913,2026-05-09T09:55:36Z
+Shift dragging line handlers jumps after mouse up in proximity to other objects,ctholho,2026-05-10T13:02:18Z
+期望功能：线与线之间的吸附,xieyuanbin1,2026-05-11T01:54:09Z
+Request to allowlist ai-consulting-deck.netlify.app for iframe embedding,zcctgpt-ai,2026-05-12T03:54:45Z
+FR: Improve Apple Pencil / stylus drawing latency and stroke smoothness on iPad and tablets,neirko,2026-05-12T17:52:13Z
+This product has become unusable,Sydney-o9,2026-05-13T06:53:27Z
+Export workflow navigation for UX,mlpm21,2026-05-13T07:47:31Z
+Refactor cleanAppStateForExport to clearAppStateForExport for naming consistency,BaileyBounnam,2026-05-14T22:30:40Z
+Bug: zh-CN locale coverage can be verified automatically in CI,chu0119,2026-05-16T04:27:23Z
+FR: creating code blocks,he-patrick,2026-05-16T06:35:20Z
+Bug: All embedded images disappeared,changlicl,2026-05-18T02:02:46Z
+Feature suggestion: Use shape as a clipping mask,isAdrisal,2026-05-18T07:15:23Z
+Make Left Properties Panel Draggable,Shaanworkspace,2026-05-18T14:43:38Z
+Bar graph collapses into a single bar when changing alignment and becomes stuck,Jack6587,2026-05-19T14:43:12Z
+Export to PNG/SVG not possible,le0nce,2026-05-21T10:24:24Z
+Suggested Feature: Allow using Local Fonts,Marwan-Hussein,2026-05-21T17:25:57Z
+Feature Request: One-Step Arrow Attachment with Inner Control Point,Today20092,2026-05-21T22:55:06Z
+Bug: New Folder input field persists previous folder name,Shaanworkspace,2026-05-22T07:14:57Z
+feat: explore in-canvas DOM rendering using HTML-in-Canvas API,pravuun,2026-05-22T10:30:30Z
+Security: XSS Vulnerability via QR Code SVG Rendering,sulthonzh,2026-05-24T09:30:50Z
+Security: Insufficient URL Validation for Iframe PostMessage Handling,sulthonzh,2026-05-24T09:31:11Z
+Security: Avatar URLs Not Sanitized Before Rendering,sulthonzh,2026-05-24T09:31:30Z
+Security: Clipboard Data Parsed Without Comprehensive Schema Validation,sulthonzh,2026-05-24T09:31:52Z
+Security: Unsafe localStorage Type Coersion in Tab Synchronization,sulthonzh,2026-05-24T09:32:11Z
+Can’t use Excalidraw context menu after native context menu using touchpad tap,yonran,2026-05-25T22:48:11Z
+Add support for italic text,pidanoyes,2026-05-26T08:08:25Z
+Support OAuth or query parameter for Excalidraw+ MCP access,dannyyy,2026-05-27T20:31:24Z
+Artifcating of shape when zoomed in at 3000%,darshankharabe-rgb,2026-06-02T11:32:09Z
+feat: allow hiding/collapsing the element properties panel,PrasitSahu,2026-06-02T15:01:28Z
+Feature Request: Dedicated Highlighter / Marker Tool for Annotations and Note-Taking,mehadiproman,2026-06-04T13:05:59Z
+域名白名单添加请求,xiaolouJB,2026-06-06T01:55:55Z
+Why does @excalidraw/excalidraw pin dependencies?,WoodyWoodsta,2026-06-06T09:52:22Z
+Discoverability issue with library,jatindavisDE,2026-06-06T18:52:42Z
+Excalidraw created files location,kamazeuci,2026-06-08T18:09:30Z
+"[Bug / Regression] ""Open link"" from context menu opens in the active tab instead of a new tab",dventuri,2026-06-09T16:30:04Z
+Pen cursor not visible on background,Jonasssso,2026-06-11T23:30:19Z
+Missing localization keys,xoyojank,2026-06-12T12:01:14Z
+Potentially insulting random names are still occurring,ccw-morris,2026-06-12T12:19:32Z
+[Proposal] Add Vitest Contributor Guide for Testing and Coverage Workflow,Danyccsf,2026-06-12T17:44:57Z
+Whitelist whyp.it for web embed,scztt,2026-06-14T13:38:14Z
+"[FEAT]: Text formatting (color, font, size, bold, italic) applies to entire text box instead of selected text only",prvncodz,2026-06-14T14:00:00Z
+"error peer react@""^16.8 || ^17.0 || ^18.0""",javadshariati-tiddev,2026-06-15T07:00:44Z
+[Proposal] Let MCP server filter out deleted elements,martin-c,2026-06-15T09:55:39Z
+Feature Request: Faster node/tree creation workflow,NandavardhanRadhakrishnan,2026-06-15T18:37:50Z
+Cannot generate subgraphs of Excalidraw using Mermaid text,loushan,2026-06-17T03:40:23Z
+Add optional export readiness warnings for common scene issues,Seemlinsky,2026-06-18T11:54:49Z
+请求支持LDAP接入,zsjnhfg,2026-06-23T08:02:49Z
+RU translation is bulling me? What? >:o,IvanGerr,2026-06-23T20:55:20Z
+Please resolve the capacity exceeding issue,yukino-yosei,2026-06-24T00:04:31Z
+Feature request: drawing/editing synchronization during presentations,nevanlowe,2026-06-25T12:00:05Z
+dynamic stroke width scaling based on zoom,dwelle,2026-06-25T17:59:34Z
+Service worker cache limit too low — large assets skipped,j4v1,2026-06-27T23:12:54Z
+Command palette shows a mix of two languages after switching language back and forth,jithu2111,2026-06-28T04:30:13Z
+"Feature Request: Add ""Convert Shape"" option for existing shapes",omavashia2005,2026-06-30T01:51:01Z
+embed slides,faon-92,2026-06-30T11:17:27Z
+[Feature Request]: Improve organization and searchability of downloaded items/scripts,gitgud5000,2026-07-03T17:32:47Z
+No ability to change text shape when editing on Android tablet,cms103,2026-07-04T19:09:09Z
+No documentation that [shift] + drag causes 'snap' behavior,DustinX,2026-07-07T01:20:32Z
+"After uploading the image to the excalicord, the image loses clarity and the colors become washed out.",pengfangyi91-png,2026-07-07T06:54:15Z
+Canvas drag (hand/pan) breaks drawing tools and pointer input until page reload (XP-Pen Deco V2 on macOS),Must2343,2026-07-07T18:50:18Z
+add open-source LXGW font,faon-92,2026-07-08T09:27:15Z
+feature : Simple preference color saver for different  Tools,RKV-07,2026-07-09T06:28:00Z
+Color picker swatch buttons don't have distinct accessible names for screen readers,saloni8780,2026-07-10T11:18:03Z
+please approve filegarden.com links,NicoPlayZ9002-YT,2026-07-10T20:33:33Z
+Spanish (Español) language missing from the localization dropdown,MatiasBlanc,2026-07-16T01:04:11Z
+Add keyboard shortcut hint to Stroke/Background color picker tooltip,arpan7sarkar,2026-07-18T07:20:34Z
+can‘t set different colors for the main title and the subtitle.,WhispeRre,2026-07-18T15:44:51Z
+"Elbow arrow origin at 0 is silently dropped, and unbind crashes on stale bindings",kodejeet,2026-07-18T18:17:35Z
+[Bug] Timer/Interval cleanup issues cause memory leaks and stale callback execution,KunjShah95,2026-07-19T11:49:33Z
+[Bug] Frame z-index sorting is incorrect (known FIXME),KunjShah95,2026-07-19T11:49:36Z
+[Bug] Flipped elements with curves have wrong bounding boxes,KunjShah95,2026-07-19T11:49:38Z
+[Bug] Empty text element deletion breaks collaborative sync,KunjShah95,2026-07-19T11:49:40Z
+[Bug] Flaky WYSIWYG text editor and other tests,KunjShah95,2026-07-19T11:49:47Z
+Expose a way to scale line/arrow point handles and selection resize handles for touch use,guynikan,2026-07-20T16:02:38Z
+Language dropdown uses native browser select styling instead of Excalidraw menu styling,CharanMunur,2026-07-20T16:20:38Z
+Library sidebar icons missing tooltips,CharanMunur,2026-07-21T04:49:12Z
+Lost changes when switching tabs,arvylyra,2026-07-21T21:03:19Z
+[i18n] Add Bangla as a supported language,TanvirTian,2026-07-22T14:06:46Z
+[feat-request] Bring the recently used library components to top,PrakharSingh42,2026-07-22T17:30:07Z
+[feat-request] Add a shortcut to create an arrow bend point at the cursor location,nisweesi,2026-07-23T18:29:06Z
+[bug] Spikes at the start of pen strokes with constant pressure,ne-ku,2026-07-24T18:00:02Z
+[feat-request] - Allow typing an exact zoom percentage in the zoom control,nitrogen404,2026-07-25T00:15:18Z
+"Imported an excalidraw.json file, when I share the link, the canvas gets wiped out!",androidside,2026-07-25T06:29:46Z
+[bug] Opening/adding the same library duplicates its contents,ezemskov,2026-07-26T10:52:21Z
+[docs] Correcting port and file path in Next.js example README.md,leezahuor,2026-07-27T12:11:51Z
+Docker Hub latest image may be stale and missing recent translations,rncchen,2026-07-29T06:57:58Z
+"Hi, when I use the pen mode in Excalidraw, my cursor keeps blinking.",1327265121,2026-07-30T05:20:36Z
+click Manage Presenter Notes --> does NOT focus the current slide (always focuses Slide 1),air,2026-07-30T23:42:52Z
+Inserting texts inside grouped rectangles resize the individual box,JuCJeff,2026-07-31T03:25:55Z
+Library symbol turns opaque when resized/expanded,anshparekh27,2026-07-31T05:57:36Z
+Library symbol text labels are not visible when moved to canvas,anshparekh27,2026-07-31T08:03:49Z
+Set starting area not working for embed links,moberemk,2026-07-31T21:52:22Z
+Add company logo shape to the toolbar,cursor,2026-08-02T23:04:34Z
+Gagal Menyimpan Diagram: Error 401 dan Progres Hilang Setelah Aplikasi Ditutup,masrezah,2026-08-04T07:45:40Z
+[Bug] Excalidraw+ BYOK model selector rejects provider-supported models outside the hard-coded list,salt1106,2026-08-04T15:44:57Z
+Add SECURITY.md for reporting security vulnerabilities,praann07,2026-08-05T07:32:17Z
+docs: link README Contributing section to Code of Conduct and Security Policy,praann07,2026-08-05T16:07:35Z
+[Bug] Deselecting a group under multi-group selection transforms groups to individually selected elements,cTangonan123,2026-08-06T01:18:16Z
+[Bug]  Link icon renders on a white background chip in dark theme,bvsvntv,2026-08-06T16:11:25Z
+Why it is not possible to have 2 different files opened?,VectorPointer,2026-08-06T17:05:18Z
+"FeatureRequest: Presentation mode without nexflix ""are you still their"" counter?",homer1993,2026-08-07T21:27:07Z
+Auto correct not working,zhaoziyuan18-web,2026-08-08T02:49:58Z
+"[Bug] `lasso reselection` test failing due to default `boxSelectionMode` being ""contain"" instead of ""overlap""",JayeshRajbhar,2026-08-08T12:28:12Z
+I refreshed my browser tab and I lost all my images on board. Any way I could recover them?,dkampien,2026-08-10T11:33:06Z
+Add Urdu (اردو / ur-PK) language support on Crowdin,Ayan-Amir,2026-08-10T20:07:38Z
+Enhancement: cursor change when holding alt/option key to indicate duplication,anshumaaaan,2026-08-12T19:43:12Z
+bug: standalone text elements inside frames not clipped to frame boundary (canvas rendering),JillK83,2026-08-18T18:17:13Z
+Separate option for select on lasso tool,dimateos,2026-08-19T13:29:24Z
+Viewport lock (setViewport lock.scroll) does not constrain pointer-drag panning,MITRAKER,2026-08-19T15:03:47Z
+Zoom to selection (Shift+3) jumps to maximum zoom on an empty scene,MITRAKER,2026-08-19T17:47:13Z
+Cmd/Ctrl+click to continue a freehand stroke with a straight segment (like Illustrator's Pencil tool),khushali-haji,2026-08-19T19:05:42Z
+FeatureRequest: Not exactly an Issue but can we have an app on iPad,namesarnav,2026-08-20T00:45:13Z
+Bucket fill on blank canvas inside an empty frame fills the entire frame,MITRAKER,2026-08-20T14:31:54Z
+One element with malformed geometry rejects the entire file import (and makes #11321 unreachable),MITRAKER,2026-08-20T16:33:48Z
+"Security: iframe element type rendered without validation, enabling open redirect via collaboration",AurelienS,2026-08-21T15:05:28Z
+"updateScene re-versions remote elements during fractional-index healing, causing reconcileElements to discard genuine remote edits",softwareDefine,2026-08-22T16:28:39Z
+Can't delete unlocked freedraw elements from the scene with the eraser,zsviczian,2026-08-23T13:47:53Z
+Zěnme zhǎo huí yuánlái de túpiàn 9 How to find the original image?,gxrabcde,2026-08-24T06:46:55Z
+Very large canvas,poutsoula,2026-08-24T07:43:17Z
+"Dialogs have a dangling aria-labelledby, so they have no accessible name",CanReader,2026-08-25T15:17:06Z
+localStorage quota warning never shows in Firefox (error name check is Chromium-only),CanReader,2026-08-25T15:17:11Z
+"setLanguage() sets dir/lang on document.documentElement, affecting the whole host page",CanReader,2026-08-25T15:17:15Z
+Converting an arrow to elbow-arrow overwrites its endArrowhead (is this intended?),MadeNavaneeth,2026-08-25T17:47:27Z
+When i use a external pen i couldn't switch between Eraser and Pen when i click pen button on the pen its going to Bucket and When i click eraser button its going to Eraser.,frontenddeveloperpraveen,2026-08-26T05:21:57Z
+Unit test failures in animation.test.ts (3 failing) under Node 24 / vitest 3.0.6,arashrafulalam14-stack,2026-08-26T14:22:28Z
+Please easily FIX annoying pen autosmoothing delay + dotting i's,victordamiancodes,2026-08-26T20:32:17Z
+The ActionManager property isn't exposed on the AppClassProperties type,kaykreyol6,2026-08-26T23:16:58Z
+Request whitelist addition,mmorrin-ou,2026-08-30T19:52:36Z
+Whitelist URL,somnathsinghstatrys,2026-09-01T08:34:40Z
+Whitelist for Excalidraw Web Embeds,mchoblet-wq,2026-09-01T13:25:36Z
+Can no longer save or export,lordofscripts,2026-09-02T16:04:26Z
+runLength in @excalidraw/laser-pointer counts the last segment twice,nessaisling-lab,2026-09-04T02:28:13Z
+[Proposal] Add WebMCP tools to the live Excalidraw canvas,MoizIbnYousaf,2026-09-04T10:53:20Z
+Chat Title Still Visible After Deleting Diagram,priyankarpal,2026-09-06T05:50:01Z
+Close (X) icon is misaligned and overlaps the Help button in the top-right toolbar,priyankarpal,2026-09-08T10:42:17Z
+feat: WebMCP support,STSonyThomas,2026-09-08T14:17:25Z
+Whitelist p5.js,j-palindrome,2026-09-09T17:07:48Z
+Lasso tool does not have its own hotkey,OrionH,2026-09-11T06:09:18Z
+Auto Save,rkverma2022,2026-09-11T10:03:54Z
+Canvas background color picker collapses in the main menu on tablet-sized viewports,d1rshan,2026-09-12T10:40:47Z
+Allow bold and underline formatting for individual words within a text element,leobianchi17,2026-09-12T21:05:38Z
+Eraser deletes pasted image while erasing pen drawing,arnavnagpurkar,2026-09-13T04:25:52Z
+"es-ES ""prompt too long"" shows literal {{mix}} (variable typo)",owgreen-dev,2026-09-13T21:56:52Z
+Add equation elements with live formatting,rafaself,2026-09-15T00:06:58Z
+Excalidraw+ MCP: generated CJK node and arrow labels have undersized text bounds and appear clipped until editing,AmAzing129,2026-09-15T02:50:20Z
+Add control + left click allows to move around white space and line should connect like arrow does,SpySparsh,2026-09-16T15:19:46Z
+"si-LK: 5 more placeholder drops beyond #12097 (count, authorName, exportColorScheme/exportSelection, shortcut)",Umeshchandra2024,2026-09-17T03:48:53Z
+Add this site to embed whitelist,PechNik1,2026-09-18T01:52:10Z
+Add `wordwall.net` to the default embeddable allowlist.,asmit990,2026-09-18T09:08:49Z
+[Feature Request] Collection and Scene scoped API/MCP keys,dizzyjaguar,2026-09-18T19:28:57Z
+Add mathematical symbols and functions to the toolbar,mailmeatdarshan,2026-09-19T18:05:51Z
+Correct the Marathi translation of 'paste' and also add translations for 'signUp' and 'signIn'.,rishiraj88,2026-09-20T02:24:09Z
+Support handwritten text in scene search,Kashifwahaj,2026-09-20T11:00:23Z
+Add icons to right click menu,dev-hari-prasad,2026-09-21T15:44:04Z
+Presentation Animation on Excalidraw+,morgkael-ui,2026-09-24T13:09:39Z
+Is the Husky pre-commit hook intentionally disabled?,aaqib605,2026-09-25T09:43:31Z
+Cant export or save,ostrium,2026-09-25T17:29:51Z
+Unable to run docker build,Arahi20,2026-09-25T22:21:50Z
+Google Drive integration for auto-save and folder organization,camadhur,2026-09-29T06:16:11Z
+[Bug]: Iframe embed analytics silently fails due to invalid `window.sa_pageview` check and undeclared `action` reference,aryanpatil-07,2026-10-01T03:59:00Z
+Stylus eraser button can switch tools and erase elements while in view-only mode,danushri-p,2026-10-01T09:28:18Z
+Oqerun Store listing: Excalidraw,vruntime-labs,2026-10-02T13:06:11Z
+Long arrow is pixelated at 3000% zoom,Sipty,2026-10-05T08:02:17Z
+The Draw tool change to white backgroud that make it difficult to find my cursor,koryuoh123,2026-10-07T02:39:13Z
+Add worldbank data url to whitelist,Justas-Kaulakis,2026-10-07T11:16:00Z
+"`sass` is a runtime dependency of @excalidraw/excalidraw, which pulls a vulnerable `braces` into every consumer",rosiba,2026-10-09T20:18:01Z
+[Feature Request] Allow More Than 10 Saved Pens,mkatto,2026-10-11T21:34:47Z
+Thin hairlines appear along the bounding box edges of freedraw strokes at high zoom,nysta12,2026-10-12T09:44:47Z
+Sidebar pin tooltip does not update after pinning sidebar in full-screen mode,UmairIqra,2026-10-13T05:34:43Z
+Select the tool with the mouse-wheel,MatheuSouza1,2026-10-13T23:22:20Z
+fix(security): insecure origin validation in isLocalLink allows external origin spoofing,Hamit3306,2026-10-14T14:29:58Z
+Axis lock shifts the element vertically,michcio1234,2026-10-15T06:46:33Z
+My camera and mic isn't working,keziahjeje-dot,2026-10-15T16:00:42Z
+Dropping a sticky note from the toolbar edits the previously selected text,AyushbhaiPatel,2026-10-15T16:50:16Z
+Shape switcher reverts a line or arrow to a stale cached copy when switching back to a previous type,AyushbhaiPatel,2026-10-15T16:55:42Z
+Reopening an earlier save of the scene can't be undone and stops recording changes,AyushbhaiPatel,2026-10-15T17:00:44Z
+Undoing a scene replaced by a dropped file restores images without their files,AyushbhaiPatel,2026-10-15T17:03:37Z
+Bucket fill inside a locked group lets the group be moved and deleted,AyushbhaiPatel,2026-10-15T17:06:59Z
+Dragging a group member within its frame while editing the group ungroups it,AyushbhaiPatel,2026-10-15T17:09:27Z
+Binding a text to a container leaves the text's arrows bound to the label,AyushbhaiPatel,2026-10-15T17:14:12Z
+Shift-dropping or pasting a saved scene inserts its deleted elements,AyushbhaiPatel,2026-10-15T17:17:58Z
+Wrap (W) removes a locked frame when all its children are selected,AyushbhaiPatel,2026-10-15T17:21:37Z
+A text bound to a container keeps its own frame and groups,AyushbhaiPatel,2026-10-15T17:24:56Z
+Deleting a frame with a selected child leaves the child in the deleted frame,AyushbhaiPatel,2026-10-15T17:28:05Z
+Deleting all points of a labeled arrow leaves its label behind,AyushbhaiPatel,2026-10-15T17:31:29Z
+Deleting an arrow's bound endpoint in the line editor keeps its binding,AyushbhaiPatel,2026-10-15T17:34:45Z
+Label edited while a collaborator deletes its shape is left unselectable,AyushbhaiPatel,2026-10-15T17:38:00Z
+ㄴㅇ,soyngyoo,2026-10-16T04:41:06Z
+Inverted arrow key navigation in color picker under RTL mode,tov-debug,2026-10-19T07:32:44Z
+[RTL] Opacity slider percentage mismatch and reversed dragging in Hebrew mode,777000shr-hash,2026-10-19T07:48:05Z
+[RTL/LTR] Cursor moves in the wrong direction and letters shift left when typing in Hebrew/English,shirushit,2026-10-19T10:26:41Z
+Canvas color swatch misaligned and overlaps menu items in preferences dropdown,Odeya4367,2026-10-19T11:01:27Z
+Pasting a Giphy page link embeds the wrong GIF id,auraseb,2026-10-19T12:47:30Z
+Idea to add Redacted Script as a font for UI mockups.,Mattiz6276,2026-10-19T16:31:47Z
+[Bug] Language dropdown arrow overlaps text in RTL mode,IscaSheli,2026-10-19T17:26:20Z
+"[Bug] ""Text color"" label in sticky note sidebar is not translated across non-English languages",RivkiGA,2026-10-19T22:26:17Z
+Markdown-backed text editing with extensible rendering,zsviczian,2026-10-20T06:36:27Z
+Zoom buttons order is inverted in Hebrew,chavi-miller,2026-10-20T10:29:49Z
