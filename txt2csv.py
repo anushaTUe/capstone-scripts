@@ -1,8 +1,7 @@
-
 import csv
 import re
 
-files = ["openPRs", "closedPRs", "openIssues", "closedIssues"]
+files = ["openPRs", "unmergedPRs", "mergedPRs", "openIssues", "closedIssues"]
 
 for filename in files:
     txtFile = open(filename + ".txt", "r", encoding="utf-8")
@@ -13,13 +12,10 @@ for filename in files:
 
         if line.startswith(" |"):
             line = "Title: " + line
-        parts = re.split(r"\s*\|\s*(?=(?:Authors|Created at|Closed at|Additions|Deletions|Files Changed):\s)", line.strip())
+        parts = re.split(r"\s*\|\s*(?=(?:Authors|Contributors|Created at|Closed at|Merged at|Status|Additions|Deletions|Files Changed|Reason):\s)", line.strip())
 
         try:
-            row = {}
-            for part in parts:
-                key, value = part.split(":", 1)
-                row[key.strip()] = value.strip()
+            row = dict(part.split(":", 1) for part in parts)
             rows.append(row)
         except ValueError:
             print("Problem in file:", filename)
@@ -34,7 +30,7 @@ for filename in files:
         continue
 
     csvFile = open(filename + ".csv", "w", newline="", encoding="utf-8-sig")
-    writer = csv.DictWriter(csvFile, fieldnames=rows[0].keys(), quoting=csv.QUOTE_ALL)
+    writer = csv.DictWriter(csvFile, fieldnames=rows[0].keys())
     writer.writeheader()
     writer.writerows(rows)
     csvFile.close()
