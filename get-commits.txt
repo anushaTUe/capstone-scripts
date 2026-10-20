@@ -1,0 +1,65 @@
+https://www.geeksforgeeks.org/git/how-to-get-list-of-all-commits-in-git/
+
+But also, here is the command I ran to get the data:
+
+[Console]::OutputEncoding = [Text.Encoding]::UTF8
+
+function ConvertTo-CsvField($value) {
+    '"' + ([string]$value -replace '"', '""') + '"'
+}
+
+$commits = [System.Collections.Generic.List[object]]::new()
+$current = $null
+
+git log origin/master --pretty=format:'COMMIT|||%H|||%an|||%aI|||%s' --shortstat |
+    ForEach-Object {
+        if ($_ -like 'COMMIT|||*') {
+            if ($null -ne $current) {
+                $commits.Add($current)
+            }
+
+            $parts = $_ -split '\|\|\|', 5
+
+            $current = [pscustomobject]@{
+                Hash        = $parts[1]
+                Author      = $parts[2]
+                Date        = $parts[3]
+                Subject     = $parts[4]
+                Insertions  = 0
+                Deletions   = 0
+                FilesChanged = 0
+            }
+        }
+        elseif ($_ -match '^\s*(\d+)\s+files?\s+changed(?:,\s*(\d+)\s+insertions?\(\+\))?(?:,\s*(\d+)\s+deletions?\(-\))?') {
+            $current.FilesChanged = [int]$matches[1]
+            $current.Insertions = if ($matches[2]) { [int]$matches[2] } else { 0 }
+            $current.Deletions = if ($matches[3]) { [int]$matches[3] } else { 0 }
+        }
+    }
+
+if ($null -ne $current) {
+    $commits.Add($current)
+}
+
+$rows = $commits | ForEach-Object {
+    $fields = @(
+        $_.Hash
+        $_.Author
+        $_.Date
+        $_.Subject
+        $_.Insertions
+        $_.Deletions
+        ($_.Insertions + $_.Deletions)
+        $_.FilesChanged
+    )
+
+    (($fields | ForEach-Object { ConvertTo-CsvField $_ }) -join ',')
+}
+
+$header = '"Hash","Author","Date","Subject","Insertions","Deletions","LinesChanged","FilesChanged"'
+
+[IO.File]::WriteAllLines(
+    "$PWD\commit-log.csv",
+    @($header) + @($rows),
+    [Text.UTF8Encoding]::new($false)
+)
