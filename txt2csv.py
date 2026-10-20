@@ -16,7 +16,10 @@ for filename in files:
         parts = re.split(r"\s*\|\s*(?=(?:Authors|Created at|Closed at|Additions|Deletions|Files Changed):\s)", line.strip())
 
         try:
-            row = dict(part.split(":", 1) for part in parts)
+            row = {}
+            for part in parts:
+                key, value = part.split(":", 1)
+                row[key.strip()] = value.strip()
             rows.append(row)
         except ValueError:
             print("Problem in file:", filename)
@@ -31,7 +34,7 @@ for filename in files:
         continue
 
     csvFile = open(filename + ".csv", "w", newline="", encoding="utf-8-sig")
-    writer = csv.DictWriter(csvFile, fieldnames=rows[0].keys())
+    writer = csv.DictWriter(csvFile, fieldnames=rows[0].keys(), quoting=csv.QUOTE_ALL)
     writer.writeheader()
     writer.writerows(rows)
     csvFile.close()
