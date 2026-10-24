@@ -229,7 +229,7 @@ Title: Feature Request - Private Sharing or Reduce Admin's Access | Author: Aaro
 Title: zooming on a shape stops rendering it | Author: dwelle (David Luzar) | Contributors: jasonLaster (Jason Laster) | Created at: 2021-08-22T21:52:11Z
 Title: Feature Request: more padding on image export | Author: jberk-godaddy (Joshua Berk) | Contributors:  | Created at: 2021-08-26T00:21:19Z
 Title: Infinite zoom | Author: boehs (Evan Boehs) | Contributors: Nitwel (Nitwel), kissu (kissu) | Created at: 2021-09-02T22:18:39Z
-Title: Provide option to hide activity of other users when in a collaboration session | Author: JonathanHarvey (Unknown) | Contributors: BowTiedFox (Fox), DSep (Sepand Dyanatkar), TorbenMau (Torben), farapholch (Pelle), hieunguyent12 (Hieu Nguyen) | Created at: 2021-09-03T05:38:57Z
+Title: Provide option to hide activity of other users when in a collaboration session | Author: JonathanHarvey (Unknown) | Contributors: BowTiedFox (Fox), DSep (Sepand Dyanatkar), TorbenMau (Torben), farapholch (Pelle), hieunguyent12 (Hieu Nguyen), ritfiz (Rituraj) | Created at: 2021-09-03T05:38:57Z
 Title: Sorting Library Items | Author: alexbarbato (Alex Barbato) | Contributors: alexbarbato (Alex Barbato), dwelle (David Luzar) | Created at: 2021-09-15T21:48:48Z
 Title: Reverse cross hair selection to select partially covered objects | Author: anashashmi (Unknown) | Contributors: dwelle (David Luzar) | Created at: 2021-09-17T15:53:28Z
 Title: Content disappeared | Author: carlsonad (Unknown) | Contributors: dwelle (David Luzar), ramnes (Guillaume Gelin), shaperilio (Emilio Graff) | Created at: 2021-09-23T20:02:15Z
@@ -609,7 +609,7 @@ Title: Feature request: Customizable export padding | Author: dimateos (Diego Ma
 Title: Library Icon issue ? | Author: JMSCT (Unknown) | Contributors:  | Created at: 2023-02-23T23:24:32Z
 Title: Keyboard based tool selection not working in brave browser | Author: kishaningithub (Kishan B) | Contributors: ad1992 (Aakansha Doshi), dwelle (David Luzar), kishaningithub (Kishan B), mericano1 (andrew salvadore) | Created at: 2023-02-24T13:49:36Z
 Title: POC for hiding bounding box when dragging/resizing | Author: dwelle (David Luzar) | Contributors: ctwhome (Jessie Gonzalez) | Created at: 2023-02-27T12:21:13Z
-Title: typecheck fail | Author: riceyeh (Rice Yeh) | Contributors: 8rianhoang (Brian), Kit-p (Kit PANG), LukaHietala (Luka Hietala), ad1992 (Aakansha Doshi), andrew-demb (Andrii Dembitskyi), hariprabhu571 (Hari Raja Prabhu P), itsaflamingo (Elizabeth Pinero), mknasiruddin (Unknown), riceyeh (Rice Yeh), starlove54 (Anubhav Negi) | Created at: 2023-02-28T00:58:29Z
+Title: typecheck fail | Author: riceyeh (Rice Yeh) | Contributors: 8rianhoang (Brian), Dolat-Hamza (Dolat Hamza), Kit-p (Kit PANG), LukaHietala (Luka Hietala), ad1992 (Aakansha Doshi), andrew-demb (Andrii Dembitskyi), hariprabhu571 (Hari Raja Prabhu P), itsaflamingo (Elizabeth Pinero), mknasiruddin (Unknown), riceyeh (Rice Yeh), starlove54 (Anubhav Negi) | Created at: 2023-02-28T00:58:29Z
 Title: will you publish chrome plugin for notion | Author: Angel0726 (Unknown) | Contributors:  | Created at: 2023-02-28T10:44:01Z
 Title: [FR] shortcut to create new drawing | Author: louis030195 (Louis Beaumont) | Contributors: ad1992 (Aakansha Doshi) | Created at: 2023-03-02T10:56:53Z
 Title: Unintentional Circles in Freehand Strokes | Author: Spongeyboi (murmur) | Contributors: Spongeyboi (murmur), dreyZZ (dreyZZ) | Created at: 2023-03-02T11:38:24Z
@@ -818,7 +818,7 @@ Title: Inconsistent Shortcut Key Combinations Across Keyboard Language Settings 
 Title: Images not appearing in Collaborative view | Author: nouhad (Unknown) | Contributors: DaMiBear (DaMiBear) | Created at: 2023-11-03T05:59:29Z
 Title: Thoughts on using Excalidraw as a presentation tool for the first time | Author: bobbydigitales (Unknown) | Contributors: maielo (Milos Vetesnik), ryan-di (Ryan Di) | Created at: 2023-11-03T15:49:13Z
 Title: groups cause big performance issue when inside frames | Author: dwelle (David Luzar) | Contributors:  | Created at: 2023-11-03T22:15:00Z
-Title: feat: Adding Pagination, BG Changing System and QOL Changes | Author: TheDarkSoulster (Saket Dhulipala) | Contributors:  | Created at: 2023-11-04T05:42:55Z
+Title: feat: Adding Pagination, BG Changing System and QOL Changes | Author: saketdhulipala (Saket Dhulipala) | Contributors:  | Created at: 2023-11-04T05:42:55Z
 Title: Lag with many elements | Author: JosephDemarest (Joseph Demarest) | Contributors: JosephDemarest (Joseph Demarest), dwelle (David Luzar), flaschen (Unknown), gugadev (Gustavo), luckyboykg (Tăng Thanh tâm), luketych (Unknown), moiSentineL (Nibir Sankar), nippyseven (Unknown), pleszczy (Piotr Leszczyński), rio-rifaldi (Rio Rifaldi) | Created at: 2023-11-05T04:56:32Z
 Title: Integration of Mind map with the shapes | Author: EswaraSatya (Eswar s) | Contributors:  | Created at: 2023-11-06T12:24:42Z
 Title: [Feature request] OpenAI integration (visual & text) | Author: louis030195 (Louis Beaumont) | Contributors: 7flash (berliangor), louis030195 (Louis Beaumont) | Created at: 2023-11-08T16:33:26Z
@@ -901,7 +901,7 @@ Title: Old file versions | Author: Celeryz (Unknown) | Contributors: CanvasKeep 
 Title: Duplicate form ids | Author: dean5368 (rook) | Contributors: Mohit888-R (Mohit Rajput), ad1992 (Aakansha Doshi) | Created at: 2024-01-14T14:29:49Z
 Title: BUG: Texts grouped inside a frame do not move in accordance with the frame | Author: luxmargos (Unknown) | Contributors: lucas-schroeder (Unknown) | Created at: 2024-01-15T09:41:58Z
 Title: Paste image under different zooming cause different image size | Author: kaala (kaala) | Contributors: arvinyorro (Arvin Yorro), kaala (kaala) | Created at: 2024-01-15T11:31:43Z
-Title: Feature Request: Markdown support element | Author: ComanSoftware (Unknown) | Contributors: Ni-zav (Nigel Ihza Firdausy), drewgonzales360 (Drew Gonzales), wireva (Lea) | Created at: 2024-01-15T13:27:54Z
+Title: Feature Request: Markdown support element | Author: ComanSoftware (Unknown) | Contributors: Ni-zav (A Hazy Reign Is Fluid), drewgonzales360 (Drew Gonzales), wireva (Lea) | Created at: 2024-01-15T13:27:54Z
 Title: make drag markdown files & images compatible with File Tree Alternative Plugin  | Author: ksdavidc (ksDavidC) | Contributors: ksdavidc (ksDavidC) | Created at: 2024-01-15T20:43:03Z
 Title: The example of Footer for mobile mode is not working | Author: mikecat (みけCAT) | Contributors:  | Created at: 2024-01-16T10:32:51Z
 Title: Saved scene after "loading a new scene will erase your data" contains no data | Author: cezarmathe (Cezar) | Contributors: kariuki-george (Kariuki George) | Created at: 2024-01-16T15:08:48Z
@@ -1180,7 +1180,7 @@ Title: [Question]: Custom react components/elements inside excalidraw | Author: 
 Title: Forking Excalidraw to customise UI and use our own collab server as package | Author: mbj36 (Mohit kumar Bajoria) | Contributors: mbj36 (Mohit kumar Bajoria), vitallygolovanov (Unknown) | Created at: 2024-08-26T09:28:17Z
 Title: Importing Mermaid diagram with markdown text syntax does not seem to support auto-wrap behavior | Author: nerdo (Dannel Albert) | Contributors: nerdo (Dannel Albert) | Created at: 2024-08-26T16:53:13Z
 Title: bug: minor sticky-note formatting issue on paste | Author: zsviczian (Unknown) | Contributors: Amitooo1 (Amit kumar), asmit27rai (Asmit Kumar Rai), vedang685 (Vedang) | Created at: 2024-08-27T07:42:00Z
-Title: BUG: Elbow Arrow ALT+drag duplication results in fuzzy/confusing UX | Author: zsviczian (Unknown) | Contributors: dwelle (David Luzar), mtolmacs (Márk Tolmács), zsviczian (Unknown) | Created at: 2024-08-27T10:39:35Z
+Title: BUG: Elbow Arrow ALT+drag duplication results in fuzzy/confusing UX | Author: zsviczian (Unknown) | Contributors: Dolat-Hamza (Dolat Hamza), dwelle (David Luzar), mtolmacs (Márk Tolmács), zsviczian (Unknown) | Created at: 2024-08-27T10:39:35Z
 Title: Inconsistent behavior when locking elements inside frames | Author: Krakor92 (Vincent Faivre) | Contributors: pjvan (Pieter Vanderpol) | Created at: 2024-08-28T12:09:47Z
 Title: window.EXCALIDRAW_ASSET_PATH work error on vscode | Author: wszgrcy (chen) | Contributors:  | Created at: 2024-08-29T02:56:41Z
 Title: Error: invalid file | Author: france87 (Franloto_030) | Contributors: MITRAKER (Mitra Kermanian) | Created at: 2024-08-29T14:59:54Z
@@ -1262,7 +1262,7 @@ Title: feature request: quick color selection using number keys (1-5) while usin
 Title: feature request: voice annotations in excalidraw | Author: backpropogated (Unknown) | Contributors: ankurO7 (Ankur Kumar) | Created at: 2024-10-28T19:08:57Z
 Title: [✨] Remove traditional slides sidebar and use frames instead to organize slides on the canvas itself | Author: maiieul (Maïeul) | Contributors: Mrazator (Marcel Mraz), maiieul (Maïeul) | Created at: 2024-10-29T20:50:10Z
 Title: excalidrawApi don't execute on update for work HMR | Author: BataevDaniil (Daniil Bataev) | Contributors: Mrazator (Marcel Mraz) | Created at: 2024-10-30T05:30:56Z
-Title: Add CJK fallback for other fonts | Author: Mrazator (Marcel Mraz) | Contributors: Mrazator (Marcel Mraz), dwelle (David Luzar), tomasdev (Tomas) | Created at: 2024-10-30T11:37:41Z
+Title: Add CJK fallback for other fonts | Author: Mrazator (Marcel Mraz) | Contributors: Mrazator (Marcel Mraz), dwelle (David Luzar), tats-u (Tatsunori Uchino), tomasdev (Tomas) | Created at: 2024-10-30T11:37:41Z
 Title: Arrow navigation through flow chart is not intuitive | Author: Mrazator (Marcel Mraz) | Contributors:  | Created at: 2024-10-30T18:39:36Z
 Title: Feature Request: Increase Zoom-Out Ratio for Better Board Overview | Author: Tish254 (Oscar Tiego) | Contributors: Mrazator (Marcel Mraz), heliocarbex (Helio Junior) | Created at: 2024-10-31T11:31:37Z
 Title: Option to not automatically turn on pen mode when selecting the pen pointerType | Author: something12356 (Archie Pennycook) | Contributors:  | Created at: 2024-10-31T14:46:12Z
@@ -1416,7 +1416,7 @@ Title: context length for generating diagrams from text is really low | Author: 
 Title: Webpack 5 Compatibility: Missing .js Extensions in Imports for roughjs modules. | Author: abhishekayu (Abhishek Verma) | Contributors: Mrazator (Marcel Mraz), Ryuno-Ki (André Jaenisch), abhishekayu (Abhishek Verma), dwelle (David Luzar), hungdev (Hung Vu), mikevoets (Mike Voets), sibelius (Sibelius Seraphini) | Created at: 2025-03-20T05:21:45Z
 Title: Tooltips on elements like in diagrams.net? ☁️ | Author: tgotwig (♠️ Thomas Gotwig ♣️) | Contributors:  | Created at: 2025-03-23T07:37:28Z
 Title: Refactor point types ` { x, y }` to the proper unified point type in `@excalidraw/math` | Author: mtolmacs (Márk Tolmács) | Contributors: 12dheeraj (Unknown), Nithin-532 (Nithin), Scriptorsomno (Unknown), aniruddhapw (Aniruddha Wankhade), deny-wijaya (Deny Wijaya), derinbarutcu17 (Derin), driveadityayadav18-art (Aditya Yadav), gusa4grr (Yevhen Husak), mtolmacs (Márk Tolmács), prince12626 (Prince Chaurasiya), theviditjain (Vidit Jain) | Created at: 2025-03-24T14:10:41Z
-Title: Losing Text Field Focus When Switching Tabs | Author: antelcha (Mustafa Girgin) | Contributors: AarishMansur (Aarish mansur), AlsoTheZv3n (Sven Weidenmann), Mrazator (Marcel Mraz), antelcha (Mustafa Girgin), ezecodenaut (Unknown), tech-dipesh (Dipendra Sharma) | Created at: 2025-03-26T11:07:15Z
+Title: Losing Text Field Focus When Switching Tabs | Author: antelcha (Mustafa Girgin) | Contributors: AarishMansur (Aarish mansur), AlsoTheZv3n (Sven Weidenmann), Mrazator (Marcel Mraz), antelcha (Mustafa Girgin), ezecodenaut (Unknown), sahargavriely (Unknown), tech-dipesh (Dipendra Sharma) | Created at: 2025-03-26T11:07:15Z
 Title: [BUG] Arrow Line editor not available | Author: kesch095 (KeSch) | Contributors: Mrazator (Marcel Mraz) | Created at: 2025-03-27T09:38:35Z
 Title: Reopen issue #9292 with Mermaid example | Author: qduy119 (Unknown) | Contributors:  | Created at: 2025-03-27T15:19:59Z
 Title: Unable to focus on the newly created text. | Author: tech-dipesh (Dipendra Sharma) | Contributors: dwelle (David Luzar), tech-dipesh (Dipendra Sharma) | Created at: 2025-03-28T10:17:18Z
@@ -1502,8 +1502,6 @@ Title: [Feature Request]: Ghost Preview of Shape Before Placement (like Eraser.i
 Title: Changing canvas color gets adjusted by dark setting | Author: cyotov-skyward (Chavdar Yotov) | Contributors: Alan-Huangzy233 (Zhengye Huang), cyotov-skyward (Chavdar Yotov) | Created at: 2025-06-20T17:25:01Z
 Title: Bug: Incomplete Drawing when exporting. | Author: Praveenstein (Praveen Kumar G) | Contributors: jayanth-karri22 (Karri Jayanth) | Created at: 2025-06-21T15:28:40Z
 Title: Support for  shapes with multi-colored backgrounds | Author: bjourne (Björn Lindqvist) | Contributors:  | Created at: 2025-06-23T10:25:53Z
-Title: Issue: The determinant check only catches exact zero, but floating-point arithmetic can produce very small numbers that are effectively zero but not exactly zero. This can cause numerical instability | Author: PATTASWAMY-VISHWAK-YASASHREE (vishwak) | Contributors:  | Created at: 2025-06-23T13:09:18Z
-Title: BUG: Incorrect Gradient Calculation in curve.ts | Author: PATTASWAMY-VISHWAK-YASASHREE (vishwak) | Contributors: Devansh-rookie (Devansh) | Created at: 2025-06-23T13:10:22Z
 Title: Feature Request: Rasterized Pencil Tool for Improved Tablet Performance and Handwriting Experience | Author: HoodyEz (Unknown) | Contributors: rhcalderon93 (Unknown) | Created at: 2025-06-25T15:47:09Z
 Title: [BUG] 404 Errors for Assistant font files due to incorrect path in CSS | Author: Raman236 (Raman Sewjugath) | Contributors:  | Created at: 2025-06-26T22:31:47Z
 Title: Support search in help dialog | Author: ad1992 (Aakansha Doshi) | Contributors: ad1992 (Aakansha Doshi), karanrawat-24 (Karan Rawat) | Created at: 2025-06-27T15:05:10Z
@@ -1877,7 +1875,7 @@ Title: feat: allow exporting bigger canvas to png | Author: hiimstevejin (Steve 
 Title: Animations in presentations | Author: darena-pjindal (Pawan Jindal) | Contributors:  | Created at: 2026-03-20T01:30:57Z
 Title: Batch export frames | Author: sagikazarmark (Márk Sági-Kazár) | Contributors:  | Created at: 2026-03-20T13:58:38Z
 Title: Excalidraw Pen Tablet User Suggestions | Author: victorchudmax (Unknown) | Contributors:  | Created at: 2026-03-22T06:01:58Z
-Title: PDF export prints text in grey | Author: marcadella (Unknown) | Contributors: Gasg10 (Gonçalo Gonçalves), alaminrifat (Muhammad Al Amin Rifat) | Created at: 2026-03-23T10:06:34Z
+Title: PDF export prints text in grey | Author: marcadella (Unknown) | Contributors: Gasg10 (Gonçalo Gonçalves) | Created at: 2026-03-23T10:06:34Z
 Title: Bug: Missing Shortcut Label on Hand Tool Icon in Navigation bar | Author: sandipkumardey (Sandip Kumar Dey) | Contributors: feridsassi (Mohamed Ferid Sassi), sandipkumardey (Sandip Kumar Dey), the-walkerrr (WALKER), yamin-H (Yamin Hossain) | Created at: 2026-03-23T12:57:58Z
 Title: Support HTML hyperlink creation in Excalidraw elements | Author: asilverman (Ariel Silverman) | Contributors:  | Created at: 2026-03-23T20:10:11Z
 Title: Bug:   rectangleIntersectRectangle  incorrectly returns false for adjacent rectangles | Author: Jadu07 (Yashraj Chouhan) | Contributors:  | Created at: 2026-03-25T00:28:59Z
@@ -1997,7 +1995,7 @@ Title: [Feature Request]: Improve organization and searchability of downloaded i
 Title: No ability to change text shape when editing on Android tablet | Author: cms103 (Colin Stewart) | Contributors: AyushbhaiPatel (Ayush Patel) | Created at: 2026-07-04T19:09:09Z
 Title: No documentation that [shift] + drag causes 'snap' behavior | Author: DustinX (Dustin) | Contributors: ThivakarSP (THIVAKAR S P), naman0867 (Namanhack) | Created at: 2026-07-07T01:20:32Z
 Title: After uploading the image to the excalicord, the image loses clarity and the colors become washed out. | Author: pengfangyi91-png (Unknown) | Contributors: ThivakarSP (THIVAKAR S P) | Created at: 2026-07-07T06:54:15Z
-Title: Canvas drag (hand/pan) breaks drawing tools and pointer input until page reload (XP-Pen Deco V2 on macOS) | Author: Must2343 (Unknown) | Contributors:  | Created at: 2026-07-07T18:50:18Z
+Title: Canvas drag (hand/pan) breaks drawing tools and pointer input until page reload (XP-Pen Deco V2 on macOS) | Author: Must2343 (Unknown) | Contributors: AyishathNahda (Unknown) | Created at: 2026-07-07T18:50:18Z
 Title: add open-source LXGW font | Author: faon-92 (Unknown) | Contributors:  | Created at: 2026-07-08T09:27:15Z
 Title: feature : Simple preference color saver for different  Tools | Author: RKV-07 (Vortex) | Contributors: DataVoyager-Aditya (Aditya Raj Thakur), Nitinnfr (Nitin Singh) | Created at: 2026-07-09T06:28:00Z
 Title: Color picker swatch buttons don't have distinct accessible names for screen readers | Author: saloni8780 (Saloni Kumari) | Contributors: ThivakarSP (THIVAKAR S P), saloni8780 (Saloni Kumari) | Created at: 2026-07-10T11:18:03Z
@@ -2007,7 +2005,7 @@ Title: Add keyboard shortcut hint to Stroke/Background color picker tooltip | Au
 Title: can‘t set different colors for the main title and the subtitle. | Author: WhispeRre (zeyu Liu) | Contributors: BhoomiPala (Unknown) | Created at: 2026-07-18T15:44:51Z
 Title: Elbow arrow origin at 0 is silently dropped, and unbind crashes on stale bindings | Author: kodejeet (r) | Contributors: kodejeet (r) | Created at: 2026-07-18T18:17:35Z
 Title: [Bug] Timer/Interval cleanup issues cause memory leaks and stale callback execution | Author: KunjShah95 (Kunj SHAH) | Contributors: KunjShah95 (Kunj SHAH), eD0o (Eduardo) | Created at: 2026-07-19T11:49:33Z
-Title: [Bug] Frame z-index sorting is incorrect (known FIXME) | Author: KunjShah95 (Kunj SHAH) | Contributors: AyushbhaiPatel (Ayush Patel), kingmakeruix (kingmaker), trukwava (Trevor Rukwava) | Created at: 2026-07-19T11:49:36Z
+Title: [Bug] Frame z-index sorting is incorrect (known FIXME) | Author: KunjShah95 (Kunj SHAH) | Contributors: AyushbhaiPatel (Ayush Patel), trukwava (Trevor Rukwava), whyst0ne (whystone) | Created at: 2026-07-19T11:49:36Z
 Title: [Bug] Flipped elements with curves have wrong bounding boxes | Author: KunjShah95 (Kunj SHAH) | Contributors: MatheusMartinho (Matheus Moura Martinho), ezemskov (Eugene) | Created at: 2026-07-19T11:49:38Z
 Title: [Bug] Empty text element deletion breaks collaborative sync | Author: KunjShah95 (Kunj SHAH) | Contributors: srivastava-ayush (Ayush Srivastava) | Created at: 2026-07-19T11:49:40Z
 Title: [Bug] Flaky WYSIWYG text editor and other tests | Author: KunjShah95 (Kunj SHAH) | Contributors: Nicolercc (Nicole Rodriguez ) | Created at: 2026-07-19T11:49:47Z
@@ -2072,7 +2070,7 @@ Title: runLength in @excalidraw/laser-pointer counts the last segment twice | Au
 Title: [Proposal] Add WebMCP tools to the live Excalidraw canvas | Author: MoizIbnYousaf (Abdul Moiz Shahzad) | Contributors:  | Created at: 2026-09-04T10:53:20Z
 Title: Chat Title Still Visible After Deleting Diagram | Author: priyankarpal (Priyankar Pal ) | Contributors:  | Created at: 2026-09-06T05:50:01Z
 Title: Close (X) icon is misaligned and overlaps the Help button in the top-right toolbar | Author: priyankarpal (Priyankar Pal ) | Contributors: AyushbhaiPatel (Ayush Patel), priyankarpal (Priyankar Pal ) | Created at: 2026-09-08T10:42:17Z
-Title: feat: WebMCP support | Author: STSonyThomas (Sony Thomas) | Contributors: ArjunCodess (Arjun Vijay Prakash) | Created at: 2026-09-08T14:17:25Z
+Title: feat: WebMCP support | Author: STSonyThomas (Sony Thomas) | Contributors: ArjunCodess (Arjun Vijay Prakash), pathofleastresistor (Amit) | Created at: 2026-09-08T14:17:25Z
 Title: Whitelist p5.js | Author: j-palindrome (Jay Reinier) | Contributors:  | Created at: 2026-09-09T17:07:48Z
 Title: Lasso tool does not have its own hotkey | Author: OrionH (Orion Humphrey) | Contributors:  | Created at: 2026-09-11T06:09:18Z
 Title: Auto Save | Author: rkverma2022 (Rajkumar Verma) | Contributors: raza001 (MOHD RAZA) | Created at: 2026-09-11T10:03:54Z
@@ -2095,15 +2093,15 @@ Title: Presentation Animation on Excalidraw+ | Author: morgkael-ui (Kelp) | Cont
 Title: Is the Husky pre-commit hook intentionally disabled? | Author: aaqib605 (Aaqib Javaid) | Contributors:  | Created at: 2026-09-25T09:43:31Z
 Title: Cant export or save | Author: ostrium (Unknown) | Contributors: Yashraj191007 (Yashraj Jagtap) | Created at: 2026-09-25T17:29:51Z
 Title: Unable to run docker build | Author: Arahi20 (Unknown) | Contributors: Arahi20 (Unknown), azraefzagur (Azra Efza Gür) | Created at: 2026-09-25T22:21:50Z
-Title: Google Drive integration for auto-save and folder organization | Author: camadhur (Unknown) | Contributors:  | Created at: 2026-09-29T06:16:11Z
+Title: Google Drive integration for auto-save and folder organization | Author: camadhur (Unknown) | Contributors: db42 (Dushyant Bansal) | Created at: 2026-09-29T06:16:11Z
 Title: [Bug]: Iframe embed analytics silently fails due to invalid `window.sa_pageview` check and undeclared `action` reference | Author: aryanpatil-07 (Aryan Patil) | Contributors:  | Created at: 2026-10-01T03:59:00Z
 Title: Stylus eraser button can switch tools and erase elements while in view-only mode | Author: danushri-p (Danushri Prakash) | Contributors:  | Created at: 2026-10-01T09:28:18Z
 Title: Oqerun Store listing: Excalidraw | Author: vruntime-labs (vruntime labs) | Contributors:  | Created at: 2026-10-02T13:06:11Z
 Title: Long arrow is pixelated at 3000% zoom | Author: Sipty (Chavdar Yotov) | Contributors: xaviRunner (Milan Kmecik) | Created at: 2026-10-05T08:02:17Z
 Title: The Draw tool change to white backgroud that make it difficult to find my cursor | Author: koryuoh123 (Unknown) | Contributors: Nirbhayjakhar3196 (Nirbhay jakhar ), koryuoh123 (Unknown) | Created at: 2026-10-07T02:39:13Z
 Title: Add worldbank data url to whitelist | Author: Justas-Kaulakis (Unknown) | Contributors: Pavithra8805 (Unknown), SunilKumarPradhan (sunilkumarpradhan), amannv (Aman Kumar Verma) | Created at: 2026-10-07T11:16:00Z
-Title: `sass` is a runtime dependency of @excalidraw/excalidraw, which pulls a vulnerable `braces` into every consumer | Author: rosiba (Rojhat Sinan Balka) | Contributors: dxqlovestudy (YingNing) | Created at: 2026-10-09T20:18:01Z
-Title: [Feature Request] Allow More Than 10 Saved Pens | Author: mkatto (Unknown) | Contributors: Cyronite (Prasun), mgarcialeniolabs (Mauro Garcia), mkatto (Unknown) | Created at: 2026-10-11T21:34:47Z
+Title: `sass` is a runtime dependency of @excalidraw/excalidraw, which pulls a vulnerable `braces` into every consumer | Author: rosiba (Rojhat Sinan Balka) | Contributors: dxqlovestudy (YingNing), usamausman-jsx (Usama Usman) | Created at: 2026-10-09T20:18:01Z
+Title: [Feature Request] Allow More Than 10 Saved Pens | Author: mkatto (Unknown) | Contributors: Cyronite (Prasun), mgarcia-improving (Mauro Garcia), mkatto (Unknown) | Created at: 2026-10-11T21:34:47Z
 Title: Thin hairlines appear along the bounding box edges of freedraw strokes at high zoom | Author: nysta12 (Unknown) | Contributors: azraefzagur (Azra Efza Gür), devansh-pujari-tech (Unknown) | Created at: 2026-10-12T09:44:47Z
 Title: Sidebar pin tooltip does not update after pinning sidebar in full-screen mode | Author: UmairIqra (Unknown) | Contributors: amannv (Aman Kumar Verma) | Created at: 2026-10-13T05:34:43Z
 Title: Select the tool with the mouse-wheel | Author: MatheuSouza1 (Matheus Souza) | Contributors:  | Created at: 2026-10-13T23:22:20Z
@@ -2125,15 +2123,29 @@ Title: Deleting all points of a labeled arrow leaves its label behind | Author: 
 Title: Deleting an arrow's bound endpoint in the line editor keeps its binding | Author: AyushbhaiPatel (Ayush Patel) | Contributors:  | Created at: 2026-10-15T17:34:45Z
 Title: Label edited while a collaborator deletes its shape is left unselectable | Author: AyushbhaiPatel (Ayush Patel) | Contributors:  | Created at: 2026-10-15T17:38:00Z
 Title: ㄴㅇ | Author: soyngyoo (Soyoung Yoo) | Contributors: soyngyoo (Soyoung Yoo) | Created at: 2026-10-16T04:41:06Z
-Title: Inverted arrow key navigation in color picker under RTL mode | Author: tov-debug (Noyman Tova) | Contributors:  | Created at: 2026-10-19T07:32:44Z
-Title: [RTL] Opacity slider percentage mismatch and reversed dragging in Hebrew mode | Author: 777000shr-hash (Unknown) | Contributors: 777000shr-hash (Unknown) | Created at: 2026-10-19T07:48:05Z
+Title: Inverted arrow key navigation in color picker under RTL mode | Author: tov-debug (Noyman Tova) | Contributors: tov-debug (Noyman Tova) | Created at: 2026-10-19T07:32:44Z
+Title: [RTL] Opacity slider percentage mismatch and reversed dragging in Hebrew mode | Author: 777000shr-hash (Shaindy) | Contributors: 777000shr-hash (Shaindy) | Created at: 2026-10-19T07:48:05Z
 Title: [RTL/LTR] Cursor moves in the wrong direction and letters shift left when typing in Hebrew/English | Author: shirushit (Shira) | Contributors: shirushit (Shira) | Created at: 2026-10-19T10:26:41Z
-Title: Canvas color swatch misaligned and overlaps menu items in preferences dropdown | Author: Odeya4367 (Unknown) | Contributors:  | Created at: 2026-10-19T11:01:27Z
-Title: Pasting a Giphy page link embeds the wrong GIF id | Author: auraseb (Sebastian Turner) | Contributors:  | Created at: 2026-10-19T12:47:30Z
-Title: Idea to add Redacted Script as a font for UI mockups. | Author: Mattiz6276 (Unknown) | Contributors:  | Created at: 2026-10-19T16:31:47Z
-Title: [Bug] Language dropdown arrow overlaps text in RTL mode | Author: IscaSheli (Unknown) | Contributors: IscaSheli (Unknown), nandalalshukla (Nandalal Shukla) | Created at: 2026-10-19T17:26:20Z
+Title: Canvas color swatch misaligned and overlaps menu items in preferences dropdown | Author: Odeya4367 (Unknown) | Contributors: Odeya4367 (Unknown), shubhanshu2006 (Shubhanshu Singh) | Created at: 2026-10-19T11:01:27Z
+Title: Pasting a Giphy page link embeds the wrong GIF id | Author: sebxt (Sebastian Turner) | Contributors:  | Created at: 2026-10-19T12:47:30Z
+Title: Idea to add Redacted Script as a font for UI mockups. | Author: Mattiz6276 (Unknown) | Contributors: shubhanshu2006 (Shubhanshu Singh) | Created at: 2026-10-19T16:31:47Z
+Title: [Bug] Language dropdown arrow overlaps text in RTL mode | Author: IscaSheli (Unknown) | Contributors: IscaSheli (Unknown), nandalalshukla (Nandalal Shukla), shubhanshu2006 (Shubhanshu Singh) | Created at: 2026-10-19T17:26:20Z
 Title: [Bug] "Text color" label in sticky note sidebar is not translated across non-English languages | Author: RivkiGA (Rivki Gur Arie) | Contributors: RivkiGA (Rivki Gur Arie) | Created at: 2026-10-19T22:26:17Z
-Title: Markdown-backed text editing with extensible rendering | Author: zsviczian (Unknown) | Contributors:  | Created at: 2026-10-20T06:36:27Z
+Title: Markdown-backed text editing with extensible rendering | Author: zsviczian (Unknown) | Contributors: do-md (Unknown) | Created at: 2026-10-20T06:36:27Z
 Title: Zoom buttons order is inverted in Hebrew | Author: chavi-miller (Unknown) | Contributors:  | Created at: 2026-10-20T10:29:49Z
 Title: Font menu section headings are aligned to the left instead of the right in Hebrew (RTL) mode | Author: naamaalmer-oss (Unknown) | Contributors: naamaalmer-oss (Unknown) | Created at: 2026-10-20T17:03:40Z
 Title: [Bug] Color picker hex input shows "#" on the wrong side in RTL languages | Author: RivkiGA (Rivki Gur Arie) | Contributors:  | Created at: 2026-10-20T17:57:00Z
+Title: [Bug]: Font picker tip remains in English when Hebrew is selected | Author: bruchy0548558789-arch (Unknown) | Contributors: bruchy0548558789-arch (Unknown), shubhanshu2006 (Shubhanshu Singh) | Created at: 2026-10-20T21:49:47Z
+Title: [Proposal] Extract image insertion and cache orchestration from App.tsx | Author: mapbrandt (Miguel Brandt) | Contributors: devsterxyz (Devster), mapbrandt (Miguel Brandt) | Created at: 2026-10-20T23:02:10Z
+Title: Typo: "verison" instead of "version" in tabSync.ts | Author: Shabarish-P-Sujith (Shabarish P Sujith) | Contributors:  | Created at: 2026-10-21T07:11:42Z
+Title: Pasted chart data with numeric column headers plots the header row as data | Author: RaphaelFakhri (Raphael Fakhri) | Contributors:  | Created at: 2026-10-21T08:12:05Z
+Title: Bug: Incorrect icon placement in Share dialog buttons in RTL mode | Author: HADASLUB (Unknown) | Contributors:  | Created at: 2026-10-21T13:39:17Z
+Title: Bug: keyboard shortcut keys are rendered in reverse order in RTL mode | Author: yocheved-jaffe (Unknown) | Contributors: tarunchaudharydev (Tarun) | Created at: 2026-10-21T15:06:40Z
+Title: Keyboard shortcut conflict between color selection and Bucket Fill tool when using the "Draw" tool | Author: acallecoymbra-cpu (Unknown) | Contributors:  | Created at: 2026-10-21T15:38:18Z
+Title: Streaming Error | Author: n1te700n (Unknown) | Contributors: ommprasad-programmer (Omm Prasad Nath) | Created at: 2026-10-22T02:50:20Z
+Title: [RTL] "Save to..." modal title is left-aligned in Hebrew | Author: chanikr7 (Unknown) | Contributors:  | Created at: 2026-10-22T10:47:20Z
+Title: Arrows bound to a text aren't re-routed when its font size or family changes | Author: Dolat-Hamza (Dolat Hamza) | Contributors:  | Created at: 2026-10-22T18:28:50Z
+Title: one6 (Screener | Author: bhuvanesh8535-star (Unknown) | Contributors: bhuvanesh8535-star (Unknown) | Created at: 2026-10-23T06:47:35Z
+Title: Perf regression in next (0.18.0-17d8904) vs 0.18.1: panning large scenes, and freedraw inside a frame re-renders the whole static scene | Author: sethmart15-34 (Unknown) | Contributors:  | Created at: 2026-10-23T07:23:26Z
+Title: [UX Improvement] Keep text anchored to its starting position while typing | Author: bhusha-n (bhushan) | Contributors: Dineshkanna-FSDev (Dinesh kanna R), Pruthviraj025 (Pruthviraj), aarab-abderrahmane (abdulrahman) | Created at: 2026-10-23T08:44:27Z
+Title: [UI Bug]: Setting submenu overlaps the main menu in the RTL mode | Author: Roshan1401 (Roshan Patil) | Contributors:  | Created at: 2026-10-23T16:37:07Z

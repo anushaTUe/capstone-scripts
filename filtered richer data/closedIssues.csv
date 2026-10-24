@@ -909,7 +909,7 @@ Title,Contributors,Created at,Closed at,Reason
 " Inserting elements from clipboard or library with the grid on, the positions of the elements are all messed up | Author: lipis (Lipis)"," dwelle (David Luzar), lipis (Lipis)", 2020-12-07T06:34:36Z, 2020-12-09T13:45:04Z, COMPLETED
  Restore elements on paste | Author: dwelle (David Luzar)," dwelle (David Luzar), lipis (Lipis)", 2020-12-07T10:08:56Z, 2026-09-27T17:44:36Z, COMPLETED
  Show collaboration stats in the stats dialog | Author: lipis (Lipis)," ad1992 (Aakansha Doshi), lipis (Lipis), tomayac (Thomas Steiner)", 2020-12-07T17:14:26Z, 2021-02-15T09:53:36Z, COMPLETED
- Pinch To Zoom (Trackpad) in Safari on Big Sur Unresponsive | Author: okbytes (Brett Flora)," dwelle (David Luzar), okbytes (Brett Flora), vjeux (Christopher Chedeau)", 2020-12-07T17:24:37Z, 2020-12-07T18:22:21Z, COMPLETED
+ Pinch To Zoom (Trackpad) in Safari on Big Sur Unresponsive | Author: okbytes (Unknown)," dwelle (David Luzar), okbytes (Unknown), vjeux (Christopher Chedeau)", 2020-12-07T17:24:37Z, 2020-12-07T18:22:21Z, COMPLETED
  Grouped arrow and text don't behave as a group when moved by other objects | Author: sojusnik (Unknown)," bolerio (Borislav Iordanov), dwelle (David Luzar), lipis (Lipis), mdroidian (Michael Gartner), sojusnik (Unknown)", 2020-12-08T21:09:13Z, 2023-05-11T21:32:08Z, COMPLETED
  Browse libraries link is hidden behind the buttons on mobile | Author: lipis (Lipis), Kartik1397 (Kartik Prajapati), 2020-12-08T21:32:19Z, 2020-12-12T13:23:59Z, COMPLETED
  Create a dropdown for arrowheads | Author: lipis (Lipis),, 2020-12-09T13:07:14Z, 2020-12-11T17:17:29Z, COMPLETED
@@ -989,6 +989,7 @@ Title,Contributors,Created at,Closed at,Reason
  Remove copy/paste items from contextmenu on desktop | Author: dwelle (David Luzar)," ad1992 (Aakansha Doshi), dwelle (David Luzar), h7y (Arun), lipis (Lipis)", 2021-01-28T09:33:27Z, 2021-01-28T21:02:01Z, COMPLETED
  Context menu actions broken when set from initialData | Author: ad1992 (Aakansha Doshi),, 2021-01-28T18:32:56Z, 2021-01-29T18:08:38Z, COMPLETED
  Nerd stats showing incorrect state in context menu when nerd stats dialog is closed | Author: ad1992 (Aakansha Doshi),, 2021-01-28T20:19:34Z, 2021-01-28T20:51:11Z, COMPLETED
+ Add Kabyle language | Author: YacineBouklif (Yacine Bouklif)," YacineBouklif (Yacine Bouklif), excalibot (Excalidraw Bot), lipis (Lipis)", 2021-01-29T11:27:04Z, 2021-02-02T09:42:23Z, COMPLETED
  Allow host to control zenmode / gridmode completely | Author: ad1992 (Aakansha Doshi), dwelle (David Luzar), 2021-01-30T14:04:15Z, 2021-02-06T15:52:29Z, COMPLETED
  Allow host to customize the colors for user | Author: ad1992 (Aakansha Doshi)," ad1992 (Aakansha Doshi), dwelle (David Luzar), lipis (Lipis)", 2021-01-31T12:32:09Z, 2021-02-08T19:28:08Z, COMPLETED
  Feature Request: allow syntax highlighting in `Code` font family | Author: 54331241 ([DELETED]), lipis (Lipis), 2021-02-01T03:00:04Z, 2021-02-01T11:45:01Z, COMPLETED
@@ -1008,6 +1009,7 @@ Title,Contributors,Created at,Closed at,Reason
  hide scrollbars on mobile | Author: dwelle (David Luzar)," h7y (Arun), lipis (Lipis)", 2021-02-04T15:39:28Z, 2021-02-19T11:58:38Z, COMPLETED
  Change the copy for collaboration options on mobile when in session | Author: lipis (Lipis)," JosiasAurel (Josias), dwelle (David Luzar)", 2021-02-04T21:14:56Z, 2021-02-13T09:12:32Z, COMPLETED
 " ""...replace existing drawing"" alert shows when there's nothing to replace | Author: trevorblades (Trevor Blades)",, 2021-02-05T01:24:44Z, 2021-02-05T11:04:34Z, COMPLETED
+ I want to reset my drawing library | Author: newbyca (Unknown)," dwelle (David Luzar), excalibot (Excalidraw Bot), h7y (Arun), lipis (Lipis), newbyca (Unknown)", 2021-02-05T04:25:56Z, 2021-02-09T10:19:05Z, COMPLETED
  Looking for another handwritten font | Author: vjeux (Christopher Chedeau)," ReneCode (Reinhard Langner), YouriTjang (Youri Tjang), aqandrew (Andrew Aquino), daoleno (daoleno), dwelle (David Luzar), eddyg (Eddy G), iamdyani (Unknown), lipis (Lipis), mrchief (Hrusikesh Panda), polyrand (Ricardo Ander-Egg), rkz (Raphael Kolm), shinkim0914 (Unknown), t6adev (Teruhisa Yamamoto), wietsevenema (Wietse Venema), xixixao (Michal Srb)", 2021-02-05T19:16:52Z, 2021-02-26T09:46:00Z, COMPLETED
 " How does excalidraw, selects a drawing | Author: ptedu3 (Unknown)", dwelle (David Luzar), 2021-02-06T23:21:08Z, 2021-02-07T10:27:11Z, COMPLETED
  Toast doesn't account for canvas offsets | Author: dwelle (David Luzar)," ad1992 (Aakansha Doshi), dwelle (David Luzar), h7y (Arun)", 2021-02-07T22:00:37Z, 2021-03-12T17:17:26Z, COMPLETED
@@ -1025,6 +1027,7 @@ Title,Contributors,Created at,Closed at,Reason
  Figure out a shortcut for dark mode | Author: dwelle (David Luzar)," ad1992 (Aakansha Doshi), dwelle (David Luzar), h7y (Arun), lipis (Lipis)", 2021-02-15T20:55:16Z, 2021-05-08T10:15:36Z, COMPLETED
  Feature request: editable charts | Author: tkapler (Tomáš Kapler)," dwelle (David Luzar), lipis (Lipis), tkapler (Tomáš Kapler)", 2021-02-16T15:55:38Z, 2021-02-16T17:03:35Z, COMPLETED
  feature request: Add Icons | Author: tkapler (Tomáš Kapler), lipis (Lipis), 2021-02-16T17:01:25Z, 2021-02-16T17:30:41Z, COMPLETED
+ Request to add a new language | Author: Mejans (Unknown)," Mejans (Unknown), excalibot (Excalidraw Bot), lipis (Lipis)", 2021-02-17T07:49:04Z, 2021-02-18T13:56:16Z, COMPLETED
  Dynamic import not working with Next js app | Author: hamza1220 (Syed Hamza Ahmad)," ad1992 (Aakansha Doshi), cnollite (Christian Noll)", 2021-02-17T10:02:14Z, 2021-02-21T15:45:20Z, COMPLETED
  Automatic public path not supported error in firefox for Excalidraw package | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2021-02-18T19:49:33Z, 2021-02-21T15:44:34Z, COMPLETED
  Allow host to decide if elements should be scrolled to centered on mount | Author: ad1992 (Aakansha Doshi)," ad1992 (Aakansha Doshi), dwelle (David Luzar)", 2021-02-18T20:28:46Z, 2021-02-21T15:39:46Z, COMPLETED
@@ -1906,7 +1909,6 @@ Title,Contributors,Created at,Closed at,Reason
  Saving in Linux (ubuntu) creates a new file instead of overwriting an existing file. | Author: AayushSameerShah (Aayush Shah)," ad1992 (Aakansha Doshi), arnostpleskot (Arnost Pleskot)", 2023-08-01T17:41:31Z, 2023-08-03T03:02:55Z, COMPLETED
  Suggestion: snap to nearby shapes when dragging / resizing | Author: noamnelke (Noam Nelke)," dwelle (David Luzar), noamnelke (Noam Nelke)", 2023-08-02T10:10:59Z, 2026-09-27T10:21:04Z, COMPLETED
  lock isn't working  | Author: Himanxu1 (Himanshu Singh)," Himanxu1 (Himanshu Singh), ad1992 (Aakansha Doshi), sanskarfc (Sanskar Sharma)", 2023-08-02T15:48:23Z, 2023-08-03T11:28:54Z, COMPLETED
- Scene data not loading. | Author: shibby360 (Shivank Chhaya),, 2023-08-06T00:02:44Z, 2023-08-06T00:06:16Z, COMPLETED
  Keep newly created shapes as selected | Author: nickfreemandesign (nickfreeman)," ad1992 (Aakansha Doshi), dwelle (David Luzar), nickfreemandesign (nickfreeman)", 2023-08-08T14:16:38Z, 2023-08-16T20:18:29Z, COMPLETED
  `onInit` | Author: dwelle (David Luzar),, 2023-08-12T11:37:50Z, 2026-09-27T10:20:04Z, COMPLETED
  there is a obvious difference performance between dark mode and light mode when drawing | Author: amirc901 (Amir hossein mirzaei),, 2023-08-13T09:36:53Z, 2026-09-07T09:52:24Z, COMPLETED
@@ -1970,7 +1972,7 @@ Title,Contributors,Created at,Closed at,Reason
  Bug: When is screen 682 hand sign is not visible  | Author: AnshuPathak-88825 (Anshu Pathak)," AnshuPathak-88825 (Anshu Pathak), abishek0057 (Abishek Parajuli), m-Chetan (Chetan Makwana), yourdaksh (Daksh Patil)", 2023-10-09T16:11:42Z, 2023-10-13T12:58:25Z, COMPLETED
  Wrong issue submitted | Author: fornewfork (Unknown),, 2023-10-09T16:27:39Z, 2023-10-09T17:09:25Z, COMPLETED
  Colors in mermaid import | Author: AMGMNPLK (AMGMNPLK)," axilis-marko (Marko Ćurlin), dwelle (David Luzar)", 2023-10-10T12:52:44Z, 2026-09-27T10:04:29Z, COMPLETED
- How do I host my fork of Excalidraw on Vercel? | Author: TheDarkSoulster (Saket Dhulipala), TheDarkSoulster (Saket Dhulipala), 2023-10-12T12:58:22Z, 2023-10-12T14:10:32Z, COMPLETED
+ How do I host my fork of Excalidraw on Vercel? | Author: saketdhulipala (Saket Dhulipala), saketdhulipala (Saket Dhulipala), 2023-10-12T12:58:22Z, 2023-10-12T14:10:32Z, COMPLETED
  add props to disable only editor in excalidraw api | Author: krabhi1 (abhishek)," dwelle (David Luzar), krabhi1 (abhishek)", 2023-10-13T11:45:49Z, 2023-11-22T02:32:58Z, COMPLETED
  Creating a PR Template | Author: oohsai (Sai),, 2023-10-13T16:29:59Z, 2023-10-14T19:13:46Z, NOT_PLANNED
  Bug: Insert Image Dialog appearing twice. | Author: David-Carty (David Carty)," dwelle (David Luzar), ishika2021 (Ishika Mishra)", 2023-10-14T17:48:50Z, 2023-10-15T22:19:48Z, COMPLETED
@@ -2879,3 +2881,4 @@ Title,Contributors,Created at,Closed at,Reason
  Bug: Alt+F4 while editing text can cause all canvas elements to be lost | Author: Eli-Zaib (Eli), dwelle (David Luzar), 2026-09-27T07:25:21Z, 2026-09-27T07:56:36Z, NOT_PLANNED
 " Typo in Mermaid input placeholder: ""defintion"" should be ""definition"" | Author: AliGaffarToksoy (Ali Gaffar Toksoy)"," AliGaffarToksoy (Ali Gaffar Toksoy), Renan-MouraN (Unknown)", 2026-09-27T13:35:50Z, 2026-09-28T18:51:46Z, COMPLETED
  tiktok.com/@cod_misori_01 | Author: divasali40-byte (miso_codmakassar), divasali40-byte (miso_codmakassar), 2026-10-05T18:27:26Z, 2026-10-05T18:28:00Z, DUPLICATE
+ Error importing mermaid to excalidraw | Author: Goketech (Akanni Modupe Adegoke), Goketech (Akanni Modupe Adegoke), 2026-10-22T20:37:28Z, 2026-10-23T00:17:17Z, COMPLETED

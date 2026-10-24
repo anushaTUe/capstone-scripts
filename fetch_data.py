@@ -1,4 +1,4 @@
-import os
+﻿import os
 import time
 
 import requests
@@ -50,10 +50,11 @@ def github_search(item_type, states):
     if item_type == "pullRequests":
         fields = """
             title
+            number
             author { login ... on User { name } }
             createdAt
             closedAt
-            merged
+            mergedAt
             additions
             deletions
             changedFiles
@@ -232,12 +233,41 @@ def require_token():
         )
 
 
+def get_merged_pr_numbers():
+    merged_numbers = set()
+    page = 1
+    session = requests.Session()
+    while True:
+        response = session.get(
+            "https://api.github.com/repos/excalidraw/excalidraw/pulls",
+            params={"state": "closed", "per_page": 100, "page": page},
+            headers=headers,
+            timeout=(15, 90),
+        )
+        response.raise_for_status()
+        items = response.json()
+        if not items:
+            break
+        merged_numbers.update(
+            item["number"] for item in items if item.get("merged_at")
+        )
+        if len(items) < 100:
+            break
+        page += 1
+    return merged_numbers
+
+
 if __name__ == "__main__":
     require_token()
     pr_open = github_search("pullRequests", "[OPEN]")
     closed_prs = github_search("pullRequests", "[CLOSED]")
-    pr_merged_items = [pr for pr in closed_prs["items"] if pr["merged"]]
-    pr_closed_items = [pr for pr in closed_prs["items"] if not pr["merged"]]
+    merged_pr_numbers = get_merged_pr_numbers()
+    pr_merged_items = [
+        pr for pr in closed_prs["items"] if pr["number"] in merged_pr_numbers
+    ]
+    pr_closed_items = [
+        pr for pr in closed_prs["items"] if pr["number"] not in merged_pr_numbers
+    ]
     pr_merged = {"items": pr_merged_items, "total_count": len(pr_merged_items)}
     pr_closed = {"items": pr_closed_items, "total_count": len(pr_closed_items)}
 
@@ -271,3 +301,4 @@ if __name__ == "__main__":
         "closed. TOTAL:",
         issues_open["total_count"] + issues_closed["total_count"],
     )
+

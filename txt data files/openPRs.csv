@@ -1,0 +1,1261 @@
+﻿Title,Contributors,Created at,Additions,Deletions,Files Changed
+ batched render optimization | Author: dai-shi (Daishi Kato), dai-shi (daishi), 2020-06-30T09:31:10Z, 106, 5, 3
+ perf: Library state cleanup | Author: petehunt (Pete Hunt), petehunt (Pete Hunt), 2020-07-11T06:09:44Z, 106, 98, 5
+ fix: Update appState on copy-styles & improve paste-styles | Author: dwelle (David Luzar), dwelle (dwelle), 2020-12-12T20:28:36Z, 1296, 1371, 8
+ feat: Show size increase info in export dialog | Author: Kartik1397 (Kartik Prajapati)," Kartik1397 (Kartik Prajapati), Kartik1397 (Kartik), lipis (Lipis)", 2020-12-16T15:57:37Z, 200, 37, 11
+ feat: Purify `getDefaultAppState()` by removing `name` | Author: dwelle (David Luzar), dwelle (dwelle), 2021-01-03T22:51:09Z, 38, 12, 10
+ Adding helm chart | Author: aboutte (Andy Boutte), aboutte (Andy Boutte), 2021-01-04T00:42:28Z, 205, 0, 7
+ feat: Using GCP for portal | Author: lipis (Lipis), lipis (Panayiotis Lipiridis), 2021-02-04T21:35:02Z, 1, 1, 1
+ feat: [Experimental] Pixelated Image Import | Author: pshihn (Preet), pshihn (Preet Shihn), 2021-02-05T18:45:59Z, 140, 0, 2
+ chore: Redirect all paths to root | Author: kbariotis (Kostas Bariotis), kbariotis (kbariotis), 2021-02-14T15:16:06Z, 27, 20, 1
+ feat: Add auto save support when working on an existing file | Author: kbariotis (Kostas Bariotis)," dwelle (dwelle), kbariotis (kbariotis)", 2021-02-14T21:43:24Z, 142, 2, 13
+ chore: Update to the latest Cascadia and remove ttf | Author: lipis (Lipis), lipis (Panayiotis Lipiridis), 2021-02-28T17:11:55Z, 0, 0, 2
+ fix: wysiwyg fix attempt 2 | Author: dwelle (David Luzar), dwelle (dwelle), 2021-03-12T17:37:01Z, 15, 19, 2
+ feat: added open dot arrow feature | Author: caroleenchang (Caroleen Chang), caroleenchang (Caroleen Chang), 2021-04-23T01:44:52Z, 50, 2, 27
+ [WIP] Rich text support  | Author: xixixao (Michal Srb), xixixao (Michal Srb), 2021-05-04T15:46:18Z, 884, 448, 18
+ feat: close mobile canvas menu on canvas pointerdown | Author: dwelle (David Luzar), dwelle (dwelle), 2021-05-25T20:41:48Z, 94, 90, 1
+ fix: manually confirm active wysiwyg on pointerdown | Author: dwelle (David Luzar), dwelle (dwelle), 2021-05-27T16:34:11Z, 13, 2, 3
+ feat: disable double-tap-to-create-text on mobile | Author: dwelle (David Luzar), dwelle (dwelle), 2021-05-28T19:18:37Z, 23, 7, 1
+ feat: cycle through selected elements on cmd/ctrl-click | Author: dwelle (David Luzar), dwelle (dwelle), 2021-05-29T20:38:19Z, 58, 1, 2
+ feat: persist `fileHandle` across sessions | Author: dwelle (David Luzar), dwelle (dwelle), 2021-06-12T20:46:32Z, 83, 3, 7
+ feat: add link/unlink/generate element link | Author: fernandolguevara (Fernando López Guevara)," ElianCordoba (Elian Cordoba), fernandolguevara (Fernando López Guevara), fernandolguevara (Fernando López Guevara)", 2021-07-29T13:35:33Z, 835, 425, 32
+ fix: server side export | Author: Brooooooklyn (LongYinan), Brooooooklyn (LongYinan), 2021-07-30T16:18:43Z, 457, 92, 14
+ feat: initial draft for searching text elements | Author: connor-pph (connor h)," connor-pph (connor-pph), connor-pph (connorhanafee), dwelle (dwelle)", 2021-08-05T19:19:31Z, 250, 2, 13
+ feat: Alignment type option | Author: aprouja1 (Unknown)," aprouja1 (Alex Proujansky), aprouja1 (aprouja1)", 2021-08-23T15:01:46Z, 106, 4, 10
+ feat: implemented onBeforeTextEdit and onBeforeTextSubmit callbacks | Author: zsviczian (Unknown)," zsviczian (Zsolt Viczian), zsviczian (zsviczian)", 2021-09-04T11:38:18Z, 221, 29, 23
+ feat: implemented onDrop callback function | Author: zsviczian (Unknown)," zsviczian (Zsolt Viczian), zsviczian (zsviczian)", 2021-09-04T16:18:57Z, 58, 56, 8
+ ci(workflow): add cache to workflows using actions/setup-node | Author: oscard0m (Oscar Dominguez), oscard0m (Oscar Dominguez), 2021-10-12T19:03:38Z, 6, 1, 6
+ feat: generate random username for new users during collab | Author: dwelle (David Luzar), dwelle (dwelle), 2021-10-16T14:00:08Z, 20, 3, 4
+ feat: expose app instance on `excalidrawAPI` | Author: dwelle (David Luzar), dwelle (dwelle), 2021-10-23T11:41:27Z, 10, 1, 4
+ feat: Add font for wireframing/mockups | Author: ad1992 (Aakansha Doshi)," ad1992 (ad1992), dwelle (dwelle)", 2021-10-28T07:54:00Z, 148, 37, 15
+ feat: compress non-transparent PNGs as JPGs and allow larger dimensions | Author: dwelle (David Luzar), dwelle (dwelle), 2021-11-22T17:12:29Z, 194, 29, 9
+ docs: update readme file | Author: patrickohh (Patrick Oh), patrickohh (patrickohh), 2021-12-07T04:56:09Z, 10, 0, 4
+ chore(deps): bump image-blob-reduce from 3.0.1 to 4.1.0 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2021-12-12T01:22:53Z, 17, 7, 2
+ feat: support image background editor [wip] | Author: dwelle (David Luzar), dwelle (dwelle), 2021-12-20T20:52:53Z, 361, 29, 15
+ feat: Add pen presets | Author: S0urC10ud (Martin Dallinger)," S0urC10ud (Martin Dallinger), S0urC10ud (S0urC10ud)", 2021-12-27T20:53:45Z, 159, 1, 11
+ fix: restore elements and app state in updateScene | Author: ad1992 (Aakansha Doshi), ad1992 (ad1992), 2022-01-13T07:38:57Z, 196, 24, 3
+ docs: add github issue templates | Author: cliffordfajardo (Clifford Fajardo )," Unknown (clifford), ad1992 (Aakansha Doshi), cliffordfajardo (Clifford Fajardo), dwelle (David Luzar)", 2022-01-17T23:28:14Z, 41, 0, 2
+" feat: Using s and g key, open color pickers in zen mode | Author: g4rry420 (Gurkiran Singh)", g4rry420 (GurkiranSingh), 2022-02-01T01:45:33Z, 89, 21, 3
+ feat: Text color ranges | Author: tom-sherman (Tom Sherman)," GideonCaspi (Gideon Caspi), NickFitton (Nicholas Fitton), tom-sherman (Tom Sherman)", 2022-05-06T11:50:14Z, 479, 41, 16
+ fix: export to svg 'line' and 'arrow' issue | Author: festimprebreza (Unknown), festimprebreza (Festim Prebreza), 2022-05-19T21:10:25Z, 15, 7, 2
+ chore(deps): bump socket.io-client from 2.3.1 to 4.5.1 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2022-05-22T01:14:05Z, 45, 156, 2
+ docs: add trilium as an application that integrates excalidraw | Author: thfrei (Thomas Frei), thfrei (Tom Free), 2022-06-10T19:41:29Z, 1, 1, 1
+ feat: Changed stroke width option to a slider | Author: bautifrigole (Bauti), bautifrigole (Bauti), 2022-06-25T18:53:55Z, 43, 32, 3
+ fix: fixing docker build and tags | Author: rwxd (Florian Wrage), Unknown (rwxd), 2022-07-01T08:09:43Z, 27, 4, 1
+ fix: check that service-worker.js exists before attempting to move | Author: riprwwa (Unknown)," dwelle (David Luzar), riprwwa (riprwwa)", 2022-08-03T04:00:01Z, 6, 1, 2
+ [PERF DEBUG] | Author: dwelle (David Luzar), dwelle (dwelle), 2022-08-20T09:53:21Z, 291, 50, 7
+ fix: hide points outside linear element editor when close enough | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2022-08-24T10:20:02Z, 150, 39, 6
+ fix: prevent z-index from resetting on save when collaborating | Author: Periclod (Periclod), Periclod (Periclod), 2022-09-09T08:54:34Z, 16, 24, 2
+ feat: drag & drop links 🔗 | Author: siail (Abdullah Adeel), siail (Abdullah Adeel), 2022-09-17T18:22:55Z, 136, 51, 6
+ fix: lines points removal in collab mode | Author: adarkforce (Antonio Della Fortuna), adarkforce (adarkforce), 2022-10-12T21:17:06Z, 31, 8, 4
+ fix: Do not cache image element on canvas | Author: josephbuchma (Joseph Buchma), josephbuchma (Yosyp Buchma), 2022-10-31T14:41:34Z, 78, 21, 1
+ fix: copy/paste not working on Safari - reintroduce to context menu | Author: zsviczian (Unknown), zsviczian (zsviczian), 2022-11-01T09:41:34Z, 11, 6, 1
+ fix: Show file name on menu item | Author: behnammodi (Behnam), behnammodi (Behnam Mohammadi), 2022-11-03T12:38:05Z, 6, 2, 2
+ fix: show filename on title | Author: behnammodi (Behnam)," ad1992 (Aakansha Doshi), behnammodi (Behnam Mohammadi)", 2022-11-03T19:18:51Z, 4, 15, 3
+ fix: hide TopRightUI in view mode and display with Library button also in MobileMenu | Author: zsviczian (Unknown), zsviczian (zsviczian), 2022-11-14T17:17:17Z, 4, 2, 2
+ fix: iPad freeze - PR used for debugging the issue on the iPad | Author: zsviczian (Unknown), zsviczian (zsviczian), 2022-11-20T18:32:30Z, 20226, 9180, 305
+ feat: expose executeAction API to control actions externally | Author: valgussev (Valerii Gusev), valgussev (Valerii Gusev), 2022-12-10T23:33:47Z, 48, 3, 7
+ fix: exportToSvg does not render mask for arrow text | Author: zsviczian (Unknown)," dwelle (dwelle), zsviczian (zsviczian)", 2022-12-16T22:22:26Z, 16, 0, 1
+ feat: Expose custom context menu handler | Author: valgussev (Valerii Gusev), valgussev (Valerii Gusev), 2022-12-17T22:28:45Z, 57, 2, 5
+ feat: support images in libraries | Author: null-hype (Null Hype)," Unknown (test), null-hype (Richard Anthony)", 2022-12-21T07:36:35Z, 5771, 8, 24
+ fix: always show common attribute when multiple elements selected | Author: a-yerzhyk (Andrii Yerzhykevych), a-yerzhyk (a-yerzhyk), 2022-12-22T20:53:11Z, 26, 11, 2
+ feat: changing container stroke color will not change text if text has a different color | Author: zsviczian (Unknown), zsviczian (zsviczian), 2022-12-23T16:57:38Z, 11, 0, 1
+ feat: Toast on user disconnect | Author: JuaniSilva (Unknown), JuaniSilva (JuaniSilva), 2022-12-27T01:31:50Z, 22, 1, 2
+ feat: Support LaTeX and AsciiMath via MathJax on stem.excalidraw.com | Author: DanielJGeiger (Unknown), DanielJGeiger (Daniel J. Geiger), 2022-12-27T21:16:02Z, 4243, 119, 41
+ feat: bump socket.io and tweak room init | Author: dwelle (David Luzar), dwelle (dwelle), 2022-12-31T21:38:36Z, 91, 191, 7
+ chore: elements already passed to updateStaleImageStatuses | Author: 7flash (berliangor), 7flash (Igor Berlenko), 2023-01-01T22:12:13Z, 11, 13, 1
+ feat: easter egg - support perfect-freehand options for freedraw  | Author: zsviczian (Unknown), zsviczian (zsviczian), 2023-01-04T20:56:07Z, 216, 11, 2
+ feat: Adding option to paste tabular data as a rough table | Author: nicodeheza (nicolas deheza), nicodeheza (nicodeheza), 2023-01-19T21:58:36Z, 187, 25, 6
+ fix: Fix collision detection bug on linear element | Author: LeGorge (Anderson Guimaraes Moura), LeGorge (Anderson G Moura), 2023-01-29T02:00:05Z, 67, 17, 1
+ refactor: Update buttons on the app to use the generic version | Author: LeGorge (Anderson Guimaraes Moura)," LeGorge (Anderson G Moura), LeGorge (Anderson)", 2023-02-04T21:40:48Z, 26, 28, 4
+ feat: rewrite is-hitting-stroke collision helper | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2023-02-15T08:12:07Z, 106, 1, 2
+ debug: hitbox visualizer | Author: dwelle (David Luzar)," ad1992 (Aakansha Doshi), dwelle (dwelle)", 2023-02-15T15:41:33Z, 147, 2, 3
+ docs: add excalidraw codebase section | Author: dwelle (David Luzar), dwelle (dwelle), 2023-02-18T10:47:50Z, 16, 0, 2
+ refactor: split canvas into content and UI canvas | Author: rahul3v (Rahul), rahul3v (Rahul Raj), 2023-02-21T10:22:15Z, 868, 547, 12
+ chore: properly use primitive types over wrappers | Author: Andarist (Mateusz Burzyński), Andarist (Mateusz Burzyński), 2023-02-24T09:02:55Z, 2, 5, 2
+ fix: use canvas height when editing bound text and cleanup | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2023-02-27T08:50:27Z, 751, 722, 15
+ fix: disable scaling bound text when using shift resize | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2023-02-28T15:05:02Z, 336, 140, 6
+ test: bounding-box test | Author: rahul3v (Rahul), rahul3v (Rahul Raj), 2023-03-01T17:39:53Z, 8, 2, 2
+ ci: added multi-platform build for arm | Author: darklight147 (Mohamed Belkamel), darklight147 (Mohamed Belkamel), 2023-03-09T19:38:20Z, 4, 1, 1
+ build: bump actions in GitHub workflow files | Author: deining (Andreas Deininger), deining (Andreas Deininger), 2023-03-14T21:37:15Z, 17, 17, 10
+ fix: alt-dragged elements don't unlink from arrows | Author: FadedBronze (Samyat Gautam), FadedBronze (FadedBronze), 2023-03-19T03:14:07Z, 22, 14, 1
+ feat: add search functionality for library items | Author: 3ba2ii (Ahmed Ghonem), 3ba2ii (Ahmed Ghonem), 2023-04-01T18:29:52Z, 46, 6, 2
+ fix: aligned font family | Author: Dromediansk (Miroslav Pillár), Unknown (Dromediansk), 2023-04-01T20:25:58Z, 12, 8, 6
+ fix: Display error message on file permissions error | Author: 0916dhkim (Danny Kim), 0916dhkim (Donghyeon Kim), 2023-04-01T21:25:13Z, 7, 1, 1
+ chore: try react-scripts-rspack | Author: hardfist (hardfist), hardfist (hardfist), 2023-04-07T05:58:14Z, 457, 15, 2
+ WIP: scale font size in Safari | Author: ad1992 (Aakansha Doshi)," ad1992 (Aakansha Doshi), dwelle (dwelle)", 2023-04-07T08:11:39Z, 182, 61, 9
+ feat: Added shortcut to wrap text in container/Bind/Unbind text and container/arrow | Author: ishaan1091 (Ishaan Kamra), ishaan1091 (Ishaan), 2023-04-07T20:11:49Z, 53, 28, 3
+ feat: remove notch for non-0 roughness ellipse | Author: dwelle (David Luzar), dwelle (dwelle), 2023-04-09T16:52:49Z, 40, 17, 11
+ fix: remove if statement that prevent crtl / cmd binding | Author: brenoliradev (Breno Lira), brenoliradev (Breno Lira), 2023-04-17T02:00:08Z, 1, 5, 2
+ feat: rewrite `DropdownMenu` to use Radix `Dropdown` primitive | Author: barnabasmolnar (Barnabás Molnár), barnabasmolnar (barnabasmolnar), 2023-04-18T15:26:58Z, 4733, 2097, 32
+ feat: Lasso selection Implementation | Author: MxMossy (Max Mossberg), MxMossy (Max Mossberg), 2023-04-22T00:11:57Z, 1, 1, 1
+ feat: rename `stroke` to `text color` for text elements | Author: munnokd (Kalp Prajapati)," munnokd (Kalp Prajapati), munnokd (Kalp)", 2023-04-23T13:52:45Z, 1, 1, 1
+ feat: vertical align for two pointer labelled arrows | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2023-04-27T07:44:26Z, 45, 19, 4
+ fix: Fix an issue with GA library giving the negative of the correct answer in some cases. | Author: boweiliu (Unknown)," boweiliu (Bowei Liu), boweiliu (boweiliu)", 2023-05-01T22:13:43Z, 53, 1, 2
+ fix: touch events invalidate context menu after threshold movement | Author: mnzaki (Mina Nagy Zaki), mnzaki (Mina Nagy Zaki), 2023-05-04T05:22:05Z, 17, 7, 1
+ fix: make `a` focus styling better | Author: dwelle (David Luzar), dwelle (dwelle), 2023-05-05T17:46:04Z, 5, 0, 1
+ ci: add tests coverage | Author: snorfyang (Snorf Yang), snorfyang (SnorfYang), 2023-05-07T10:15:32Z, 38, 0, 2
+ fix: midpoint of line is put on previous line | Author: shuguang-lv (Desmond)," shuguang-lv (Desmond), wgeng4 (KG)", 2023-05-13T22:37:29Z, 158, 18, 2
+ fix: ordering problem of copying as text | Author: shuguang-lv (Desmond), shuguang-lv (Desmond), 2023-05-15T19:15:30Z, 276, 1, 2
+ test : add test case for getPointOnPath | Author: sdadwdsdawd (Unknown)," sdadwdsdawd (ll), sdadwdsdawd (sdadwdsdawd)", 2023-05-22T22:56:51Z, 124, 1, 2
+ feat: Support of uploading multiple images | Author: codingmickey (Kartik Jolapara), codingmickey (Kartik Jolapara), 2023-05-27T21:37:57Z, 129, 95, 2
+ 230528-hojung before edit charts.ts | Author: 8hojung24 (Hou2)," 8hojung24 (Hou2), Unknown (Your Name)", 2023-05-28T04:35:14Z, 107405, 1658, 9
+ feat: pause collab when user switches tabs in the browser | Author: arnostpleskot (Arnost Pleskot), arnostpleskot (Arnošt Pleskot), 2023-06-01T19:13:27Z, 615, 611, 15
+ feat: support filtering selected elements by shape in left panel | Author: shuguang-lv (Desmond), shuguang-lv (Desmond), 2023-06-03T22:55:21Z, 100, 10, 7
+ test: Adding missing tests for getColorNameAndShadeFromColor function | Author: Thedineshk24 (Dinesh Katariya), Thedineshk24 (Dinesh Katariya), 2023-06-05T16:29:34Z, 167, 0, 1
+ fix: fixed bug #6669 | Author: Thedineshk24 (Dinesh Katariya), Thedineshk24 (Dinesh Katariya), 2023-06-13T18:07:07Z, 16, 6, 3
+ feat: round-edged images | Author: zsviczian (Unknown), zsviczian (zsviczian), 2023-06-16T20:10:44Z, 35, 4, 3
+ feat: #1674 | Author: Thedineshk24 (Dinesh Katariya), Thedineshk24 (Dinesh Katariya), 2023-06-18T06:48:51Z, 5, 8, 2
+ fix: change pointer-events of toolbar and footer to none | Author: mass2527 (Dongho Kim), mass2527 (Dongho Kim), 2023-06-22T06:38:13Z, 14, 0, 2
+ fix: change shortcut Key for full-screen from F to F11 | Author: m-Chetan (Chetan Makwana), m-Chetan (ChetanMakwana), 2023-06-22T16:50:30Z, 1, 1, 1
+ fix: bugs related to frames | Author: ryan-di (Ryan Di)," dwelle (dwelle), ryan-di (Ryan Di)", 2023-06-23T13:38:48Z, 27, 21, 6
+ feat: add separate `Text color` property for text elements | Author: indrajitbnikam (Indrajeet Nikam)," ad1992 (Aakansha Doshi), indrajitbnikam (indrajitbnikam)", 2023-06-24T18:54:52Z, 234, 29, 25
+ fix: locales wrong line break | Author: Jasonnor (Jason Wu), Jasonnor (Jasonnor), 2023-06-28T17:01:49Z, 2, 2, 2
+ feat: update eye-dropper icon | Author: dwelle (David Luzar), dwelle (dwelle), 2023-07-07T10:23:07Z, 11, 4, 1
+ feat: smooth zoom with pointer and ctrl+spacebar | Author: parmezan38 (Luka Stojanac)," parmezan38 (Luka Stojanac), parmezan38 (parmezan38)", 2023-07-12T14:52:20Z, 88, 1, 4
+ feat: add new socket message when user joins room | Author: arnostpleskot (Arnost Pleskot), arnostpleskot (Arnošt Pleskot), 2023-07-15T12:36:04Z, 394, 223, 15
+ refactor: Add elementId argument to generateIdForFile function | Author: mukeshsoni (Mukesh Soni), mukeshsoni (Mukesh Soni), 2023-07-22T04:10:45Z, 5, 5, 3
+ feat: File name displayed near menu. Saves on Click | Author: yogeshwara-krishna (Unknown), yogeshwara-krishna (Yogeshwara), 2023-07-24T07:03:47Z, 64, 30, 3
+ docs: Added MainMenu.Sub docs. | Author: barnabasmolnar (Barnabás Molnár), barnabasmolnar (barnabasmolnar), 2023-07-27T11:38:07Z, 32, 0, 1
+ feat: export with image background | Author: arnostpleskot (Arnost Pleskot), arnostpleskot (Arnošt Pleskot), 2023-07-28T09:26:05Z, 1979, 122, 37
+ test | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2023-07-31T15:06:14Z, 6, 2, 4
+ docs: Changed codesanbox steps in contributing.mdx and added links to integration.mdx | Author: AshleyAAabel (Ashley A Abel), AshleyAAabel (Ashley A Abel), 2023-08-15T16:01:32Z, 13, 5, 2
+ fix: `isLocalLink` uses `URL` for detection | Author: azu (azu), azu (azu), 2023-08-17T00:22:03Z, 44, 2, 2
+ fix: utils build | Author: 7flash (berliangor)," 7flash (Igor Berlenko), Unknown (sevenflash)", 2023-08-18T00:54:04Z, 12, 0, 3
+ fix: can't undo selection when holding shift | Author: WBbug (Six), WBbug (WBbug), 2023-08-18T07:41:53Z, 6, 1, 2
+ refactor: FONT_FAMILY and related helpers | Author: dwelle (David Luzar), dwelle (dwelle), 2023-08-25T19:06:03Z, 130, 115, 23
+ [Staging] Maintenance of #6037 | Author: DanielJGeiger (Unknown), DanielJGeiger (Daniel J. Geiger), 2023-08-26T21:48:34Z, 5187, 89, 43
+ fix: room sharing page some labels & buttom always displaying in English | Author: EZLC (EZLC), EZLC (EZLC), 2023-08-28T22:53:53Z, 67, 11, 56
+ chore: bump eslint + prettier and clean up | Author: dwelle (David Luzar), dwelle (dwelle), 2023-09-03T22:47:47Z, 1021, 854, 39
+ build: optimize bundle size by updating split strategy | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2023-09-05T10:44:13Z, 10, 2, 1
+ ci: disable comment for bundle size check | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2023-09-05T14:57:00Z, 4, 0, 1
+ feat: stop storing selection element into `appState.draggingElement` | Author: dwelle (David Luzar), dwelle (dwelle), 2023-09-17T22:07:03Z, 366, 448, 8
+ build(deps): bump get-func-name from 2.0.0 to 2.0.2 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2023-09-27T21:42:08Z, 3, 3, 1
+ [Not For Review] Use MathJax 4.0.0-beta.3 | Author: DanielJGeiger (Unknown), DanielJGeiger (Daniel J. Geiger), 2023-09-30T17:02:20Z, 4216, 138, 40
+ Update App.tsx for #7022 | Author: itsArfinn (Unknown), itsArfinn (itsArfinn), 2023-10-01T14:33:59Z, 91, 0, 1
+ feat: arrow keys canvas movement in view mode | Author: lakshz (Lakshya Satpal), lakshz (Lakshya Satpal), 2023-10-05T06:38:26Z, 29, 1, 2
+ build: move @testing-library dependencies to dev and update .lock file | Author: gibbok (Simone Poggiali), gibbok (Simone Poggiali), 2023-10-05T07:28:36Z, 138, 88, 2
+ docs: update text including the usage of nvm | Author: gibbok (Simone Poggiali), gibbok (Simone Poggiali), 2023-10-05T07:49:16Z, 1, 0, 1
+ build(deps): bump postcss from 8.4.8 to 8.4.31 in /src/packages/utils | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2023-10-05T15:05:56Z, 8, 8, 1
+ build(deps): bump postcss from 8.4.14 to 8.4.31 in /dev-docs | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2023-10-05T15:05:57Z, 8, 8, 1
+ build(deps): bump postcss from 8.4.8 to 8.4.31 in /src/packages/excalidraw | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2023-10-05T15:05:58Z, 4, 9, 1
+ build(deps): bump postcss from 8.4.24 to 8.4.31 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2023-10-05T15:05:58Z, 4, 13, 1
+ Fix: Virgil font for frontend project  | Author: shubhalgupta (Shubhal Gupta), shubhalgupta (shubhalgupta), 2023-10-06T13:00:04Z, 193, 1, 5
+ fix: lasertool offset in Obsidian (and likely other embedded scenarios | Author: zsviczian (Unknown), zsviczian (zsviczian), 2023-10-07T06:50:59Z, 7, 1, 2
+ fix: add missing languages in i18n and locale coverage | Author: 1fbr (Fernando B.), 1fbr (Fer), 2023-10-08T19:46:27Z, 35, 17, 2
+ feat: Support subtypes for `ExcalidrawTextElement` | Author: DanielJGeiger (Unknown), DanielJGeiger (Daniel J. Geiger), 2023-10-14T23:11:17Z, 830, 74, 12
+ Update README.md - Who's integrating Excalidraw | Author: 7flash (berliangor), 7flash (Igor Berlenko), 2023-10-15T03:51:00Z, 1, 1, 1
+  fix: fixed 🔧 the form field missing id🆔 or name attribute in patch_1 | Author: starlove54 (Anubhav Negi), starlove54 (Anubhav Negi), 2023-10-17T21:40:04Z, 1208, 1703, 3
+ build(deps): bump @babel/traverse from 7.18.9 to 7.23.2 in /src/packages/excalidraw | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2023-10-18T06:26:59Z, 98, 19, 1
+ build(deps): bump @babel/traverse from 7.18.9 to 7.23.2 in /src/packages/utils | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2023-10-18T06:27:15Z, 118, 13, 1
+ feat: Splitting curves in linear elements like lines and arrows | Author: pshihn (Preet), pshihn (Preet), 2023-10-23T01:01:26Z, 206, 40, 11
+ Font Weight / Font Style / Google Noto Font | Author: caferyukseloglu (Cafer Yükseloğlu)," caferyukseloglu (Cafer Sadık Yükseloğlu), caferyukseloglu (Cafer Yükseloğlu)", 2023-11-03T13:09:48Z, 479, 21, 29
+ perf: improve frame rendering | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2023-11-08T14:54:54Z, 184, 172, 4
+ fix: onPointerMove cancels ContextMenu locked element selection on Mobile | Author: zsviczian (Unknown), zsviczian (zsviczian), 2023-11-12T12:02:03Z, 5, 0, 1
+ chore: bump caniuse-lite | Author: dwelle (David Luzar), dwelle (dwelle), 2023-11-14T11:11:25Z, 3, 3, 1
+ feat: scale embeddable when SHIFT+resizing | Author: zsviczian (Unknown), zsviczian (zsviczian), 2023-11-16T18:51:00Z, 56, 23, 8
+ fix: lock/unlock elements in frames | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2023-11-17T10:32:58Z, 12, 14, 3
+ fix: Fix text element inside container when rotated | Author: liyu1981 (Yu LI), liyu1981 (Yu Li), 2023-11-17T12:34:26Z, 0, 1, 1
+ feat: introduce dynamic port handling in Docker environment | Author: mberlanda (Mauro Berlanda), mberlanda (Mauro Berlanda), 2023-11-18T14:56:52Z, 69, 1, 3
+ feat: Wrap text trims each line | Author: zsviczian (Unknown), zsviczian (zsviczian), 2023-11-18T17:33:06Z, 2, 2, 2
+ chore: Fix typo in variable name | Author: bi-kim (Bi Kim), bi-kim (bi-kim), 2023-11-22T03:00:14Z, 4, 4, 1
+ feat: Widen `ActionName` and `ShortcutName` to include `custom.${string}` | Author: DanielJGeiger (Unknown), DanielJGeiger (Daniel J. Geiger), 2023-11-22T21:42:55Z, 15, 1, 2
+ fix: normalizeLink - link.trim() is called before checking if link exists | Author: zsviczian (Unknown), zsviczian (zsviczian), 2023-11-25T11:02:55Z, 1, 1, 1
+ fix: cancel onKeyDown if SHIFT is down and state.resizingElement !== null | Author: zsviczian (Unknown), zsviczian (zsviczian), 2023-11-27T18:23:11Z, 4, 1, 1
+ docs: use permalinks for type reference links | Author: EastSun5566 (Michael Wang), EastSun5566 (Michael Wang), 2023-12-02T18:38:31Z, 3, 3, 1
+ Feat: Added Hide Menu functionality | Author: AlanSala123 (Unknown), Unknown (alansala), 2023-12-04T00:45:22Z, 1451, 1435, 5
+ docs: Fix argument type of excalidrawAPI.addFiles() | Author: mikecat (みけCAT), mikecat (みけCAT), 2023-12-06T10:57:58Z, 1, 1, 1
+ docs: Fix Props.validateEmbeddable | Author: mikecat (みけCAT), mikecat (みけCAT), 2023-12-06T11:10:03Z, 1, 1, 1
+ docs: Fix links in excalidrawAPI | Author: mikecat (みけCAT), mikecat (みけCAT), 2023-12-06T11:18:15Z, 3, 3, 1
+ docs: Fix Props.onPointerUpdate() arguments | Author: mikecat (みけCAT), mikecat (みけCAT), 2023-12-06T11:32:38Z, 2, 2, 1
+ docs: tutorial or extra help navigating through user interface | Author: kiranair101 (Unknown), kiranair101 (kiranair101), 2023-12-07T02:44:56Z, 3, 0, 1
+ docs: fix line numbers in links in API/Props | Author: mikecat (みけCAT), mikecat (MikeCAT), 2023-12-08T11:29:01Z, 41, 41, 5
+ docs: fix type links in API/Utils | Author: mikecat (みけCAT), mikecat (MikeCAT), 2023-12-08T12:57:29Z, 45, 45, 3
+ docs: Fix type links in API pages | Author: mikecat (みけCAT), mikecat (MikeCAT), 2023-12-08T13:10:49Z, 7, 7, 2
+ docs: Fix link in API/Children Components/MainMenu | Author: mikecat (みけCAT), mikecat (MikeCAT), 2023-12-08T13:22:08Z, 1, 1, 1
+ docs: Fix links in @excalidraw/mermaid-to-excalidraw | Author: mikecat (みけCAT), mikecat (MikeCAT), 2023-12-08T13:52:04Z, 12, 12, 3
+ memoize rendering actions in sidebar to improve performance | Author: 7flash (berliangor), 7flash (Igor Berlenko), 2023-12-11T09:06:40Z, 4, 2, 1
+ fix: include arrowheads in arrow bounds | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2023-12-21T09:40:06Z, 221, 147, 10
+ refactor: simplify type definitions with record | Author: guesung (Kuesung Park), guesung (Kuesung Park), 2023-12-26T06:44:02Z, 15, 18, 7
+ refactor: Seperated imports from packages and local imports | Author: ArshilHapani (Arshil Hapani)," ArshilHapani (Arshil Hapani), ArshilHapani (ArshilHapani)", 2023-12-28T08:04:59Z, 62, 46, 9
+ Fix blinking iframe collab | Author: cartario (Unknown), cartario (VasiliyMac), 2023-12-29T21:27:29Z, 2, 3, 1
+ fix: Unintentional Circles in Freehand Strokes | Author: zsviczian (Unknown), zsviczian (zsviczian), 2024-01-03T15:10:52Z, 1, 4, 1
+ docs: use excalidrawAPI instead of ref to make examples work | Author: mikecat (みけCAT), mikecat (MikeCAT), 2024-01-05T11:29:29Z, 4, 4, 3
+ docs: add tools to UIOptions | Author: mikecat (みけCAT), mikecat (みけCAT), 2024-01-10T13:36:33Z, 2, 2, 1
+ docs: add MainMenu.Separator to the documentation | Author: mikecat (みけCAT), mikecat (みけCAT), 2024-01-11T10:22:09Z, 24, 0, 1
+ Adding one-click installation template | Author: cosark (Unknown), cosark (cosark), 2024-01-11T18:17:04Z, 4, 0, 1
+ feat: redirect fonts to cdn (take 2) | Author: dwelle (David Luzar), dwelle (dwelle), 2024-01-11T21:25:02Z, 12, 0, 4
+ Issue #7177 Changed selectionColors: [oc.black] to  selectionColors:… | Author: aashirisrar (Aashir Israr), aashirisrar (Aashir Israr), 2024-01-13T00:58:52Z, 1, 1, 1
+ fix: collab init | Author: dwelle (David Luzar), dwelle (dwelle), 2024-01-16T16:11:47Z, 13, 0, 2
+ docs: clarify description of duration for setToast | Author: mikecat (みけCAT), mikecat (MikeCAT), 2024-01-26T11:06:37Z, 1, 1, 1
+ process %2С as comma in collab links | Author: Shikaka (Konstantin), Shikaka (Konstantin), 2024-02-06T10:06:52Z, 3, 3, 1
+ initial | Author: utsavdholiya (Utsav Dholiya), utsavdholiya (utsavdholiya), 2024-02-06T11:49:26Z, 2, 0, 2
+ docs: fix serializeAsJSON signature | Author: weirany (Unknown), weirany (Weiran Ye), 2024-02-20T06:09:29Z, 5, 3, 1
+ fix: allow to paste multiple images from clipboard | Author: 7flash (berliangor), 7flash (Igor Berlenko), 2024-02-22T02:31:55Z, 13, 12, 1
+ show H in hand button | Author: angelxescomx08 (José Ángel Hernández Radilla), angelxescomx08 (angelxescomx08), 2024-03-03T19:13:59Z, 1382, 2552, 2
+ docs: export utils type link added | Author: aashmanVerma (Aashman Verma), aashmanVerma (Aashman Verma), 2024-03-06T14:43:50Z, 1, 1, 1
+ Feat move canvas in viewmode using arrow keys | Author: hkrhasan (hkrhasan.dev), hkrhasan (hkrhasan), 2024-03-08T11:20:58Z, 268, 139, 4
+ build(deps): bump follow-redirects from 1.15.1 to 1.15.6 in /dev-docs | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-03-15T22:06:35Z, 3, 3, 1
+ build(deps): bump follow-redirects from 1.15.2 to 1.15.6 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-03-16T02:57:34Z, 3, 3, 1
+ Add holding Z and click-drag to zoom | Author: painttist (Yifan Tu), painttist (Yifan Tu), 2024-03-21T20:51:54Z, 105, 4, 2
+ build(deps): bump webpack-dev-middleware from 5.3.3 to 5.3.4 in /dev-docs | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-03-23T07:56:36Z, 3, 3, 1
+ Fix: Docker build (#7582) | Author: jcobol (Unknown), Unknown (jcobol), 2024-03-23T17:44:51Z, 6, 8, 2
+ fix: wysiwyg textarea width when window zoom !== 100% | Author: zsviczian (Unknown), zsviczian (zsviczian), 2024-04-03T20:42:09Z, 2, 2, 1
+ Feat: Add the Dialog while delete the element | Author: ShivamMishra9123 (Unknown), ShivamMishra9123 (ShivamMishra9123), 2024-04-11T05:04:09Z, 207, 170, 5
+ feat: Add library items to Command palette on search | Author: nickfujita (Nick Fujita), nickfujita (Nick Fujita), 2024-04-22T13:53:15Z, 100, 10, 3
+ build(deps): bump ejs from 3.1.9 to 3.1.10 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-05-01T18:48:29Z, 3, 3, 1
+ Refactor: type improvements | Author: Beraliv (Alexey Berezin), Beraliv (Alexey Berezin), 2024-05-01T23:45:56Z, 29, 38, 19
+ feat: collapsable option for color pallette while drawing | Author: AdamLinCodes (Adam Lin), AdamLinCodes (Adam Lin), 2024-05-02T04:35:28Z, 52, 10, 2
+ feat: use @excalidraw/utils as a workspace in the codebase | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2024-05-03T11:38:37Z, 366, 132, 37
+ feat: Update box selection to use partial overlap | Author: mdm5995 (Morgan Moore), mdm5995 (Morgan Moore), 2024-05-16T01:18:41Z, 4, 4, 1
+ Add list of features to Excalidraw editor documentation | Author: dileepdhangar (Dileepdhangar), dileepdhangar (Dileep Dhangar), 2024-05-17T10:53:54Z, 18, 18, 1
+ Docs: Fix the example in installation.mdx | Author: yeger00 (Yeger), yeger00 (Yeger), 2024-05-23T17:37:49Z, 2, 1, 1
+ feat: double tap in pen mode to toggle eraser | Author: zsviczian (Unknown), zsviczian (zsviczian), 2024-05-23T17:39:26Z, 23, 1, 1
+ fix: Align diamond vertices to grid  | Author: ritikx01 (Ritik Singh), ritikx01 (ritikx01), 2024-05-26T12:56:09Z, 5, 5, 2
+ Fix: text area is partially out of the screen | Author: ViktorLajos (Viktor Lajos), ViktorLajos (Viktor Lajos), 2024-06-06T08:52:18Z, 2, 2, 2
+ fix: scaling linear element causes inconsistent shifting #6832 | Author: FadedBronze (Samyat Gautam), FadedBronze (FadedBronze), 2024-06-08T21:12:40Z, 28, 6, 1
+ Create issue_template.md | Author: penrowd (Unknown), penrowd (penrowd), 2024-06-12T01:15:04Z, 34, 0, 1
+ ci: Add metadata tags for Docker image publishing | Author: Maniteja0126 (Maniteja), Maniteja0126 (Maniteja0126), 2024-06-12T17:39:22Z, 18, 2, 1
+ Pre-improvement coverage results | Author: GacuGacu (Unknown), GacuGacu (GacuGacu), 2024-06-18T10:37:35Z, 2373, 2793, 10
+ Restore-reconcile pretests-results | Author: GacuGacu (Unknown)," GacuGacu (GacuGacu), RussianMoroccan (RussianMoroccan)", 2024-06-18T10:45:10Z, 3313, 2852, 74
+ replace nginx image with official rootless version | Author: codeInTheShell (cITs), Unknown (cITs), 2024-06-19T17:31:00Z, 1, 1, 1
+ docs: update `initialData` docs | Author: es-romo (Esteban Romo), es-romo (Esteban Romo), 2024-06-24T05:30:02Z, 2, 2, 2
+ perf: cache getElementShape() result | Author: BlueGreenMagick (Unknown), BlueGreenMagick (Yoonchae Lee), 2024-07-14T11:13:24Z, 35, 5, 2
+ perf: use cached hasNonDeletedSelectedElement() | Author: BlueGreenMagick (Unknown), BlueGreenMagick (Yoonchae Lee), 2024-07-15T06:51:00Z, 87, 57, 11
+ feat: support importing `obsidian.md` files | Author: dwelle (David Luzar), dwelle (dwelle), 2024-07-19T10:40:10Z, 26, 4, 4
+ build(deps): bump braces from 3.0.2 to 3.0.3 in /dev-docs | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-07-25T16:56:27Z, 17, 9, 1
+ build(deps): bump ws from 7.5.9 to 7.5.10 in /dev-docs | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-07-25T16:56:30Z, 28, 23, 1
+ build(deps): bump @grpc/grpc-js from 1.10.6 to 1.11.1 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-07-25T16:56:31Z, 3, 3, 1
+ feature: added self host storage-backend with s3 option | Author: saifulbabo67646 (MD Saiful Islam), saifulbabo67646 (saifulbabo67646), 2024-07-29T11:29:47Z, 466, 23, 9
+ feat: testing LP | Author: maielo (Milos Vetesnik), maielo (Milos Vetesnik), 2024-08-09T12:40:55Z, 25, 1, 1
+ fix : UI update on Dialog.tsx | Author: sudharson-c (Sudharson C), sudharson-c (sudharson-c), 2024-08-13T01:42:08Z, 0, 2, 1
+ fix: position of rotated curved linear elements in svg export | Author: clarencechaan (Clarence Chan), clarencechaan (Clarence Chan), 2024-08-13T22:19:55Z, 105, 1, 4
+ fix: cross-group selection incorrectly allowed in specific cases | Author: clarencechaan (Clarence Chan), clarencechaan (Clarence Chan), 2024-08-14T21:21:47Z, 3, 2, 1
+ feat: `command palette` supports searching by shortcut | Author: kurorinto (Rinto Kuroshima), kurorinto (kurorinto), 2024-08-15T07:01:41Z, 17, 1, 1
+ fix: wysiwyg calculating incorrect width on paste | Author: clarencechaan (Clarence Chan), clarencechaan (Clarence Chan), 2024-08-15T21:27:54Z, 24, 30, 1
+ feat: Add Malayalam translation support | Author: stormdotcom (Ajmal Nasumudeen), stormdotcom (Ajmal Nasumudeen), 2024-08-17T14:17:14Z, 608, 2, 3
+ Prototyping Auto Scroll feature | Author: hata6502 (hata6502), hata6502 (hata6502), 2024-08-19T13:37:05Z, 22, 0, 1
+ fix: Fixed issue where shape details were pasted in text areas instead of actual shape | Author: Amit-K-007 (Amit Kulkarni), Amit-K-007 (Amit-K-007), 2024-08-26T18:41:47Z, 10, 3, 1
+" Add Deployment Guide: Minikube | Author: rescenic (Muhammad Ridwan Hakim, S.T., CPITA, ITPMCP)"," rescenic (Muhammad Ridwan Hakim), rescenic (Muhammad Ridwan Hakim, S.T., CPITA, ITPMCP)", 2024-08-28T05:06:39Z, 88, 0, 2
+ build(deps-dev): bump webpack from 5.76.0 to 5.94.0 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-08-30T10:43:03Z, 24, 202, 2
+ Added missing translation to tamil language | Author: prafuldivani (Praful Divani), prafuldivani (Praful Divani), 2024-09-07T04:35:39Z, 79, 79, 1
+ build(deps): bump express from 4.18.1 to 4.21.0 in /dev-docs | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-09-12T10:57:52Z, 163, 66, 1
+ build(deps-dev): bump vite from 5.0.12 to 5.1.8 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-09-19T19:29:11Z, 23, 13, 3
+ feat: edit group on Enter | Author: aqandrew (Andrew Aquino), aqandrew (Andrew Aquino), 2024-09-20T05:20:08Z, 65, 0, 2
+ docs: replace dead link | Author: hocino (Unknown), hocino (hocino), 2024-09-25T19:01:35Z, 2, 2, 1
+ Add Title Tags to SVGs for Improved Searchability | Author: Sallytion (Yash Tekwani), Sallytion (Sallytion), 2024-09-29T17:46:57Z, 27, 5, 3
+ #8508 issue:Update App.tsx | Author: ankammaraosandu (Unknown), ankammaraosandu (ankammaraosandu), 2024-09-29T23:53:23Z, 18, 4, 1
+ feat: Add Angle-Constrained Freedraw (Shift + Draw Straight Lines in Discrete Angles) | Author: vidipsingh (Vidip Singh)," mtolmacs (Mark Tolmacs), vidipsingh (Vidip Singh), vidipsingh (Vidip)", 2024-10-03T20:47:17Z, 137, 16, 6
+ fix: Duplication of element while dragging using Alt #8508 | Author: ritk20 (Ritobroto Kalita), ritk20 (ritk20), 2024-10-03T22:46:08Z, 5, 1, 1
+ feat: Add angle constrained freedraw | Author: AMRITESH240304 (Amritesh Kumar), AMRITESH240304 (AMRITESH240304), 2024-10-04T11:48:02Z, 11, 2, 1
+ build(deps): bump @sentry/browser from 6.2.5 to 7.119.1 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-10-04T16:53:00Z, 80, 37, 2
+ Create Calibri-Regular.woff2 | Author: CodeCreator2004 (om), CodeCreator2004 (CodeCreator2004), 2024-10-04T18:32:22Z, 1227, 0, 1
+ docs: Typo fixes and Improved Readability | Author: tmsagarofficial (S A G A R), tmsagarofficial (S A G A R), 2024-10-06T05:07:44Z, 36, 36, 9
+ refactor: fix todo | Author: ritk20 (Ritobroto Kalita), ritk20 (ritk20), 2024-10-09T22:30:52Z, 30, 22, 2
+ feat: add support for web.tutar.app embeds | Author: ritk20 (Ritobroto Kalita), ritk20 (ritk20), 2024-10-10T12:31:33Z, 54, 0, 1
+ Feat/choosen shape on click | Author: nadjascodejourney (Nadja Probst), nadjascodejourney (Nadja Probst), 2024-10-11T19:18:35Z, 82, 4, 1
+ Updated embeddable.ts | Author: Sachin-infusory (Unknown), Sachin-infusory (Sachin-infusory), 2024-10-14T05:34:32Z, 2, 0, 1
+ remove the condition of allow same domain and originn for eemed links | Author: iamyasiramjad (Yasir Amjad), iamyasiramjad (Yasir Amjad), 2024-10-15T08:17:25Z, 113, 168, 1
+ fix: correctly calculate highlight rectangle for RTL text | Author: kaguya3222 (Maksym Anisimov), kaguya3222 (Maksym Anisimov), 2024-10-15T19:31:59Z, 448, 31, 4
+ Betternotion implementation | Author: xianmalik (Malik Zubayer Ul Haider), xianmalik (Malik Zubayer), 2024-10-16T20:41:48Z, 1538, 2342, 16
+ fix: dont show keyboard related hints when on mobile - they are misleading  | Author: malytskyy (malytskyy), malytskyy (Roman Malytskyy), 2024-10-16T22:19:29Z, 24, 10, 1
+ feat: add custom color picker for canvas background | Author: Cypher-CP0 (emtara), Cypher-CP0 (Cypher-CP0), 2024-10-24T06:27:01Z, 16233, 11167, 6
+ build(deps): bump http-proxy-middleware from 2.0.6 to 2.0.7 in /dev-docs | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-10-24T10:51:29Z, 3, 3, 1
+ feat: prevent unwanted movements of elements on selection | Author: pahulgogna (Pahul Gogna), pahulgogna (Pahul Gogna), 2024-10-25T19:25:48Z, 28, 0, 1
+ feat: extended tool configuration for more customizable UI | Author: KryQ (Unknown), KryQ (KryQ), 2024-11-07T12:51:58Z, 552, 219, 9
+" refactor: replace role=""dialog"" + div with dialog | Author: hirehamir (Unknown)", hirehamir (Hamir Mahal), 2024-11-09T16:37:51Z, 4, 4, 3
+ feat: add library search | Author: ninjaasmoke (tintin)," ninjaasmoke (ninjaasmoke), ninjaasmoke (tintin), shinobi018 (shinobi018)", 2024-11-13T22:18:13Z, 54, 19, 5
+ Update installation.mdx | Author: CodeLeom (Ayodele Aransiola), CodeLeom (Ayodele Aransiola), 2024-11-14T15:03:53Z, 1, 1, 1
+ build(deps): bump firebase from 8.3.3 to 10.9.0 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-11-18T22:23:34Z, 403, 295, 2
+ build(deps): bump cross-spawn from 7.0.3 to 7.0.6 in /dev-docs | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-11-19T19:35:53Z, 3, 3, 1
+ fix: fixed search input cursor position issue | Author: kenjiding (Unknown), kenjiding (kenjiding), 2024-11-26T15:38:19Z, 17, 0, 1
+ update crowdin logo | Author: KTibow (Kendell), KTibow (Kendell R), 2024-12-01T19:24:33Z, 1, 6, 1
+ fix: align arrows bound to elements (WIP) | Author: henok-tesfaye (Henok Tesfaye), henok-tesfaye (Henok Tesfaye), 2024-12-03T07:29:01Z, 49, 7, 2
+ docs: added missing verb in 'footer.mdx' paragraph | Author: abedshaaban (Abed Al Ghani Shaaban), abedshaaban (Abed Al Ghani Shaaban), 2024-12-05T22:17:25Z, 2, 2, 1
+ fix: localStorage overflow and add new toast types | Author: bgevko (Bogdan Gevko)," Mrazator (Marcel Mraz), bgevko (Bogdan Gevko)", 2024-12-06T13:40:53Z, 122, 11, 7
+ feat: allow show grid without snap to grid (#6889) | Author: adamsmd (Michael D. Adams), adamsmd (Michael D. Adams), 2024-12-07T01:31:59Z, 38, 1, 8
+ Fix: Fix rectangle text element padding to be dynamic based on font size.  | Author: magedhennawy (Maged Hennawy), magedhennawy (Maged Hennawy), 2024-12-07T20:27:35Z, 13, 8, 4
+ build(deps): bump nanoid from 3.3.3 to 3.3.8 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2024-12-10T17:51:18Z, 5, 10, 2
+ Added `renderTopLeftUI` render prop | Author: storiesOfRen (Ren Estep), storiesOfRen (restep), 2024-12-12T21:42:01Z, 185, 12, 11
+ feat:  quick color selection using number keys (1-5) while using the drawing tool | Author: KozielGPC (Márcio Gabriel)," KozielGPC (KozielGPC), KozielGPC (Marcio Gabriel)", 2024-12-13T02:07:14Z, 68, 5, 4
+ fix: prevent WYSIWYG pointerdown event listener leak | Author: Brikaa (Omar Brikaa), Brikaa (Omar Brikaa), 2024-12-20T12:40:28Z, 1, 1, 1
+ fix: various wysiwyg issues | Author: dwelle (David Luzar), dwelle (dwelle), 2024-12-22T12:47:23Z, 187, 66, 19
+ fix: Automatically load and save excalidaraw file after reload | Author: Vatsalsoni13 (VatsalSoni_13), Vatsalsoni13 (Vatsalsoni13), 2024-12-22T15:50:43Z, 36, 9, 4
+ feat: add color wheel | Author: abhitrueprogrammer (Abhinav Pant), abhitrueprogrammer (abhitrueprogrammer), 2024-12-23T07:16:14Z, 27, 2, 2
+ Feature: extend the registerAction to excalidrawAPI to support UI | Author: MrPluto0 (Gypsophlia), MrPluto0 (MrPluto0), 2024-12-30T13:28:40Z, 92, 11, 5
+ build(deps): bump next from 14.0.4 to 14.2.21 in /examples/excalidraw/with-nextjs | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2025-01-03T21:55:07Z, 1, 1, 1
+ feat: add timeout on doublick pointerup | Author: dwelle (David Luzar), dwelle (dwelle), 2025-01-07T17:00:02Z, 18, 0, 2
+ build(deps): bump katex from 0.16.10 to 0.16.21 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2025-01-17T21:34:19Z, 3, 3, 1
+ fix: iOS18 file open issue | Author: zsviczian (Unknown), zsviczian (zsviczian), 2025-01-17T22:40:35Z, 41, 14, 1
+ chore: remove deprecated docker-compose version field | Author: fveas (Felipe Veas), Unknown (Felipe Veas), 2025-01-25T01:50:05Z, 0, 2, 1
+ fix: capture container dimension change history to allow undoing | Author: connor-pph (connor h), connor-pph (connor-p), 2025-01-31T02:16:52Z, 1, 0, 1
+ feat: Add automated accessibility testing with Axe-core and Playwright | Author: mlsbez (Mariana Lima), mlsbez (Mariana Lima), 2025-02-03T22:14:06Z, 144, 0, 4
+ build(deps-dev): bump vitest from 2.0.5 to 2.1.9 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2025-02-04T18:24:54Z, 129, 135, 2
+ build(deps-dev): bump vite from 5.0.12 to 5.4.12 in /examples/excalidraw/with-script-in-browser | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2025-02-04T18:25:04Z, 1, 1, 1
+" fix: latest Samsung update has blob.type === """" when adding image from gallery | Author: zsviczian (Unknown)", zsviczian (zsviczian), 2025-02-04T19:08:58Z, 11, 1, 1
+ feat: Color wheel picker feature [issue #9018] | Author: sha-linimoorthy (Shalini ), sha-linimoorthy (shalini), 2025-02-07T11:55:58Z, 2161, 2625, 32
+ This ensures proper saving of collaboration data when users leave the room. Fixes #9104 | Author: ShivanshKumar760 (Shivansh Kumar), ShivanshKumar760 (Shivansh Kumar), 2025-02-09T19:53:07Z, 29, 13, 4
+ feat: Replace stroke width buttons with a slider for improved UX   | Author: sha-linimoorthy (Shalini ), sha-linimoorthy (shalini), 2025-02-11T08:50:33Z, 1878, 2629, 30
+ build(deps-dev): bump esbuild from 0.19.10 to 0.25.0 | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2025-02-11T12:50:32Z, 133, 121, 2
+ fix: node version updated to node 23.7.0 | Author: MohakGupta2004 (Mohak Gupta), MohakGupta2004 (MohakGupta2004), 2025-02-11T22:03:46Z, 1459, 2301, 2
+ build(deps): bump serialize-javascript from 6.0.0 to 6.0.2 in /dev-docs | Author: dependabot (Unknown), dependabot[bot] (dependabot[bot]), 2025-02-13T11:49:20Z, 3, 3, 1
+ feat: revert to primitive navigation | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2025-02-24T01:24:09Z, 70, 225, 3
+ fix: increase text element horizontal padding in rectangle | Author: surya-d-621 (Surya), surya-d-621 (surya-d-621), 2025-03-01T06:17:29Z, 58, 41, 7
+ feat: save file to localstorage | Author: R5dan (Unknown), R5dan (R5dan), 2025-03-07T12:56:28Z, 37, 1, 1
+ Fix docker composer up | Author: Chopin85 (Paolo Catalani), Chopin85 (Chopin85), 2025-03-07T14:38:06Z, 1, 0, 1
+ feat: QoL improvement. Debounce context menu if user is resizing an element | Author: zsviczian (Unknown), zsviczian (zsviczian), 2025-03-09T10:20:39Z, 5, 1, 1
+ fix: Arrow tool breaks if switching to selection tool while drawing arrow. | Author: s1lverfish (Viczián András), s1lverfish (Andras Viczian), 2025-03-12T14:51:24Z, 44, 3, 2
+ Modify the Copy Image to Clipboard functionality to embed scene data . | Author: CodeFromRahul (Rahul), CodeFromRahul (CodeFromRahul), 2025-03-13T19:47:45Z, 1911, 2471, 2
+ fix: arrow restoration during undo/redo | Author: psmyrdek (Przemek Smyrdek)," mtolmacs (Mark Tolmacs), mtolmacs (Márk Tolmács), psmyrdek (psmyrdek)", 2025-03-15T11:47:50Z, 235, 10, 3
+ chore: fix spelling errors | Author: rjhear (Ray), rjhear (Raymond Hear), 2025-03-28T18:41:13Z, 75, 75, 40
+ feat: add keyboardEvent codes for shape selection | Author: Likilee (Kihoon Lee (Kilee)), kilee-hp (Likilee), 2025-03-31T10:04:43Z, 19, 2, 2
+ fix: allow build size gt>2mb | Author: taohansens (Tao Hansen), taohansens (Tao Hansen), 2025-04-01T14:03:05Z, 2, 2, 2
+" feat:allow the (rectangle, diamond, ellipse) shape to be changed with shortcut cmd+R,D,E | Author: xudesheng (Xu Desheng)", xudesheng (Xu Desheng), 2025-04-03T21:07:18Z, 1850, 2060, 8
+ fix: Correction and addition of Russian translations | Author: AnnaVoroshnina (Unknown), AnnaVoroshnina (AnnaVoroshnina), 2025-04-04T12:09:32Z, 38, 10, 1
+ WIP feat: add option to hide library in the sidebar | Author: sultaniman (Sultan Iman), sultaniman (Sultan Iman), 2025-04-08T15:49:30Z, 19, 8, 4
+ feat: add top picks to appProps for both stoke background color | Author: Feng94 (feng), Unknown (feng), 2025-04-12T11:54:49Z, 11, 2, 3
+ Refactor/separate src folder for excalidraw package | Author: deepen-404 (Deepen Timalsina), deepen-404 (Deepen Timalsina), 2025-04-15T15:32:57Z, 425, 392, 809
+ docs: fix Browser integration example React import | Author: FliegendeWurst (Arne Keller), FliegendeWurst (Arne Keller), 2025-04-15T21:40:53Z, 2, 2, 1
+ feat: implementation of non-proportional resize for groups | Author: tinglu12 (Ting Lu), tinglu12 (Ting Lu), 2025-04-16T00:36:21Z, 140, 7, 2
+ fix: use css vars already provided instead of hard coding directly fr… | Author: Feng94 (feng), Unknown (feng), 2025-04-17T10:08:14Z, 7, 7, 5
+ test: visual regression tests POC | Author: dwelle (David Luzar), dwelle (dwelle), 2025-04-20T20:14:12Z, 797, 10, 12
+ fix: hide the alignment buttons if there is only one group selected (… | Author: Feng94 (feng), Unknown (feng), 2025-04-21T09:46:08Z, 7, 1, 1
+ feat: add arrange elements action | Author: Feng94 (feng), Unknown (feng), 2025-04-21T09:47:04Z, 399, 1, 15
+ fix: groupIds update for boundText element | Author: jhanma17dev (Jhan Mario Bolívar Peña), jhanma17dev (jhanma17), 2025-04-21T23:34:12Z, 19, 0, 1
+ Fix: #9382 add the embeded url of the twitch.tv | Author: tech-dipesh (Dipendra Sharma), tech-dipesh (Dipesh Sharma), 2025-04-28T04:53:47Z, 1314, 1847, 2
+ feat: add regular polygon shape to drawing toolbar | Author: Ayesha-Imr (Ayesha Imran), Ayesha-Imr (Ayesha Imran), 2025-04-28T08:41:00Z, 1784, 2050, 33
+ Update live-collaboration-trigger.mdx | Author: harryheman (Igor Agapov), harryheman (Igor Agapov), 2025-04-30T05:25:19Z, 4, 4, 1
+ fix: proper deletion & sync of multi-point elements | Author: G0WTHAM-SELVARAJ (Gowtham Selvaraj)," G0WTHAM-SELVARAJ (Gowtham Selvaraj), G0WTHAM-SELVARAJ (gowtham.selvaraj)", 2025-05-02T05:29:12Z, 12, 13, 2
+" trying to adda a traingle to main tool bar, but still not working | Author: salehawal (saleh geberty)", salehawal (saleh geberty), 2025-05-04T08:25:03Z, 94, 0, 9
+ feat: enabled embedding Loom videos | Author: narekmalk (Narek Malkhasyan), narekmalk (Narek Malkhasyan), 2025-05-04T18:40:04Z, 30, 0, 1
+ feat: Add the zoom mode with Z+Drag to pen/stylus support | Author: MatheusMuriel (Matheus Muriel), MurielMLabs (Matheus Muriel), 2025-05-05T17:08:59Z, 107, 4, 2
+ feat: #9482 (Feat audio tracker) | Author: theturling (Turling), theturling (turling), 2025-05-05T21:16:01Z, 542, 327, 8
+ feat: more idiomatic element filters [POC] | Author: dwelle (David Luzar), dwelle (dwelle), 2025-05-06T11:29:24Z, 107, 28, 4
+ fix: replace `-moz-crisp-edges` with `crisp-edges` for better Firefox… | Author: VinayakTiwari1103 (Vinayak Tiwari)," VinayakTiwari1103 (Vinayak Tiwari), VinayakTiwari1103 (VinayakTiwari1103)", 2025-05-07T11:35:58Z, 4, 3, 1
+ chore: Add arrow button functionality to DragInput component for improved UX | Author: cactyx (Cactys), cactyx (Cactys), 2025-05-10T22:07:48Z, 21, 2, 1
+ fix: Make canvas search results stable by sorting by ID (#9503) | Author: shobhitsrivastava2023 (Shobhit Srivastava), shobhitsrivastava2023 (shobhitsrivastava2023), 2025-05-17T15:32:31Z, 2, 2, 1
+ fix: allow selecting locked elements | Author: cadenkoj (Caden Daugherty), cadenkoj (Caden), 2025-05-18T20:39:57Z, 5, 1, 1
+ docs: add architecture guide for contributors (#7783) | Author: rishabh-ml (Rishabh Shukla)," mtolmacs (Mark Tolmacs), mtolmacs (Márk Tolmács), rishabh-ml (Rishabh Shukla), rishabh-ml (rishabh-ml)", 2025-05-21T17:09:24Z, 391, 1, 2
+ fix: Increase the maximumFileSizeToCacheInBytes limit to 5MB in the v… | Author: voidfire (Unknown), voidfire (voidfire), 2025-05-25T13:25:13Z, 1, 0, 1
+ fix: unlocked hit elements to take priority when setting hit.element in handleSelectionOnPointerDown | Author: zsviczian (Unknown), zsviczian (zsviczian), 2025-05-26T19:35:24Z, 6, 1, 1
+ feat: whitelist slido & google forms | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2025-05-29T02:22:47Z, 42, 5, 3
+ feat: add deletion to collab room | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2025-06-02T04:53:07Z, 386, 6, 9
+ Update fa-IR.json | Author: Ali-Istan (Unknown), Ali-Istan (Ali-Istan), 2025-06-04T12:26:54Z, 70, 70, 1
+ Update percentages.json | Author: Ali-Istan (Unknown), Ali-Istan (Ali-Istan), 2025-06-04T12:27:00Z, 1, 1, 1
+ test: add unit test for function trackEvent | Author: thaleseuflauzino (Thales Euflauzino), thaleseuflauzino (Thales Euflauzino), 2025-06-05T03:37:54Z, 101, 0, 1
+ feat: export duplicateElement duplicateElements | Author: mainhanu (mainhanu), Unknown (mainhanu), 2025-06-05T05:10:27Z, 1, 0, 1
+ feat: add table tool for creating and editing table elements | Author: catherinewu (Catherine Wu)," cat-test-account (Catherine Wu), claude (Claude)", 2025-06-08T00:32:28Z, 1532, 12, 29
+" feat: Use selection-color for line-handles, box select and snap anchors | Author: heinrich26 (Hendrik Horstmann)"," heinrich26 (Hendrik Horstmann), heinrich26 (henrich26)", 2025-06-08T15:27:16Z, 147, 19, 3
+ test: Add Unit Tests for Polyfills: Array.prototype.at and Element.prototype.replaceChildren | Author: manu-sgc (Manoela Garcia), Unknown (Manoela Silvestre), 2025-06-11T15:27:24Z, 210, 0, 1
+ feat: Save reminder | Author: Brikaa (Omar Brikaa), Brikaa (Omar Brikaa), 2025-06-16T08:44:25Z, 523, 23, 15
+ feat: eraser delete top most element (#9648) | Author: flrn000 (Florin Iacob), flrn000 (Iacob Florin), 2025-06-18T00:17:05Z, 15, 4, 2
+" feat: Add ""showLibraryButton"" for ""UIOption"" to control the visibility of Library button | Author: ttzztztz (Rabbit)", Unknown (Ziyue Yang), 2025-06-18T06:47:40Z, 21, 17, 2
+ feat: use elbow in mermaid | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2025-06-20T07:49:42Z, 892, 285, 10
+" feat: Allow to switch into different arrow types when using ""Tab"" switcher when bound to element/s or text | Author: diljitsgit (Diljit Singh)", diljitsgit (Diljit Singh), 2025-06-21T20:20:16Z, 41, 13, 2
+ feat: allow for arrowhead switching with TAB and selected point | Author: JameEnder (Jakub)," JameEnder (JameEnder), dwelle (dwelle)", 2025-06-22T22:32:01Z, 390, 3, 3
+ fixes the issue with undoing the actionFinalize action issue #9495 | Author: Eshan-Jogwar (Unknown), Eshan-Jogwar (eshan jogwar), 2025-06-23T20:41:02Z, 1, 0, 1
+ feat: extend snapping to lines and arrows | Author: ryan-di (Ryan Di)," dwelle (dwelle), ryan-di (Ryan Di)", 2025-06-24T10:37:29Z, 952, 134, 10
+ fix: use adaptive scale-aware delta in gradient function for numerical stability | Author: Devansh-rookie (Devansh), Devansh-rookie (Devansh-rookie), 2025-06-24T13:40:47Z, 6, 3, 1
+ Adds Feature for #9661 | Author: Eshan-Jogwar (Unknown), Eshan-Jogwar (eshan jogwar), 2025-06-26T18:29:56Z, 170, 0, 5
+ feat: implement searchable shortcuts in HelpDialog | Author: karanrawat-24 (Karan Rawat), Unknown (karanrawat-24), 2025-06-29T19:20:35Z, 219, 378, 2
+ fix: spell error. Tiny PR. | Author: saifeiLee (WalterMitty), saifeiLee (lisaifei), 2025-06-30T10:44:49Z, 1, 1, 1
+ SOLVED - #9697 Implemented Raster Pencil Tool for improved tablet/stylus performance | Author: Krishna-mishra-26 (Krishna mishra), Krishna-mishra-26 (Krishna mishra), 2025-06-30T11:37:17Z, 616, 1150, 12
+ fix: Add default CSS Export to fix deno imports | Author: awhiteside1 (Alex Whiteside), awhiteside1 (Alex Whiteside), 2025-07-04T11:09:27Z, 2, 1, 1
+ feat: Selectable eraser targets | Author: Nxllpointer (Nxllpointer), Nxllpointer (Nxllpointer), 2025-07-08T11:45:50Z, 896, 2, 12
+ feat: Added Search Bar in Help Dialog | Author: utsav132 (Unknown), utsav132 (utsav132), 2025-07-14T06:35:50Z, 1735, 2218, 4
+ feat: keep laser pointer trail drawing until mouse button released | Author: mgurov (Mykola Gurov), mgurov (Mykola Gurov), 2025-07-20T14:25:40Z, 18, 11, 1
+ feat: Add support for non-latin keyboards for hotkeys | Author: YoungMind1 (Amirhosein Azhdarnezhad)," YoungMind1 (AmirHossein), YoungMind1 (Amirhosein Azhdarnezhad)", 2025-07-21T17:18:32Z, 215, 49, 19
+ chore: Replace lodash with es-toolkit | Author: dayongkr (Dayong Lee), dayongkr (dayongkr), 2025-07-22T14:08:19Z, 19, 39, 13
+ fix: text element created within bound of a group will no longer be added to group | Author: cTangonan123 (Christopher Tangonan)," cTangonan123 (Christopher Tangonan), cTangonan123 (cTangonan123)", 2025-07-23T04:11:35Z, 44, 0, 2
+ feat: keep laser trail until the path ends | Author: mgurov (Mykola Gurov), mgurov (Mykola Gurov), 2025-07-24T17:23:29Z, 29, 7, 2
+ fix: Inconsistency in focus management inside Dialog and didn't comply with ARIA standards | Author: akilvishnum (Akil Vishnu), akilvishnum (akilvishnum), 2025-07-24T18:58:47Z, 13, 2, 3
+ CSS import missing from documentation | Author: pdkovacs (Péter Kovács), pdkovacs (Kovács Péter), 2025-07-27T15:12:50Z, 1, 0, 1
+ fix: frame child detached from frame when aligned outside of frame bounds | Author: cTangonan123 (Christopher Tangonan)," cTangonan123 (Christopher Tangonan), cTangonan123 (cTangonan123), jhanma17dev (Jhan Mario Bolívar Peña), jhanma17dev (jhanma17)", 2025-07-28T18:13:52Z, 69, 4, 3
+ fix: use idb for elements and app state | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2025-07-31T08:28:25Z, 266, 36, 5
+ feat: added helm chart | Author: patroldo (Unknown), patroldo (patroldo), 2025-07-31T12:18:36Z, 509, 0, 13
+ fix: extend wait time for file loading on mobile devices | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2025-08-01T02:45:43Z, 29, 7, 1
+" fix: Don't show ConvertElementTypePopup if it's position is (0, 0) | Author: s1lverfish (Viczián András)", s1lverfish (Andras Viczian), 2025-08-01T16:10:48Z, 1, 0, 1
+ fix: Prevent line/arrow endpoints from triggering resize actions when dragged on touch devices. | Author: shunyy (Yamamoto Shun), shunyy (Shun Yamamoto), 2025-08-07T03:51:08Z, 27, 25, 1
+ fix: click-click-click multielement on touchscreen | Author: zsviczian (Unknown), zsviczian (zsviczian), 2025-08-07T19:31:18Z, 1, 1, 1
+ fix: [9679]keep canvas background in sync when toggling themes (map top picks; preserve custom colors) | Author: Alan-Huangzy233 (Zhengye Huang)," Alan-Huangzy233 (Alan Huang), Alan-Huangzy233 (Zhengye Huang)", 2025-08-09T06:42:54Z, 118, 5, 6
+ feat: beforeElementCreated hook | Author: grnd-alt (Unknown), grnd-alt (grnd-alt), 2025-08-12T11:21:40Z, 36, 0, 5
+ feat: add Persian (Afghanistan) localization and update existing Persian translations | Author: mehdiraized (Mehdi Rezaei), mehdiraized (Mehdi Rezaei), 2025-08-13T15:28:22Z, 596, 69, 4
+ [POC] This fixes most rendering tearing on my machine for some reason | Author: Brikaa (Omar Brikaa), Brikaa (Omar Brikaa), 2025-08-14T10:15:07Z, 21, 4, 1
+ [ Critical BugFix ]Images inserted via paste/tool display correctly initially but show grey placeholders after reopening when remote file fetch (Firebase Storage) is blocked   (fixes #9161) | Author: sameerassure (Unknown), sameerassure (sameerassure), 2025-08-17T10:27:51Z, 97, 6, 1
+ feat: Add Mongolian (mn-MN) translation | Author: endigo (Tsogt Otgonbaatar)," claude (Claude), endigo (endigo)", 2025-08-18T09:48:04Z, 647, 1, 3
+ fix: improve emoji color rendering in dark mode | Author: Prakash8999 (Prakash Jha), Prakash8999 (Prakash8999), 2025-08-18T19:33:41Z, 16, 0, 1
+ fix: wheel scroll when embeddable has canvas element | Author: zsviczian (Unknown), zsviczian (zsviczian), 2025-08-20T17:19:45Z, 12, 7, 1
+ feat: add dot and izometric dot grids | Author: nstefan13 (Neagu Ștefan-Claudel)," nstefan13 (Neagu Stefan), nstefan13 (nstefan)", 2025-08-20T20:20:22Z, 202, 4, 12
+ #9884 - feat:Option to make laser drawings persistent (like iPad laser) | Author: ItsImran10140 (Imran Shah), ItsImran10140 (Imran Shah), 2025-08-20T21:02:38Z, 32, 9, 9
+ feat: Add Mongolian (mn) language support with comprehensive translationfeat: Add Mongolian (mn) language support with comprehensive translationfeat: Add Mongolian (mn) language support with comprehensive translationfeat: Add Mongolian (mn) language support with comprehensive translationfeat: Add Mongolian (mn) language support with comprehensive translationI18n/mn mongolian translation | Author: DHANUSHRAJA22 (DHANUSH RAJA), DHANUSHRAJA22 (DHANUSH RAJA), 2025-08-27T12:53:09Z, 99, 3, 2
+ feat: preserve leading whitespace in text editor on Enter key pressfeat: preserve leading whitespace in text editor on Enter key pressFix/editor preserve indentation on new line | Author: DHANUSHRAJA22 (DHANUSH RAJA), DHANUSHRAJA22 (DHANUSH RAJA), 2025-08-27T13:23:54Z, 41, 697, 1
+ fix: allow dashes in scene search (fixes #9863)fix: allow dashes in scene search (fixes #9863)fix: remove dash from regex in scene search to support TECH-22 style … | Author: DHANUSHRAJA22 (DHANUSH RAJA), DHANUSHRAJA22 (DHANUSH RAJA), 2025-08-27T13:37:44Z, 6, 474, 1
+" feat: Add Mongolian translation; fix spellcheck (#9880, #9707) | Author: Theminacious (Ankit Yadav)", Theminacious (Ankit Yadav), 2025-08-28T05:20:57Z, 527, 0, 3
+ fix: add file data when loading scenes in example app (#9578) | Author: elrion018 (Jaemin Cheon), elrion018 (Jaemin Cheon), 2025-08-31T10:21:42Z, 9, 1, 1
+ fixed: support parsing images from HTML dataURL src | Author: sarthakNITT (Sarthak Karode), Sarthak114123082 (sarthakKarode), 2025-09-02T13:00:10Z, 14910, 10180, 5
+ Fix: containers now match individual text colors when wrapping multiple text with different colors. | Author: levi42x (Shekhar), levi42x (Shekhar), 2025-09-03T10:06:48Z, 7, 7, 1
+ fix: default cursor | Author: ericvannunen (Unknown)," ericvannunen (eric.van.nunen9@gmail.com), ericvannunen (ericvannunen)", 2025-09-10T07:12:57Z, 1, 3, 1
+ feat: charts multiple series support | Author: csiknor (Unknown), csiknor (Norbert Csik), 2025-09-14T15:26:09Z, 414, 155, 5
+ feat: add text placement support for line tool (#9873) | Author: TusharSingh14x (Tsingh)," TusharSingh14x (Tsingh), Unknown (Tushar Singh)", 2025-09-14T16:07:32Z, 2475, 1903, 21
+ zoom problem is in help modal. | Author: NanditaPatil-dotcom (Nandita N Patil), NanditaPatil-dotcom (NanditaPatil-dotcom), 2025-09-15T12:10:31Z, 10, 2, 1
+ Add vazir font to support arabic and persian languages | Author: ericvannunen (Unknown), ericvannunen (eric.van.nunen9@gmail.com), 2025-09-16T08:22:24Z, 20, 0, 5
+ feat: add export selection to context menu | Author: drick-infinity (HARSHITA MALVIYA), drick-infinity (drick-infinity), 2025-09-16T09:02:09Z, 401, 2, 7
+ fix: fix hyperlink popup disappering when hovering on the bottom right edge | Author: bibixx (Bartosz Legięć), bibixx (Bartosz Legięć), 2025-09-22T07:49:53Z, 7, 4, 1
+" fix: ""Copy to clipboard as SVG"" in Safari | Author: bibixx (Bartosz Legięć)", bibixx (Bartosz Legięć), 2025-09-23T14:15:27Z, 18, 15, 3
+ feat: implement keyboard panning for canvas navigation in view Mode | Author: mioNacs (Navneet Raj)," mioNacs (Navneet Raj), mtolmacs (Mark Tolmacs)", 2025-09-25T06:19:55Z, 146, 0, 1
+ Feat: Preserve User Preferences During Canvas Reset | Author: devxspectre (Sourav)," devxspectre (Sourav), devxspectre (Sourav6971)", 2025-09-28T19:24:40Z, 5, 0, 1
+ feat: change individual corner radius for 4 corners of a rectangle | Author: shawnjchandra (Unknown), shawnjchandra (Shawn), 2025-09-30T05:31:48Z, 623, 102, 13
+ feat: Added mongolian Language (Solves issue 9880) | Author: Mannan-Ali (Mannan), Mannan-Ali (mannan), 2025-10-01T13:52:43Z, 1914, 1848, 5
+" feat: added issue templates for bugs, features, and enhancements | Author: sdass1918 (Sudipta Das)", sdass1918 (Sudipta), 2025-10-02T11:16:55Z, 127, 0, 4
+ fix: restore initialData.appState when clearing canvas | Author: speardragon (speardragon), speardragon (speardragon), 2025-10-02T16:25:07Z, 12, 1, 3
+" Add GitHub issue templates for bug reports, feature requests, and enhancements | Author: timmyloos (Timmy Loos)", timmyloos (Timmy Loos), 2025-10-03T03:05:31Z, 560, 0, 7
+ feat: removed hints that are not specific to mobile view | Author: Roshan-o (Unknown), Roshan-o (Roshan-o), 2025-10-03T09:59:17Z, 10, 2, 2
+ fix: resolved code formatting issue when pasting code (closes … | Author: sufyanarshad1 (Muhammad Sufyan Arshad), sufyanarshad1 (Sufyan), 2025-10-03T17:32:53Z, 35, 6, 2
+ feat: flowchart sibling navigation | Author: debesh00800 (Unknown)," Unknown (debesh), debesh00800 (debesh00800)", 2025-10-03T19:38:12Z, 99, 0, 3
+ feat: inherit link from container for bound text elements in SVG export | Author: kaifcoder (Mohd Kaif), kaifcoder (kaifcoder), 2025-10-04T13:40:55Z, 81, 1, 3
+ fix: ESC key now cancels font size input in Properties panel | Author: prateekbisht23 (Prateek Bisht), prateekbisht23 (Prateek Bisht), 2025-10-04T17:03:15Z, 9, 6, 1
+" feat: add bold, italic, and underline text formatting with keyboard shortcuts | Author: akramcodez (Sk Akram)", akramcodez (SK Akram), 2025-10-05T13:34:56Z, 1113, 23, 30
+ Add test.txt for Excalidraw Git workflow practice | Author: RasoolBux123 (Rasool Bux), RasoolBux123 (Rasool Bux), 2025-10-06T08:18:18Z, 1, 0, 1
+ feat: add custom font size input component | Author: anvithkashyap (Anvith Kashyap), anvithkashyap (anvithkashyap), 2025-10-06T14:24:01Z, 318, 70, 4
+ docs: add SECURITY.md for responsible vulnerability disclosure | Author: MohitMehtre (Mohit Mehtre), MohitMehtre (Mohit Mehtre), 2025-10-06T19:06:29Z, 20, 0, 1
+ correctif : A bug fix Report Extra Line Appearing on Top of Oval Shape | Author: Slivix (Adel Saadi), Unknown (unknown), 2025-10-06T22:47:40Z, 1316, 1850, 3
+ Add Bengali (bn-BD) translation support to Excalidraw (#10093) | Author: tishajain25 (Tisha Jain), tishajain25 (Tisha Jain), 2025-10-08T06:37:20Z, 417, 398, 2
+ feat: Completed Hindi (hi-IN) translation | Author: utkarshanand07 (Utkarsh Anand)," utkarshanand07 (Utkarsh Anand), utkarshanand07 (UtkarshAnand07)", 2025-10-08T08:59:09Z, 168, 170, 1
+ Add issue templates for bug report and feature request | Author: dharshan18102006 (Dharshan S), dharshan18102006 (dharshan18102006), 2025-10-09T12:08:48Z, 38, 0, 2
+ Add Mongolian translation for Excalidraw | Author: Pavithra-csbs (PAVITHRA MIRUNALINI), Pavithra-csbs (Pavithra-csbs), 2025-10-09T12:32:44Z, 2579, 1848, 6
+ Add issue templates for bug report and feature request | Author: dharshan18102006 (Dharshan S), dharshan18102006 (dharshan18102006), 2025-10-09T12:53:25Z, 38, 0, 2
+ Feature/canvas | Author: Mithraa-N (Unknown), Mithraa-N (Mithraa), 2025-10-09T13:25:38Z, 1476, 1081, 12
+ created | Author: Sdsai0311 (Unknown), Sdsai0311 (sai), 2025-10-09T14:28:19Z, 1940, 2102, 8
+ Slider Change | Author: dilipg2257 (Unknown), dilipg2257 (dilipg2257), 2025-10-09T14:32:29Z, 1303, 1875, 3
+ docs: add comprehensive architecture overview document | Author: RagapriyaGunasekaran (Unknown), RagapriyaGunasekaran (RagapriyaGunasekaran), 2025-10-09T15:59:38Z, 153, 2, 3
+ feat: font ligatures | Author: Jay-Karia (Jay), Jay-Karia (Jay-Karia), 2025-10-09T17:06:45Z, 103, 41, 8
+ Update .lintstagedrc.js | Author: 0punitha (Unknown), 0punitha (0punitha), 2025-10-09T17:07:54Z, 1, 1, 1
+ importvisio | Author: Muzhumathi30 (Muzhumathi), Muzhumathi30 (muzhumathi30), 2025-10-09T17:37:20Z, 30, 0, 1
+ Slider fix.lock | Author: Gowtham5545 (Unknown), Gowtham5545 (Gowtham5545), 2025-10-09T18:11:29Z, 1679, 2254, 1
+ Slider Change update  | Author: Ameer-24-09-2007 (Unknown), 25bit005-png (25bit005-png), 2025-10-09T18:47:03Z, 3, 0, 1
+ fix: addressing Issue #10111 to hide sensitive API keys | Author: Soumen-No-Hako (Soumen Mitra), soumen8492 (SOUMEN MITRA), 2025-10-09T18:49:58Z, 39, 0, 2
+ Added colors for strokes | Author: rajeshm102007-ship-it (Rajesh), rajeshm102007-ship-it (Rajesh), 2025-10-09T20:08:17Z, 36, 26, 5
+ fix: support Enter to edit group and select all elements in group (#8… | Author: Reanooka-Kumar (REANOOKA K), Reanooka-Kumar (Reanooka-Kumar), 2025-10-09T22:13:58Z, 35, 0, 1
+ feat: Add pointer cursor to buttons for better UX | Author: KVJ51 (Unknown)," KVJ51 (KVJ51), KVJ51 (Varshini janaki k)", 2025-10-09T22:16:54Z, 77, 1, 1
+ Fix/slider change | Author: Kishor-12-04-2007 (Unknown)," 25bit026-afk (25bit026-afk), Kishor-12-04-2007 (25bit026-afk)", 2025-10-09T23:37:04Z, 1271, 1848, 2
+ Feature: Display Visually Inverted Hex Code in Dark Mode Color Picker | Author: Mohaneswari-Pugazenthi (Mohaneswari Pugazenthi), Mohaneswari-Pugazenthi (Mohaneswari Pugazenthi), 2025-10-09T23:42:31Z, 1404, 1926, 8
+ initial commit | Author: mounishkrishnan79-ship-it (Unknown), Unknown (mounishkrishnan79-ship-it), 2025-10-10T03:24:39Z, 2132, 2405, 6
+ New Update i18n.ts | Author: mounishkrishnan79-ship-it (Unknown), mounishkrishnan79-ship-it (mounishkrishnan79-ship-it), 2025-10-10T03:43:20Z, 12, 19, 1
+ Add more colors to palette and fix color picker issues | Author: balaguru1807 (Balaguru), balaguru1807 (balaguru1807), 2025-10-10T03:56:31Z, 72809, 83, 642
+ Pen size fixed | Author: Mohaneswari-Pugazenthi (Mohaneswari Pugazenthi), Mohaneswari-Pugazenthi (Mohaneswari Pugazenthi), 2025-10-10T04:00:38Z, 1404, 1926, 8
+ Add Vazirmatn font and apply globally | Author: ritu0603 (Ritu Nethraa C S), ritu0603 (ritu0603), 2025-10-10T05:09:33Z, 21, 0, 3
+ Fix toolbar alignment issues using SCSS | Author: samruthi-lab (samruthi gurusamy), samruthi-lab (samruthi-lab), 2025-10-10T05:36:19Z, 1337, 1732, 4
+" Fix: Scaling multi-selected items sometimes scales dimensionally, sometimes aspect-ratio | Author: Abishek-Newar (Abishek Newar)", Abishek-Newar (Abishek Newar), 2025-10-10T07:20:21Z, 1, 1, 1
+ style: badge spacing in dropdown menu items | Author: TinTinWinata (TinTin), TinTinWinata (TinTin Winata), 2025-10-10T17:08:46Z, 6, 0, 1
+ fix: emoji color rendering in dark mode (#10143) | Author: Jayantparashar10 (Jayant Parashar)," Jayantparashar10 (Jayant Parashar), Jayantparashar10 (JayantParashar10)", 2025-10-10T21:10:24Z, 44, 10, 2
+ acceptes only valid files | Author: BoomikaSN (Boomika SN), BoomikaSN (BoomikaSN), 2025-10-11T12:03:03Z, 34, 414, 11
+ Fix/touch colorpanel autoclose | Author: ShristiC7 (Shristi Choudhary), ShristiC7 (Shristi Choudhary), 2025-10-11T14:09:12Z, 203, 0, 4
+ Opens New Canvas | Author: Ananya44444 (Ananya Gupta), Ananya44444 (Ananya), 2025-10-11T18:36:46Z, 30, 0, 2
+ feat: Add replace text functionality with search | Author: Pranay-Pandey (Pranay Pandey), Pranay-Pandey (Pranay Pandey), 2025-10-12T17:34:44Z, 237, 3, 3
+ docs: fix typo in excalidraw installation guide | Author: ChiefMahedi (Mahedi Hassan Shawon), ChiefMahedi (Mahedi Hassan Shawon), 2025-10-13T13:04:45Z, 1, 1, 1
+ feat: allow laser pointer to click on links (Closes #9649) | Author: Akhila21-6 (Akhila Thammenenwar), Akhila21-6 (Akhila21-6), 2025-10-13T14:39:49Z, 2642, 3369, 2
+ Feat: enable enter edit group mode | Author: cTangonan123 (Christopher Tangonan)," aqandrew (Andrew Aquino), cTangonan123 (cTangonan123)", 2025-10-13T18:33:27Z, 40, 0, 1
+ fix: improve email validation error display with user-friendly messag… | Author: kdt523 (Unknown), kdt523 (kdt523), 2025-10-13T22:45:19Z, 113, 0, 3
+ fix: disable background color for open-path lines | Author: VineshRajkumar (VineshRajkumar), VineshRajkumar (VineshRajkumar), 2025-10-14T12:11:39Z, 22, 24, 1
+ fix: text elements incorrectly linked to original container when wrapped | Author: VineshRajkumar (VineshRajkumar), VineshRajkumar (VineshRajkumar), 2025-10-16T10:59:30Z, 18, 0, 1
+ docs: add text formatting info (#10186) | Author: himabindu-1614 (Sunkari Himabindu), himabindu-1614 (himabindu-1614), 2025-10-17T11:33:07Z, 13, 0, 1
+ Laser point should allow to click on links #9649 | Author: Gourab-18 (Gourab Nanda), Gourab-18 (Gourab-18), 2025-10-17T21:23:04Z, 21, 2, 1
+ Feat: add visibility flag to support layers | Author: johannes-z (johannes), johannes-z (johannes-z), 2025-10-19T15:08:19Z, 39, 27, 5
+ feat: added the feature to directly export canvas to pdf | Author: ask-elad (Unknown), ask-elad (ask-elad), 2025-10-19T22:18:02Z, 304, 7, 11
+ Add contribution guide for PHP Todo App | Author: itsomg134 (Om Gedam), Unknown (Om Gedam), 2025-10-20T06:10:52Z, 22, 0, 1
+  fix: robust platform icon detection in ShareDialog (avoid UA parsing) | Author: kdt523 (Unknown), kdt523 (kdt523), 2025-10-20T13:24:36Z, 139, 8, 4
+ made changes in app.tsx resolved the whitelist issue | Author: satu2423 (Unknown), satu2423 (satu2423), 2025-10-21T10:24:01Z, 33, 2, 1
+ feat: Text to diagram | POC rework | Author: therigozsolti (Rigó Zsolt), therigozsolti (rigozsolt), 2025-10-21T20:31:25Z, 1614, 364, 20
+ docs: update installation instructions for clarity. | Author: amarsingh-me (Amar Singh), amarsingh-me (amarsinghz), 2025-10-21T23:42:08Z, 2, 4, 1
+ fix: improve eye dropper accessibility on mobile devices | Author: DancingPeacock-31 (ShUbHaM GuPtA), DancingPeacock-31 (Shubham Gupta), 2025-10-24T06:24:33Z, 37, 34, 1
+ Bug Fix: Mobile Footer Not Rendering (#10233) | Author: balaraj74 (Balaraj R)," balaraj74 (Balaraj R), balaraj74 (balaraj74)", 2025-10-24T07:28:55Z, 2, 1, 1
+ fix: A bug fix Report Extra Line ends Appearing on Top of Oval Shape | Author: Slivix (Adel Saadi)," Slivix (Adel Saadi), Unknown (unknown)", 2025-10-24T23:04:11Z, 67, 2, 1
+ Adjust welcome screen layout for large screens | Author: nabarvn (Nabarun), nabarvn (Nabarun), 2025-10-25T01:57:32Z, 4, 0, 1
+ feat: add collapsible button for left sidebar in Actions panel | Author: MohitMehtre (Mohit Mehtre), MohitMehtre (Mohit Mehtre), 2025-10-25T12:29:13Z, 202, 112, 2
+ fix: preserve stylesPanelMode during canvas reset to prevent mobile color picker UI corruption | Author: Hell1213 (Rajat yadav), Hell1213 (Rajat yadav), 2025-10-26T09:36:47Z, 30, 3, 2
+ Fix: update LastUsedColor handling and related tests | Author: kumbhar-sarthak (Sarthak), kumbhar-sarthak (kumbhar-sarthak), 2025-10-26T14:58:38Z, 50, 9, 7
+ feat: Add clear history action | Author: adityaa05 (Aditya Patil), adityaa05 (adityaa05), 2025-10-28T18:13:21Z, 500, 3, 8
+ fix(files): update fileHandle after opening to prevent overwriting wrong file | Author: krrish175-byte (Krrish Biswas), krrish175-byte (krrish175-byte), 2025-10-29T07:44:20Z, 1683, 2254, 2
+ Add Malayalam (ml-IN) translations | Author: kumbhar-sarthak (Sarthak), kumbhar-sarthak (kumbhar-sarthak), 2025-10-30T08:03:30Z, 653, 0, 2
+ test: add MC/DC unit tests for prepareElementsForExport (packages/excalidraw) | Author: Acciolyy (Thiago Accioly), Acciolyy (Acciolyy), 2025-10-31T06:07:38Z, 162, 0, 1
+ Add Unit Tests for eraserTest Function in @excalidraw/excalidraw/eraser | Author: danielle-soaress (Danielle Soares), danielle-soaress (Danielle Soares), 2025-10-31T17:05:39Z, 1490, 1848, 2
+ Fix(element): Correct getPerfectElementSize for rectangles and increase test coverage | Author: daviaraujobr (Davi de Araujo), daviaraujobr (Davi de Araujo), 2025-10-31T21:45:04Z, 87, 30, 2
+ test: Add coverage for SVG export rendering logic | Author: EnzoEmir (ENZO EMIR VIANA FERRAZ), EnzoEmir (EnzoEmir), 2025-10-31T22:41:10Z, 191, 0, 2
+ test: add getResizeArrowDirection tests | Author: kauan-campos (Kauan Campos), kauan-campos (Kauan José), 2025-11-01T02:41:05Z, 95, 1, 1
+ feat: highlighter tool | Author: kzroo (K), kzroo (Omar K), 2025-11-02T06:35:08Z, 960, 701, 21
+ feat: import fonts | Author: MeetRamatri (Unknown), MeetRamatri (MeetRamatri), 2025-11-09T11:56:54Z, 1392, 1849, 4
+ feat(color-picker): add customizable ColorPaletteTable with persistence | Author: apheksha (Apheksha B), apheksha (Apheksha B), 2025-11-09T14:32:56Z, 109, 0, 4
+ fix: set root directory to project root for proper deployment | Author: DevaanshKathuria (GAMMA_Demon), DevaanshKathuria (DevaanshKathuria), 2025-11-11T13:21:55Z, 2, 2, 1
+ chore: migrate to ESLint 9 with flat config | Author: 3rg0n (Ergon Copeland)," 3copelan (Ergon Copeland), claude (Claude)", 2025-11-11T16:39:43Z, 1440, 908, 37
+ chore: migrate to ESLint 9 and fix all TypeScript errors | Author: 3rg0n (Ergon Copeland)," 3copelan (Ergon Copeland), claude (Claude)", 2025-11-11T20:19:50Z, 1565, 1018, 64
+ chore: upgrade dependencies across monorepo | Author: 3rg0n (Ergon Copeland)," 3copelan (Ergon Copeland), claude (Claude)", 2025-11-11T22:28:54Z, 6371, 6023, 170
+ feat: upgrade browser-fs-access to 0.38.0 | Author: 3rg0n (Ergon Copeland)," 3copelan (Ergon Copeland), claude (Claude)", 2025-11-12T00:22:36Z, 5782, 5098, 172
+ feat: add Venn diagram generator for 2-3 overlapping shapes | Author: 3rg0n (Ergon Copeland)," 3copelan (Ergon Copeland), claude (Claude)", 2025-11-12T02:58:44Z, 6223, 5055, 175
+ feat: implement locale-aware percent formatting for zoom display | Author: curiouscoder-cmd (Nitya Jain), Unknown (curiouscoder), 2025-11-12T07:58:03Z, 1714, 2255, 3
+ Selection: allow selecting elements when partially covered | Author: GUNAVANTH333 (Gunavanth Reddy), GUNAVANTH333 (GUNAVANTH333), 2025-11-12T19:08:37Z, 9, 4, 1
+ feat: adjust stroke width for better visibility | Author: kumbhar-sarthak (Sarthak), kumbhar-sarthak (kumbhar-sarthak), 2025-11-13T15:10:39Z, 133, 43, 2
+ Add kannada translation:  | Author: Owais-cmd (Unknown)," Owais-cmd (Owais Saud Tanveer), Owais-cmd (Owais-cmd)", 2025-11-15T10:42:43Z, 666, 0, 3
+ Fix: Refatora getShareIcon para usar navigator.platform | Author: JoaoPedro2206 (Joao Pedro Ferreira Moraes), JoaoPedro2206 (JoaoPedro2206), 2025-11-17T01:41:02Z, 3757, 2917, 8
+ feat(elements): add metadata support with JSON editor and tooltip display | Author: Aaqilyousuf (Aaqil Yousuf), Aaqilyousuf (Aaqilyousuf), 2025-11-18T07:23:23Z, 670, 14, 13
+ Eraser tool option | Author: mayrmartin (Unknown)," mayrmartin (mayrmartin), valenting-posedio (valenting-posedio)", 2025-11-18T14:41:20Z, 1533, 2233, 20
+ Fix: ensure image fileId and metadata are generated correctly (#10349) | Author: cristiangarcia04 (Cristiangarcia04), cristiangarcia04 (cristian), 2025-11-19T03:15:49Z, 1693, 2261, 2
+ fix: use index path instead of ellipse | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2025-11-19T06:38:34Z, 6, 9, 5
+ chore: move isBounds method to math package (#10362) | Author: johannesPosedio (Unknown), johannesPosedio (johannesriegler), 2025-11-20T10:49:05Z, 11, 10, 3
+ refactor: rename isResizing state to isScaling | Author: johannesPosedio (Unknown), johannesPosedio (johannesriegler), 2025-11-20T13:48:12Z, 10, 13, 4
+ feat: Bounds calculations forline and qcurve (#10366) | Author: lukasposedio (Unknown), lukasposedio (lukas_berger), 2025-11-20T14:01:04Z, 149, 5, 2
+ Fix: preserve startBinding and endBinding in arrow and linear elements (TDD) | Author: LeticiaSantosss (Letícia de Carvalho), LeticiaSantosss (LeticiaSantosss), 2025-11-20T18:36:06Z, 119, 12, 3
+ feat: disable background color for open freedraw (#10161) | Author: Acciolyy (Thiago Accioly), Acciolyy (Acciolyy), 2025-11-20T21:56:07Z, 357, 43, 6
+" add new font, add spray pattern | Author: edo-mike-trotta (Edo Mike Trotta)", edo-mike-trotta (Edoardo Trotta), 2025-11-21T11:40:18Z, 384, 43, 26
+ gemini-3-task-XL-3d-mode | Author: edo-mike-trotta (Edo Mike Trotta), edo-mike-trotta (Edoardo Trotta), 2025-11-21T15:13:00Z, 2109, 4, 11
+ Fix/issue 9710 rtl | Author: auslogyc (Danilo Barros), auslogyc (Danilo Barros), 2025-11-21T20:05:16Z, 1499, 0, 6
+ fix: memory leak #10348 | Author: kauan-campos (Kauan Campos), kauan-campos (Kauan José), 2025-11-22T02:06:59Z, 1825, 2276, 3
+ feat(i18n): complete missing Persian (fa-IR) translations and fill empty localization fields | Author: sakina1303 (Sakina), sakina1303 (Sakina Farukh Ahemad), 2025-11-22T05:19:08Z, 29, 25, 1
+ Fix/search results stable ordering | Author: DanNunes777 (DANIEL NUNES DUARTE), DanNunes777 (dannunesd777), 2025-11-22T05:24:58Z, 292, 56, 5
+" fix: while saving to disk, default file name is some older date  | Author: Tanish2207 (Tanish Bhamare)", Tanish2207 (Tanish Bhamare), 2025-11-22T08:18:17Z, 11, 7, 1
+ Fix: Remove Dark Mode Inversion Filter to Preserve Accurate Canvas & Image Colors | Author: DevaanshKathuria (GAMMA_Demon), DevaanshKathuria (DevaanshKathuria), 2025-11-22T08:22:07Z, 1, 1, 1
+ Idea #9244 | Author: bhuvana-s (Bhuvaneswari Subramani)," bhuvana-s (Bhuvaneswari Subramani), bhuvana-s (bhuvana-s)", 2025-11-22T14:51:28Z, 7206, 1859, 37
+ Fix: Correct z-index keyboard shortcuts for macOS and Windows/Linux | Author: Himanshu197200 (Himanshu Mishra), Himanshu197200 (Himanshu Mishra), 2025-11-22T19:23:57Z, 15, 5, 1
+ feat: Add keyboard shortcuts for changing arrowheads | Author: paperbenni (Unknown), paperbenni (paperbenni), 2025-11-23T11:16:02Z, 136, 8, 7
+ Fix: Invisible Background-Color Swatch in Compact Toolbar (#10392) | Author: Cyber-Vansh (Vansh Singhal), Cyber-Vansh (Cyber-Vansh), 2025-11-23T15:11:52Z, 1, 0, 1
+ Fix bounds for line and quadratic curve (#10366) | Author: 7t64vu3ge (Sushant), 7t64vu3ge (7t64vu3ge), 2025-11-24T07:48:06Z, 66, 8, 1
+ fix: update Marathi translations | Author: Aniruddh-14 (Unknown), Unknown (Aniruddh Sharma), 2025-11-24T19:01:51Z, 47, 47, 1
+ Refactor: Move isBounds logic into dedicated module | Author: atharvgit2005 (Atharv Paharia), atharvgit2005 (Atharv Paharia), 2025-11-25T07:22:00Z, 25, 10, 3
+ Adding shortcuts to text wrp containner and fixed some small bugs | Author: Venkatachla (Venkatachala V), Venkatachla (venkatachalavenku029), 2025-11-25T14:59:10Z, 707, 96, 17
+ fix: resolve MetaProperty lint error by extracting import.meta.env to constants | Author: Sahil5H4RD4 (Sahil manjhi), Sahil5H4RD4 (Sahilll), 2025-11-26T06:21:19Z, 36, 21, 6
+ feat: Technical drawing mode (Suggestion + Implementation) | Author: giordanolucas (Lucas Giordano), Unknown (lgiordano_hopper), 2025-11-26T19:49:31Z, 635, 4, 16
+ fix: allow manually created .excalidraw files without type field | Author: addy-2709genius (aadisaurus), Unknown (aaditya raj soni), 2025-11-27T11:17:55Z, 540, 8, 7
+ Enhance product showcase description in README | Author: Lucas6412f1 (Lucas6412f1), Lucas6412f1 (Lucas6412f1), 2025-11-27T12:51:35Z, 2, 1, 1
+ Add Urdu (ur-PK) language support | Author: Saniya777-byte (saniya Jabbar Khatik), Saniya777-byte (Saniya), 2025-11-29T05:29:01Z, 668, 1, 3
+ fix: change cursor to default for pen tool | Author: milanchahar (MILAN KUMAR), milanchahar (milanchahar), 2025-11-29T08:15:52Z, 1272, 1849, 2
+ feat: localize search UI and frame titles | Author: wcr-karan (Karan Thakur), wcr-karan (Karan Thakur), 2025-12-01T04:55:52Z, 468, 428, 9
+ feat: whitelist Google Slides publish sites | Author: AyushCoder9 (Ayush Kumar Singh)," AyushCoder9 (Ayush Kumar Singh), AyushCoder9 (AyushCoder9)", 2025-12-01T14:30:54Z, 1312, 1854, 4
+ chore: fix typo in Trans.test.tsx | Author: AyushCoder9 (Ayush Kumar Singh), AyushCoder9 (AyushCoder9), 2025-12-01T17:30:46Z, 1, 1, 1
+ refactor: explicit invariant checks in duplicateSelection | Author: AyushCoder9 (Ayush Kumar Singh), AyushCoder9 (AyushCoder9), 2025-12-01T17:34:48Z, 17, 13, 2
+ Feat/layering bring to middle | Author: apheksha (Apheksha B), apheksha (Apheksha B), 2025-12-01T17:57:51Z, 191, 5, 9
+ feat: show selected element count in footer | Author: apheksha (Apheksha B), apheksha (Apheksha B), 2025-12-01T18:15:55Z, 21, 0, 1
+ feat: add duplicate-in-place action | Author: apheksha (Apheksha B), apheksha (Apheksha B), 2025-12-01T18:47:07Z, 16, 0, 5
+ chore: Update actions | Author: jsoref (Josh Soref), jsoref (Josh Soref), 2025-12-02T00:22:34Z, 18, 18, 9
+ Add PDF export functionality | Author: 4iKZ (SiyuanHao), 4iKZ (4iKZ), 2025-12-02T03:59:26Z, 499, 48, 12
+ Feat/mouse coordinates | Author: apheksha (Apheksha B), apheksha (Apheksha B), 2025-12-02T13:07:17Z, 74, 1, 1
+ Fix send to front/back shortcuts | Author: bibixx (Bartosz Legięć), bibixx (Bartosz Legięć), 2025-12-02T13:46:56Z, 23, 12, 1
+ added missing dependencies and improved the configuration | Author: KirtiGautam620 (Kirti Gautam), Unknown (KIRTI G), 2025-12-02T15:41:48Z, 46, 0, 5
+ feat: Add JPG export | Author: Monisha-204 (Unknown), Monisha-204 (Monisha J), 2025-12-02T16:20:40Z, 1671, 1550, 6
+ feat(layers): add layers system for organizing elements | Author: Rkdroid (Ramakanth Giri)," Unknown (ramakanth giri), claude (Claude)", 2025-12-02T22:48:42Z, 4713, 86, 43
+ fix: update Korean (ko-KR) locale | Author: Divyapahuja31 (Divya Pahuja), Divyapahuja31 (Divya Pahuja), 2025-12-03T14:31:44Z, 108, 108, 2
+ feat: add dotted canvas background  | Author: Divyapahuja31 (Divya Pahuja), Divyapahuja31 (Divya Pahuja), 2025-12-03T14:49:10Z, 98, 77, 5
+ feature: add inline color picker next to hex code in canvas background settings | Author: MAHEK-ops (Mahek), MAHEK-ops (Mahek Motwani), 2025-12-04T05:41:33Z, 18, 1, 3
+ feat: Add visual color picker component. | Author: Cubesz (Unknown), Cubesz (Cubesz), 2025-12-04T06:36:09Z, 91, 10, 3
+ perf: Enable browser spellcheck for text fields by default | Author: JonnyBe2001 (Jonas Bauer), JonnyBe2001 (Jonas Bauer), 2025-12-04T11:58:23Z, 2, 0, 1
+ feat(font): add fine-grained font size control (#10096) | Author: calebs62 (Caleb Sanchez), calebs-624 (calebs62), 2025-12-04T19:35:22Z, 69, 38, 1
+ 🧭 Index Section: Navigation & State Management Improvements | Author: Himanshugulhane27 (Unknown)," Himanshugulhane27 (Himanshugulhane27), Unknown (Assistant)", 2025-12-05T20:51:26Z, 2530, 2240, 15
+ fix: retry failed image fetches to resolve race condition | Author: Lakshay942234 (Unknown), Lakshay942234 (Lakshay942234), 2025-12-06T09:14:28Z, 16, 3, 1
+ fix: shortcut to save file while editing frame name | Author: Moumirrai (Unknown), Moumirrai (Moumirrai), 2025-12-06T12:47:23Z, 9, 1, 1
+ fix: improve cursor precision with stroke width | Author: Abhishek6546 (Unknown), Ghanishtha12 (Ghanishtha12), 2025-12-06T17:11:04Z, 4, 5, 1
+ feat: Restrict Canvas Panning to Directions | Author: PiaKuehnle (Unknown), PiaKuehnle (Pia Kühnle), 2025-12-09T12:03:10Z, 251, 35, 8
+ feat: waypoints (#10314) | Author: hkhuzaei (Unknown)," aadalbek (aadalbek), hkhuzaei (Haneen), mhk2-cmu (N624-debu), salemadi06 (Shaikha Al-Emadi)", 2025-12-09T14:06:53Z, 1051, 30, 15
+ fix: aria-label for share button  | Author: tobwa-on (Unknown), tobwa-on (tobwa-on), 2025-12-10T09:45:15Z, 1, 0, 1
+ feat: Christmas Event - Santa hat for HelpButton | Author: eliakuestner (Unknown)," eliakuestner (Elia Kuetsner), eliakuestner (eliakuestner)", 2025-12-10T13:35:57Z, 308, 13, 2
+ fix: allow embedding from app.botmockups.com | Author: rohitmane-dev (Rohit Mane), rohitmane-dev (R Mane), 2025-12-13T16:30:58Z, 15, 0, 2
+ docs:  Update link to DEFAULT UI OPTIONS in props.mdx | Author: ratondelcongo (Luigi Layme), ratondelcongo (Luigi Layme), 2025-12-14T12:04:47Z, 1, 1, 1
+ Avoid full scene traversal in renderer on viewport updates | Author: jas011 (Jaskirat Singh ), jas011 (Jaskirat Singh), 2025-12-14T13:31:23Z, 172, 13, 4
+ Android | Author: clebermasters (Unknown), Unknown (Cleber Rodrigues), 2025-12-14T16:52:22Z, 1911, 22, 63
+ remap grid mode to `CtrlOrCmd+`` | Author: SpicyRicecaker (Andy Li), SpicyRicecaker (SpicyRicecaker), 2025-12-15T04:16:50Z, 3, 2, 3
+ Ai features | Author: clebermasters (Unknown), Unknown (Cleber Rodrigues), 2025-12-15T20:11:11Z, 8440, 2299, 115
+ need to update | Author: DevanshiGupta15 (Devanshi Gupta), DevanshiGupta15 (Devanshi Gupta), 2025-12-15T20:13:10Z, 7, 25, 4
+ docs: fix typos in markdown files | Author: hgbytes (Hari Ganesh ), hgbytes (hgbytes), 2025-12-16T17:13:31Z, 8, 8, 2
+ Fix Persian translations in fa-IR.json | Author: rafi-ghanbari (rafi_ghanbari), rafi-ghanbari (rafi_ghanbari), 2025-12-16T19:47:56Z, 44, 44, 1
+ feat: add “Precision draw (ignore grid)” shortcut to Help dialog | Author: hgbytes (Hari Ganesh ), hgbytes (hgbytes), 2025-12-17T05:02:32Z, 5, 0, 2
+ feat: Add Google Drive integration for save/load | Author: robtaylor (Rob Taylor)," claude (Claude Opus 4.5), robtaylor (Rob Taylor)", 2025-12-20T16:25:54Z, 1364, 0, 8
+ fix: render mermaid <br> as multiline | Author: ParsaZa79 (Parsa Zeinali), ParsaZa79 (Parsa Zeinali), 2025-12-21T19:27:05Z, 63, 5, 3
+ refactor: align point types across codebase (#9297) | Author: gusa4grr (Yevhen Husak), gusa4grr (Yevhen Husak), 2025-12-22T12:21:39Z, 275, 310, 26
+ chore: remove duplicated line | Author: zingxy (zhq), Unknown (hongqing), 2025-12-24T02:36:32Z, 0, 1, 1
+ feat: add option to export drawing as pdf | Author: suyash1567 (Unknown), suyash1567 (Your Name), 2025-12-28T18:24:59Z, 233, 3, 9
+ fix: to support wrapping with autoResize and given dimensions | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2025-12-29T06:42:10Z, 50, 31, 3
+ fix: incorrect position after zoomToFit on mobile viewport | Author: wildMio (Unknown), wildMio (wildMio), 2025-12-31T09:13:50Z, 4, 1, 1
+ fix: arrow snapping to the edge of the shape. | Author: Parth050812 (PARTH PATIL)," Parth050812 (PARTH PATIL), Parth050812 (Parth050812)", 2025-12-31T11:06:48Z, 47, 20, 1
+ feat: added an option to change the laser pointer color | Author: Starz099 (Mayank)," Starz099 (Mayank), Starz099 (Starz099)", 2026-01-01T13:50:14Z, 134, 29, 10
+ fix: elbow arrow ALT+drag duplication binding issue (#8435) | Author: Vrund4591 (Patel Vrund), Vrund4591 (Vrund4591), 2026-01-02T12:30:32Z, 80, 9, 4
+ feat: Export drawings as pdf | Author: samiran634 (Samiran Chakraborty), samiran634 (samiran), 2026-01-05T06:44:15Z, 1528, 1922, 7
+ very small PR (20 lines?): better filenames that include the text selected | Author: obaidregens (Unknown), obaidregens (obaid), 2026-01-06T15:15:15Z, 20, 5, 1
+ fix: CTRL+S now works while editing text | Author: abhijithwinddaa (abhijith)," YOON-CC (YOON-CC), abhijithwinddaa (abhijithwinddaa)", 2026-01-07T10:09:39Z, 16, 6, 2
+ feat: add grid background style options (lines/dots) (#6773) | Author: abhijithwinddaa (abhijith), abhijithwinddaa (abhijithwinddaa), 2026-01-07T16:28:13Z, 325, 227, 7
+ Create CODE_OF_CONDUCT.md | Author: sandeep-singhDEV (Sandeep Singh), sandeep-singhDEV (Sandeep Singh), 2026-01-07T17:57:41Z, 128, 0, 1
+ feat: zoom with wheel when holding MMB | Author: PATILYASHH (Yash patil)," Copilot (copilot-swe-agent[bot]), PATILYASHH (PATILYASHH), PATILYASHH (Yash patil)", 2026-01-08T04:56:38Z, 19, 5, 3
+ feat: Add ChatCanvas UI Shell with three-column layout | Author: SIJEYUSES (GIA)," SIJEYUSES (SIJEYUSES), SIJEYUSES (石几衣束)", 2026-01-08T12:20:18Z, 2733, 9, 25
+ Typos in integration.mdx | Author: shlrk (Unknown), shlrk (shlrk), 2026-01-08T12:22:06Z, 2, 2, 1
+ fix: prevent footer controls from overlapping system nav bar on tablets | Author: srivishnuvarthan-07 (SRI VISHNU VARTHAN S)," srivishnuvarthan-07 (SRI VISHNU VARTHAN S), srivishnuvarthan-07 (srivishnuvarthan-07)", 2026-01-11T20:49:05Z, 13, 0, 1
+ refactor: eliminate redundant theme state and sequential sync leak | Author: liovic (lpetronika), liovic (Petar Liovic), 2026-01-12T00:11:32Z, 21, 21, 1
+ Feat : allow moving arrow labels | Author: zeiktek (Unknown), zeiktek (zeiktek), 2026-01-13T11:23:08Z, 1435, 1798, 4
+ fix: stabilize search results order during element drag | Author: VedantMadane (Vedant Madane), VedantMadane (Vedant Madane), 2026-01-15T18:52:41Z, 5, 2, 1
+ fix: typos in comments | Author: NAM-MAN (yy), NAM-MAN (Yohei Yamamoto), 2026-01-17T08:04:55Z, 6, 6, 6
+ feat: Allow PWA to open .excalidraw.png / .excalidraw.svg files | Author: h (Samuel Hoffstaetter), h (Samuel Hoffstaetter), 2026-01-22T23:39:12Z, 8, 0, 1
+ fix(locales): update hi-IN.json with missing translations | Author: pandaa-69 (Durgesh Kumar)," pandaa-69 (Durgesh Kumar), pandaa-69 (pandaa-69)", 2026-01-23T18:07:47Z, 44, 44, 1
+ build: replace eslint & prettier with oxc | Author: dwelle (David Luzar), dwelle (dwelle), 2026-01-24T21:34:05Z, 4220, 2741, 202
+ fix: correct fill color for outline arrowheads in dark mode | Author: hynxp (Yihyun Park), hynxp (hyn), 2026-01-25T13:21:31Z, 7, 3, 1
+ Fix: use selection color for grouping border (#7177) | Author: fuzzylogic003 (Mohit Tyagi), Unknown (Mohit Tyagi), 2026-01-25T21:26:17Z, 1, 1, 1
+ feat: Poll Feature  | Author: tobwa-on (Unknown)," JonnyBe2001 (Jonas Bauer), PiaKuehnle (Pia Kühnle), on23jk (on23jk), tobwa-on (tobwa-on)", 2026-01-26T11:19:13Z, 2078, 114, 28
+ added ARIA-LABELS to Menubuttons | Author: on23jk (Unknown), on23jk (on23jk), 2026-01-26T12:02:42Z, 3, 0, 1
+ fix: text corner resizing only takes delta y | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2026-01-28T00:59:19Z, 32, 3, 2
+ fix: canvas size limit export | Author: fanghai-mao (Unknown), Unknown (毛方海), 2026-01-29T08:50:25Z, 19, 1, 3
+ feat: Add subpath hosting support | Author: pesnik (Rakibul Hasan), pesnik (pesnik), 2026-01-29T15:19:07Z, 19, 9, 9
+" chore: customize for localhost - port 3081, node 20, increased PWA ca… | Author: JZKK720 (智方云cubecloud-io)"," JZKK720 (智方云cubecloud-io), Unknown (GitHub User)", 2026-02-03T06:21:07Z, 74, 7, 7
+ fix(interaction): enable drawing shapes over text elements (#10735) | Author: suvendukungfu (suvendu kumar sahoo), suvendukungfu (suvendukungfu), 2026-02-03T20:29:27Z, 441, 339, 7
+ feat: Implement Pixel Eraser for FreeDraw elements | Author: suvendukungfu (suvendu kumar sahoo), suvendukungfu (suvendukungfu), 2026-02-03T22:01:53Z, 503, 10, 4
+ feat: Persistent per-tool style settings | Author: suvendukungfu (suvendu kumar sahoo), suvendukungfu (suvendukungfu), 2026-02-03T22:15:07Z, 344, 4, 8
+ feat(editor): add text stroke color and width properties for text elements | Author: Yashh56 (Yash), Yashh56 (Yash), 2026-02-04T17:03:52Z, 609, 3, 21
+ fix: add RTL support for opacity slider | Author: kaigritun (Kai Gritun), Unknown (Kai Gritun), 2026-02-04T17:26:46Z, 18, 2, 2
+ feat: implement plain paste for elements (remove formatting) | Author: Divyapahuja31 (Divya Pahuja), Unknown (DIVYA PAHUJA), 2026-02-05T06:57:03Z, 345, 319, 1
+ feat(layer-ui): make selected-shape actions panel collapsible | Author: chromaticsequence (chromatic), chromaticsequence (chromaticsequence), 2026-02-11T23:37:25Z, 168, 31, 5
+ fix: convert mermaid <br> tags to newlines in text labels | Author: shtse8 (Kyle Tse), shtse8 (Kyle Tse), 2026-02-12T23:38:34Z, 80, 7, 3
+ fix: add missing mermaid diagram types to paste detection | Author: shtse8 (Kyle Tse), shtse8 (Kyle Tse), 2026-02-12T23:42:59Z, 23, 0, 2
+ fix: snap duplicated elements to grid when grid mode is enabled | Author: veeceey (Varun Chawla), veeceey (Varun Chawla), 2026-02-15T10:12:03Z, 57, 3, 2
+ fix: default condition export for index.css | Author: ItsTheWhale (Deep Whale), ItsTheWhale (Deep Whale), 2026-02-16T08:16:43Z, 2, 1, 1
+ fix: improve ShareDialog platform detection (#9583) and fix RTL opacity slider (#9710) | Author: quantumnic (Nicola Urs Bruce Spieser), Unknown (Ocean), 2026-02-16T21:48:19Z, 10, 10, 3
+" feat: replace Firebase with Supabase, add sessions management and settings UI | Author: dineshkorukonda (Dinesh korukonda)"," claude (Claude Opus 4.6), dineshkorukonda (Dinesh Korukonda)", 2026-02-17T07:15:59Z, 1320, 979, 21
+ fix: typo overriden → overridden in comments | Author: quantumnic (Nicola Urs Bruce Spieser), Unknown (Nicola Spieser), 2026-02-17T09:41:38Z, 2, 2, 2
+ Feat: Export selection on right click and not just on hamburger menu or shortcut | Author: Astrasv (Sudharsan Vanamali), Astrasv (Astrasv), 2026-02-17T09:49:26Z, 20, 1, 4
+ feat: Added Sharp Elbow Arrow as requested in issue #10593 | Author: Astrasv (Sudharsan Vanamali), Astrasv (Astrasv), 2026-02-17T10:48:56Z, 48, 23, 6
+ feat: auto-pan canvas while dragging selections near viewport edges | Author: ShubhG24 (Shubham Gupta), Unknown (Shubham Gupta), 2026-02-20T09:10:02Z, 255, 13, 2
+ feat: auto-pan canvas while dragging selections (edge scrolling) | Author: Angshuman09 (Angshuman), Angshuman09 (Angshuman Kashyap), 2026-02-20T14:29:06Z, 98, 0, 1
+ Add adjustable corner radius for rectangles (#3600) | Author: bmilne1981 (Brian), bmilne1981 (Brian Milne), 2026-02-21T11:52:56Z, 1410, 1928, 4
+ feat(editor): cancel in-progress pointer creation on Escape | Author: rinkitadhana (Rinkit Adhana), rinkitadhana (Rinkit Adhana), 2026-02-21T15:29:27Z, 161, 18, 3
+ feat(editor): support frame backgrounds | Author: dwelle (David Luzar)," dwelle (dwelle), ryan-di (Ryan Di)", 2026-02-22T22:09:00Z, 4648, 256, 49
+ feat: Tiktok embeded ( #10819) | Author: Archi657 (Julian), Archi657 (Julian), 2026-02-22T22:16:44Z, 25, 0, 1
+ feat: notion embeddable (#7950 - #9409) | Author: Archi657 (Julian), Archi657 (Julian), 2026-02-23T09:06:44Z, 47, 0, 1
+ Feat/notes implementation | Author: rafiya618 (Rafia Malik), rafiya618 (rafiya618), 2026-02-24T20:31:38Z, 1433, 4, 17
+ feat: inject environment variables at deployment time | Author: TartanLeGrand (Ugo Mignon), TartanLeGrand (umignon), 2026-02-25T21:16:51Z, 100, 35, 25
+ fix(docker): use Node 20 in build stage and PWA precache size limit failure | Author: rafaself (Rafael), rafaself (rafa), 2026-02-26T00:30:00Z, 7, 4, 2
+ chore(locales): complete Portuguese translations and reach 100% coverage | Author: rafaself (Rafael), rafaself (rafa), 2026-02-26T01:13:35Z, 178, 178, 3
+ feat: add PDF export support | Author: williamsteuk (William Steuk)," claude (Claude Opus 4.6 (1M context)), williamsteuk (williamsteuk)", 2026-02-26T22:20:02Z, 278, 4, 9
+ fix: hand tool activation and add regression tests for key behavior | Author: Yashh56 (Yash), Yashh56 (Yash), 2026-02-27T07:45:24Z, 323, 13, 4
+ new_features_claude | Author: amoghkokari (Amogh Mahadev Kokari), Unknown (Amogh Kokari), 2026-02-27T19:49:56Z, 496, 0, 5
+ fix(app): support opening embedded scene image files in PWA | Author: Gazerrr03 (Qizhi), Gazerrr03 (Gazerrr03), 2026-02-28T10:43:37Z, 2, 0, 1
+ Added basic Rules and hooks | Author: tunaSandwich (tuna)," cursoragent (Cursor Agent), tunaSandwich (tuna), tunaSandwich (tunaSandwich)", 2026-02-28T20:13:36Z, 116, 2, 7
+ Feat: added shortcut for multiple shape arrow binding (Ctrl+M)   | Author: 7TIN (Prasad Gujarathi), 7TIN (7TIN), 2026-03-01T23:35:05Z, 354, 1, 7
+ fix: support header and line MCP stdio framing | Author: Diplovee (Diplov), Diplovee (Diplovee), 2026-03-02T21:14:12Z, 1625, 219, 20
+ refactor: add as const assertions to constants in packages/common | Author: kyofyufufufufufufufu (Unknown), kyofyufufufufufufufu (kyokyokyokyokyo), 2026-03-03T21:35:38Z, 5, 5, 1
+ Add codespell support with configuration and fixes | Author: yarikoptic (Yaroslav Halchenko), yarikoptic (Yaroslav Halchenko), 2026-03-04T14:20:41Z, 145, 106, 72
+ Add .cursorrules for Cursor IDE developer experience | Author: survivorforge (Unknown), survivorforge (survivorforge), 2026-03-04T16:24:38Z, 82, 0, 1
+ fix(toolbar): fix compact toolbar selection/lasso consistency and preserve hand tool | Author: DDDDD12138 (DDDDD12138), DDDDD12138 (zhiqing), 2026-03-06T11:35:11Z, 117, 43, 4
+ fix: improve HintViewer text contrast in dark mode for WCAG AA  | Author: Lollihopss (Unknown), Lollihopss (Lollihopss), 2026-03-06T23:45:34Z, 2, 2, 1
+ fix: allow native browser search in Help Dialog and Library Sidebar (#9276) | Author: Harshithk951 (Harshith Kumar Mannepalli), Harshith-Tech7 (Harshith Kumar), 2026-03-07T05:46:04Z, 125, 66, 4
+ fix(editor): detect actual content type for .excalidraw files | Author: pdrgds (Pedro Guedes), pdrgds (pedro.guedes), 2026-03-07T18:51:45Z, 83, 1, 2
+ feat: add fullscreen toggle for Android mobile/tablet canvas controls | Author: gouravslnk (Gourav Solanki), Unknown (Gourav Solanki), 2026-03-07T21:51:22Z, 129, 1, 7
+ Fix: Make undo button revert open file operation | Author: Emily021130 (zengs), Emily021130 (zengs), 2026-03-08T17:22:08Z, 42, 10, 1
+ Use FilledButton in Text-To-Diagramm Dialog | Author: heinrich26 (Hendrik Horstmann), heinrich26 (henrich26), 2026-03-09T13:35:48Z, 10, 76, 2
+ fix: convert <br> tags to newlines in Mermaid imports | Author: mango766 (eason), Unknown (easonysliu), 2026-03-14T01:59:40Z, 111, 4, 4
+ feat: add laser pointer modes (#10192) | Author: selimAP (selim), selimAP (selim), 2026-03-16T22:56:39Z, 683, 67, 9
+ feat(editor): allow stacking of shapes into groups to represent scale/copies | Author: dharm1k987 (Dharmik Shah), dharm1k987 (Dharmik Shah), 2026-03-17T12:58:52Z, 531, 13, 9
+ fix(editor): clip frame children completely out of bounds | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2026-03-18T10:17:15Z, 91, 0, 2
+ fix: curved arrow with bound text crops when exported as PNG | Author: s-virag (Unknown), Unknown (s-virag), 2026-03-18T16:24:44Z, 2, 2, 1
+ feat: add Mongolian (mn-MN) translation | Author: VeerShah41 (Veer Shah), VeerShah41 (Veer Shah), 2026-03-20T10:59:05Z, 662, 0, 2
+ feat(editor): Pretty curved arrows | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-03-20T14:34:03Z, 409, 150, 9
+ feat: add persistent laser pointer mode | Author: withsivram (Sivram Sahu)," claude (Claude Sonnet 4.6), withsivram (Sivram)", 2026-03-20T16:33:33Z, 59, 0, 6
+ fix: resolve <br> tags to newlines when importing Mermaid diagrams | Author: withsivram (Sivram Sahu)," claude (Claude Opus 4.6 (1M context)), withsivram (Sivram)", 2026-03-20T16:47:33Z, 149, 4, 4
+ fix(editor): stabilize canvas search results order | Author: luissena (Luis Sena), luissena (luissena), 2026-03-20T22:11:30Z, 31, 3, 2
+ feat: add custom trusted domains for embedding and conditional scrolling | Author: pia1004 (Unknown)," alexandruvasu69 (Alexandru Vasu), pia1004 (pia1004)", 2026-03-21T01:40:19Z, 755, 370, 22
+ feat(laser): add option for persistent laser drawings | Author: tysoncung (Tyson Cung), Unknown (Tyson Cung), 2026-03-21T14:22:50Z, 80, 3, 10
+ [feat] add titles to exported SVGs | Author: vivekkhimani (Vivek Khimani), vivekkhimani (Vivek Khimani), 2026-03-21T18:42:21Z, 35, 0, 3
+ [debug] arrow control points | Author: dwelle (David Luzar)," dwelle (dwelle), mtolmacs (Mark Tolmacs)", 2026-03-21T19:51:11Z, 1576, 122, 10
+ fix(packages/excalidraw): use --color-selection for linear element point handles | Author: ori-shalom (Ori Shalom), ori-shalom (Ori Shalom), 2026-03-21T20:35:49Z, 55, 14, 2
+ fix: resolve image loading in example code | Author: withsivram (Sivram Sahu)," claude (Claude Opus 4.6 (1M context)), withsivram (Sivram)", 2026-03-22T06:42:35Z, 5, 0, 1
+ fix: hide collaborators popup when all avatars fit without overflow | Author: withsivram (Sivram Sahu)," claude (Claude Opus 4.6 (1M context)), withsivram (Sivram)", 2026-03-22T06:43:48Z, 6, 5, 1
+ fix: cancel multi-point arrows on ESC in collaboration (#9467) | Author: anmolxlight (Anmol Mishra), Unknown (red), 2026-03-23T18:07:10Z, 3, 1, 1
+ fix: add missing shortcut label (H) to hand tool in toolbar | Author: feridsassi (Mohamed Ferid Sassi), feridsassi (Ferid Sassi), 2026-03-24T15:43:20Z, 1, 2, 1
+ fix: close hex popover when preferences submenu is activated | Author: feridsassi (Mohamed Ferid Sassi), feridsassi (Ferid Sassi), 2026-03-24T18:42:59Z, 12, 2, 2
+ fix(math): use inclusive inequalities for rectangle intersection logic | Author: Jadu07 (Yashraj Chouhan), Jadu07 (Yashraj Chouhan), 2026-03-25T00:30:35Z, 1, 1, 1
+ docs: update footer copyright year to 2026 | Author: feridsassi (Mohamed Ferid Sassi), feridsassi (Ferid Sassi), 2026-03-25T17:21:29Z, 1, 1, 1
+ i18n: add missing cardinality translations for French locale | Author: feridsassi (Mohamed Ferid Sassi), feridsassi (Ferid Sassi), 2026-03-25T18:10:56Z, 7, 0, 1
+ fix(test): attempt to fix test flake in collision.test.tsx | Author: dwelle (David Luzar), dwelle (dwelle), 2026-03-25T20:03:40Z, 9, 10, 1
+ fix(editor): ensure font picker font names are not quoted | Author: rimgosu (jihyup-byun), rimgosu (ji-hyup), 2026-03-26T01:54:51Z, 36, 3, 1
+ feat: add sync for linked library instances | Author: amirai0396 (Ami Rai), amirai0396 (Ami Rai), 2026-03-26T22:18:36Z, 158, 5, 9
+ feat: auto-detect markdown links in text elements | Author: amirai0396 (Ami Rai), amirai0396 (Ami Rai), 2026-03-26T23:09:45Z, 225, 2, 4
+ fix: make caret color match text color in wysiwyg editor | Author: cyphercodes (Rayan Salhab), cyphercodes (Rayan Salhab), 2026-03-27T00:53:11Z, 4, 0, 1
+ fix: snap rotation to 90° in grid mode | Author: Vi-Ku (Vishal Kumar), Vi-Ku (vi-ku), 2026-03-27T11:17:39Z, 16, 2, 3
+ build: update Node.js requirement to >=20.0.0 for marked dependency | Author: nitin-999-code (Nitin Sahu), nitin-999-code (Nitin Sahu), 2026-03-27T11:45:55Z, 1856, 2130, 4
+ fix(editor): retain text editor focus when switching tabs | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T16:57:49Z, 74, 0, 2
+ fix: add explicit font-size and margin to context menu items | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T17:42:22Z, 2, 0, 1
+ fix(wysiwyg): prevent container scroll when editing text near viewport edge | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T17:44:38Z, 16, 0, 1
+ fix: filter NaN points from freedraw SVG path data | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T17:46:16Z, 14, 3, 1
+ fix(element): implement lineTo bounds calculation in getMinMaxXYFromCurvePathOps | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T17:49:29Z, 11, 5, 1
+ fix(editor): prevent pasted text paragraphs from overlapping | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T17:52:47Z, 34, 5, 2
+ fix(editor): zoom to cursor position after window regains focus | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T17:55:26Z, 9, 0, 1
+ fix(editor): disallow grouping bound text containers with themselves | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T18:04:19Z, 24, 1, 1
+ fix: add shortcut hint to Clear Canvas menu item | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T18:11:06Z, 1, 0, 1
+ fix: prevent popover overflow on small viewports | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T18:12:25Z, 3, 0, 2
+ fix: prevent arrow bound to frame from being added as frame child | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T18:16:58Z, 75, 5, 3
+ fix(editor): add State diagram to mermaid description and link | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T18:24:22Z, 24, 4, 3
+ fix: remove incorrect width override in WYSIWYG paste handler | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T18:33:56Z, 28, 38, 2
+ fix: opt out of browser auto dark mode to prevent text visibility issues | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T18:35:43Z, 21, 3, 2
+ fix: use CSS logical properties for RTL support in Dialog and Modal | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T18:43:54Z, 4, 4, 2
+ fix(editor): add missing space in collab offline warning CSS class | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T18:47:58Z, 15, 4, 2
+ fix(editor): allow unlocking elements inside frames | Author: yogeshwaran-c (Yogeshwaran C), yogeshwaran-c (yogeshwaran-c), 2026-03-27T18:58:02Z, 5, 5, 1
+ fix: use selectionColor for group selection border instead of hardcoded black | Author: LuizPaluski (Luiz Gustavo de Lima Paluski), LuizPaluski (LuizPaluski), 2026-03-27T19:02:01Z, 1, 1, 1
+ fix: make element links clickable on whole element in view mode on mobile | Author: cyphercodes (Rayan Salhab), cyphercodes (Rayan Salhab), 2026-03-28T21:15:09Z, 0, 1, 1
+ fix: correct typo 'overriden' to 'overridden' in comments | Author: VISHNU7KASIREDDY (Vishnu Kasireddy), VISHNU7KASIREDDY (VISHNU7KASIREDDY), 2026-03-29T13:13:32Z, 3, 3, 3
+ feat(editor): hide collaborators' cursors and selections during collaboration | Author: DSep (Sepand Dyanatkar), DSep (DSep), 2026-03-30T03:03:22Z, 355, 30, 15
+ Fix color picker spacing issue when selecting multiple elements | Author: Danyccsf (Dany Valverde Caldas), Danyccsf (Dany), 2026-03-30T15:16:20Z, 30, 5, 2
+ fix(wysiwyg): intercept Ctrl+S/Cmd+S in text fields | Author: JBR-0100 (Unknown), JBR-0100 (JBR-0100), 2026-03-30T22:12:40Z, 29, 17, 3
+ fix: upgrade Dockerfile to Node 20 | Author: hungvietdo (Hung Do)," claude (Claude Sonnet 4.6), hungvietdo (Hung Do)", 2026-04-02T23:20:39Z, 1, 1, 1
+ feat(editor): Better freedraw rendering | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-04-03T16:10:26Z, 1800, 176, 27
+ bug: scrolling issue | Author: RajdeepJadhav-Dev (Unknown), RajdeepJadhav-Dev (RajdeepJadhav-Dev), 2026-04-03T19:44:44Z, 1367, 1929, 4
+ feat: extend text font sizes (2xs–10xl) and show current size | Author: YmNIK13 (Valery Stavitsky), YmNIK13 (ymnik), 2026-04-04T23:40:26Z, 1194, 58, 8
+ fix: allow closing submenu by tapping trigger again on mobile | Author: ElyesBoughedir (Elyes Cyril Boughedir), ElyesBoughedir (Elyes Cyril Boughedir), 2026-04-05T11:59:22Z, 45, 4, 1
+ feat: replace stroke width buttons with slider | Author: Aditya-myst (codeviAditya), Aditya-myst (Aditya kumar jha), 2026-04-06T07:22:13Z, 57, 91, 7
+ docs: add note for users who cannot install Yarn globally | Author: gpedralho (Gisele Pedralho), gpedralho (Gisele Pedralho), 2026-04-08T11:03:29Z, 25, 0, 1
+" feat: add ""Purge deleted items"" menu action | Author: gpedralho (Gisele Pedralho)", gpedralho (Gisele Pedralho), 2026-04-08T20:09:43Z, 64, 3, 6
+ docs: fix typos in README | Author: FluxHarsh (Harsh Jagtap), FluxHarsh (Harsh Jagtap), 2026-04-08T20:38:09Z, 5, 5, 1
+ fix: matchHostname always checked ALLOWED_DOMAINS instead of the passed-in Set | Author: mango766 (eason), Unknown (easonysliu), 2026-04-09T06:36:02Z, 2, 2, 1
+ fix(packages/excalidraw): add vertical scroll to canvas search result | Author: Perajit (Perajit), Perajit (Perajti Pasupat), 2026-04-10T09:02:32Z, 7, 1, 2
+ fix(editor): make opacity slider compatible with RTL layout | Author: maruthang (Maruthan G), maruthang (Maruthan G), 2026-04-10T10:09:08Z, 16, 3, 2
+ fix(editor): resolve HTML br tags in mermaid diagram text | Author: maruthang (Maruthan G), maruthang (Maruthan G), 2026-04-10T10:09:17Z, 16, 0, 1
+ fix(editor): restore undo/redo after exiting line editor by click | Author: maruthang (Maruthan G), maruthang (Maruthan G), 2026-04-10T10:09:19Z, 1, 0, 1
+ fix(editor): make initial text container resize undoable | Author: maruthang (Maruthan G), maruthang (Maruthan G), 2026-04-10T10:09:24Z, 3, 0, 1
+ feat: add bullet list and numbered list support to the text editor Closes #11118 | Author: ElyesBoughedir (Elyes Cyril Boughedir), ElyesBoughedir (Elyes Cyril Boughedir), 2026-04-10T18:15:29Z, 391, 5, 7
+ fix: mobile hyperlinks not clickable in view/presentation mode | Author: siddhantsahare (Siddhant Sahare), Unknown (Siddhant Sahare), 2026-04-10T18:25:03Z, 89, 1, 2
+ feat: adding triangle as a new shape | Author: taralshah09 (Taral Shah), taralshah09 (Taral Shah), 2026-04-11T04:08:24Z, 616, 30, 86
+ fix(build): raise workbox precache file size limit for Docker builds | Author: maruthang (Maruthan G), maruthang (Maruthan G), 2026-04-11T07:49:54Z, 3, 1, 1
+ fix(editor): preserve text editor focus when switching browser tabs | Author: maruthang (Maruthan G), maruthang (Maruthan G), 2026-04-11T07:51:39Z, 18, 0, 1
+ fix(editor): only show collaborators popup when avatars overflow | Author: maruthang (Maruthan G), maruthang (Maruthan G), 2026-04-11T07:54:32Z, 3, 2, 1
+ fix(editor): allow browser Find in Page when a dialog is open | Author: maruthang (Maruthan G), maruthang (Maruthan G), 2026-04-11T08:08:04Z, 2, 5, 1
+ fix(editor): prevent browser default for Ctrl+Z inside WYSIWYG | Author: maruthang (Maruthan G), maruthang (Maruthan G), 2026-04-11T08:09:42Z, 7, 0, 1
+ fix: show canvas background color palette on mobile | Author: feridsassi (Mohamed Ferid Sassi), feridsassi (Ferid Sassi), 2026-04-11T19:28:20Z, 3, 3, 1
+ feat: Bullet points/lists #11118 | Author: aksharma27 (Abhishek), aksharma27 (Abhishek), 2026-04-11T21:02:36Z, 29, 0, 1
+ feat(editor): add Shift+<tool key> to cycle stroke style | Author: jstettner (Jack Stettner), jstettner (Jack Stettner), 2026-04-11T21:50:11Z, 159, 3, 5
+ [Feature] Implement Bounded Canvas Constraints | Author: ghdiass (Gabriel Dias), ghdiass (Gabriel Dias), 2026-04-12T14:16:52Z, 148, 7, 7
+ feat: add GitHub integration | Author: ghdiass (Gabriel Dias), ghdiass (Gabriel Dias), 2026-04-12T17:00:27Z, 1786, 30, 10
+ feat(editor): add ledger-backed transaction manager with isolated history lane | Author: ryan-di (Ryan Di)," claude (Claude Opus 4.6), dwelle (dwelle), ryan-di (Ryan Di)", 2026-04-13T13:43:05Z, 4195, 42, 16
+ Fix opacity slider RTL compatibility | Author: Mateuscruz19 (Mateus Cruz), Mateuscruz19 (Mateus Cruz), 2026-04-13T22:47:41Z, 10, 3, 2
+ Fix Mermaid diagram <br> tags not resolving to line breaks | Author: Mateuscruz19 (Mateus Cruz), Mateuscruz19 (Mateus Cruz), 2026-04-13T22:47:53Z, 35, 6, 2
+" fix: improve Mermaid text sanitization (line breaks, HTML tags, entity decoding) | Author: ashil31 (Ashil Patel)", ashil31 (ashil31), 2026-04-14T18:06:43Z, 158, 8, 3
+ feat: adding cloud as a new shape | Author: Kabukimono-Sakura (Wentao Luo), Unknown (root), 2026-04-16T12:37:24Z, 170, 17, 20
+ feat: apply styles to selection only when Ctrl/Cmd is held | Author: feridsassi (Mohamed Ferid Sassi)," amirai0396 (Ami Rai), feridsassi (Ferid Sassi)", 2026-04-17T13:17:57Z, 349, 15, 15
+ fix: restore Arabic locale by bypassing completion threshold | Author: TasneemAnas05 (Tasnim Anas Alsasa), TasneemAnas05 (Tasneem Alsasa), 2026-04-17T15:17:36Z, 1, 0, 1
+ feat: graceful downscaling for large canvas exports to prevent browser crashes | Author: Danyccsf (Dany Valverde Caldas), Danyccsf (Dany), 2026-04-17T18:22:44Z, 56, 9, 2
+ Use highlight color for grouped outlines | Author: lavaFreak (Garion Milazzo), lavaFreak (lavafreak), 2026-04-17T22:15:24Z, 49, 1, 2
+ Add searchable shortcuts to the help dialog | Author: lavaFreak (Garion Milazzo), lavaFreak (lavafreak), 2026-04-18T02:53:44Z, 552, 359, 3
+ fix: preserve canvas when opening shared link in new tab | Author: feridsassi (Mohamed Ferid Sassi)," amirai0396 (Ami Rai), feridsassi (Ferid Sassi)", 2026-04-18T19:05:47Z, 233, 13, 14
+ fix: add missing unique key prop in UserList | Author: bogomollov (Bogdan Bogomolov), bogomollov (bogomollov), 2026-04-18T19:28:53Z, 74, 1, 2
+ feat: double-click toolbar tool to toggle lock | Author: feridsassi (Mohamed Ferid Sassi)," amirai0396 (Ami Rai), feridsassi (Ferid Sassi)", 2026-04-18T19:45:11Z, 238, 14, 16
+ fix(excalidraw): clean up useCopyStatus timer on unmount | Author: buley (Tay), Unknown (Taylor), 2026-04-19T00:26:52Z, 58, 1, 2
+ feat: deferred json share link preview and modal dismiss | Author: justinemar (spacetime), justinemar (justinemar), 2026-04-19T04:43:40Z, 385, 9, 7
+ fix: correctly handle moving elements across multiple frames | Author: Rafael-Duarte-Silva (Rafael), Rafael-Duarte-Silva (Rafael-Duarte-Silva), 2026-04-21T15:29:58Z, 114, 1, 2
+ fix: snap to angle broken when pointer is over another element | Author: ragini-pandey (Ragini Pandey), ragini-pandey (Ragini Pandey), 2026-04-21T18:49:51Z, 41, 11, 1
+ added panning ability using keyboard in view mode | Author: eolp1 (Emily Olp), Unknown (Emily Olp), 2026-04-27T23:25:31Z, 139, 0, 1
+ Add SVG title support for export name | Author: Jakobe088 (Jacob O'Neill), Jacobo917 (Jacob), 2026-04-28T03:24:46Z, 12, 0, 1
+ docs: add Vitest testing and coverage guide for contributors | Author: Danyccsf (Dany Valverde Caldas), Danyccsf (Dany), 2026-04-29T05:53:23Z, 63, 0, 1
+ fix(eraser): guard against undefined in groupsToErase for ungrouped elements | Author: HrushiYadav (Hrushikesh Yadav), HrushiYadav (Hrushikesh Yadav), 2026-04-29T18:58:19Z, 180, 21, 2
+ fix(clipboard): await copy before delete in cut action to prevent data loss | Author: HrushiYadav (Hrushikesh Yadav), HrushiYadav (Hrushikesh Yadav), 2026-04-30T03:52:08Z, 12, 2, 1
+ feat: Frame export crop | Author: ryanhorsey (Ryan), ryanhorsey (Ryan Horsey), 2026-05-03T01:56:35Z, 1078, 78, 68
+ feat: blur effect on shapes (closes #11228) | Author: Aryu-RU (Aryu), Aryu-RU (Aryu-RU), 2026-05-03T05:23:33Z, 2318, 2, 35
+ fix: #7333 Detect Loops in a closed freedraw by self intersection points | Author: RisabhKedai (Unknown), Unknown (Kedia Risabh), 2026-05-05T11:42:03Z, 114, 12, 3
+ feat: #11266 Need a New Canvas Button Without Resetting Existing Collaborati… | Author: jonasmateus (Jonas Mateus)," jonasmateus (Jonas Mateus B. dos Santos), jonasmateus (Jonas Mateus)", 2026-05-05T22:29:15Z, 56, 0, 5
+ feat: inline math calculator for text elements | Author: Krish-VATS (Unknown), Krish-VATS (Krish Sharma), 2026-05-06T10:15:43Z, 50, 0, 1
+  feat(search): improve canvas search result handling and localization:  [issue-11092](https://github.com/excalidraw/excalidraw/issues/11092) | Author: alechulkin (Unknown)," chulkin-mdb (chulkin-mdb), cursoragent (Cursor)", 2026-05-06T13:40:22Z, 169, 15, 60
+ fix: reset isTouchScreen when pointer switches from pen to mouse | Author: ajuan7 (Unknown), ajuan7 (ajuan7), 2026-05-07T01:54:08Z, 30, 5, 2
+ uzbek translation is complete | Author: ZetsuCoder (ZetsuCoder), ZetsuCoder (ZetsuCoder), 2026-05-07T08:00:20Z, 183, 704, 1
+ fix(editor): add aria-label to main menu trigger button | Author: Bardemic (Brandon Pieczka), Bardemic (Brandon Pieczka), 2026-05-07T11:56:31Z, 1, 0, 1
+ fix(ttd): sanitize mermaid renderer runtime errors into user-friendly messages | Author: ajoydevs (Arnold Joy), ajoydevs (Arnold Joy), 2026-05-07T14:26:45Z, 134, 3, 4
+ feat(editor): support google maps and wikipedia embeds | Author: dwelle (David Luzar), dwelle (dwelle), 2026-05-07T15:30:52Z, 169, 4, 3
+ fix: remove redundant focus call in ErrorDialog as Dialog handles it | Author: Arunkoo (Arun Kumar), Arunkoo (Arun Kumar), 2026-05-08T17:22:30Z, 1, 5, 1
+" feat: add whole-text bold, italic, and underline styling | Author: WaqasAhmed27 (Waqas Ahmed)", WaqasAhmed27 (WaqasAhmed27), 2026-05-09T17:15:47Z, 1455, 25, 37
+ fix(editor): make save shortcut tolerate CapsLock (#9281) | Author: YOON-CC (CHAN), YOON-CC (YOON-CC), 2026-05-10T08:31:49Z, 59, 1, 2
+ refactor(editor): simplifies snaplines  | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2026-05-11T07:51:41Z, 1371, 86, 3
+ fix: prevent top-right controls overflow on narrow viewports | Author: NgaiWongKa (Unknown), NgaiWongKa (Wong Ka Ngai), 2026-05-12T12:57:53Z, 11, 3, 1
+ Fix Ctrl+S in WYSIWYG editor opening browser Save dialog on Firefox | Author: MD-Mushfiqur123 (Md Mushfiqur Rahim)," Unknown (MD-Mushfiqur123), Unknown (Your Name)", 2026-05-14T00:58:42Z, 25, 4, 1
+" fix: duplicated words in element/{groups,collision,duplicate} comments | Author: lphuc2250gma (Unknown)", lphuc2250gma (Noa Levi), 2026-05-14T04:38:34Z, 4, 4, 3
+ fix: raise landscape mobile height threshold to 600 (#11295) | Author: herbyxo (Will), herbyxo (Will), 2026-05-14T05:16:11Z, 4, 1, 1
+ Add Mermaid export feature and update translations for clarity | Author: radamuz (Raúl Adamuz Cano), Unknown (Raúl Adamuz), 2026-05-14T10:25:40Z, 3383, 3264, 69
+" feat: add ""Zoom To Fit All Elements"" action button | Author: huimin546 (liang huimin)", huimin546 (huimin546), 2026-05-15T07:13:41Z, 61, 6, 2
+ feat(collections): multi-collection disk save for excalidraw-app | Author: Rengoku30 (Unknown)," Rengoku30 (Rengoku30), cursoragent (Cursor)", 2026-05-15T10:08:33Z, 3420, 6, 31
+ i18n: add missing progressDialog translation for zh-CN | Author: chu0119 (xingchuan), chu0119 (xingchuan), 2026-05-16T02:53:56Z, 4, 0, 1
+ refactor: rename cleanAppStateForExport to clearAppStateForExport | Author: singhvishalkr (Vishal Kumar Singh), singhvishalkr (Vishal Kumar Singh), 2026-05-16T08:26:14Z, 7, 7, 4
+ fix(editor): make element transparency option bar RTL-compatible | Author: spokodev (Spoko Dev), spokodev (Yarchik), 2026-05-16T13:04:55Z, 14, 2, 1
+ Added Mongolian language to Excalidraw | Author: Jack6587 (Jack6587), Jack6587 (klejt002), 2026-05-16T13:36:15Z, 739, 0, 2
+ fix(element): respect shift-locked angle when dragging line endpoints near bindable elements | Author: spokodev (Spoko Dev), spokodev (Yarchik), 2026-05-16T22:29:48Z, 164, 1, 2
+ feat (packages/excalidraw): add custom stroke width input | Author: kennethtann (kenneth), kennethtann (kenneth), 2026-05-17T20:07:53Z, 190, 40, 4
+ feat: add help dialog search | Author: Caltsic (Unknown), Caltsic (Caltsic), 2026-05-19T09:14:03Z, 695, 391, 5
+ fix: prevent browser default save dialog when Ctrl+S pressed in text editor | Author: niufox (niufox), Unknown (niufox), 2026-05-19T11:12:43Z, 41, 0, 2
+ Feature: Create arrowhead shortcut | Author: Jack6587 (Jack6587), Jack6587 (klejt002), 2026-05-20T06:16:30Z, 84, 38, 6
+ fix: allow save shortcut (Ctrl/Cmd+S) when editing text elements | Author: algojogacor (arya rizky ardhi pratama), algojogacor (arya rizky), 2026-05-20T08:28:07Z, 2, 1, 1
+ fix: add support for the browser type in serializeAsJSON to save the full visible app state | Author: joaopalmeiro (João Palmeiro), joaopalmeiro (João Palmeiro), 2026-05-20T10:11:52Z, 10, 4, 1
+ feat(locales): add Mongolian translation | Author: cf3901646 (Charlie Freeman), cf3901646 (cf3901646), 2026-05-20T13:28:02Z, 740, 0, 3
+ fix(editor): label redaction toggle in text fields | Author: Aniketiitk21 (Sandhan Aniket Ramdas), Aniketiitk21 (Aniketiitk21), 2026-05-20T16:53:28Z, 43, 0, 3
+ fix: prevent multi-touch events from causing straight lines in freedraw | Author: cf3901646 (Charlie Freeman), cf3901646 (cf3901646), 2026-05-21T07:15:54Z, 87, 2, 2
+ fix: make layer shortcuts (Ctrl + ] / [) compatible with non-US keyboard layouts | Author: cf3901646 (Charlie Freeman), cf3901646 (cf3901646), 2026-05-21T13:42:44Z, 609, 6, 3
+ fix: resolve <br> tags in imported Mermaid diagram texts | Author: cf3901646 (Charlie Freeman), cf3901646 (cf3901646), 2026-05-22T05:14:00Z, 139, 2, 4
+ fix: improve dark mode selection contrast and eraser for bound text | Author: Rohith2989 (Rohith), Rohith2989 (Rohith), 2026-05-23T11:12:51Z, 38, 17, 2
+ feat: add customizable workspace layout mode | Author: kamenkraychev (Kamen), kamenkraychev (kamenkraychev), 2026-05-23T18:17:15Z, 1275, 84, 15
+ fix(editor): keep canvas search results order stable (#9503) | Author: takabayashi (Daniel Takabayashi)," cursoragent (Cursor), takabayashi (Daniel Takabayashi)", 2026-05-23T19:41:56Z, 208, 47, 2
+ feat(app): add local-only multitab drawings | Author: takabayashi (Daniel Takabayashi)," cursoragent (Cursor), takabayashi (Daniel Takabayashi)", 2026-05-23T20:43:01Z, 1468, 23, 12
+ fix: keep search results stable when elements move | Author: xonaib (Zonaib Bokhari), xonaib (xonaib), 2026-05-24T10:22:31Z, 35, 3, 2
+ fix: update app title from scene name | Author: xonaib (Zonaib Bokhari), xonaib (xonaib), 2026-05-24T10:31:58Z, 37, 0, 3
+ feat: add shape templates sidebar with drag-and-drop | Author: ohborny (Elise Oborny), eoborny (eoborny), 2026-05-24T15:41:00Z, 1020, 12, 16
+ fix(editor): don't treat pen pointer events as touchscreen | Author: pbhopeful (Unknown)," claude (Claude Opus 4.7), pbhopeful (PB Hope)", 2026-05-24T18:37:13Z, 76, 1, 2
+" fix: security vulnerabilities in QR code, clipboard, iframe messages, avatars, and tab sync | Author: jaadu611 (Ayush Burman)", Unknown (jaadu611), 2026-05-24T21:10:03Z, 429, 11, 8
+ feat: Arabic font support with auto-switch and split font picker | Author: AhmedAl-Bahrawy (Ahmed Al-Bahrawy), AhmedAl-Bahrawy (Ahmed Al-Bahrawy), 2026-05-25T12:22:34Z, 2009, 1991, 23
+ Fix Ctrl+F behavior inside help menu | Author: sayedrisat (Sayed Risat), sayedrisat (Sayed Risat), 2026-05-25T18:03:45Z, 18, 2, 2
+ feat: Rasterized Pen and Eraser | Author: rhcalderon93 (Unknown), rhcalderon93 (Raniero H. Calderon A.), 2026-05-26T02:23:27Z, 968, 13, 14
+ fix(editor): avoid rendering null in toolbar shortcut hover tooltip | Author: drewmendez (Andrew Jefferson Mendez), drewmendez (Andrew Jefferson Mendez), 2026-05-27T07:21:43Z, 9, 4, 1
+" fix: don't setPointerCapture for right-clicks, fixing context menu on macOS touchpad tap | Author: ragini-pandey (Ragini Pandey)", ragini-pandey (Ragini Pandey), 2026-05-27T18:51:32Z, 12, 1, 1
+ fix: Make Left Properties Panel Draggable | Author: abhijeetgorhe26 (Abhijeet Sanjay Gorhe), abhijeetgorhe26 (abhijeetgorhe26), 2026-05-27T19:04:42Z, 1607, 1962, 5
+ Fix: Add support for italic text (#11404) | Author: abhijeetgorhe26 (Abhijeet Sanjay Gorhe), abhijeetgorhe26 (abhijeetgorhe26), 2026-05-28T18:19:58Z, 1656, 1964, 12
+ fix: correct typos in code comments | Author: oyi77 (Paijo), oyi77 (oyi77), 2026-05-29T15:24:53Z, 28, 16, 14
+ feat: add quick export button to top-right UI for improved accessibility | Author: Danyccsf (Dany Valverde Caldas), Danyccsf (Dany), 2026-05-31T04:34:06Z, 63, 1, 2
+ fix(shadow-dom): load css into shadow-root | Author: rambip (Antonin Peronnet)," claude (Claude Sonnet 4.6), rambip (Antonin P)", 2026-06-01T07:05:34Z, 15, 5, 2
+ fix(canvas-offset): re-measure canvas offsets on every pointerdown | Author: rambip (Antonin Peronnet)," claude (Claude Sonnet 4.6), rambip (Antonin P)", 2026-06-01T07:44:52Z, 5, 0, 1
+ feat: add shortcut to toggle element properties panel visibility | Author: PrasitSahu (Prasit Sahu), PrasitSahu (Prasit Sahu), 2026-06-02T15:58:10Z, 2500, 2055, 15
+ fix: Remove texts based sorting based on y axis positioning | Author: Chakit22 (Chakit Bhandari), Chakit22 (Chakit22), 2026-06-05T15:28:19Z, 1385, 1980, 2
+ add HTML-in-Canvas support for text rendering and rich paste | Author: ltabuada (lorenzo tabuada)," claude (Claude Sonnet 4.6), ltabuada (Lorenzo)", 2026-06-05T18:29:22Z, 1654, 2, 11
+ feat: add native table element | Author: johnlarkin1 (John Larkin)," claude (Claude Opus 4.8 (1M context)), johnlarkin1 (John Larkin)", 2026-06-06T22:43:05Z, 2027, 30, 33
+ Fixes: #10952: replaced the br tags which were visible in the diagram with new line | Author: Ishaan02-Coder (Ishaan Daftari), Ishaan02-Coder (Ishaan02-Coder), 2026-06-07T07:46:38Z, 2, 0, 1
+ feat: add emoji fallback font for consistent rendering | Author: spandanareddib (Spandana Reddy), spandanareddib (spandanareddib), 2026-06-07T07:53:45Z, 25, 1, 2
+ Add library to welcome screen | Author: Namrah-87 (Mohid)," Namrah-87 (Namrah-87), Namrah-87 (namrah-87)", 2026-06-07T19:58:33Z, 1388, 1933, 10
+ fix: Request persistent storage in order to prevent images from getting deleted from projects (fixes #11348) | Author: stchigel (Nico), stchigel (stchigel), 2026-06-08T01:00:48Z, 30, 1, 3
+ fix: make AREA_LIMIT device-aware to reduce high-zoom artifacting | Author: matifaya (mati )," claude (Claude Opus 4.8), matifaya (MatiasFaya)", 2026-06-08T03:00:50Z, 19, 3, 1
+ perf(renderer): add uniform-grid viewport culling to avoid O(N) scene… | Author: matifaya (mati )," claude (Claude Opus 4.8), matifaya (MatiasFaya)", 2026-06-08T03:49:33Z, 127, 9, 1
+ fix(editor): keep canvas search results order stable (#9503) | Author: ShubhamSoni09 (Shubham Soni)," Unknown (ShubhamSoni09), cursoragent (Cursor)", 2026-06-08T23:50:57Z, 49, 2, 2
+ Feat: create the implementation of Italic text | Author: cunha-luiss (Luís Felipe Parreira Cunha)," CristianoMoraiss (Cristiano Borges de Morais), Gabro-MO (Gabro-MO), Giih-martins (Giovana Martins de Brito), cunha-luiss (Luís Felipe Parreira Cunha), luabrantess (luabrantess)", 2026-06-09T02:25:02Z, 317, 39, 12
+ docs: fix broken links on documentation | Author: tom-xs (Tomas Xavier Santos), tom-xs (Tomas Xavier Santos), 2026-06-09T07:41:57Z, 47, 56, 10
+ feat(editor): animated images support | Author: k88936 (Deyu Wang)," k88936 (kvtodev), mtolmacs (Mark Tolmacs)", 2026-06-11T13:22:04Z, 3199, 39, 28
+" fix(app,packages/excalidraw): bump @excalidraw/random-username to 1.2.0 | Author: ashmitmittal (Ashmit Mittal)", ashmitmittal (Ashmit Mittal), 2026-06-12T17:48:22Z, 5, 11, 3
+ feat: add search to help dialog shortcuts | Author: Chakit22 (Chakit Bhandari), Chakit22 (Chakit22), 2026-06-13T09:24:10Z, 421, 372, 2
+ feat(editor): show distance labels on spacing guides (#11273) | Author: viniciuspdre (Pedro Vinícius Silva Lira), viniciuspdre (Pedro Lira), 2026-06-13T18:44:01Z, 241, 0, 2
+ feat(editor): zoom with middle mouse wheel (#10609) | Author: viniciuspdre (Pedro Vinícius Silva Lira), viniciuspdre (Pedro Lira), 2026-06-13T18:45:38Z, 120, 1, 2
+ feat(editor): remove non-overlapping frame children on restore | Author: dwelle (David Luzar), dwelle (dwelle), 2026-06-14T12:17:17Z, 453, 7, 4
+ feat(editor): add whyp.it to embeddable URL whitelist | Author: scztt (scott carver), scztt (scott carver), 2026-06-14T14:43:11Z, 13, 0, 2
+ fix(packages/excalidraw): harvest coalesced pointer events for stylus input | Author: distelbus-svg (Unknown)," Unknown (DK), Unknown (distelbus-svg)", 2026-06-14T20:28:03Z, 50, 11, 1
+" fix: text formatting applies to selected text only, not entire text box | Author: dhanushkumar-amk (Dhanushkumar G)", dhanushkumar-amk (dhanushkumar), 2026-06-15T12:25:47Z, 603, 60, 8
+ fix(editor): z-order shortcuts conflict with Alt modifier on macOS | Author: heyrobertchang (Robert Chang (張凱強)), heyrobertchang (Robert Chang), 2026-06-15T13:30:25Z, 69, 0, 2
+ fix(app): stop idle detection when collaboration ends | Author: heyrobertchang (Robert Chang (張凱強)), heyrobertchang (Robert Chang), 2026-06-15T14:24:23Z, 57, 13, 2
+ fix(editor): avoid grid snapping during rotation | Author: biubiukam (KAM), biubiukam (biubiukam), 2026-06-15T17:10:36Z, 23, 5, 2
+ fix(editor): resolve z-index shortcut conflict on macOS | Author: madisonicus (Unknown), madisonicus (Ben Levin), 2026-06-17T17:37:14Z, 86, 0, 2
+ Update docker-compose to docker compose in docs | Author: lundjrl (James Robert Lund III ), lundjrl (James Robert Lund III), 2026-06-17T19:45:39Z, 2, 2, 1
+ fix: prevent canvas search when dialog is open | Author: algojogacor (arya rizky ardhi pratama), Unknown (Arya Rizky), 2026-06-19T14:52:59Z, 2, 1, 1
+ fix: don't snap rotation to the grid (#4057) | Author: ardittirana (Ardit Tirana), ardittirana (Ardit Tirana), 2026-06-19T21:43:55Z, 31, 2, 2
+ fix: bump node version to 20 due to incompatible module marked@16.4.2 | Author: njtan142 (Niño James Tan), njtan142 (Niño James A. Tan), 2026-06-20T08:25:27Z, 1, 1, 1
+" docs: extend CLAUDE.md with more detail, architecture, and nested memory files | Author: bartekbp (Bartosz Polnik)", bartekbp (Bartosz Polnik), 2026-06-20T15:18:23Z, 938, 23, 10
+ feat: add syntax highlighting to code in text block | Author: teddymalhan (Teddy Malhan), teddymalhan (Teddy Malhan), 2026-06-21T08:47:05Z, 624, 54, 15
+" docs: fix duplicated ""the the"" typo in API docs and code comment | Author: BIGSUS24 (Shivam S)", BIGSUS24 (Shivam S), 2026-06-21T16:11:23Z, 2, 2, 2
+ fix: keep documentElement overscroll disabled while editor is mounted (#5588) | Author: minato32 (minato32), minato32 (minato32), 2026-06-22T10:20:17Z, 12, 8, 1
+ feat(editor): rounding coordinates | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-06-22T13:14:57Z, 686, 536, 27
+ fix(editor): two-finger pinch-to-zoom works in pen mode | Author: knowald (Kevin Nowald), knowald (Kevin Nowald), 2026-06-22T18:06:29Z, 152, 1, 3
+ fix(popover): correctly position context menu in editor modal | Author: Arisch24 (Arischvaran Puvanesvaran), Arisch24 (Arischvaran Puvanesvaran), 2026-06-23T07:59:27Z, 6, 3, 1
+ refactor(editor): strokeWidth constants refactor | Author: dwelle (David Luzar), dwelle (dwelle), 2026-06-24T07:21:45Z, 73, 63, 5
+ fix: add contrast halo to laser pointer cursor in light theme | Author: minato32 (minato32), minato32 (minato32), 2026-06-26T07:29:42Z, 8, 3, 1
+ fix: group chart elements on paste so align doesn't collapse them | Author: minato32 (minato32), minato32 (minato32), 2026-06-26T07:40:26Z, 13, 2, 1
+ fix: fall back to download when native save picker is blocked | Author: minato32 (minato32), minato32 (minato32), 2026-06-26T07:52:31Z, 51, 12, 1
+ fix: match PWA splash background_color to theme_color | Author: InukaWijerathna (Inuka Wijerathna), InukaWijerathna (Inuka Wijerathna), 2026-06-27T04:56:10Z, 1, 1, 1
+ fix: align action removes elements from containing frame (#6851) | Author: anmolxlight (Anmol Mishra), anmolxlight (anmol mishra), 2026-06-27T16:28:02Z, 15, 6, 1
+ fix(app): increase service worker cache limit to 3MB | Author: j4v1 (Javi Cardoso)," Unknown (Javi Cardoso), claude (Claude Sonnet 4.6)", 2026-06-27T23:12:24Z, 1, 1, 1
+ Add export readiness warnings | Author: Seemlinsky (Seemlinsky), Seemlinsky (Seemlinsky), 2026-06-27T23:41:32Z, 122, 2, 3
+ fix(editor): command palette shows mixed languages after switching la… | Author: jithu2111 (Prajeeth Channa), jithu2111 (jithu2111), 2026-06-28T06:12:44Z, 159, 21, 4
+ fix(editor): resolve React 19 peer dependency warnings by upgrading radix-ui to 1.6.0 | Author: rohit-simbanic (Rohit Mondal), rohit-simbanic (rohit-simbanic), 2026-06-28T21:19:56Z, 675, 684, 2
+ fix: crash when shift-deselecting a group alongside individual elements | Author: minato32 (minato32), minato32 (minato32), 2026-06-29T07:38:40Z, 576, 7, 3
+ fix: allow canvas wheel pan/zoom while editing a frame name | Author: minato32 (minato32), minato32 (minato32), 2026-06-29T08:06:21Z, 42, 1, 2
+ fix: coerce restored `collaborators` to a Map | Author: minato32 (minato32), minato32 (minato32), 2026-06-29T08:27:07Z, 36, 0, 2
+ fix: case-insensitive keyTest for save shortcut to prevent browser save dialog when editing text (#9281) | Author: Navas20 (Unknown), Navas20 (Navas20), 2026-06-29T19:08:30Z, 3, 1, 1
+ feat: adding shape conversion (#11585) | Author: omavashia2005 (Om Kashyap Avashia)," ChrisK15 (Chris Kelamyan), omavashia2005 (Om Kashyap Avashia), omavashia2005 (omavashia)", 2026-06-30T14:21:03Z, 102, 1, 4
+ fix(i18n): fallback to key path for missing translations | Author: Mythrayee12 (Mythrayee), Mythrayee12 (Mythrayee12), 2026-07-02T06:46:56Z, 4, 6, 1
+ docs: Updated docker-compose command to use new syntax | Author: Calvin-Schmeichel (Calvin Schmeichel), Calvin-Schmeichel (Calvin Schmeichel), 2026-07-04T03:48:58Z, 1, 1, 1
+ feat(packages/excalidraw): Extended fonts support | Author: tothatt81 (Attila Tóth)," claude (Claude Fable 5.1), dwelle (dwelle), tothatt81 (Attila Tóth)", 2026-07-05T11:28:13Z, 6035, 784, 55
+ fix(editor): preserve text editor focus when switching tabs | Author: ezecodenaut (Unknown), ezecodenaut (ezecodenaut), 2026-07-07T02:04:21Z, 7, 1, 1
+ feat(excalidraw): add random color button to color picker | Author: ajvalenty (AJ Valenty)," Unknown (AJ Valenty), cursoragent (Cursor)", 2026-07-07T12:37:13Z, 81, 1, 5
+ feat(editor): Element schema versioning | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-07-07T15:00:56Z, 773, 42, 27
+ fix: PWA build step caps precache max size | Author: ioliveros (Unknown), ioliveros (ioliveros.dev), 2026-07-07T22:20:17Z, 1, 1, 1
+ fix: show helpful error message on filesystem permission error (fixes #5951) | Author: soy-chrislo (Christian), Unknown (soy-chrislo), 2026-07-08T20:24:52Z, 61, 2, 4
+ fix(editor): don't downscale inserted images that fit within the file size limit | Author: zk19604 (Zainab Khalil)," Copilot (Copilot Autofix powered by AI), zk19604 (Zainab Khalil), zk19604 (Zainab)", 2026-07-10T11:51:03Z, 35, 11, 2
+ fix: add distinct aria-labels to color picker swatch buttons | Author: saloni8780 (Saloni Kumari), Unknown (Saloni Kumari), 2026-07-10T11:59:05Z, 6, 3, 2
+ fix(editor): preserve text editor focus on window blur (Alt+Tab) | Author: AlsoTheZv3n (Sven Weidenmann)," AlsoTheZv3n (Sven Weidenmann), claude (Claude Opus 4.8 (1M context))", 2026-07-11T09:07:58Z, 143, 5, 2
+ fix: resolve implicit symbol-to-string conversion in FILE_EXTENSION type | Author: AFRADOX (Unknown), AFRADOX (AFRADOX), 2026-07-12T18:05:07Z, 2, 2, 1
+ fix: iframe-embed analytics throws ReferenceError so the event never fires | Author: kobihikri (Kobi Hikri)," Unknown (Kobi Hikri), claude (Claude Fable 5)", 2026-07-13T11:06:18Z, 2, 2, 1
+ fix(editor): make z-order shortcuts work across keyboard layouts (#9535) | Author: CanReader (Canberk Pitirli), CanReader (CanReader), 2026-07-13T21:31:01Z, 154, 19, 3
+ feat(editor): allow switching arrow types via shape switcher when bound (#9656) | Author: CanReader (Canberk Pitirli), CanReader (CanReader), 2026-07-13T22:36:58Z, 143, 21, 3
+ feat(app): Add persistent laser tool and refactor the code | Author: CaiqueGalinari (Caíque Galinari)," CaiqueGalinari (Caíque Galinari), adonisoliveiradasilva (Adonis Oliveira da Silva), adonissilva (adonis oliveira)", 2026-07-13T23:12:00Z, 705, 150, 25
+ feat: add native excalidraw table support with auto-alignment | Author: Soumya-codr (Soumya-codr), Soumya-codr (Soumya-codr), 2026-07-14T02:10:14Z, 2686, 1932, 13
+ docs: improve README navigation and contributor info | Author: Nitinnfr (Nitin Singh), Nitinnfr (Nitin), 2026-07-14T09:15:45Z, 28, 3, 1
+ feat: providing access for blind and visually impaired users - screen reader / non-visual accessibility layer (WCAG 2.2 AA) | Author: behofer (Benjamin Hofer)," behofer-gs (Benjamin Hofer), claude (Claude Fable 5)", 2026-07-14T14:41:35Z, 5043, 94, 88
+ fix: remove identical conditional branches in ColorPicker toggle | Author: Kadajett (Jeremy Stover), Kadajett (Jeremy Stover), 2026-07-14T16:56:31Z, 4, 10, 1
+ fix(element): preserve zero linear dimensions | Author: ShiroKSH (Kushida), ShiroKSH (ShiroKSH), 2026-07-14T21:43:20Z, 47, 4, 3
+ fix(editor): localize publish library form validation messages | Author: Sloppy0726 (Sloppy), Sloppy0726 (Sloppy), 2026-07-15T06:55:47Z, 21, 1, 1
+ fix(sw): cache preloaded fonts for offline usage | Author: AnkitNITA23 (ANKIT KUMAR), AnkitNITA23 (AnkitNITA23), 2026-07-16T16:23:25Z, 25, 1, 2
+ feat: add orbit bind hotkey | Author: D4Will (William Douglass)," D4Will (William Douglass), Unknown (Willy Douglass)", 2026-07-16T17:00:16Z, 516, 5, 13
+ fix: correct dialog aria-labelledby to match title element id | Author: bidhandhakal (Bidhaan)," bidhandhakal (Bidhaan), bidhandhakal (bidhandhakal), cursoragent (Cursor)", 2026-07-17T18:34:02Z, 6, 4, 2
+ fix(editor): show keyboard shortcut in stroke/background picker tooltip | Author: arpan7sarkar (Arpan Sarkar), arpan7sarkar (Arpan), 2026-07-18T07:27:57Z, 5, 2, 2
+ fix(editor): show keyboard shortcuts in color picker tooltips | Author: Srujanreddy1234 (srujanreddy7), Srujanreddy1234 (Srujan Reddy), 2026-07-18T13:34:10Z, 2, 2, 1
+ test(editor): add unit tests for angle utilities | Author: omsatodiya (Om Satodiya), omsatodiya (om), 2026-07-18T15:49:57Z, 149, 0, 1
+ feat: add recent colors palette with local storage persistence | Author: srivathsan0804 (Srivathsan), srivathsan0804 (Srivathsan), 2026-07-18T16:57:52Z, 140, 75, 4
+ feat: add linear gradient background fill for shapes | Author: dor-weid (Unknown), dor-weid (dor.weidman), 2026-07-18T18:29:46Z, 1331, 19, 40
+" fix(elements): respect zero coordinates in elbow arrow mutation, guard stale binding unbind | Author: kodejeet (r)", kodejeet (kodejeet), 2026-07-18T18:59:43Z, 111, 8, 4
+ fix(math): detect segment intersections at endpoints in segmentsIntersectAt | Author: arhxam (Arham Amin ), arhxam (Arham Wani), 2026-07-19T01:44:06Z, 41, 4, 2
+ fix: add custom tooltip to icon buttons | Author: 72umesh (Umesh Pal), 72umesh (Umesh Kumar Pal), 2026-07-19T14:12:35Z, 7, 4, 1
+ fix(editor): fix low-contrast hover text on exit-view-mode button in dark mode | Author: bidhandhakal (Bidhaan), bidhandhakal (bidhandhakal), 2026-07-19T17:57:02Z, 2, 1, 1
+ feat(fonts): add Playpen Arabic as selectable handwriting font | Author: marouane-m7b (Marouane Mahboub), marouane-m7b (marouane-m7b), 2026-07-19T19:14:25Z, 35, 2, 7
+ fix: preserve dialogs during cross-tab sync | Author: ChiragArora31 (Chirag Arora), ChiragArora31 (ChiragArora31), 2026-07-20T03:11:05Z, 56, 11, 3
+ feat: add one-click action to flip arrow direction | Author: Sam721166 (samiran), Sam721166 (Samiran De), 2026-07-20T05:38:47Z, 77, 0, 6
+ fix(editor): restore box-selecting line points by dragging on canvas | Author: b0wen-liu (Unknown)," b0wen-liu (Bowen Liu), claude (Claude Fable 5)", 2026-07-20T07:19:54Z, 34, 9, 2
+ fix: add tooltips to sidebar header icons | Author: CharanMunur (Munur Sai Charan), CharanMunur (CharanMunur), 2026-07-21T09:55:19Z, 73, 26, 5
+ Replace native language selector with existing menu component | Author: neutron420 (Ritesh Singh), neutron420 (neutron420), 2026-07-21T10:11:50Z, 32, 26, 3
+ feat(editor): support pasting images from HTML data URL src | Author: xevrion (Yash Bavadiya), xevrion (Yash Bavadiya), 2026-07-22T06:14:06Z, 19, 1, 2
+ fix(editor): ungroup bound text when dragging group member out of frame | Author: xevrion (Yash Bavadiya), xevrion (Yash Bavadiya), 2026-07-22T06:53:19Z, 69, 1, 2
+ fix(editor): re-measure converted text elements once fonts load | Author: xevrion (Yash Bavadiya), xevrion (Yash Bavadiya), 2026-07-22T07:34:57Z, 98, 2, 3
+ fix(editor): prevent text creation on dblclick when exiting line editor | Author: xevrion (Yash Bavadiya), xevrion (Yash Bavadiya), 2026-07-22T07:54:43Z, 31, 3, 2
+ fix(editor): finalize multi-point drawing on toolbar tool switch | Author: xevrion (Yash Bavadiya), xevrion (Yash Bavadiya), 2026-07-22T08:55:30Z, 42, 0, 2
+ Implemented the feature for recent used library element | Author: PrakharSingh42 (Unknown), Unknown (PrakharSingh42), 2026-07-22T17:50:53Z, 113, 23, 3
+ Update Chinese README and improve internationalization features | Author: GiraffeAir (Ziqun Huang)," GiraffeAir (GiraffeAir), GiraffeAir (Ziqun Huang), traeagent (traeagent)", 2026-07-24T05:11:14Z, 1247, 477, 37
+ refactor(root): trim extra whitespace from comment | Author: zaidkhatri-dev (Zaid Khatri), zaidkhatri-dev (Zaid Khatri), 2026-07-24T06:44:57Z, 1, 1, 1
+ feat: add Alt+drag shortcut to create arrow bend point without enteri… | Author: k-anushka14 (Anushka Kawalkar), k-anushka14 (Anushka Kawalkar), 2026-07-24T10:19:59Z, 139, 1, 3
+ fix(pwa): raise workbox precache size limit to 3MB | Author: cpfaffinger (Unknown), cpfaffinger (cp), 2026-07-24T11:25:25Z, 1, 1, 1
+ fix(packages/excalidraw): guard missing FontFace.unicodeRange in svg export | Author: gaurav0107 (Gaurav Dubey), gaurav0107 (Gaurav Dubey), 2026-07-26T19:13:47Z, 50, 1, 2
+ fix(editor): prevent duplicate library items on re-import | Author: neutron420 (Ritesh Singh)," ezemskov (Eugene Zemskov), neutron420 (neutron420)", 2026-07-26T19:53:40Z, 346, 12, 4
+ multiproject-support: implementación completa del sistema de gestión … | Author: dsalazardev (Daner Alejandro Salazar Colorado), dsalazardev (Daner Alejandro Salazar Colorado), 2026-07-27T04:46:30Z, 7398, 1, 56
+ feat(editor): allow typing an exact zoom percentage | Author: nitrogen404 (Chandan Dhamande)," claude (Claude Opus 5), nitrogen404 (Chandan Dhamande)", 2026-07-27T07:53:41Z, 293, 15, 7
+ [docs] Correct port and file path in Next.js example README.md | Author: Shreya657 (Shreya ), Shreya657 (Shreya), 2026-07-27T13:11:49Z, 2, 2, 1
+ fix: add missing de-DE translation for crop editor hints | Author: AkashNaickar (Akash Naickar), AkashNaickar (Akash-Naickar), 2026-07-27T14:07:12Z, 2, 2, 1
+ fix(editor): keep S then I eyedropper working when hex is focused | Author: nawazish2 (NAWAZISH KHAN), nawazish2 (Nawazish Khan), 2026-07-28T07:07:40Z, 213, 29, 3
+ Fix/strokes at start with small offsets | Author: ezemskov (Eugene), ezemskov (Eugene Zemskov), 2026-07-28T12:50:16Z, 39, 10, 2
+ fix: proper test to detect when the pressure is simulated or not | Author: skkdevcraft (Stoyan Krastev), skkdevcraft (Stoyan Krastev), 2026-07-29T05:10:40Z, 1, 1, 1
+ feat(editor): Chalkboard post-process for all elements | Author: JessieWadman (Jessie Wadman), JessieWadman (Jessie Wadman), 2026-07-29T10:46:17Z, 516, 4, 26
+ fix: add tooltips to sidebar icons | Author: limichael97 (Michael Li), togetli-app (Michael Li), 2026-07-29T18:11:37Z, 72, 26, 5
+ feat(packages/excalidraw): [ui] rewrite ui regions | Author: dwelle (David Luzar), dwelle (dwelle), 2026-07-29T22:03:31Z, 583, 401, 14
+ feat: viewport-based font sizing | Author: matttt (Matthew Martori), matttt (Matthew Martori), 2026-07-30T05:51:39Z, 331, 100, 8
+ fix(editor): document Shift+drag axis lock in Help dialog | Author: mdshzb04 (mohammed shazeb), mdshzb04 (Mohammed Shazeb), 2026-07-30T07:29:40Z, 5, 0, 2
+ fix: add .js extension to roughjs imports for ESM strict resolution | Author: okxint (Unknown), okxint (okxint), 2026-07-31T07:01:55Z, 4, 4, 4
+ fix: allow Ctrl+S save shortcut when editing text elements | Author: muhfauziazhar (Muhammad Fauzi Azhar), muhfauziazhar (Muhammad Fauzi Azhar), 2026-07-31T15:59:21Z, 3, 1, 1
+ fix: make canvas search results order stable | Author: TheRodzz (Unknown), TheRodzz (TheRodzz), 2026-07-31T18:37:35Z, 35, 2, 2
+ fix(ttd): allow horizontal drag selection in prompt input | Author: satych-ux (Unknown), satych-ux (Satyam Chourasia), 2026-08-01T17:00:59Z, 9, 2, 1
+ feat: implement element & frame layer visibility toggle (#9599) | Author: rabadiyameet073 (Meet D. Rabadiya), rabadiyameet073 (rabadiyameet073), 2026-08-01T17:13:42Z, 252, 3, 15
+ refactor: replace UA parsing with isDarwin/isWindows in ShareDialog | Author: waterWang (water), waterWang (waterWang), 2026-08-02T20:47:31Z, 3, 7, 1
+ docs: add Zenith Hosting deploy option | Author: odpay (Josh), odpay (odpay), 2026-08-03T06:22:48Z, 4, 0, 1
+ fix(Range): correct slider position and gradient direction in RTL layouts | Author: okxint (Unknown), okxint (okxint), 2026-08-04T08:32:55Z, 11, 3, 2
+ fix: allow Ctrl+F native find in dialogs (#9276) | Author: arhantsg07 (Arhant Gourkhede), arhantsg07 (arhantsg07), 2026-08-04T11:33:45Z, 4, 1, 1
+ feat: Make linear element snapping not dependent on sloppiness | Author: Benna96 (Unknown), Benna96 (Sofia Visser), 2026-08-04T21:23:14Z, 240, 98, 8
+ feat: desktop app version using Tauri | Author: ezecodenaut (Unknown), ezecodenaut (ezecodenaut), 2026-08-05T03:58:15Z, 4653, 1, 65
+ docs: add Code of Conduct | Author: praann07 (Mamidala Som Praneeth Babu), praann07 (Mamidala Som Praneeth Babu), 2026-08-05T07:28:28Z, 131, 0, 1
+ docs: add SECURITY.md | Author: praann07 (Mamidala Som Praneeth Babu), praann07 (Mamidala Som Praneeth Babu), 2026-08-05T07:34:56Z, 46, 0, 1
+ fix(editor): do not swallow taps that interrupt menu scroll animation on iOS | Author: tollenceld (banki), tollenceld (tollenceld), 2026-08-05T15:28:47Z, 770, 14, 5
+ fix(editor): state variables sync across group and frame selection/deselection within common bounds | Author: cTangonan123 (Christopher Tangonan), cTangonan123 (Christopher Tangonan), 2026-08-06T04:56:56Z, 419, 28, 3
+ fix: render link icon on transparent background | Author: bvsvntv (Basanta Rai), bvsvntv (bvsvntv), 2026-08-06T16:16:46Z, 3, 8, 1
+ build: reuse Docker dependency layer across source changes | Author: Arata1202 (Arata), Arata1202 (Arata), 2026-08-08T09:51:23Z, 11, 1, 1
+ fix: respect selection mode in freeform lasso | Author: AadityaRaj77 (Aaditya Raj), AadityaRaj77 (AadityaRaj77), 2026-08-08T16:27:09Z, 7, 1, 2
+ fix: correct isLocalLink origin check for external links | Author: Arunendra21 (Arunendra Tripathi), Arunendra21 (Arunendra21), 2026-08-09T10:13:35Z, 60, 1, 2
+ fix(tests): resolve failing lasso reselection test by initializing boxSelectionMode and viewport dimensions | Author: JayeshRajbhar (Jayesh), JayeshRajbhar (JayeshRajbhar), 2026-08-09T10:38:26Z, 7, 1, 1
+ docs: remove duplicated words in comments (to to / the the) | Author: zhaoxinyi02 (赵鑫亿)," Unknown (AtomCode (GLM-5.2)), zhaoxinyi02 (赵鑫亿)", 2026-08-10T04:54:06Z, 5, 5, 4
+ fix: link icon chip shows white background in dark theme | Author: kartick-qode (Kartick Narayan)," Unknown (dy-coord-16-bot), claude (Claude Sonnet 4.6)", 2026-08-10T09:24:31Z, 10, 16, 1
+ fix: link icon chip background in dark theme (Fixes #11867) | Author: waterWang (water), waterWang (waterWang), 2026-08-11T03:02:28Z, 20, 16, 1
+ feat: add Urdu (ur-PK) language support (#11869) | Author: developebyharis (Haris Khan)," developebyharis (Haris Khan), developebyharis (mhariskhan)", 2026-08-11T10:34:41Z, 770, 19, 6
+ fix: upgrade websocket-driver to 0.7.5 (CVE-2026-54466) | Author: anupamme (Anupam Mediratta), anupamme (anupamme), 2026-08-11T19:23:24Z, 6, 5, 2
+ fix: upgrade shell-quote to 1.8.4 (CVE-2026-9277) | Author: anupamme (Anupam Mediratta), anupamme (anupamme), 2026-08-11T20:14:09Z, 14, 5, 4
+ fix(i18n): localize sign-up and sign-in menu items | Author: rishie81311518 (Rishie Kandala), rishie81311518 (rishie81311518), 2026-08-13T02:15:04Z, 9, 6, 3
+ fix(packages/excalidraw): add accessible names to image export scale options | Author: ddussi (Leo), ddussi (ddussi), 2026-08-13T08:58:53Z, 51, 13, 2
+ feat: create a new highlight pen tool.  | Author: jinheng0301 (jheng), jinheng0301 (jheng), 2026-08-14T04:18:49Z, 78, 9, 11
+ feat (control panel): develop highlight pen features.  | Author: jinheng0301 (jheng), jinheng0301 (jheng), 2026-08-14T07:24:49Z, 78, 9, 11
+ feat(editor): add duplicate button next to bottom left undo/redo section | Author: Junda10 (Chia Chin Tat)," Junda10 (TerryM), claude (Claude Opus 5)", 2026-08-14T09:17:40Z, 12, 0, 2
+ perf: reuse cached shape for remote elements that only moved | Author: enol5423 (Unknown), Unknown (enol5423), 2026-08-14T11:23:35Z, 221, 1, 4
+ fix: preserve search result order when elements move | Author: Abhi-05-git (Abhishek Tripathi), Abhi-05-git (Abhi-05-git), 2026-08-14T21:38:39Z, 64, 2, 2
+ Fix accessible-name/visible-content mismatches (WCAG 2.5.3) | Author: Dhananjay70 (Dhananjay Pathak), Dhananjay70 (Dhananjay70), 2026-08-15T19:36:45Z, 22, 8, 3
+ feat: support keyboard panning in view mode with smooth decayFeat/view mode keyboard panning | Author: harshthakur3 (Harsh Thakur), harshthakur3 (Harsh Thakur), 2026-08-15T19:40:05Z, 54, 0, 1
+ fix: link icon background chip not matching canvas in dark theme | Author: noqokhxnh (Khánh Nguyễn), noqokhxnh (noqokhxnh), 2026-08-16T13:55:05Z, 58, 6, 2
+ feat: show copy cursor when Alt/Option held for duplication | Author: maheshsingh20 (Mahesh Singh), maheshsingh20 (maheshsingh20), 2026-08-16T16:07:28Z, 487, 363, 3
+ fix: render Excalifont-missing precomposed glyphs via NFD | Author: MHJahanbakhsh (MohammadHossein Jahanbakhsh), MHJahanbakhsh (MohammadHossein Jahanbakhsh), 2026-08-16T16:22:19Z, 193, 4, 7
+ test(editor): re-enable flip tests for curves outside min/max points | Author: MatheusMartinho (Matheus Moura Martinho), MatheusMartinho (MatheusMartinho), 2026-08-16T16:31:16Z, 8, 16, 1
+ chore: fix typos in code comments | Author: CodeToTheCore (Unknown)," CodeToTheCore (CodeToTheCore), claude (Claude Opus 5 (1M context))", 2026-08-16T17:41:05Z, 52, 17, 5
+ docs: fix two 404 contributing and serializeAsJSON links | Author: JiuYue0820 (MoonsvnLyn), JiuYue0820 (MoonsvnLyn), 2026-08-17T05:58:57Z, 2, 2, 2
+ docs: propose an official desktop application | Author: nikhilv9729 (Nikhil Verma), nikhilv9729 (nikhilv9729), 2026-08-17T11:56:57Z, 96, 0, 1
+ fix(laser): fade trail after pointer release | Author: prafullprince (Prafull Prince), prafullprince (Prafull Prince), 2026-08-17T20:38:52Z, 22, 4, 3
+ fix(editor): warn instead of error when worker subsetting falls back | Author: nessaisling-lab (Stan (Aisling) Leiva-Davila)," claude (Claude Opus 5), nessaisling-lab (nessaisling-lab)", 2026-08-18T01:12:54Z, 62, 1, 2
+ fix: release new element canvas backing store | Author: whyy9527 (why), whyy9527 (why), 2026-08-18T15:52:31Z, 64, 4, 2
+ fix(editor): re-apply theme-dependent tool cursors on theme change | Author: MITRAKER (Mitra Kermanian)," MITRAKER (MITRAKER), claude (Claude Opus 5)", 2026-08-19T00:27:00Z, 81, 11, 4
+ fix(editor): re-apply scroll constraints during pointer-drag panning | Author: MITRAKER (Mitra Kermanian)," MITRAKER (MITRAKER), claude (Claude Opus 5)", 2026-08-19T15:36:52Z, 202, 12, 2
+ fix:  (#11798) - auto-adjust text contrast when dragged onto same-color background (fix for Library symbol text labels are not visible when moved to canvas)  | Author: Adithya6721 (Unknown), Adithya6721 (Adithya6721), 2026-08-19T17:39:36Z, 122, 0, 1
+ feat: cmd/ctrl+click continues freedraw stroke with straight segment | Author: khushali-haji (Unknown), khushali-haji (khushali-haji), 2026-08-19T19:45:38Z, 121, 6, 2
+ feat: add <title> element to exported SVGs for searchability | Author: syawqy (syawqy), syawqy (syawqy), 2026-08-20T00:41:06Z, 52, 0, 3
+ fix(editor): no-op zoom-to-selection on empty scene | Author: BetterAndBetterII (Yuzhong Zhang)," BetterAndBetterII (Yuzhong Zhang), cursoragent (Cursor Agent)", 2026-08-20T06:08:46Z, 146, 3, 3
+" fix(editor): evaluate invisibility on the restored element, not the r… | Author: MITRAKER (Mitra Kermanian)"," MITRAKER (MITRAKER), claude (Claude Opus 5)", 2026-08-20T16:42:19Z, 179, 7, 4
+ fix(element): don't treat frames as bucket-fill boundaries | Author: MITRAKER (Mitra Kermanian)," MITRAKER (MITRAKER), claude (Claude Opus 5)", 2026-08-20T16:45:45Z, 61, 2, 2
+ feat(editor): add table insert tool | Author: indraine (indraine), indraine (indrane), 2026-08-21T10:17:25Z, 469, 1, 13
+ fix(editor): drop stale line editor point highlight after moves | Author: indraine (indraine), indraine (indrane), 2026-08-21T10:45:11Z, 207, 78, 4
+ feat(editor): add latex support to text element | Author: anislerouge (Anis), Unknown (anis), 2026-08-22T08:06:17Z, 1878, 92, 31
+ fix(element): clip frame children that can paint outside the frame | Author: trukwava (Trevor Rukwava), Unknown (Trevor Rukwava), 2026-08-22T16:14:13Z, 124, 1, 2
+ fix: don't re-version remote elements when healing fractional indices (updateScene) | Author: softwareDefine (juhoLee), softwareDefine (chocojuho), 2026-08-22T16:29:16Z, 92, 7, 6
+ feat(editor): add shortcut search to help dialog | Author: mofazzal0413 (Mofazzal Hossain)," cursoragent (Cursor), mofazzal0413 (mofazzal0413)", 2026-08-22T17:08:21Z, 205, 15, 4
+ fix: preserve caret position when outdenting partial tabs | Author: 74001w (Unknown), 74001w (Rob), 2026-08-22T18:37:13Z, 37, 6, 2
+ feat(locales): add Mongolian translation | Author: syzygy930 (Unknown), syzygy930 (syzygy930), 2026-08-22T18:42:10Z, 783, 0, 5
+ fix: allow precise rotation in grid mode | Author: mbwmatthew-ux (Matthew Wu), matthewwu (Matthew Wu), 2026-08-22T18:45:49Z, 43, 3, 2
+ fix(editor): skip empty frames in bucket fill | Author: bhavin2011 (Unknown), bhavin2011 (bhavin2011), 2026-08-22T19:01:06Z, 26, 4, 2
+ test: preserve element geometry when resizing frames | Author: wsvdesign (Wsvdesign), wsvdesign (wsvdesign), 2026-08-22T19:26:43Z, 14, 0, 1
+ ci(repo): fix broken heredoc in semantic-pr-title.yml | Author: arzaanxeng (Syed Arzaan)," arzaanxeng (Arzaan), arzaanxeng (Syed Arzaan)", 2026-08-23T08:23:56Z, 19, 20, 2
+ fix: clip standalone text elements to frame boundary accounting for render padding | Author: bofrompursuit (Bo), bomoldenhauer-ops (bofrompursuit), 2026-08-23T15:29:47Z, 220, 18, 4
+ docs: add macOS Yarn install note to avoid EACCES error | Author: antoninlesov (Unknown), antoninlesov (antoninlesov), 2026-08-23T15:38:48Z, 24, 0, 1
+ feat(editor): adjustable corner radius for rectangles | Author: gitgud5000 (Unknown), gitgud5000 (gitgud5000), 2026-08-23T22:11:47Z, 191, 16, 7
+ fix(editor): allow undo to remove last point during multi-point drawing | Author: vim719 (Unknown), vim719 (vim719), 2026-08-23T22:31:52Z, 400, 0, 3
+ fix: clip patterned fills to closed shape bounds | Author: ChrisWozniak (Unknown)," 99thDragon (99thDragon), ChrisWozniak (ChrisWozniak)", 2026-08-24T23:59:00Z, 382, 2, 2
+ fix(editor): correct x position for arrow's end-bound text label | Author: abdoulk30 (Unknown), abdoulk30 (abdoulk30), 2026-08-25T00:00:24Z, 62, 8, 3
+ fix(store): clear scheduled micro actions on Store.clear() | Author: yfwmaniish (Manish Tiwari), yfwmaniish (yfwmaniish), 2026-08-25T09:25:31Z, 346, 0, 4
+ feat(editor): allow switching arrow types of bound arrows via shape switcher | Author: MadeNavaneeth (Yadamreddy Navaneeth), MadeNavaneeth (MadeNavaneeth), 2026-08-25T16:47:47Z, 332, 52, 2
+ fix(excalidraw): resolve relative EXCALIDRAW_ASSET_PATH instead of throwing Invalid URL | Author: CanReader (Canberk Pitirli), CanReader (Canberk Pitirli), 2026-08-25T17:26:19Z, 159, 17, 3
+ fix(editor): resolve Dialog aria-labelledby to the namespaced title id | Author: MadeNavaneeth (Yadamreddy Navaneeth)," MadeNavaneeth (MadeNavaneeth), Unknown (Navaneeth Yadamreddy)", 2026-08-25T18:00:35Z, 50, 2, 6
+ fix: preserve endArrowhead when converting arrow to elbow type | Author: abdoulk30 (Unknown), abdoulk30 (abdoulk30), 2026-08-25T23:57:29Z, 36, 4, 2
+ fix: handle freedraw outlines with fewer than two points | Author: bathbilissalou-bit (Unknown), bathbilissalou-bit (Bath Bilissalou), 2026-08-26T01:03:48Z, 4, 0, 1
+ feat(help): searchable shortcuts in Help dialog (Ctrl/Cmd+F focuses search) | Author: K4bain (Kobain), K4bain (K4bain), 2026-08-26T10:59:11Z, 625, 377, 4
+ fix: revert alt-drag duplication triggered by OS-initiated Alt+Tab mid-drag | Author: K4bain (Kobain), K4bain (K4bain), 2026-08-26T10:59:34Z, 76, 2, 3
+ fix: make opacity slider RTL-compatible | Author: devwez (Weza Mwiwa), devwez (Weza Mwiwa), 2026-08-26T17:20:32Z, 17, 3, 2
+ fix: collab error dialog keeps popping up repeatedly | Author: alexsaf1987-ui (Deynnis), alexsaf1987-ui (alexsaf1987-ui), 2026-08-26T18:54:13Z, 218, 9, 4
+ fix(search): keep results order stable when elements move on canvas | Author: K4bain (Kobain), K4bain (K4bain), 2026-08-26T19:32:03Z, 115, 0, 2
+ Fix AnimationController test failures on Node 24+ with vitest 3.0.6 | Author: alexsaf1987-ui (Deynnis), alexsaf1987-ui (alexsaf1987-ui), 2026-08-27T00:03:28Z, 23, 1, 1
+ fix(common): correct the focusable element query used by focus traps | Author: CanReader (Canberk Pitirli), CanReader (Canberk Pitirli), 2026-08-27T06:39:01Z, 116, 4, 2
+ fix(common): don't treat a leading emoji as left-to-right in isRTL | Author: CanReader (Canberk Pitirli), CanReader (Canberk Pitirli), 2026-08-27T06:43:02Z, 62, 5, 2
+ fix(packages/excalidraw): keep history.ts out of the published tarball | Author: CanReader (Canberk Pitirli), CanReader (Canberk Pitirli), 2026-08-27T07:09:44Z, 4, 4, 4
+ fix(excalidraw): sanitize non-finite scroll and zoom on restore | Author: CanReader (Canberk Pitirli), CanReader (Canberk Pitirli), 2026-08-27T07:14:21Z, 72, 1, 2
+ fix(excalidraw): sanitize non-finite element geometry on restore | Author: CanReader (Canberk Pitirli), CanReader (Canberk Pitirli), 2026-08-27T07:18:13Z, 87, 4, 2
+ fix(editor): don't reject a whole scene over one malformed element entry | Author: CanReader (Canberk Pitirli)," CanReader (Canberk Pitirli), mtolmacs (Mark Tolmacs)", 2026-08-27T07:21:29Z, 45, 2, 2
+ fix(excalidraw): handle malformed input in restoreLibraryItems | Author: CanReader (Canberk Pitirli), CanReader (Canberk Pitirli), 2026-08-27T07:24:39Z, 53, 0, 2
+   fix(app): detect Firefox/WebKit localStorage quota exceeded errors | Author: Aparajith24 (Aparajith), Aparajith24 (Aparajith24), 2026-08-27T10:11:35Z, 55, 2, 2
+ Fix: scope RTL to Excalidraw container instead of document (#11963) | Author: alexsaf1987-ui (Deynnis), alexsaf1987-ui (alexsaf1987-ui), 2026-08-27T12:43:25Z, 37, 7, 6
+ fix: malformed element no longer rejects entire file import (fixes #11925) | Author: MadeNavaneeth (Yadamreddy Navaneeth), Unknown (Navaneeth Yadamreddy), 2026-08-27T14:51:49Z, 30, 1, 2
+ feat(editor): Add Grid toggle to Image Export | Author: elliot-nelson (Elliot Nelson), elliot-nelson (Elliot Nelson), 2026-08-27T16:16:06Z, 371, 3, 15
+ docs: fix Prettier check command | Author: jzeng151 (Jason Zeng), jzeng151 (Jason Zeng), 2026-08-28T02:27:55Z, 1, 1, 1
+ fix: exclude frames from bucket fill boundary types | Author: MadeNavaneeth (Yadamreddy Navaneeth), Unknown (Navaneeth Yadamreddy), 2026-08-28T03:44:04Z, 41, 4, 2
+ fix: convert mermaid `<br/>` labels to line breaks | Author: neihyud (Unknown), hiennd-ctrl (hiennd), 2026-08-28T04:28:51Z, 123, 9, 5
+ fix(types): expose actionManager on AppClassProperties | Author: durgasnv (Durgashree Nag Vuppala), durgasnv (Durga), 2026-08-28T05:54:40Z, 1, 0, 1
+ feat(editor): multi segment curved arrow | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-08-28T08:54:02Z, 2271, 108, 24
+ fix(editor): use selectionColor instead of hardcoded black for group selection border | Author: M001N (Unknown), M001N (dataflow-solutions-sk), 2026-08-28T09:43:38Z, 1, 1, 1
+ fix(editor): make element body clickable for links on mobile in view mode | Author: M001N (Unknown)," M001N (dataflow-solutions-sk), claude (Claude Sonnet 5)", 2026-08-28T14:31:59Z, 139, 1, 2
+ fix(editor): use theme selection color for group selection outline | Author: PixelAndFlow (Marc Delsoin)," PixelAndFlow (Marc Delsoin), PixelAndFlow (PixelAndFlow)", 2026-08-29T02:58:39Z, 2, 2, 1
+ feat: add renderIframe prop | Author: valentindoering (Valentin Döring), valentindoering (Valentin Döring), 2026-08-29T11:02:50Z, 31, 1, 4
+ docs: fix typo differnt -> different | Author: vaibhav8a (Vaibhav Srivastava), vaibhav8a (Vaibhav Srivastava), 2026-08-29T11:47:57Z, 1, 1, 1
+ feat: parse pasted Markdown into styled handwritten elements | Author: braxtonROSE4 (Brax)," braxtonROSE4 (braxtonROSE), claude (Claude Fable 5)", 2026-08-30T02:10:05Z, 787, 0, 3
+ fix(packages/excalidraw): gate iframe rendering behind validation to prevent phishing via collaboration (#11930) | Author: alexsaf1987-ui (Deynnis), alexsaf1987-ui (alexsaf1987-ui), 2026-08-31T11:45:14Z, 836, 16, 9
+ feat: add Table drawing tool with row and column management | Author: aryankumar06 (Aryan Kumar), aryankumar06 (aryankumar06), 2026-08-31T13:18:09Z, 2362, 6, 20
+ fix: detect localStorage quota errors in Firefox and Safari (#11962) | Author: ivarcodes (ivar), ivarcodes (ivarFastackai), 2026-08-31T15:22:23Z, 8, 1, 1
+" fix: dialogs have a dangling aria-labelledby, so they have no accessible name | Author: yfwmaniish (Manish Tiwari)", yfwmaniish (yfwmaniish), 2026-09-01T06:04:41Z, 99, 6, 9
+ fix: make save shortcut (Ctrl/Cmd+S) tolerate CapsLock when editing text (#9281) | Author: Godsdar (Ildar Popov), Godsdar (Godsdar), 2026-09-02T13:01:56Z, 82, 1, 2
+ fix(colorPicker): keep eyedropper shortcuts working after hex focus or picker reuse | Author: K4bain (Kobain), K4bain (K4bain), 2026-09-03T00:04:20Z, 229, 28, 3
+ feat: allow lovable.app domain for embeddables | Author: BaconMan1168 (Unknown), BaconMan1168 (Daniel), 2026-09-03T01:35:32Z, 1, 0, 1
+ fix(eraser): prevent throw and support erasing freedraw strokes with short/empty outlines | Author: Vishv07 (Vishv), Unknown (Vishv Kakadiya), 2026-09-03T03:06:58Z, 78, 14, 3
+ test(laser-pointer): add unit tests for math and simplify | Author: nessaisling-lab (Stan (Aisling) Leiva-Davila), nessaisling-lab (nessaisling-lab), 2026-09-04T02:52:29Z, 247, 0, 2
+ fix(app): localize hardcoded strings in the share dialog | Author: dhruv-1100 (Dhruv Patel)," claude (Claude Opus 5), dhruv-1100 (dhruv-1100)", 2026-09-04T15:57:05Z, 4, 4, 1
+ fix(packages/excalidraw): localize hardcoded item name placeholder | Author: dhruv-1100 (Dhruv Patel)," claude (Claude Opus 5), dhruv-1100 (dhruv-1100)", 2026-09-04T15:57:54Z, 1, 1, 1
+ feat: support per-range text colors (#1126) | Author: maisachinsharmahu (Sachin Sharma), maisachinsharmahu (maisachinsharmahu), 2026-09-05T11:31:51Z, 696, 28, 12
+ fix(bug):  stale chat title remains after deleting diagram + history dropdown auto-opening #12044 | Author: priyankarpal (Priyankar Pal ), priyankarpal (priyankarpal), 2026-09-06T06:15:40Z, 61, 18, 4
+ fix: wait for clipboard writes before showing share link success | Author: klipduragi-code (Unknown), klipduragi-code (klipduragi-code), 2026-09-06T10:49:20Z, 181, 35, 3
+ feat(editor): add mouse wheel zoom preference | Author: theoryshaw (Ryan Schultz)," claude (Claude Opus 5), theoryshaw (Ryan Schultz)", 2026-09-06T15:27:06Z, 345, 42, 12
+ fix: move to iTXt png chunks (#9269) | Author: bobby404-K (bobby ), bobby404-K (bobby404-K), 2026-09-08T09:24:42Z, 142, 10, 3
+ Fixissue #12058 Close (X) icon is misaligned and overlaps the Help button in the top-right toolbar | Author: priyankarpal (Priyankar Pal ), priyankarpal (priyankarpal), 2026-09-08T10:58:45Z, 68, 24, 6
+ fix: convert HTML br tags to newlines in Mermaid diagrams | Author: code420kam (Kamil Durhan), code420kam (Kamil Durhan), 2026-09-10T07:55:25Z, 2, 2, 1
+ docs: correct Next.js example README | Author: deepikavalluru (Unknown), deepikavalluru (Deepika Valluru), 2026-09-10T09:50:24Z, 2, 2, 1
+ fix(test): inherit default coverage excludes and fix vitest UI startup | Author: Ansh-dS (ANSHDEEP SINGH), Unknown (Ansh-dS), 2026-09-10T12:04:09Z, 70, 46, 3
+ chore(editor): Update translations from Crowdin | Author: excalibot (Excalidraw Bot), excalibot (Excalidraw Bot), 2026-09-10T15:27:53Z, 2014, 334, 57
+ feat: press Enter to edit group and select all its elements | Author: voidstackloop (voidstack)," claude (Claude Sonnet 5), voidstackloop (Salih Yilboga)", 2026-09-10T16:21:02Z, 457, 0, 3
+ feat(editor): add sticky note footer options | Author: zsviczian (Unknown), zsviczian (zsviczian), 2026-09-11T06:01:01Z, 1282, 22, 28
+ fix: separate lasso selection mode from rectangle selection | Author: Rishitha1512 (Rishitha K), Rishitha1512 (Rishitha1512), 2026-09-11T06:26:11Z, 201, 30, 10
+ fix: fix security issue in docusaurus.config.js | Author: anupamme (Anupam Mediratta), anupamme (anupamme), 2026-09-11T12:27:25Z, 2, 2, 1
+ Hotfix/correctif urgent | Author: Sareen00 (Julien Milhau), Sareen00 (Julien), 2026-09-11T12:51:15Z, 49, 0, 3
+ fix(editor): save the scene on Ctrl/Cmd+S while an input is focused | Author: Abhishek-B-R (Abhishek B R), Abhishek-B-R (Abhishek B R), 2026-09-11T15:03:16Z, 47, 1, 2
+ feat(editor): ruled sticky notes | Author: bipuladk60 (Bipul Adhikari)," bipuladk60 (bipuladk60), claude (Claude Opus 5 (1M context))", 2026-09-12T02:05:57Z, 580, 6, 25
+ fix(editor): keep canvas background picker full-size in the main menu | Author: d1rshan (Darshan Paccha), d1rshan (d1rshan), 2026-09-12T10:48:14Z, 37, 4, 2
+ feat: edit shared hyperlinks on selected groups | Author: maximilliangrand (Maxim Gagiev), maximilliangrand (maximilliangrand), 2026-09-12T11:44:49Z, 369, 41, 8
+ feat(editor): add lasso tool shortcut and update HelpDialog | Author: tilakavatiadhireddy (Tilakavati Adhireddy), tilakavatiadhireddy (Tilak), 2026-09-12T16:12:31Z, 11, 4, 4
+ feat(embeddable): allow embedding from editor.p5js.org | Author: tilakavatiadhireddy (Tilakavati Adhireddy), tilakavatiadhireddy (Tilak), 2026-09-12T16:26:47Z, 17, 0, 2
+ feat(editor): custom roundness amount for rounded rectangles | Author: TrecentSpace (Jorge Andres F)," TrecentSpace (George Andrew), claude (Claude Opus 4.8)", 2026-09-12T20:43:56Z, 312, 18, 12
+ fix(locale): complete missing tr-TR translations | Author: kolerak (Unknown), kolerak (kolerak), 2026-09-12T23:13:47Z, 36, 31, 1
+" refactor(math): add ViewportPoint and GenericPoint, use as generic point constraint | Author: aniruddhapw (Aniruddha Wankhade)"," aniruddhapw (Aniruddha Wankhade), claude (Claude Opus 5), claude (Claude Opus 5.5)", 2026-09-13T10:28:55Z, 203, 165, 14
+ fix: prevent eraser from deleting images | Author: riddhimajaiswal18 (Riddhima Jaiswal), riddhimajaiswal18 (riddhimajaiswal18), 2026-09-13T19:05:05Z, 267, 1, 3
+ feat: allow changing text color of individual words within a single text element (#12090) | Author: Somesh520 (Somesh Tiwari), Somesh520 (somesh520), 2026-09-14T06:36:01Z, 169, 8, 6
+ fix(editor): preserve loop detection for scaled linear elements | Author: CharanMunur (Munur Sai Charan), CharanMunur (CharanMunur), 2026-09-15T08:21:52Z, 60, 3, 2
+ fix(ux): enlarge rotation handle hit area with radial tolerance | Author: Ansh-dS (ANSHDEEP SINGH), Unknown (Ansh-dS), 2026-09-15T13:54:11Z, 8, 5, 1
+ fix(ui): position styles panel based on selection | Author: itshakemd (itshakemd), itshakemd (itshakemd), 2026-09-15T22:51:42Z, 45, 4, 2
+ fix(i18n): correct es-ES promptTooLong placeholder and add parity test | Author: bunnysayzz (Azhar), bunnysayzz (bunnysayzz), 2026-09-16T06:23:29Z, 86, 1, 2
+ test: resolve DefaultSidebar test context mismatch and Mermaid mock types | Author: Ansh-dS (ANSHDEEP SINGH), Unknown (Ansh-dS), 2026-09-16T14:05:08Z, 3, 2, 2
+ fix(i18n): restore dropped placeholders in si-LK strings | Author: Umeshchandra2024 (Umesh1145), Umeshchandra2024 (Umeshchandra2024), 2026-09-17T04:41:17Z, 4, 4, 1
+ feat: Implement beautiful laser pointer modes as mentioned in issue #10192 | Author: Kashifwahaj (Kashif Wahaj), Kashifwahaj (Kashif Wahaj), 2026-09-17T17:22:20Z, 804, 99, 11
+ feat: added Wordwall to embeddable allowlist #12120 | Author: asmit990 (Asmit Pandey), asmit990 (asmit990), 2026-09-18T09:12:42Z, 11, 0, 2
+ feat: add independent UI scaling with MainMenu stepper control | Author: Ansh-dS (ANSHDEEP SINGH), Unknown (Ansh-dS), 2026-09-18T14:47:54Z, 451, 101, 26
+ Feature/herramientas clase | Author: ulixz75 (Unknown)," ulixz75 (Ulises Ramón Cruz García), ulixz75 (ulixz75)", 2026-09-19T10:21:06Z, 1919, 3, 14
+ feat: add keyboard-only shape placement | Author: monther20 (MUNTHER ABDELRAZEQ ALOUFI), monther20 (MUNTHER ABDELRAZEQ ALOUFI), 2026-09-19T15:26:34Z, 1042, 62, 8
+ feat: add mathematical symbols selector and inline typing autocomplete shortcuts | Author: mailmeatdarshan (Darshan Sanjay Dubey), mailmeatdarshan (mailmeatdarshan), 2026-09-19T20:01:54Z, 1139, 1, 12
+ fix: link icon chip renders as plain white in dark theme | Author: Momoru2002 (Momoru19), Momoru2002 (Momoru2002), 2026-09-20T04:15:00Z, 74, 5, 2
+ fix(editor): remeasure text bounds after fallback fonts load | Author: ArjunCodess (Arjun Vijay Prakash)," ArjunCodess (Arjun Vijay Prakash), mtolmacs (Mark Tolmacs)", 2026-09-20T13:16:54Z, 2905, 453, 11
+ feat: add wordwall.net to allowed embed domains | Author: dikshit-n (Dikshit), dikshit-n (Githena), 2026-09-21T02:40:56Z, 28, 0, 2
+ Display filename on UI | Author: sathish-chanda (Unknown), sathish-chanda (Satish), 2026-09-21T03:22:24Z, 66, 2, 4
+ fix: whitelist GitHub Pages URL for web embeds | Author: Gowrish31 (Unknown), Unknown (Gowrish), 2026-09-21T04:57:46Z, 30, 0, 2
+ docs(element): name the params intersect and route helpers actually take | Author: darkdi (Dmitry Rantovov), darkdi (Dmitrii Rantovov), 2026-09-21T07:02:16Z, 8, 7, 2
+ feat(app): add WebMCP tools for the live canvas | Author: Louu2001 (Lou), Unknown (loujun), 2026-09-21T09:08:48Z, 1690, 0, 8
+ feat: allow hosts to scale canvas editing handles | Author: minwookshin (Minwook Shin), minwookshin (Minwook Shin), 2026-09-21T18:36:57Z, 528, 43, 13
+ Feat/templates prototype | Author: Nicolercc (Nicole Rodriguez )," Nicolercc (nicole), claude (Claude Sonnet 5)", 2026-09-21T22:41:01Z, 2892, 0, 41
+ Update PR labeling workflow with script integration | Author: arzaanxeng (Syed Arzaan), arzaanxeng (Syed Arzaan), 2026-09-22T08:50:58Z, 3, 20, 1
+ feat(editor): Expose binding repair API | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-09-22T19:31:35Z, 1456, 34, 6
+ feat: add contextual flowchart step action | Author: muassarraja (Unknown), muassarraja (muassarraja), 2026-09-23T14:07:14Z, 298, 33, 6
+ feat: add Tauri desktop application foundation | Author: Kk12suthar (KISHOR SUTHAR)," Kk12suthar (kk12suthar), dwelle (dwelle)", 2026-09-23T17:14:23Z, 8207, 412, 30
+ fix(editor): anchor toast close button to the toast | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-09-23T17:15:21Z, 1, 0, 1
+ fix(app): prevent stale tabs from overwriting newer scene in browser storage | Author: AyushbhaiPatel (Ayush Patel)," AyushbhaiPatel (Ayush Patel), capy-ai[bot] (capy-ai[bot])", 2026-09-23T17:43:21Z, 1920, 239, 15
+ fix(editor): show side resize handles on touch tablets | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-09-23T17:48:39Z, 185, 4, 3
+ fix(editor): don't clip arrows bound to elements outside their frame | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-09-23T17:58:44Z, 169, 0, 3
+ Added Presentation mode | Author: dib-a (Unknown), dib-a (dib-a), 2026-09-23T22:34:30Z, 1892, 17, 32
+ feat: brand exported filenames and collaboration QR code | Author: bofrompursuit (Bo)," Unknown (Bo Moldenhauer), claude (Claude Sonnet 5)", 2026-09-23T23:12:53Z, 332, 14, 19
+ fix(editor): Reinforce state and elements restore and import | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-09-24T11:48:39Z, 1159, 65, 13
+ feat(editor): add star shape to the toolbar | Author: tunaSandwichCursor (Unknown)," cursoragent (Cursor), tunaSandwich (Lucas Garza)", 2026-09-24T20:19:26Z, 783, 80, 41
+ fix(editor): don't snap dragged frames to their children's old positions | Author: SwastikTripathi (SwastikTripathi)," SwastikTripathi (Swastik Tripathi), claude (Claude Opus 5.5 (1M context))", 2026-09-25T05:12:02Z, 101, 2, 2
+ fix: keep distribution even when one element spans the selection | Author: neihyud (Unknown), hiennd-ctrl (hiennd), 2026-09-25T13:10:07Z, 51, 9, 2
+ build: raise Workbox precache size limit | Author: Arahi20 (Unknown), Arahi20 (Arahi20), 2026-09-25T22:12:53Z, 1, 1, 1
+ feat: add customizable pencil pointer | Author: iprashantp (Prashant), Unknown (Prashant Patel), 2026-09-27T09:02:31Z, 224, 0, 13
+ feat(export): optional excalidraw.com attribution badge on image exports | Author: MITRAKER (Mitra Kermanian)," MITRAKER (MITRAKER), claude (Claude Opus 5.5)", 2026-09-27T18:26:58Z, 1407, 33, 27
+ Export view | Author: khushali-haji (Unknown), khushali-haji (khushali-haji), 2026-09-28T16:43:05Z, 1632, 66, 18
+ fix(editor): harden rendering of generated iframe elements | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-09-28T17:17:59Z, 895, 72, 10
+ fix: normalize br tags in Mermaid definitions | Author: adithkushalappa (Unknown), adithkushalappa (adithkushalappa), 2026-09-28T19:31:22Z, 41, 3, 2
+ fix(editor): embed unlisted Vimeo videos | Author: charpeni (Nicolas Charpentier), charpeni (Nicolas Charpentier), 2026-09-28T21:48:11Z, 65, 2, 2
+ fix(wysiwyg): use word-break:normal instead of non-standard break-word | Author: okxint (Unknown), okxint (okxint), 2026-09-29T01:17:49Z, 1, 1, 1
+ docs: add missing cd step to development setup | Author: DavidS17GitHub (Unknown), DavidS17GitHub (David Salamanca), 2026-09-29T01:49:05Z, 6, 0, 1
+ fix(excalidraw): stable sort for canvas search results | Author: dikshit-n (Dikshit), dikshit-n (Githena), 2026-09-30T02:38:55Z, 53, 2, 2
+ feat(app): Implement Google Drive integration (#12202) | Author: quanttrinh (Quan Trinh), quanttrinh (Quan Trinh), 2026-09-30T05:00:22Z, 1256, 37, 24
+ feat(editor): add a math symbols picker to the toolbar | Author: Helenessli (Helen Li), Helenessli (Helen Li), 2026-09-30T16:01:31Z, 660, 0, 11
+ perf(editor): keep large canvases responsive when zooming and panning | Author: axpico (Alessandro Picone)," axpico (Alessandro Picone), claude (Claude Opus 5.5), claude (Claude Sonnet 5.5)", 2026-09-30T21:09:17Z, 530, 8, 5
+ fix: resolve ReferenceError and guard check in iframe analytics | Author: aryanpatil-07 (Aryan Patil), aryanpatil-07 (Aryan Patil), 2026-10-01T03:54:04Z, 2, 2, 1
+ feat(editor): Remove complex binding | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-10-01T09:54:42Z, 105, 1775, 20
+ fix(editor): ignore the pen eraser button in view mode | Author: drakeo338 (Younes Beriane), drakeo338 (drakeo338), 2026-10-01T09:57:00Z, 38, 1, 2
+ fix: use sa_event instead of sa_pageview in iframe embed analytics | Author: dikshit-n (Dikshit), dikshit-n (Githena), 2026-10-02T02:39:17Z, 2, 2, 1
+ feat : add dotted grid background with 3-state toggle cycle | Author: JyotimoyKashyap (Jyotimoy Kashyap), JyotimoyKashyap (JyotimoyKashyap), 2026-10-02T18:02:22Z, 423, 19, 16
+ fix: resolve protocol-relative library URLs against the current protocol | Author: dhairyajangir (dhairya), dhairyajangir (dhairya), 2026-10-02T21:36:03Z, 76, 3, 3
+ fix(editor): embed YouTube watch and playlist links with other parameters | Author: SulimanAbdulrazzaq (Suliman Abdulrazzaq), SulimanAbdulrazzaq (Suliman Abdulrazzaq), 2026-10-03T06:57:10Z, 71, 14, 2
+ fix(editor): stop modifier keys from distorting shapes being drawn | Author: andrewwbuilds (Andrew Wang), andrewwbuilds (andrewwbuilds), 2026-10-03T09:25:16Z, 111, 27, 2
+ fix(editor): confirm PWA file opens before replacing the scene | Author: AkashNemade16 (Akash Nemade), AkashNemade16 (Akash Nemade), 2026-10-03T21:04:11Z, 369, 37, 4
+ fix: clarify scene embedding for clipboard image exports | Author: sultannurzhan (Sultan Takibay), sultannurzhan (Sultan Takibay), 2026-10-04T18:07:06Z, 120, 1, 4
+ feat: Added annotation tool (persistent laser pointer) | Author: osm-dev-io (Seongmin Oh), osm-dev-io (Seongmin Oh), 2026-10-05T02:20:27Z, 633, 31, 16
+ feat(editor): autocomplete text from words on the canvas | Author: Sangram7057 (Unknown)," Unknown (Sangram7057), claude (Claude Opus 4.8)", 2026-10-05T11:22:46Z, 704, 4, 4
+ feat: support images in library | Author: DormancyWang (Daniel), DormancyWang (郭朝), 2026-10-06T04:31:41Z, 232, 26, 14
+ fix(element): keep frame x and y of 0 in convertToExcalidrawElements | Author: RaphaelFakhri (Raphael Fakhri), RaphaelFakhri (Raphael Fakhri), 2026-10-06T06:20:20Z, 42, 2, 2
+ fix(app): explain that sharing and collaboration need HTTPS | Author: Mikhaylov-yv (Yury Mikhaylov)," Unknown (YVMikhaylov), claude (Claude Opus 5.5)", 2026-10-06T19:14:35Z, 66, 0, 4
+ fix: allow PhET and Vascak embed domains | Author: Yashraj191007 (Yashraj Jagtap), Yashraj191007 (Yashraj Jagtap), 2026-10-08T05:27:02Z, 16, 0, 2
+ fix: label export scales and enable picker keyboard access | Author: AdwaitOP (Unknown), AdwaitOP (AdwaitOP), 2026-10-09T05:19:31Z, 19, 0, 3
+ feat: add shortcut filtering to help dialog | Author: jcsandesh9727-creator (Unknown), jcsandesh9727-creator (charvik), 2026-10-09T08:15:50Z, 399, 374, 1
+ refactor(math): add ViewportPoint and GenericPoint types | Author: vikramms134-spec (Unknown), vikrammulinti-ai (Vikram), 2026-10-09T08:56:39Z, 146, 122, 16
+ fix: support angle-constrained free draw | Author: Chakrithaperla (Perla Chakritha), Chakrithaperla (Chakritha perla), 2026-10-09T09:18:12Z, 218, 41, 2
+ fix(app): add maskable icons to PWA manifest | Author: Joolyan (Unknown), Joolyan (Joolyan), 2026-10-09T09:44:04Z, 12, 0, 1
+ perf(editor): lazy-load mermaid-to-excalidraw in the text-to-diagram hook | Author: JameEnder (Jakub), JameEnder (Jakub), 2026-10-09T17:30:54Z, 6, 5, 2
+ fix(editor): keep non-breaking spaces from breaking SVG export | Author: adarshsm (Unknown)," adarshsm (adarshsm), claude (Claude Opus 5.5)", 2026-10-10T05:39:53Z, 38, 4, 4
+ fix(app): point the Assistant font fallback at the emitted files | Author: adarshsm (Unknown)," adarshsm (adarshsm), claude (Claude Opus 5.5)", 2026-10-10T06:09:55Z, 4, 4, 1
+ fix: fallback to standard download when native file picker is blocked… | Author: devansh-pujari-tech (Unknown), Unknown (Devansh), 2026-10-10T07:10:36Z, 143, 12, 2
+ fix(packages/excalidraw): move sass to devDependencies | Author: dxqlovestudy (YingNing), dxqlovestudy (dxqlovestudy), 2026-10-10T09:58:25Z, 1, 1, 1
+ docs: fix broken anchors in dev-docs API pages | Author: SatvikMishra08 (Satvik Mishra), SatvikMishra08 (Satvik Mishra), 2026-10-11T01:07:44Z, 13, 13, 7
+ fix(a11y): give color swatches distinct accessible names | Author: KeuqS (Aykut Güney), KeuqS (Aykut Güney), 2026-10-11T19:30:08Z, 2, 1, 2
+ fix: make grouping line visible on dark backgrounds in light theme | Author: Felipefachagas (Unknown), Felipefachagas (Felipefachagas), 2026-10-11T20:05:41Z, 60, 63, 1
+ fix: respect safe-area insets in fullscreen dialogs on phones | Author: 0scar07 (Oscar David Llanos Luna ), 0scar07 (0scar07), 2026-10-12T02:54:02Z, 5, 0, 1
+ Enhance font size selection UI | Author: deepika19-byte (Deepika K), deepika19-byte (Deepika K), 2026-10-12T12:17:10Z, 116, 75, 1
+ Add fontSizePicker styles for input and select elements | Author: deepika19-byte (Deepika K), deepika19-byte (Deepika K), 2026-10-12T12:18:28Z, 34, 0, 1
+ feat(editor): import PDFs as images laid out side by side | Author: majusss (Kacper Majcher ), claude (Claude), 2026-10-12T13:33:59Z, 1018, 19, 16
+ fix: allow exact rotation angles in grid mode | Author: Raf4Janni (Rafael Said Jannini ), Raf4Janni (Raf4Janni), 2026-10-12T15:25:49Z, 3, 1, 1
+ fix(element): prevent hairlines in freedraw strokes | Author: AlzShaeri (Alireza Shaeri), AlzShaeri (Alireza Sh.), 2026-10-12T15:39:34Z, 53, 7, 2
+ feat: show message about potential reason for filesystem permission error | Author: juan-tomba (Juan Pablo Tomba), juan-tomba (Juan), 2026-10-12T20:27:12Z, 60, 2, 3
+ fix: match link icon background to canvas in dark theme | Author: isnehahyline1905-blip (Unknown), isnehahyline1905-blip (Sneha), 2026-10-13T08:22:52Z, 68, 4, 2
+ feat: show drawing name in the browser window title | Author: isnehahyline1905-blip (Unknown), isnehahyline1905-blip (Sneha), 2026-10-13T08:22:55Z, 46, 0, 3
+ feat: press Enter to edit the selected group | Author: isnehahyline1905-blip (Unknown), isnehahyline1905-blip (Sneha), 2026-10-13T08:22:58Z, 160, 0, 3
+ feat: show size increase next to Embed scene in export dialog | Author: isnehahyline1905-blip (Unknown), isnehahyline1905-blip (Sneha), 2026-10-13T08:23:01Z, 234, 10, 6
+ Fixes #12278  fix: update sidebar lock tooltip text dynamically | Author: aliberk1 (Ali Berk Geyik), aliberk1 (Ali Berk Geyik), 2026-10-13T10:57:39Z, 84, 2, 5
+ Fixes #12234 | Author: aliberk1 (Ali Berk Geyik), aliberk1 (Ali Berk Geyik), 2026-10-13T13:47:00Z, 361, 4, 2
+ fix: save color picks as pen presets | Author: azraefzagur (Azra Efza Gür), azraefzagur (Azra Efza Gür), 2026-10-13T15:07:57Z, 727, 136, 12
+ feat(editor): save freedraw styles as reusable pens | Author: mgarcia-improving (Mauro Garcia)," cursoragent (Cursor), maurogarcia-orum (Mauro Garcia)", 2026-10-13T17:35:51Z, 620, 1, 17
+ Add npmscan pull request workflow | Author: salemalem (Shyngys Shynbolatov ), salemalem (Shyngys Shynbolatov), 2026-10-13T19:30:30Z, 25, 0, 1
+ fix(editor): treat uppercase .PNG/.SVG file handles as images when saving | Author: NgoQuocViet2001 (Ngo Quoc Viet), NgoQuocViet2001 (NgoQuocViet2001), 2026-10-13T19:59:35Z, 29, 1, 2
+ fix(sidebar): update pin tooltip text dynamically on dock toggle (#12278) | Author: turkelibrahim (İbrahim TURKEL), turkelibrahim (İbrahim TURKEL), 2026-10-14T13:23:59Z, 84, 2, 5
+ feat: select the active tool with Alt + mouse wheel (#12290) | Author: turkelibrahim (İbrahim TURKEL), turkelibrahim (İbrahim TURKEL), 2026-10-14T13:49:25Z, 112, 0, 2
+ fix(editor): gather denormalized frame when moving it by one | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-14T16:35:38Z, 244, 13, 2
+ fix: strictly validate origin in isLocalLink to prevent spoofing | Author: Hamit3306 (Hamit Güneş), Unknown (Hamit3306), 2026-10-14T16:44:59Z, 40, 2, 2
+ feat(search): add experimental client-side handwriting recognition | Author: aliberk1 (Ali Berk Geyik), aliberk1 (Ali Berk Geyik), 2026-10-14T17:38:20Z, 1323, 161, 16
+ feat(editor): add syntax-highlighted code block element and theme support with light and dark palette | Author: shiva-kar (Shiva Kar), shiva-kar (Shiva Kar), 2026-10-14T19:46:06Z, 4927, 77, 49
+" refactor(editor): drop two unused exports and a redundant cast in App.selection, narrow uncrops' side type | Author: nandyx (Nandy Legorreta)", nandyx (Nandi Legorreta), 2026-10-15T00:04:09Z, 5, 5, 2
+ refactor: reuse Button in DropdownMenu.Trigger | Author: barbssz (Arthur Barbosa), Unknown (Arthur Barbosa), 2026-10-15T02:50:14Z, 11, 9, 1
+ fix(editor): keep alt-drag duplicates aligned when shift locks the axis | Author: mrityunjay-pandey (Mrityunjay Pandey), mrityunjay-pandey (Mrityunjay Pandey), 2026-10-15T08:24:26Z, 42, 9, 2
+ fix: preserve element position when toggling axis lock | Author: samedunal (Fevzi Samed ÜNAL), samedunal (Fevzi Samed Ünal), 2026-10-15T09:24:17Z, 157, 11, 2
+" fix(editor): label the dropped sticky note, not the previously selected text | Author: AyushbhaiPatel (Ayush Patel)", AyushbhaiPatel (Ayush Patel), 2026-10-15T16:50:30Z, 60, 2, 2
+ fix(editor): keep changes and move the version forward when switching a linear element back to a previous type | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T16:55:56Z, 122, 3, 2
+ fix(editor): bump versions of loaded elements the scene already has | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:00:57Z, 51, 4, 2
+ fix(editor): keep image files when a dropped file replaces the scene | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:03:50Z, 48, 10, 3
+ fix(editor): lock bucket fills that join a locked group | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:07:13Z, 102, 0, 2
+ fix(editor): render link icons for linked bound text | Author: samedunal (Fevzi Samed ÜNAL), samedunal (Fevzi Samed Ünal), 2026-10-15T17:07:13Z, 9, 0, 1
+ fix(editor): keep a member dragged within its frame in the edited group | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:09:39Z, 76, 1, 2
+ fix(editor): move the text's arrows to the container when binding text to it | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:14:26Z, 134, 4, 2
+ fix(editor): leave out deleted elements when inserting a scene | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:18:11Z, 59, 3, 3
+ fix(editor): don't remove a locked frame when wrapping its children | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:21:50Z, 20, 2, 2
+ fix(editor): give a text bound to a container the container's frame and groups | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:25:10Z, 80, 0, 2
+ fix(editor): take selected children out of a deleted frame | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:28:18Z, 4, 2, 2
+ fix(editor): delete the label of a linear element whose points are all deleted | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:31:45Z, 77, 3, 2
+ fix(editor): unbind an arrow's endpoint deleted in the line editor | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:34:58Z, 105, 1, 2
+ fix(editor): keep a label as free text when its container is deleted while editing | Author: AyushbhaiPatel (Ayush Patel), AyushbhaiPatel (Ayush Patel), 2026-10-15T17:38:13Z, 64, 1, 2
+ fix(element): map wrapped-line offsets back to the source text for decomposed characters | Author: cindykrafft (Cindy ), claude (Claude), 2026-10-15T18:23:46Z, 85, 6, 2
+ fix(editor): replace mermaid <br> tags with newlines in pasted node labels | Author: xingzihai (冰水泡枸杞), xingzihai (xingzihai), 2026-10-16T02:35:21Z, 94, 3, 4
+ fix(element): prevent hairlines in freedraw strokes (#12268) | Author: devansh-pujari-tech (Unknown), Unknown (Devansh), 2026-10-16T09:41:49Z, 116, 7, 2
+ Add World Bank URLs to embed allowlist | Author: Pavithra8805 (Unknown), Pavithra8805 (Pavithra8805), 2026-10-16T12:12:20Z, 10, 0, 2
+ fix(editor): use primary selection color for group selection border | Author: luismgoyone (Luis Goyone), luismgoyone (Luis Goyone), 2026-10-16T18:51:29Z, 85, 1, 2
+ refactor: deduplicate SVG frame clip groups | Author: barbssz (Arthur Barbosa), Unknown (Arthur Barbosa), 2026-10-17T00:33:11Z, 53, 98, 1
+ fix(editor): prevent text cursor movement on arrow key navigation in search | Author: Bhumika-1432006 (Bhumika Gurav), Bhumika-1432006 (Bhumika-1432006), 2026-10-17T16:35:05Z, 2, 0, 1
+ fix(editor): use primary selection color for group selection border | Author: Bhumika-1432006 (Bhumika Gurav), Bhumika-1432006 (Bhumika-1432006), 2026-10-17T16:35:15Z, 1, 1, 1
+ fix(editor): localize canvas section labels in properties panel | Author: posadasalexander15 (Alexander Posadas), posadasalexander15 (Alexander), 2026-10-18T10:00:59Z, 48, 6, 5
+ feat: allow switching between arrow types using Tab when bound (#9656) | Author: Sanjaykris20 (Sanjay Krishnan K), Sanjaykris20 (Sanjaykris20), 2026-10-18T10:09:20Z, 216, 42, 2
+ fix(editor): allow switching bound arrow types via shape switcher (#9… | Author: Ayush-aw4 (AYUSH AWCHAR), Ayush-aw4 (AYUSH AWCHAR), 2026-10-18T12:20:45Z, 481, 43, 2
+" refactor(editor): remove `Ordered` type, make elements always ordered | Author: miguelsom (Unknown)"," claude (Claude Opus 5.5), miguelsom (Miguel Mendes)", 2026-10-18T22:43:09Z, 506, 230, 35
+ fix(editor): remove bound text from edited group when its container leaves the frame | Author: GitNimay (Nimesh), GitNimay (Nimesh Kulkarni), 2026-10-19T09:42:44Z, 100, 0, 2
+ feat(editor): erase only the top-most element on eraser click | Author: panktimaniar-360 (Unknown)," claude (Claude Opus 5.5), panktimaniar-360 (pankti)", 2026-10-19T10:26:50Z, 110, 5, 2
+" fix: improve sidebar tooltips, labels, and locale placeholders | Author: Vean1603 (Unknown)", Vean1603 (Vean1603), 2026-10-19T11:02:59Z, 46, 14, 10
+ fix(editor): use the id at the end of slugged Giphy links | Author: sebxt (Sebastian Turner), sebxt (Sebastian Turner), 2026-10-19T12:47:32Z, 30, 2, 2
+ fix(element): let delta post-processing errors rethrow in dev and test | Author: irontaek (Minho Yoo), irontaek (Minho Yoo), 2026-10-19T15:05:33Z, 39, 6, 2
+ fix: update arrow bindings when rotating multiple shapes | Author: chixka000 (Unknown), chixka000 (ryanc), 2026-10-19T17:12:29Z, 80, 0, 2
+ feat(editor): Restore heuristics | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-10-19T18:47:43Z, 2054, 206, 6
+ feat(editor): add drawing toolbar visibility toggle (#9229) | Author: diogo-benchimol (Diogo Benchimol), diogo-benchimol (diogo-benchimol), 2026-10-19T19:22:37Z, 112, 11, 4
+ feat(editor): support quoted CSV and space-separated values in charts | Author: miguelsom (Unknown)," claude (Claude Opus 5.5), miguelsom (Miguel Mendes)", 2026-10-19T22:56:17Z, 292, 30, 3
+ refactor: align icon naming | Author: david-wolff (David Wolff), david-wolff (David Wolff), 2026-10-20T02:19:18Z, 467, 461, 64
+ fix(editor): ignore clipped frame children when zooming to fit | Author: b84330808 (Wei-Lun Li)," b84330808 (b84330808), claude (Claude Opus 5.5)", 2026-10-20T04:50:27Z, 92, 4, 2
+ fix(locales): translate sticky note text color label across languages (#12365) | Author: turkelibrahim (İbrahim TURKEL), turkelibrahim (İbrahim TURKEL), 2026-10-20T06:41:51Z, 99, 8, 59
+" fix(element): cache character widths by character, not by leading surrogate | Author: yu2971512385-ui (Unknown)"," claude (Claude Opus 5 (1M context)), yu2971512385-ui (yu2971512385-ui)", 2026-10-20T06:46:12Z, 75, 15, 2
+ fix(editor): disallow resizing single-point freedraw elements | Author: 12errh (Rehan Mazhar), 12errh (12errh), 2026-10-20T07:17:04Z, 194, 15, 6
+ fix: preserve selected elements when clipboard cut fails | Author: Vean1603 (Unknown), Vean1603 (Vean1603), 2026-10-20T11:48:17Z, 190, 5, 3
+ fix: detect failed browser saves and protect unsaved drawings | Author: Vean1603 (Unknown), Vean1603 (Vean1603), 2026-10-20T11:49:44Z, 268, 11, 6
+ Codex/fix browser storage data loss | Author: Vean1603 (Unknown), Vean1603 (Vean1603), 2026-10-20T11:52:40Z, 281, 14, 9
+ Codex/fix cut clipboard data loss | Author: Vean1603 (Unknown), Vean1603 (Vean1603), 2026-10-20T11:53:50Z, 202, 8, 6
+ feat: add icons to context menu actions | Author: diogo-benchimol (Diogo Benchimol), diogo-benchimol (diogo-benchimol), 2026-10-20T12:51:14Z, 51, 3, 3
+ refactor(editor): convert App helpers to class methods | Author: diogo-benchimol (Diogo Benchimol), diogo-benchimol (diogo-benchimol), 2026-10-20T13:55:06Z, 9, 7, 1
+ fix(editor): respect RTL direction in color picker navigation | Author: david-wolff (David Wolff), david-wolff (David Wolff), 2026-10-20T16:08:39Z, 110, 4, 2
+ refactor(build): share development and production build logic | Author: diogo-benchimol (Diogo Benchimol), diogo-benchimol (diogo-benchimol), 2026-10-20T16:18:47Z, 37, 51, 3
+ feat(editor): support music player embeds | Author: mapbrandt (Miguel Brandt), mapbrandt (Miguel Brandt), 2026-10-20T16:42:18Z, 498, 1, 4
+ feat: search shortcuts in help dialog | Author: althafkhan17 (Unknown), althafkhan17 (althafkhan17), 2026-10-20T18:54:08Z, 111, 18, 2
+ fix(editor): opacity slider supports RTL | Author: Azadan (Unknown), Azadan (Azadan), 2026-10-20T19:51:33Z, 14, 2, 1
+ fix(editor): keep hex color input left-to-right in RTL locales | Author: aliberk1 (Ali Berk Geyik), aliberk1 (Ali Berk Geyik), 2026-10-20T20:09:35Z, 1, 0, 1
+ fix(ui): preserve zoom controls order in RTL locales (#12375) | Author: Hamit3306 (Hamit Güneş), Unknown (Hamit3306), 2026-10-20T20:45:11Z, 4, 12, 2
+ fix(ui): align dropdown menu group titles with reading direction (#12386) | Author: Hamit3306 (Hamit Güneş), Unknown (Hamit3306), 2026-10-20T20:46:02Z, 2, 2, 1
+ fix(element): capture correct Giphy ID from hyphenated slugs (#12357) | Author: Hamit3306 (Hamit Güneş), Unknown (Hamit3306), 2026-10-20T20:46:31Z, 64, 2, 2
+ fix(element): make regex embed validation consistent | Author: leracherry (Valeriia Radchenko), leracherry (Valeriia Radchenko), 2026-10-20T23:24:57Z, 55, 2, 3
+ fix(editor): keep palm touches from interrupting pen strokes | Author: mishalshanavas (Mishal), mishalshanavas (mishalshanavas), 2026-10-21T03:30:59Z, 258, 1, 2
+ fix: keep rotation handle on the rotation axis for arrows with off center labels | Author: althafkhan17 (Unknown), althafkhan17 (althafkhan17), 2026-10-21T07:32:48Z, 46, 2, 2
+ fix: correct 'verison' typo in tabSync.ts error logs | Author: Shabarish-P-Sujith (Shabarish P Sujith), Shabarish-P-Sujith (Shabarish-P-Sujith), 2026-10-21T07:38:09Z, 2, 2, 1
+ fix(editor): treat a pasted chart header with an empty corner cell as a header | Author: RaphaelFakhri (Raphael Fakhri), RaphaelFakhri (Raphael Fakhri), 2026-10-21T08:12:43Z, 47, 2, 2
+ fix: flip horizontal arrow keys in RTL for color picker  | Author: tov-debug (Noyman Tova), tov-debug (Tova_Noyman), 2026-10-21T19:09:32Z, 44, 0, 2
+ feat(editor): add configurable line and arrow animations | Author: davidgcorr (David), davidgcorr (Dave), 2026-10-21T19:45:50Z, 1423, 63, 17
+ fix(editor): handle uppercase color picker shortcuts | Author: aliberk1 (Ali Berk Geyik), aliberk1 (Ali Berk Geyik), 2026-10-21T20:17:48Z, 44, 17, 3
+ fix: preserve keyboard shortcut order in RTL help dialog | Author: azraefzagur (Azra Efza Gür), azraefzagur (Azra Efza Gür), 2026-10-21T20:32:24Z, 1, 1, 1
+ fix(app): add missing space in collab offline warning class | Author: junkerderprovinz (Junker der Provinz)," junkerderprovinz (Junker der Provinz), yogeshwaran-c (Yogeshwaran C)", 2026-10-22T00:12:37Z, 23, 1, 2
+ fix(common): preserve heap entries when removing a missing node | Author: leracherry (Valeriia Radchenko), leracherry (Valeriia Radchenko), 2026-10-22T05:37:33Z, 27, 2, 2
+ fix(common): run once listeners only once during nested events | Author: leracherry (Valeriia Radchenko), leracherry (Valeriia Radchenko), 2026-10-22T05:38:21Z, 97, 3, 2
+ fix(store): drop queued micro actions in Store.clear | Author: beadelnegro-cursor (Unknown)," Unknown (Beatrice Del Negro), cursoragent (Cursor)", 2026-10-22T06:20:46Z, 525, 2, 3
+ fix(editor): draw canvases before paint to stop Preact flicker | Author: 6801318d8d (Unknown)," 6801318d8d (6801318d8d), claude (Claude Opus 5.5)", 2026-10-22T07:11:34Z, 13, 7, 3
+ build: add Wasmer deployment option | Author: ayushfromwasmer (Ayush Ojha), ayushfromwasmer (Ayush Ojha), 2026-10-22T07:41:50Z, 25, 0, 2
+ Fixed an issue with the RTL opacity slider to ensure proper behavior. | Author: 777000shr-hash (Shaindy), 777000shr-hash (777000shr-hash), 2026-10-22T08:18:17Z, 47, 44, 1
+ fix(rtl): open preferences submenu beside the main menu | Author: Odeya4367 (Unknown), Odeya4367 (Odeya4367), 2026-10-22T09:01:23Z, 54, 1, 3
+ feat: add title to SVG exports | Author: riddhimasinhal (Riddhima sinhal)," Copilot (Copilot), riddhimasinhal (Riddhimasinhal)", 2026-10-22T10:43:08Z, 85, 0, 4
+ fix: add missing Hebrew font picker tip translation | Author: bruchy0548558789-arch (Unknown), bruchy0548558789-arch (Bruchy), 2026-10-22T10:49:18Z, 2, 1, 4
+ fix: correct RTL icon order in share dialog (#12403) | Author: HADASLUB (Unknown), HADASLUB (Hadas Lubin), 2026-10-22T10:56:31Z, 6, 2, 1
+ Fix RTL padding and layout for language select dropdown | Author: IscaSheli (Unknown), IscaSheli (Isca Sheli), 2026-10-22T10:59:37Z, 4, 0, 1
+ fix(packages/excalidraw): update arrow binding on skeleton transform | Author: dwelle (David Luzar)," dwelle (dwelle), mtolmacs (Mark Tolmacs)", 2026-10-22T11:49:43Z, 2072, 332, 44
+ fix(editor): keep editing text when the window loses focus | Author: sahargavriely (Unknown), sahargavriely (sahargavriely), 2026-10-22T13:47:12Z, 127, 6, 4
+ fix(rtl): keep LTR order for keyboard shortcut key combinations | Author: yocheved-jaffe (Unknown), yocheved-jaffe (yocheved-jaffe), 2026-10-22T13:50:48Z, 1, 0, 1
+ fix(editor): re-route arrows bound to a text when its font changes | Author: Dolat-Hamza (Dolat Hamza), Dolat-Hamza (Dolat Hamza), 2026-10-22T18:28:59Z, 149, 11, 2
+ fix: support physical keyboard shortcuts for non-latin layouts | Author: ReutRot12 (Unknown), ReutRot12 (Reut), 2026-10-22T18:47:38Z, 73, 19, 4
+ fix(editor): release bound arrows when connected shapes leave frames | Author: ElaiElaiElai1113 (Elijah De Los Santos), ElaiElaiElai1113 (ElaiElaiElai1113), 2026-10-22T19:05:52Z, 281, 1, 2
+ fix: align dialog title to start for RTL | Author: chanikr7 (Unknown), chanikr7 (chanikr7), 2026-10-22T19:33:42Z, 1, 1, 1
+ fix: align dropdown menus correctly in RTL | Author: naamaalmer-oss (Unknown), naamaalmer-oss (Naama Almer), 2026-10-22T23:52:00Z, 34, 3, 4
+" fix(app): fix ""verison"" typo in tabSync error logs | Author: Garden12138 (Unknown)", Garden12138 (Garden12138), 2026-10-23T06:34:04Z, 2, 2, 1
+ feat(editor): hit test arrowheads | Author: dwelle (David Luzar), dwelle (dwelle), 2026-10-23T11:58:32Z, 600, 315, 8
+ fix(editor): keep right-aligned RTL text inside its box in SVG exports | Author: L4XB (Lukas ), L4XB (L4XB), 2026-10-23T17:06:48Z, 27, 3, 2
+ fix(editor): open dropdown submenus on the correct side in RTL | Author: Azadan (Unknown), Azadan (Azadan), 2026-10-23T17:15:40Z, 15, 3, 3
+ fix/12442: correct setting prefrences submenu positioning in RTL mode | Author: Roshan1401 (Roshan Patil), Roshan1401 (Roshan Patil), 2026-10-23T18:34:01Z, 16, 4, 3
+ fix(editor): search highlights drift on lines that repeat an earlier line | Author: L4XB (Lukas ), L4XB (L4XB), 2026-10-24T01:31:02Z, 46, 1, 2
+ perf(editor): don't re-render the static scene while drawing freedraw inside a frame | Author: ShivankK26 (Shivank Kapur)," ShivankK26 (Shivank Kapur), claude (Claude Opus 5.5)", 2026-10-24T12:44:08Z, 79, 2, 2
+ fix: keep free text anchored while typing | Author: vaishnavijha006-hub (Unknown), vaishnavijha006-hub (vaishnavi), 2026-10-24T15:50:46Z, 71, 4, 2

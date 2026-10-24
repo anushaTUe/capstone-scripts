@@ -4,7 +4,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  WIP: Migrate the elements array to react scope | Author: AndreBastos23 (André Bastos), Unknown (André Bastos), 2020-01-02T22:55:33Z, 2020-01-06T01:40:09Z, 185, 155, 1
  [WIP] Undo | Author: vjeux (Christopher Chedeau), vjeux (Christopher Chedeau), 2020-01-02T23:41:52Z, 2020-01-05T00:58:52Z, 45, 17, 1
  Fixed yarn.lock | Author: nanot1m (Timur Khazamov), Unknown (hazam), 2020-01-03T09:26:35Z, 2020-01-03T09:27:15Z, 10, 10, 1
- add cypress scaffolding | Author: dwelle (David Luzar)," Fausto95 (Faustino Kialungila), Unknown (hazam), dwelle (dwelle), giovannigiordano (Giovanni Giordano), nanot1m (Timur Khazamov), paulomenezes (Paulo Menezes), vjeux (Christopher Chedeau)", 2020-01-03T16:02:35Z, 2020-01-12T05:25:09Z, 15804, 11129, 17
+ add cypress scaffolding | Author: dwelle (David Luzar)," Fausto95 (Faustino Kialungila), Unknown (hazam), dwelle (dwelle), giovannigiordano (Giovanni Giordano), paulomenezes (Paulo Menezes), vjeux (Christopher Chedeau)", 2020-01-03T16:02:35Z, 2020-01-12T05:25:09Z, 15804, 11129, 17
  Z-index | Author: paulomenezes (Paulo Menezes), paulomenezes (Paulo Menezes), 2020-01-04T04:46:23Z, 2020-01-04T05:17:53Z, 64, 4, 1
  Send to back | Author: vjeux (Christopher Chedeau), vjeux (Christopher Chedeau), 2020-01-04T04:51:57Z, 2020-01-04T05:02:18Z, 196, 2, 3
  [Not for merge] Components POC | Author: nanot1m (Timur Khazamov), Unknown (hazam), 2020-01-04T19:09:39Z, 2020-01-12T05:24:28Z, 404, 2, 5
@@ -34,12 +34,12 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  Update shortcuts so they are not dependent on Labels | Author: lipis (Lipis), lipis (Panayiotis Lipiridis), 2020-01-23T16:14:09Z, 2020-01-23T16:27:25Z, 16, 11, 2
  Add id-length ESLint rule | Author: lipis (Lipis), lipis (Panayiotis Lipiridis), 2020-01-24T19:35:19Z, 2020-01-25T01:55:51Z, 18, 9, 3
  Move language selection to the menu | Author: vjeux (Christopher Chedeau), vjeux (Christopher Chedeau), 2020-01-26T09:21:17Z, 2020-01-26T19:09:31Z, 10, 37, 2
- Change the behaviour of shareable link | Author: fernandoalava (Fernando Alava)," dwelle (dwelle), fernandoalava (Fernando Alava)", 2020-01-26T15:21:15Z, 2020-02-08T11:54:21Z, 393, 163, 15
+ Change the behaviour of shareable link | Author: fernandoalava (Fernando Alava), fernandoalava (Fernando Alava), 2020-01-26T15:21:15Z, 2020-02-08T11:54:21Z, 393, 163, 15
  Change the style of H1 to Virgil | Author: lipis (Lipis), lipis (Panayiotis Lipiridis), 2020-01-28T22:36:17Z, 2020-01-29T00:25:24Z, 7, 1, 2
  Update font of color pickers | Author: lipis (Lipis), lipis (Panayiotis Lipiridis), 2020-01-28T22:57:49Z, 2020-01-29T00:28:58Z, 2, 1, 1
  Add curly rule in ESLint for consistency | Author: lipis (Lipis), lipis (Panayiotis Lipiridis), 2020-01-29T14:42:54Z, 2020-01-29T14:52:27Z, 46, 41, 14
  Fix google translate issue | Author: muzakparov (BM), muzakparov (muzakparov), 2020-02-01T06:16:56Z, 2020-02-01T06:46:37Z, 22, 2, 2
- Zoom feature | Author: enzoferey (Enzo Ferey)," Unknown (Enzo Ferey), enzoferey (Enzo Ferey)", 2020-02-02T10:08:08Z, 2020-02-05T21:08:32Z, 401, 89, 13
+ Zoom feature | Author: enzoferey (Enzo Ferey), Unknown (Enzo Ferey), 2020-02-02T10:08:08Z, 2020-02-05T21:08:32Z, 401, 89, 13
  Add E2E tests | Author: voluntadpear (Guille Scura), voluntadpear (Guillermo Peralta Scura), 2020-02-04T00:40:54Z, 2020-04-09T16:09:47Z, 1597, 6, 40
  Change behavior shareable link refactor | Author: fernandoalava (Fernando Alava), fernandoalava (Fernando Alava), 2020-02-08T11:53:49Z, 2020-02-15T13:22:50Z, 198, 9, 7
  Switch code font + format and save 150kb | Author: rubjo (Unknown), Unknown (Rune Bjørnerås), 2020-02-11T09:40:19Z, 2020-02-12T00:45:50Z, 19, 12, 10
@@ -51,7 +51,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  New Crowdin translations | Author: lipis (Lipis), lipis (Lipis), 2020-03-09T17:35:37Z, 2020-03-09T20:31:59Z, 140, 0, 10
  Properly center the shape switcher | Author: j-f1 (Jed Fox), j-f1 (Jed Fox), 2020-03-10T01:03:37Z, 2020-03-24T11:24:24Z, 39, 35, 4
  Sync latest changes | Author: nrgapple (Adam Geiger)," Unknown (Adam Geiger), Unknown (nrgapple), dwelle (dwelle)", 2020-03-11T13:14:22Z, 2020-03-11T13:27:51Z, 11, 763, 12
- release 2020-03-12 | Author: lipis (Lipis)," dwelle (David Luzar), dwelle (dwelle), idlewinn (Edwin Lin), petehunt (Pete Hunt)", 2020-03-11T22:28:02Z, 2020-03-13T19:12:47Z, 153, 65, 17
+ release 2020-03-12 | Author: lipis (Lipis)," dwelle (David Luzar), dwelle (dwelle), idlewinn (Edwin Lin)", 2020-03-11T22:28:02Z, 2020-03-13T19:12:47Z, 153, 65, 17
  compile to es6 target | Author: dwelle (David Luzar), dwelle (dwelle), 2020-03-14T16:41:37Z, 2020-03-18T09:46:00Z, 1, 1, 1
  [WIP] Add names next to pointers | Author: vjeux (Christopher Chedeau), vjeux (Christopher Chedeau), 2020-03-15T03:57:03Z, 2020-03-16T02:34:24Z, 44, 5, 6
  [WIP] Dashed selection to show multiple people | Author: vjeux (Christopher Chedeau), vjeux (Christopher Chedeau), 2020-03-15T04:38:24Z, 2020-04-03T21:00:48Z, 23, 7, 1
@@ -97,7 +97,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  RFC: Double click to edit arrows | Author: petehunt (Pete Hunt), petehunt (Pete Hunt), 2020-05-16T03:43:08Z, 2020-05-19T11:42:14Z, 479, 129, 3
  Add APJapanesefont.ttf for Japanese handwritten | Author: t6adev (Teruhisa Yamamoto), t6adev (tell-y), 2020-05-22T15:26:57Z, 2020-11-04T19:32:23Z, 22, 3, 7
  Replaced localStorage with indexedDB | Author: nanot1m (Timur Khazamov), Unknown (tk338g), 2020-05-24T22:49:53Z, 2020-05-25T08:41:46Z, 60, 21, 5
- Use indexedDB in supported browsers | Author: shrirambalaji (Shriram Balaji)," dwelle (dwelle), shrirambalaji (Shriram Balaji)", 2020-05-25T07:29:26Z, 2020-11-29T16:43:24Z, 65004, 11854, 10
+ Use indexedDB in supported browsers | Author: shrirambalaji (Shriram Balaji), shrirambalaji (Shriram Balaji), 2020-05-25T07:29:26Z, 2020-11-29T16:43:24Z, 65004, 11854, 10
  Dependencies updated | Author: irshad (Irshad Ali), Unknown (irshad ali), 2020-05-26T04:06:15Z, 2020-05-26T04:27:00Z, 20, 27, 1
  chore(i18n): update zh-TW translations | Author: huang47 (ShihChi Huang), huang47 (ShihChi Huang), 2020-05-30T19:35:20Z, 2020-05-30T20:25:07Z, 24, 22, 1
  Using the docker image | Author: guillaumebriday (Guillaume Briday), guillaumebriday (Guillaume Briday), 2020-06-04T22:23:33Z, 2020-06-15T21:16:31Z, 2, 2, 1
@@ -107,7 +107,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  Test PR from Codesandbox | Author: christianalfoni (Christian Alfoni), christianalfoni (Christian Alfoni), 2020-06-20T17:14:02Z, 2020-06-20T17:15:20Z, 1, 1, 1
  Update fa-IR.json | Author: erfanium (Erfan Safari), erfanium (Erfan Safari), 2020-06-21T21:45:32Z, 2020-06-21T21:50:17Z, 6, 6, 1
  Added new button and corresponding code | Author: omt66 (Ogun), omt66 (omt66), 2020-06-22T09:52:16Z, 2020-08-22T16:21:21Z, 63, 1, 6
- Added PDF export option based on Canvas export | Author: ikteru (Ikteru)," dwelle (dwelle), ikteru (Ikteru), ikteru (ikteru)", 2020-06-22T14:22:26Z, 2020-12-03T17:52:07Z, 92, 3, 10
+ Added PDF export option based on Canvas export | Author: ikteru (Ikteru)," ikteru (Ikteru), ikteru (ikteru)", 2020-06-22T14:22:26Z, 2020-12-03T17:52:07Z, 92, 3, 10
  Build locale percents | Author: kbariotis (Kostas Bariotis)," Unknown (Your Name), kbariotis (Kostas Bariotis)", 2020-06-27T12:09:58Z, 2020-06-27T15:56:54Z, 147, 53, 10
  Move github link | Author: oliverbenns (Oliver Benns), oliverbenns (Oliver Benns), 2020-06-27T12:59:55Z, 2020-07-09T14:42:01Z, 35, 68, 6
 " Change key label to its actual key, not index. | Author: padunk (Agung)", padunk (abraham anak agung), 2020-06-28T03:50:46Z, 2020-06-28T03:55:12Z, 1, 1, 1
@@ -161,7 +161,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat: Changeable grid size [WIP] | Author: lipis (Lipis), lipis (Panayiotis Lipiridis), 2020-12-24T18:31:25Z, 2024-08-11T21:05:40Z, 209, 87, 11
  feat: Add Toast feature | Author: rish07 (Rishiraj Singh Chhabra), rish07 (rish07), 2020-12-25T08:14:54Z, 2021-01-14T14:56:47Z, 274, 0, 4
  [WIP] Final steps before release of @excalidraw/utils | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2020-12-27T16:43:49Z, 2022-07-22T13:21:54Z, 123, 90, 15
-" refactor: Consistent variable names, remove duplicates/unused in css, cleanup | Author: lipis (Lipis)"," lipis (Lipis), lipis (Panayiotis Lipiridis)", 2020-12-27T23:06:08Z, 2021-02-05T12:31:14Z, 181, 193, 24
+" refactor: Consistent variable names, remove duplicates/unused in css, cleanup | Author: lipis (Lipis)", lipis (Panayiotis Lipiridis), 2020-12-27T23:06:08Z, 2021-02-05T12:31:14Z, 181, 193, 24
  refactor: Remove position fixed in most places | Author: lipis (Lipis), lipis (Panayiotis Lipiridis), 2021-01-08T20:11:49Z, 2021-02-12T19:22:21Z, 7, 15, 5
  Adding pull request template | Author: Rafi993 (Rafi), Rafi993 (rafi993), 2021-01-13T15:27:03Z, 2021-01-13T18:05:41Z, 29, 0, 1
  fix: Fixed some typos for Italian language #1 | Author: thekage91 (Davide), thekage91 (Davide), 2021-01-16T10:12:40Z, 2021-01-16T13:02:06Z, 2, 2, 1
@@ -170,12 +170,12 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  build: Add sourcemaps for js to help debugging | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2021-01-20T15:53:41Z, 2021-03-26T13:11:20Z, 16, 2, 2
  fix: remove shortcut handling for zenmode/gridmode from App.tsx as its handled in actions | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2021-01-30T09:29:53Z, 2021-01-30T09:37:31Z, 0, 6, 1
  feat: add translatable strings | Author: inwardmovement (Victor), inwardmovement (Victor Massé), 2021-02-04T16:27:01Z, 2021-02-17T14:52:12Z, 52, 21, 2
- feat: show network stats for collaboration | Author: ad1992 (Aakansha Doshi)," ad1992 (Aakansha Doshi), lipis (Lipis), lipis (Panayiotis Lipiridis)", 2021-02-06T14:46:36Z, 2021-02-09T17:55:38Z, 346, 1, 9
+ feat: show network stats for collaboration | Author: ad1992 (Aakansha Doshi)," ad1992 (Aakansha Doshi), lipis (Panayiotis Lipiridis)", 2021-02-06T14:46:36Z, 2021-02-09T17:55:38Z, 346, 1, 9
  feat: Minimap | Author: nanot1m (Timur Khazamov), Unknown (tk338g), 2021-02-08T00:09:55Z, 2021-12-17T08:34:06Z, 28365, 152, 23
  Original PR for MathJax support (#6037) | Author: DanielJGeiger (Unknown), DanielJGeiger (Daniel J. Geiger), 2021-02-08T02:29:12Z, 2022-12-27T21:30:09Z, 8331, 289, 84
  fix: Adjust default hand cursor to match expected behavior | Author: avegancafe (Kyle Holzinger), avegancafe (kyle), 2021-02-08T16:33:25Z, 2024-01-10T22:39:15Z, 4, 4, 2
  fix: Submit text element on resize | Author: h7y (Arun), h7y (Arun Kumar), 2021-02-09T18:44:57Z, 2021-02-10T18:01:46Z, 7, 2, 1
- feat: Test various handwritten fonts | Author: lipis (Lipis)," ad1992 (Aakansha Doshi), dwelle (dwelle), j-f1 (Jed Fox), lipis (Panayiotis Lipiridis)", 2021-02-12T18:37:03Z, 2021-03-01T16:34:13Z, 269, 35, 15
+ feat: Test various handwritten fonts | Author: lipis (Lipis)," dwelle (dwelle), j-f1 (Jed Fox), lipis (Panayiotis Lipiridis)", 2021-02-12T18:37:03Z, 2021-03-01T16:34:13Z, 269, 35, 15
  chore: Remove engines from package.json | Author: lipis (Lipis), lipis (Panayiotis Lipiridis), 2021-02-14T09:10:58Z, 2021-02-16T19:14:58Z, 0, 3, 1
  feat: add shareable viewonly links | Author: ad1992 (Aakansha Doshi), ad1992 (Aakansha Doshi), 2021-02-19T20:31:38Z, 2021-03-01T07:36:58Z, 71, 23, 8
  feat(stats): add coordinates of currently selected point (if any) | Author: nicolas-goudry (Nicolas Goudry), nicolas-goudry (Nicolas Goudry), 2021-02-25T13:11:05Z, 2022-11-20T16:59:22Z, 37, 1, 4
@@ -188,7 +188,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat: Flip actions  | Author: narendrasinghrathore (Narendra Singh Rathore), narendrasinghrathore (narendrasinghrathore), 2021-03-31T04:39:12Z, 2021-06-27T09:40:20Z, 2, 7, 1
  feat: Move the save/export buttons to the bottom of the screen | Author: j-f1 (Jed Fox), j-f1 (Jed Fox), 2021-04-01T23:10:27Z, 2022-11-29T01:11:15Z, 137, 223, 16
  Support for Chinese hand drawing | Author: ranying666 (KavenRan)," Unknown (ranying), Unknown (冉瑛)", 2021-04-07T08:25:11Z, 2024-10-16T19:52:04Z, 16, 4, 6
- feat: Feature/image element | Author: heitara (Emil Atanasov)," ad1992 (Aakansha Doshi), dwelle (dwelle), heitara (Emil Atanasov)", 2021-04-08T22:05:18Z, 2021-10-22T09:19:17Z, 1133, 200, 46
+ feat: Feature/image element | Author: heitara (Emil Atanasov), heitara (Emil Atanasov), 2021-04-08T22:05:18Z, 2021-10-22T09:19:17Z, 1133, 200, 46
  feat: Detect the position of the component and recompute offsets when the position is updated | Author: ad1992 (Aakansha Doshi)," ad1992 (Aakansha Doshi), dwelle (David Luzar)", 2021-04-09T21:42:27Z, 2022-07-20T10:31:25Z, 40, 6, 6
  fix: improve mobile user experience | Author: LucaColonnello (Luca Colonnello), LucaColonnello (Luca Colonnello), 2021-04-26T21:31:59Z, 2021-04-26T21:48:26Z, 91806, 0, 379
  feat: resave to svg if you opened an svg with a scene in it | Author: alsuren (David Laban), Unknown (David Laban), 2021-04-29T16:47:27Z, 2021-05-26T15:22:25Z, 270, 96, 13
@@ -200,13 +200,13 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  Expose drawings as png in function | Author: mraerino (Marcus Weiner), mraerino (Marcus Weiner), 2021-06-15T22:47:50Z, 2021-06-15T22:48:07Z, 570, 23, 14
  fix: sanitize copied text in text box when coming from copied elements | Author: seraco (Sebastia Ramon), seraco (Sebastia Ramon), 2021-07-18T15:57:43Z, 2022-08-07T20:17:20Z, 34, 2, 2
  feat: zenMode can allow opening color pickers via shortcuts | Author: g4rry420 (Gurkiran Singh), g4rry420 (gurkiran_singh), 2021-07-20T19:22:03Z, 2022-01-09T01:22:30Z, 111, 25, 9
- feat: implemented onBeforeTextEdit and onBeforeTextSubmit callbacks | Author: zsviczian (Unknown)," ad1992 (Aakansha Doshi), zsviczian (Zsolt Viczian), zsviczian (zsviczian)", 2021-07-30T07:29:35Z, 2021-09-04T11:33:41Z, 59, 4, 6
+ feat: implemented onBeforeTextEdit and onBeforeTextSubmit callbacks | Author: zsviczian (Unknown)," zsviczian (Zsolt Viczian), zsviczian (zsviczian)", 2021-07-30T07:29:35Z, 2021-09-04T11:33:41Z, 59, 4, 6
  feat: Support custom extensions of `ExcalidrawElement` in @excalidraw/excalidraw | Author: DanielJGeiger (Unknown), DanielJGeiger (Daniel J. Geiger), 2021-08-13T21:50:42Z, 2022-11-12T00:55:14Z, 1647, 238, 40
- Excalidraw as an npm package | Author: himpat29 (Unknown)," himpat29 (Himanshu), innoavator (Abhishek Choudhary), sr07asthana (Srajan Asthana), sr07asthana (sr07asthana)", 2021-08-24T14:08:26Z, 2021-08-25T12:11:42Z, 255, 92, 22
- ci: multi-arch image to support arm/v7 and arm64 docker image | Author: ThisIsBenny (Benny)," ThisIsBenny (Benny), Unknown (Benny Samir Hierl)", 2021-08-24T20:06:46Z, 2025-03-04T08:35:01Z, 35, 254, 11
+ Excalidraw as an npm package | Author: himpat29 (Unknown)," innoavator (Abhishek Choudhary), sr07asthana (Srajan Asthana), sr07asthana (sr07asthana)", 2021-08-24T14:08:26Z, 2021-08-25T12:11:42Z, 255, 92, 22
+ ci: multi-arch image to support arm/v7 and arm64 docker image | Author: ThisIsBenny (Benny), ThisIsBenny (Benny), 2021-08-24T20:06:46Z, 2025-03-04T08:35:01Z, 35, 254, 11
  added props username and roomLinkData | Author: akashg3627 (Akash Gupta), akashg3627 (Akash Gupta), 2021-08-29T19:06:56Z, 2021-08-29T19:08:50Z, 16060, 13615, 8
  feat: implemented zoomToFit on ref API | Author: zsviczian (Unknown)," zsviczian (Zsolt Viczian), zsviczian (zsviczian)", 2021-09-04T14:12:36Z, 2023-10-09T10:31:04Z, 37, 8, 7
- adding features to use excalidraw as package | Author: akashg3627 (Akash Gupta)," akashg3627 (Akash Gupta), innoavator (Abhishek Choudhary), sr07asthana (Srajan Asthana), sr07asthana (sr07asthana)", 2021-09-06T06:04:16Z, 2021-09-06T06:06:12Z, 14092, 11546, 16
+ adding features to use excalidraw as package | Author: akashg3627 (Akash Gupta)," innoavator (Abhishek Choudhary), sr07asthana (Srajan Asthana), sr07asthana (sr07asthana)", 2021-09-06T06:04:16Z, 2021-09-06T06:06:12Z, 14092, 11546, 16
  fix: Resize multiple elements from center | Author: ishandeveloper (Ishan Sharma), ishandeveloper (ishandeveloper), 2021-09-27T07:39:17Z, 2022-08-13T17:53:11Z, 35, 8, 1
  refactor: Replace trackedToSentry_pre/post | Author: chrismendis (Chris Mendis), chrismendis (Chris Mendis), 2021-10-04T13:56:47Z, 2023-05-13T20:36:40Z, 46, 81, 41
  fix: fixed jumping text (#4098) | Author: zsviczian (Unknown), zsviczian (Zsolt Viczian), 2021-10-26T20:04:27Z, 2023-10-09T10:31:21Z, 5, 2, 1
@@ -232,7 +232,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat: Adaptive link handle sizing | Author: zsviczian (Unknown), zsviczian (zsviczian), 2022-02-09T10:29:36Z, 2025-05-14T07:31:45Z, 6, 5, 1
  fix: link icon transparent | Author: zsviczian (Unknown), zsviczian (zsviczian), 2022-02-09T19:47:57Z, 2022-02-09T20:05:53Z, 1, 1, 1
  test: adding some logs for testing release | Author: ad1992 (Aakansha Doshi), ad1992 (ad1992), 2022-02-14T12:22:06Z, 2022-02-16T08:28:06Z, 1, 0, 1
- Do not review | Author: joemckenney (Joe McKenney)," Unknown (Joe McKenney), alexchantastic (Alex Chan), carlossantillana (Carlos Santillana), carlossantillana (Carlos)", 2022-03-09T20:03:24Z, 2022-07-20T10:30:00Z, 1517, 475, 35
+ Do not review | Author: joemckenney (Joe McKenney)," carlossantillana (Carlos Santillana), carlossantillana (Carlos)", 2022-03-09T20:03:24Z, 2022-07-20T10:30:00Z, 1517, 475, 35
  fix: Mobile menu does not work when editing text elements (#4863) | Author: zsviczian (Unknown), zsviczian (zsviczian), 2022-03-11T10:08:55Z, 2022-03-14T16:34:53Z, 34, 3, 2
  feat: Font color picker for sticky notes (only) | Author: zsviczian (Unknown), zsviczian (Zsolt Viczian), 2022-03-14T20:20:16Z, 2022-03-17T08:32:26Z, 149, 35, 11
  feat: dots fill pattern | Author: 9kartik (Kartik Maurya), 9kartik (Kartik Maurya), 2022-03-20T10:22:54Z, 2022-03-26T17:34:46Z, 24, 0, 4
@@ -330,7 +330,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat: Support eraser mode for pens providing standard eraser button events. | Author: asford (Alex Ford), asford (Alex Ford), 2023-03-22T16:31:24Z, 2024-04-10T14:19:50Z, 43, 2, 3
  Remove line measure midpoint | Author: Apesosmarc (Unknown), Unknown (Apesosmarc), 2023-03-31T18:03:52Z, 2023-03-31T18:04:00Z, 162, 36, 7
  fix: feeble attempt at implementing #4036 and maybe fixing #5788 | Author: zsviczian (Unknown), zsviczian (zsviczian), 2023-04-03T10:07:13Z, 2023-04-10T15:43:12Z, 119, 30, 4
- build: migrate from CRA to Vite 🎉 | Author: wesbragagt (Wes Braga)," Unknown (Weslley Braga), ad1992 (Aakansha Doshi)", 2023-04-10T20:59:30Z, 2023-07-31T10:03:10Z, 522, 33, 8
+ build: migrate from CRA to Vite 🎉 | Author: wesbragagt (Wes Braga), Unknown (Weslley Braga), 2023-04-10T20:59:30Z, 2023-07-31T10:03:10Z, 522, 33, 8
  chinese font | Author: zzturn (Unknown), alswl (alswl), 2023-04-13T17:40:50Z, 2023-04-13T17:41:08Z, 467, 38, 16
  fix: text align center on container bind | Author: Saidbek (Said Kaldybaev), Saidbek (Said Kaldybaev), 2023-04-13T19:26:55Z, 2023-04-18T14:04:56Z, 7, 1, 1
  fix: add fallbacks for all fonts | Author: karlhorky (Karl Horky), karlhorky (Karl Horky), 2023-04-18T11:47:18Z, 2023-05-03T16:57:32Z, 143, 124, 12
@@ -360,11 +360,11 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  ci: add support for multi platform image targets | Author: Denovocto (Jezreel Maldonado)," Denovocto (Jezreel Maldonado), Denovocto (denovocto)", 2023-07-21T19:11:14Z, 2025-06-15T18:12:58Z, 5, 0, 1
  fix: Can't vertical align when empty container in selection. | Author: s1lverfish (Viczián András), s1lverfish (s1lverfish), 2023-08-03T08:31:12Z, 2023-08-08T09:44:15Z, 5, 1, 1
  Update README.md | Author: Anushka-Bhowmick (Anushka Bhowmick), Anushka-Bhowmick (Anushka Bhowmick), 2023-08-07T19:09:04Z, 2023-09-02T13:37:58Z, 1, 1, 1
- Don't check: Code split 2 : checking | Author: rahul3v (Rahul)," rahul3v (Rahul Raj), rahul3v (Rahul)", 2023-08-14T13:39:09Z, 2023-08-14T15:37:53Z, 877, 555, 12
+ Don't check: Code split 2 : checking | Author: rahul3v (Rahul), rahul3v (Rahul Raj), 2023-08-14T13:39:09Z, 2023-08-14T15:37:53Z, 877, 555, 12
  docs: release @excalidraw/excalidraw@0.15.3 | Author: dwelle (David Luzar)," dwelle (dwelle), vjeux (Christopher Chedeau)", 2023-08-16T13:21:06Z, 2023-08-16T13:21:35Z, 75, 25, 11
  PBI-1: Custom the UI | Author: lenhatthanh20 (Le Nhat Thanh), lenhatthanh20 (Lê Nhật Thanh), 2023-08-20T18:13:11Z, 2023-08-20T18:14:38Z, 1, 1, 1
  feat: multiplayer undo/redo | Author: lizuncong (lizuncong), Unknown (lzc), 2023-08-24T02:07:20Z, 2024-04-25T20:20:10Z, 24, 9, 5
- fix: failing `build:app:docker` post vite migration during docker build | Author: griimick (Soumik)," 7flash (Igor Berlenko), DanielJGeiger (DanielJGeiger), Mrazator (Marcel Mraz), Rajni2002 (Rajnikant dash), Unknown (Marcel Mraz), Unknown (Rajni2002), ad1992 (Aakansha Doshi), alex-kim-dev (Alex Kim), dwelle (David Luzar), dwelle (dwelle), griimick (Soumik), zsviczian (zsviczian)", 2023-08-25T20:58:48Z, 2023-10-04T07:10:46Z, 5627, 1073, 183
+ fix: failing `build:app:docker` post vite migration during docker build | Author: griimick (Soumik)," 7flash (Igor Berlenko), DanielJGeiger (DanielJGeiger), Mrazator (Marcel Mraz), Rajni2002 (Rajnikant dash), Unknown (Marcel Mraz), Unknown (Rajni2002), ad1992 (Aakansha Doshi), dwelle (David Luzar), dwelle (dwelle), griimick (Soumik)", 2023-08-25T20:58:48Z, 2023-10-04T07:10:46Z, 5627, 1073, 183
  convertToExcalidrawElements should use newFrameElement | Author: 7flash (berliangor), Unknown (sevenflash), 2023-08-27T07:43:39Z, 2023-08-27T07:43:56Z, 6421, 109, 15
  fix: convertToExcalidrawElements should use newFrameElement | Author: 7flash (berliangor), Unknown (sevenflash), 2023-08-27T07:47:00Z, 2023-08-27T07:50:52Z, 122, 109, 1
  fix: convertToExcalidrawElements should use newFrameElement | Author: 7flash (berliangor), 7flash (Igor Berlenko), 2023-08-27T07:56:24Z, 2023-09-07T11:10:06Z, 8, 1, 1
@@ -427,7 +427,8 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  fix: frame name input can't delete completely | Author: hqwuzhaoyi (Prajna), hqwuzhaoyi (Prajna), 2023-12-04T15:06:08Z, 2023-12-04T15:45:47Z, 2, 2, 1
  build: Add checks for vite compatibility. | Author: fdemian (Unknown), Unknown (fdemian), 2023-12-06T03:12:35Z, 2023-12-11T00:20:55Z, 6, 4, 2
  editing group id not working | Author: Unknown, Unknown (Vetrivel Shanmugam), 2023-12-08T04:59:49Z, 2025-06-20T14:27:42Z, 44, 0, 5
- Test fractional index and granular history | Author: Mrazator (Marcel Mraz)," Mrazator (Marcel Mraz), ryan-di (Ryan Di)", 2023-12-11T11:15:59Z, 2024-02-12T21:03:03Z, 4264, 1641, 78
+ fixed #7421 : changed tooltip styles of zoom out and in | Author: GitUserVivek (GitUserVivek)," ItzJvs (Vivek), ad1992 (Aakansha Doshi), barnabasmolnar (Barnabás Molnár), dwelle (David Luzar), dwelle (dwelle), excalibot (Excalidraw Bot)", 2023-12-10T15:14:10Z, 2023-12-25T07:38:55Z, 14305, 16825, 596
+ Test fractional index and granular history | Author: Mrazator (Marcel Mraz), ryan-di (Ryan Di), 2023-12-11T11:15:59Z, 2024-02-12T21:03:03Z, 4264, 1641, 78
  feat: Respect stylus input mode | Author: Squeakrats (Yusef Sohail)," Squeakrats (Yusef Sohail), Squeakrats (Yusef)", 2023-12-14T06:49:02Z, 2023-12-31T15:07:55Z, 34, 22, 3
  Toggle pressure stimulation button | Author: doheelee0328 (Dohee Lee), doheelee0328 (Dohee Lee), 2023-12-14T10:26:08Z, 2026-06-25T18:22:00Z, 119, 2, 8
 " feat: openDialog state config, mermaid dialog focus | Author: jasonpraful (Jason Praful)", jasonpraful (Jason Francis), 2023-12-16T14:07:36Z, 2023-12-16T14:07:45Z, 19, 2, 2
@@ -461,7 +462,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  Feat: drag tool bar | Author: elagasteratou (Michaela G), Unknown (Michaela Gasteratou), 2024-02-24T16:03:35Z, 2025-09-25T07:26:58Z, 37, 11, 5
  feat: deselect on escape | Author: aqandrew (Andrew Aquino)," DanielJGeiger (DanielJGeiger), aqandrew (Andrew Aquino), jawahars16 (Jawahar S), jawahars16 (Jawahar)", 2024-03-17T05:08:58Z, 2026-03-25T16:14:27Z, 126, 7, 2
  Fixed docker | Author: sooyeol86 (Unknown), vackjangmi (sooyeol), 2024-03-21T13:23:46Z, 2024-03-21T13:25:22Z, 9, 7, 4
- add Tauri app for macos | Author: dliangx (Unknown)," Unknown (dliang), Unknown (dliangx), ad1992 (Aakansha Doshi), dwelle (David Luzar), yubinTW (YuBin, Hsu)", 2024-04-02T16:32:51Z, 2024-07-21T04:13:30Z, 53476, 87087, 734
+ add Tauri app for macos | Author: dliangx (Unknown)," Unknown (dliang), ad1992 (Aakansha Doshi), dwelle (David Luzar), yubinTW (YuBin, Hsu)", 2024-04-02T16:32:51Z, 2024-07-21T04:13:30Z, 53476, 87087, 734
  Fix/test | Author: konos (Unknown), konos (james), 2024-04-03T05:52:21Z, 2024-04-03T05:52:25Z, 7, 7, 2
  chore: Turkish language missing values added | Author: mutlusinan (Sinan Mutlu), mutlusinan (Sinan Mutlu), 2024-04-06T07:01:52Z, 2026-01-14T07:57:59Z, 55, 55, 1
  fix: FileSave now respects file extensions in windows | Author: briansilah (Brian Silah), briansilah (Brian Silah), 2024-04-06T10:37:35Z, 2025-06-07T09:05:12Z, 1, 0, 1
@@ -483,6 +484,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  fix: unable to change color while in wysiwyg | Author: dwelle (David Luzar), dwelle (dwelle), 2024-06-13T21:59:26Z, 2026-09-26T17:52:59Z, 2, 2, 1
 " fix: Upgraded from deprecated  ""gpt-4-vision-preview"" to ""gpt-4o"" in ""wirframe to code""-tool | Author: maekoos (Markus Stensiö)", maekoos (Markus Stensiö), 2024-06-18T10:10:20Z, 2025-02-17T21:46:30Z, 1, 2, 1
  Dev | Author: fksontini (Firas), fksontini (Firas KSONTINI), 2024-06-24T22:21:20Z, 2024-06-24T22:25:18Z, 0, 128, 1
+" feat: Use selection-color for line-handles, box select and snap anchors | Author: heinrich26 (Hendrik Horstmann)"," Mrazator (Marcel Mraz), dwelle (David Luzar), dwelle (dwelle), mtolmacs (Márk Tolmács), spc-28 (spc-28), zsviczian (zsviczian)", 2024-06-28T11:38:01Z, 2025-06-08T15:21:13Z, 97925, 46288, 928
  Sync with master forked | Author: Avei20 (Avei), Avei20 (Avei20), 2024-07-05T09:22:12Z, 2024-07-05T09:22:20Z, 69, 18, 6
  Change mouse cursor by tool | Author: yongjoon-km (YongJoon Kim), yongjoon-km (yongjoon_km), 2024-07-06T07:03:40Z, 2024-07-06T07:03:58Z, 17, 7, 1
  `fix:` Update UI style at some docs pages and update indented space | Author: Code-Parth (Parth Parmar ),, 2024-07-06T21:59:06Z, 2026-09-29T11:26:56Z, 0, 0, 0
@@ -594,14 +596,15 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  fix: Make canvas search results stable (#9503) | Author: shobhitsrivastava2023 (Shobhit Srivastava)," shobhitsrivastava2023 (Shobhit Srivastava), shobhitsrivastava2023 (shobhitsrivastava2023)", 2025-05-17T14:14:04Z, 2025-05-17T15:14:44Z, 3, 10161, 2
  feat: Test recorder | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2025-05-21T18:06:19Z, 2025-05-24T18:36:20Z, 289, 22, 5
  chore: Coderabbit test | Author: Mrazator (Marcel Mraz), Mrazator (Marcel Mraz), 2025-05-22T11:18:32Z, 2025-05-22T11:36:33Z, 1, 0, 1
- merge rabbit-element into master | Author: dparayao (Dagny Parayao)," bravaloss (Benjamin Avalos), dparayao (Dagny Parayao), katieyungchung (katie), katieyungchung (katieyungchung), ramafications (ramafications)", 2025-05-22T15:58:58Z, 2026-03-07T10:41:50Z, 9423, 1722, 57
+ merge rabbit-element into master | Author: dparayao (Dagny Parayao)," bravaloss (Benjamin Avalos), dparayao (Dagny Parayao), katieyungchung (katieyungchung)", 2025-05-22T15:58:58Z, 2026-03-07T10:41:50Z, 9423, 1722, 57
  changes made to the svgs displayed on opening new project | Author: mpacione (Matt Pacione), mpacione (Matt Pacione), 2025-05-24T00:25:27Z, 2025-05-24T00:27:12Z, 121, 10, 4
  feat: notify user when no shape tool is active | Author: itsknk (nanda), itsknk (itsknk), 2025-05-24T04:16:21Z, 2025-05-24T21:21:32Z, 27, 2, 1
  feat: add hex color input validation with error feedback | Author: anshguptaworks (Unknown), anshguptaworks (Ansh Gupta), 2025-05-25T18:08:23Z, 2026-10-03T09:50:20Z, 298, 73, 6
  feat: support inserting multiple images | Author: dwelle (David Luzar), dwelle (dwelle), 2025-06-01T17:54:24Z, 2025-09-28T21:59:57Z, 255, 83, 3
- feat: freedraw stroke redesign | Author: ryan-di (Ryan Di)," dwelle (dwelle), ryan-di (Ryan Di)", 2025-06-02T07:02:46Z, 2026-06-25T18:00:27Z, 1051, 281, 33
- Color palette generation error message updated | Author: katieyungchung (katie)," bravaloss (Benjamin Avalos), dparayao (Dagny Parayao), katieyungchung (katie), katieyungchung (katieyungchung), ramafications (ramafications)", 2025-06-04T19:46:22Z, 2025-06-04T19:47:24Z, 5686, 1637, 48
+ feat: freedraw stroke redesign | Author: ryan-di (Ryan Di), ryan-di (Ryan Di), 2025-06-02T07:02:46Z, 2026-06-25T18:00:27Z, 1051, 281, 33
+ Color palette generation error message updated | Author: katieyungchung (katie)," bravaloss (Benjamin Avalos), dparayao (Dagny Parayao), katieyungchung (katieyungchung)", 2025-06-04T19:46:22Z, 2025-06-04T19:47:24Z, 5686, 1637, 48
  #9617 test: add unit test for function trackEvent | Author: thaleseuflauzino (Thales Euflauzino), thaleseuflauzino (Thales Euflauzino), 2025-06-05T03:31:07Z, 2025-06-05T03:33:08Z, 101, 0, 1
+ Replace auth cookie with token from staging (test) | Author: victor-baumann (Victor Baumann)," aribn (Ari Bader-Natal), jbrachtie (Jess Bracht)", 2025-06-05T21:27:18Z, 2025-06-05T21:27:46Z, 3289, 3078, 111
  Add table tool to Excalidraw | Author: catherinewu (Catherine Wu), cat-test-account (Catherine Wu), 2025-06-08T00:10:57Z, 2025-06-08T00:14:23Z, 1526, 12, 29
  Changed the help dialog which seemed a bit too small and made it unattractive and changed the display text to make it more appealing | Author: A-Rohit-Reddy (Unknown), A-Rohit-Reddy (Rohit Reddy), 2025-06-09T10:05:47Z, 2026-01-09T12:03:54Z, 18, 13, 4
  feat: add stroke pressure functionality with variable and fixed options | Author: akshay-pm (Unknown), AkshayS967 (Akshay), 2025-06-15T17:26:43Z, 2025-06-15T17:28:18Z, 84, 2, 9
@@ -614,9 +617,9 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  pull req by mistake | Author: moodynooby (Manas Doshi), moodynooby (moodynooby), 2025-07-06T17:21:27Z, 2025-07-06T17:25:28Z, 1099, 84400, 420
  chore: volta config | Author: Arman19941113 (Arman Tang), Arman19941113 (Arman Tang), 2025-07-18T08:26:16Z, 2026-02-19T07:33:52Z, 4, 0, 1
  Ai explore/no instructions | Author: Forbrig (Vitor Forbrig), Forbrig (Vitor Forbrig), 2025-07-22T14:52:13Z, 2025-07-22T14:53:45Z, 1839, 1849, 23
- fix: repair failing tests in collab and languagelist | Author: tinnitusi (Adrian Jehne)," Mrazator (Marcel Mraz), ad1992 (Aakansha Doshi), barnabasmolnar (Barnabás Molnár), dwelle (David Luzar), dwelle (dwelle), hirehamir (Hamir Mahal), liuzhuan (codeman), maielo (Milos Vetesnik), mishankov (Denis Mishankov), mtolmacs (Márk Tolmács), ryan-di (Ryan Di)", 2025-07-22T22:56:03Z, 2025-07-25T08:23:32Z, 1403, 1463, 38
+ fix: repair failing tests in collab and languagelist | Author: tinnitusi (Adrian Jehne)," Mrazator (Marcel Mraz), dwelle (David Luzar), dwelle (dwelle), hirehamir (Hamir Mahal), liuzhuan (codeman), maielo (Milos Vetesnik), mishankov (Denis Mishankov), ryan-di (Ryan Di)", 2025-07-22T22:56:03Z, 2025-07-25T08:23:32Z, 1403, 1463, 38
  feat: Implementiert den Eigenschafts-Editor für Spiel-Elemente | Author: tinnitusi (Adrian Jehne), Unknown (tinnitusi), 2025-07-23T07:12:59Z, 2025-07-25T08:17:03Z, 118, 52, 5
-   feat: Implement properties editor for game elements | Author: tinnitusi (Adrian Jehne)," Mrazator (Marcel Mraz), ad1992 (Aakansha Doshi), barnabasmolnar (Barnabás Molnár), dwelle (David Luzar), dwelle (dwelle), hirehamir (Hamir Mahal), liuzhuan (codeman), maielo (Milos Vetesnik), mtolmacs (Márk Tolmács), ryan-di (Ryan Di)", 2025-07-25T06:20:32Z, 2025-07-25T08:23:05Z, 1393, 1570, 45
+   feat: Implement properties editor for game elements | Author: tinnitusi (Adrian Jehne)," Mrazator (Marcel Mraz), dwelle (David Luzar), hirehamir (Hamir Mahal), liuzhuan (codeman), maielo (Milos Vetesnik), ryan-di (Ryan Di)", 2025-07-25T06:20:32Z, 2025-07-25T08:23:05Z, 1393, 1570, 45
  chore: Mark and close stale issues | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2025-07-28T11:09:19Z, 2025-09-23T03:34:25Z, 23, 0, 1
 " [fix] issue #9679, problem of color changing adjustment | Author: Alan-Huangzy233 (Zhengye Huang)", Alan-Huangzy233 (Alan Huang), 2025-07-28T21:33:48Z, 2025-08-09T06:39:41Z, 118, 5, 6
  fix(events): CMD+C/V shortcuts on iPadOS | Author: GovardhaneNitin (Nitin Govardhane)," GovardhaneNitin (Nitin Govardhane), google-labs-jules[bot] (google-labs-jules[bot])", 2025-08-03T14:32:00Z, 2025-12-16T12:10:38Z, 18, 5, 1
@@ -668,9 +671,10 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  Add PHP Todo App with CRUD features | Author: itsomg134 (Om Gedam), Unknown (Om Gedam), 2025-10-20T06:12:07Z, 2025-10-21T19:44:49Z, 24, 0, 1
  Enhance Factory Method Pattern Java documentation | Author: itsomg134 (Om Gedam), Unknown (Om Gedam), 2025-10-20T13:57:10Z, 2025-10-21T19:44:20Z, 36, 0, 1
  feat: Simplify the freedraw element at creation or restoration | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2025-10-22T16:21:16Z, 2025-12-20T20:55:51Z, 118, 14, 6
- feat: Freedraw experiment 1 | Author: mtolmacs (Márk Tolmács)," dwelle (dwelle), ryan-di (Ryan Di)", 2025-10-22T16:43:06Z, 2025-10-23T08:59:23Z, 1781, 919, 36
+ feat: Freedraw experiment 1 | Author: mtolmacs (Márk Tolmács), ryan-di (Ryan Di), 2025-10-22T16:43:06Z, 2025-10-23T08:59:23Z, 1781, 919, 36
  feat: Add hex color validation with error feedback in ColorPicker | Author: Hell1213 (Rajat yadav), Hell1213 (Rajat yadav), 2025-10-23T04:54:53Z, 2026-10-03T09:50:16Z, 230, 60, 4
  Text to diagram rework | Author: lakatostamas (TL), lakatostamas (Tamas Lakatos), 2025-10-23T06:10:08Z, 2025-10-23T06:34:13Z, 1612, 145, 15
+" 空格进入编辑模式,且不全选 | Author: jigeng123 (Unknown)"," Unknown (JIGENG), Unknown (JIGENG_YIhome), cTangonan123 (Christopher Tangonan), dwelle (David Luzar), dwelle (dwelle), excalibot (Excalidraw Bot), mtolmacs (Mark Tolmacs), mtolmacs (Márk Tolmács), ryan-di (Ryan Di)", 2025-10-23T07:51:51Z, 2026-03-29T11:10:57Z, 49412, 16752, 473
  Create vish.py | Author: Vishwajit0607 (Vishwajit jayswal), Vishwajit0607 (Vishwajit jayswal), 2025-10-29T15:41:12Z, 2025-10-31T17:03:28Z, 9, 0, 1
  Create vishu.py | Author: Vishwajit0607 (Vishwajit jayswal), Vishwajit0607 (Vishwajit jayswal), 2025-10-29T15:41:53Z, 2025-10-31T17:03:12Z, 9, 0, 1
  test: creating a test for polygonIncludesPointNonZero | Author: Luiskr34 (Luís Oliveira), Luiskr34 (Luís Oliveira), 2025-10-29T22:10:06Z, 2025-10-30T23:18:47Z, 59, 2, 3
@@ -683,6 +687,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat: Add collaborative painting platform | Author: MasihMoafi (Masih Moafi), claude (Claude), 2025-11-08T05:42:18Z, 2025-11-08T09:35:36Z, 3064, 0, 13
  Add Cmd+K / Ctrl+K as an alternative shortcut for the command palette | Author: saitejacodes (sai teja), saitejacodes (sai teja), 2025-11-08T05:55:07Z, 2025-11-10T04:58:07Z, 2, 1, 1
  feat: disable background color picker for open lines (#10161) | Author: Acciolyy (Thiago Accioly), Acciolyy (Acciolyy), 2025-11-16T03:54:11Z, 2025-11-20T21:42:44Z, 323, 42, 6
+ fix: Switch between lasso and selection tools | Author: ACHolmes (Andrew Holmes), ACHolmes (Andrew Holmes), 2025-11-16T03:54:42Z, 2026-10-23T05:28:21Z, 4, 6, 1
  [accidentally] sync | Author: AyushRajgor (Ayush Rajgor), AyushRajgor (Arajgor), 2025-11-16T12:15:25Z, 2025-11-16T12:15:48Z, 5546, 1401, 21
  Add validation and error message for invalid hex color input (fix #9576) | Author: cristiangarcia04 (Cristiangarcia04), cristiangarcia04 (cristian), 2025-11-19T00:25:43Z, 2025-11-19T00:46:26Z, 1705, 2264, 2
  feat: validate hex color inputs #9527 | Author: Luiskr34 (Luís Oliveira), Luiskr34 (Luís Oliveira), 2025-11-19T03:26:57Z, 2026-10-03T09:50:13Z, 183, 28, 9
@@ -707,7 +712,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat: implement custom library support | Author: BigBoa19 (Noah Choi)," BigBoa19 (BigBoa19), BigBoa19 (Noah Choi)", 2025-12-07T03:07:08Z, 2026-05-18T00:11:34Z, 1392, 66, 11
  fix: More robust mobile and tablet detection | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2025-12-08T09:50:21Z, 2026-02-09T15:18:08Z, 13, 4, 3
  Working version without drag/drop | Author: prodiggy8 (gustavo grancieiro), prodiggy8 (prodiggy8), 2025-12-09T12:02:42Z, 2025-12-09T13:08:17Z, 695, 26, 9
- Fix/yarn | Author: hkhuzaei (Unknown)," aadalbek (aadalbek), hkhuzaei (Haneen), mhk2-cmu (N624-debu), prodiggy8 (Gustavo Grancieiro), prodiggy8 (prodiggy8), salemadi06 (Shaikha Al-Emadi), salemadi06 (salemadi06)", 2025-12-09T15:00:57Z, 2025-12-09T15:01:21Z, 2768, 1550, 15
+ Fix/yarn | Author: hkhuzaei (Unknown)," aadalbek (aadalbek), hkhuzaei (Haneen), mhk2-cmu (N624-debu), salemadi06 (Shaikha Al-Emadi)", 2025-12-09T15:00:57Z, 2025-12-09T15:01:21Z, 2768, 1550, 15
  fix: added aria-label for visual debug main menu button | Author: on23jk (Unknown),, 2025-12-10T09:49:27Z, 2025-12-30T12:52:37Z, 0, 0, 0
  add xxl font | Author: edo-mike-trotta (Edo Mike Trotta), edo-mike-trotta (Edoardo Trotta), 2025-12-10T13:37:18Z, 2025-12-10T13:37:33Z, 26, 0, 3
  feat: Add variable corner radius slider for rectangles | Author: agdoko (Arnaud Doko)," agdoko (Arnaud Doko), claude (Claude)", 2025-12-10T14:53:34Z, 2025-12-10T14:54:21Z, 412, 22, 9
@@ -716,6 +721,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  Avoid full scene traversal in renderer on viewport updates | Author: jas011 (Jaskirat Singh ), jas011 (Jaskirat Singh), 2025-12-14T13:27:10Z, 2025-12-14T13:27:51Z, 172, 13, 4
  Fix : Fixed the Loosing text focus while switching tabs  | Author: AarishMansur (Aarish mansur), AarishMansur (Aarish mansur), 2025-12-14T15:43:51Z, 2026-07-20T08:04:04Z, 7, 2, 1
  feat: Google Drive Integration for Multi-Board Management | Author: iemafzalhassan (Afzal Hassan),, 2025-12-16T00:22:12Z, 2026-05-10T17:05:27Z, 0, 0, 0
+ feat: Allow to disable library publishing | Author: juliusknorr (Julius Knorr), juliusknorr (Julius Knorr), 2025-12-16T18:10:32Z, 2026-10-20T20:10:32Z, 17, 3, 2
  feat: added visual feedback for invalid  color(hex code) | Author: Lucasbritx (Lucas Xavier), Lucasbritx (Lucas Xavier), 2025-12-17T02:51:11Z, 2026-10-03T09:50:10Z, 300, 1, 3
  fix: use latest args in throttleRAF and clean up utility code (fixes #9655) | Author: Danyccsf (Dany Valverde Caldas)," Danyccsf (Dany Valverde Caldas), Danyccsf (Dany), TaslimOseni (Taslim Oseni), TinaZhang24 (TinaZhang24), Unknown (Dany Valverde Caldas), aziamimoh (aziamimoh), dwelle (David Luzar), dwelle (dwelle), gothamsidd (gothamsidd), pgzcoa (pgzcoa)", 2025-12-18T19:36:46Z, 2026-03-06T19:40:38Z, 168, 53, 3
  Feat: An action that unbinds from an element all the elements that are snapped to it | Author: masawik (Unknown), Unknown (Aleksandr), 2025-12-21T00:03:27Z, 2026-01-24T02:02:07Z, 117, 0, 11
@@ -773,10 +779,10 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  Fix hex popover overlapping preferences menu items | Author: gourijain029-del (Gouri Jain), Unknown (gourijain026@gmail.com), 2026-02-28T22:17:59Z, 2026-09-04T06:03:16Z, 1, 1, 1
  fix(eyedropper): implement removeDarkModeFilter and update color sampling in dark theme | Author: rafaself (Rafael)," rafaself (Rafael), rafaself (rafa)", 2026-03-01T00:52:32Z, 2026-08-08T21:18:29Z, 213, 5, 4
  Joel/foundations | Author: jalexanderII (Joel Alexander)," cursoragent (Cursor Agent), jalexanderII (Joel Alexander), jalexanderII (jalexanderII)", 2026-03-01T21:29:59Z, 2026-03-01T21:32:04Z, 154, 0, 3
- Fix docker setup | Author: JannikStreek (Unknown)," JannikStreek (Jannik Streek), JannikStreek (JannikStreek), farapholch (Pelle), mgaebler (Marian Gaebler), nwittstruck (nwittstruck), sorenjohanson (Sören Johanson), squatica (squatica)", 2026-03-02T12:04:53Z, 2026-03-02T12:05:02Z, 2607, 117, 31
+ Fix docker setup | Author: JannikStreek (Unknown)," JannikStreek (Jannik Streek), JannikStreek (JannikStreek), nwittstruck (nwittstruck), sorenjohanson (Sören Johanson), squatica (squatica)", 2026-03-02T12:04:53Z, 2026-03-02T12:05:02Z, 2607, 117, 31
  fix: allow Ctrl+F search while help dialog is open | Author: chadmarkey (Chad Markey), chadmarkey (chadmarkey), 2026-03-02T18:41:52Z, 2026-05-04T20:29:18Z, 1, 1, 1
  fix: show error state for invalid hex color input | Author: chadmarkey (Chad Markey), chadmarkey (chadmarkey), 2026-03-02T18:41:58Z, 2026-05-04T20:29:18Z, 13, 1, 3
- chore(deps): consolidated dependency updates | Author: theluckystrike (Michael ), theluckystrike (theluckystrike), 2026-03-04T09:21:14Z, 2026-03-04T09:32:26Z, 442, 252, 4
+ chore(deps): consolidated dependency updates | Author: theluckystrike (Michael Lip), theluckystrike (theluckystrike), 2026-03-04T09:21:14Z, 2026-03-04T09:32:26Z, 442, 252, 4
  add table component | Author: alextapper (Alex Tapper), alextapper (alextapper), 2026-03-04T21:05:55Z, 2026-03-04T21:15:34Z, 502, 14990, 21
  Enhance Turkish localization in tr-TR.json | Author: DenizErenArici (Deniz Eren Arıcı), DenizErenArici (Deniz Eren Arıcı), 2026-03-04T21:10:32Z, 2026-03-05T08:49:47Z, 64, 64, 1
  feat/setup agentic pipeline stage 1 | Author: NoRiceToday (Sajjad Ahmad), Unknown (Sajjad Ahmad), 2026-03-05T10:44:14Z, 2026-03-05T10:50:15Z, 272, 0, 10
@@ -788,7 +794,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat: support canvas notification & pills through props | Author: tamas-excalidraw (Tamas L)," dwelle (dwelle), tamas-excalidraw (Tamas Lakatos)", 2026-03-09T17:49:38Z, 2026-08-04T22:26:50Z, 292, 17, 10
  fix: debug interaction | Author: dwelle (David Luzar), dwelle (dwelle), 2026-03-09T21:05:07Z, 2026-03-09T21:38:44Z, 167, 0, 1
  Test PR | Author: andie787 (Andrea Anderson)," Unknown (Andrea A.), andie787 (Andrea Anderson)", 2026-03-12T13:53:15Z, 2026-03-12T13:55:30Z, 45, 2, 4
- 让画布中可以存放长文字 | Author: guotingyu10 (Unknown)," Mrazator (Marcel Mraz), dwelle (David Luzar), dwelle (dwelle), kamilwaz (Kamil Wąż), mtolmacs (Márk Tolmács), ryan-di (Ryan Di), shindi-renuo (shindi-renuo), zsviczian (zsviczian)", 2026-03-15T02:47:30Z, 2026-03-29T13:42:05Z, 927, 69, 29
+ 让画布中可以存放长文字 | Author: guotingyu10 (Unknown)," Mrazator (Marcel Mraz), dwelle (David Luzar), dwelle (dwelle), ryan-di (Ryan Di), shindi-renuo (shindi-renuo), zsviczian (zsviczian)", 2026-03-15T02:47:30Z, 2026-03-29T13:42:05Z, 927, 69, 29
  docs: add webmcp-bridge to integrations | Author: jolestar (jolestar), jolestar (jolestar), 2026-03-16T09:17:20Z, 2026-03-16T12:09:08Z, 1, 1, 1
  Show validation feedback for invalid hex colors | Author: KryptosAI (William Weishuhn), KryptosAI (William Weishuhn), 2026-03-17T17:59:45Z, 2026-10-03T09:49:54Z, 158, 60, 4
  fix(packages/excalidraw): store PNG scene metadata in iTXt chunks | Author: hanityx (Jihwan), hanityx (hanityx), 2026-03-17T23:23:53Z, 2026-10-12T16:02:18Z, 357, 11, 3
@@ -823,9 +829,9 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  fix: correct typos in function names and comments | Author: Unknown," bugjosh (Joshua Klinesmith), claude (Claude Opus 4.6 (1M context))", 2026-03-30T16:32:09Z, 2026-04-07T17:45:53Z, 12, 12, 6
  fix: ensure canceled arrows are synchronized to remote clients | Author: JBR-0100 (Unknown), JBR-0100 (JBR-0100), 2026-03-30T17:18:20Z, 2026-10-06T13:14:52Z, 20, 14, 2
  chore(release): prepare rewrite import script | Author: grnd-alt (Unknown), grnd-alt (grnd-alt), 2026-04-02T08:41:40Z, 2026-04-02T08:43:29Z, 114, 18, 8
- Remove img upload support | Author: Calinteodor (Unknown)," Calinteodor (Calin-Teodor), Calinteodor (Calinteodor), saghul (saghul), yashop7 (Yash)", 2026-04-02T16:16:21Z, 2026-04-02T16:16:27Z, 4891, 2725, 63
+ Remove img upload support | Author: Calinteodor (Unknown)," Calinteodor (Calinteodor), saghul (saghul), yashop7 (Yash)", 2026-04-02T16:16:21Z, 2026-04-02T16:16:27Z, 4891, 2725, 63
  fix: use selection color for grouped selection outlines | Author: PrabinDevkota (PrabinDevkota), PrabinDevkota (PrabinDevkota), 2026-04-03T16:52:43Z, 2026-04-22T19:05:59Z, 79, 3, 2
- feat: snap free scroll constraints | Author: barnabasmolnar (Barnabás Molnár)," barnabasmolnar (Barnabás Molnár), barnabasmolnar (barnabasmolnar), dwelle (David Luzar), dwelle (dwelle)", 2026-04-07T16:25:00Z, 2026-04-07T16:53:13Z, 3227, 924, 73
+ feat: snap free scroll constraints | Author: barnabasmolnar (Barnabás Molnár), dwelle (dwelle), 2026-04-07T16:25:00Z, 2026-04-07T16:53:13Z, 3227, 924, 73
  feat: implement snap-free scroll constraints | Author: barnabasmolnar (Barnabás Molnár)," barnabasmolnar (barnabasmolnar), dwelle (dwelle)", 2026-04-07T21:26:49Z, 2026-07-03T20:57:49Z, 2001, 108, 22
  npm 包修改 | Author: hebiao123 (Dirk), Unknown (hebiao-cyou), 2026-04-09T03:18:35Z, 2026-04-09T03:19:58Z, 2946, 3539, 429
  Add remote project workflow | Author: wsyzxcn (gjiang.huang), AnyJiang (staky), 2026-04-09T14:21:50Z, 2026-04-09T14:23:02Z, 3865, 9, 30
@@ -836,7 +842,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat: option to make laser drawings persistent | Author: SAY-5 (Sai Asish Y), SAY-5 (SAY-5), 2026-04-12T02:37:44Z, 2026-04-24T05:26:02Z, 32, 4, 4
  aaaaaa | Author: ethanreesewagner (Unknown)," Unknown (Will Wagner), ethanreesewagner (ethanreesewagner)", 2026-04-12T20:08:45Z, 2026-04-27T07:43:05Z, 1947, 253, 31
  feat: paste tabular (TSV) data as a rough table | Author: SAY-5 (Sai Asish Y), SAY-5 (SAY-5), 2026-04-13T01:12:56Z, 2026-04-24T05:26:02Z, 300, 4, 8
- [CLOSED] Accidental PR | Author: jooststessens (Joost Stessens)," akramdhiabitn (akramdhiabi), akramdhiabitn (akramdhiabitn), joost-stessens (joost-stessens), jooststessens (Joost Stessens)", 2026-04-13T06:45:26Z, 2026-04-13T06:45:49Z, 24316, 11712, 198
+ [CLOSED] Accidental PR | Author: jooststessens (Joost Stessens)," akramdhiabitn (akramdhiabi), joost-stessens (joost-stessens)", 2026-04-13T06:45:26Z, 2026-04-13T06:45:49Z, 24316, 11712, 198
  feat(editor): add hover delay and animation to tooltips | Author: Meahaa (Unknown)," Meahaa (Meahaa), claude (Claude Opus 4.6 (1M context))", 2026-04-13T18:36:37Z, 2026-04-13T18:38:43Z, 42, 14, 2
  feat(ui): elastic-drop tooltip animation for toolbar | Author: Meahaa (Unknown)," Meahaa (Meahaa), claude (Claude Opus 4.6 (1M context))", 2026-04-13T21:44:53Z, 2026-05-17T19:01:02Z, 98, 47, 3
  fix(security): prevent XSS in Mermaid diagram rendering | Author: mvivirito (Michael Vivirito), Unknown (Michael Vivirito), 2026-04-13T23:51:45Z, 2026-04-20T20:28:38Z, 46, 8, 7
@@ -856,7 +862,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat(editor): add AI tidy selection | Author: ChiragArora31 (Chirag Arora), ChiragArora31 (ChiragArora31), 2026-04-21T15:37:15Z, 2026-07-20T02:46:23Z, 304, 1, 12
  feat(editor): add AI smart connector labels | Author: ChiragArora31 (Chirag Arora), ChiragArora31 (ChiragArora31), 2026-04-21T15:45:07Z, 2026-07-20T02:46:26Z, 417, 1, 12
  Accidental PR | Author: Qiu2025 (Qiu), Qiu2025 (Qiu2025), 2026-04-21T15:53:21Z, 2026-04-21T15:54:13Z, 2, 2, 2
- Fix Terraform hover whiteout and edge persistence after refresh | Author: TusharSariya (Unknown)," Kundan-CR7 (Kundan), NANDGOPALSHARMA-29 (Nand Gopal Sharma), VoluteTech (Tom Louveau), aqandrew (Andrew Aquino), dagecko (dagecko), dwelle (David Luzar), dwelle (dwelle), jawahars16 (Jawahar), mtolmacs (Mark Tolmacs), mtolmacs (Márk Tolmács)", 2026-04-23T12:58:21Z, 2026-05-27T18:03:23Z, 1, 0, 1
+ Fix Terraform hover whiteout and edge persistence after refresh | Author: TusharSariya (Unknown)," dwelle (David Luzar), dwelle (dwelle), mtolmacs (Márk Tolmács)", 2026-04-23T12:58:21Z, 2026-05-27T18:03:23Z, 1, 0, 1
  fix(editor): Z-ordering with frames | Author: mtolmacs (Márk Tolmács), mtolmacs (Mark Tolmacs), 2026-04-23T19:55:56Z, 2026-06-15T10:46:41Z, 21, 38, 1
  .414989552471815:1d157364527d112f4fb4232dde228c2d_69eb3344286388925d723f72.69eb3b3ba2b89670a7d7178f.69eb3b3bb00b03cd926ef6cd:Trae CN.T(2026/4/24 17:43:23) | Author: zilvya (Unknown), zilvya (Lgf), 2026-04-24T09:56:11Z, 2026-04-24T10:56:42Z, 1599, 1950, 17
  .414989552471815:8491c5faf179bf24aa1492113be5fbb2_69eb3344286388925d723f72.69eb44a9a2b89670a7d7196f.69eb44a8b00b03cd926ef6ce:Trae CN.T(2026/4/24 18:23:37) | Author: zilvya (Unknown), zilvya (Lgf), 2026-04-25T09:39:34Z, 2026-05-02T14:29:59Z, 1604, 1950, 17
@@ -866,7 +872,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat: Default theme should follow system preference instead of light theme #11205 | Author: aperezro (Alejandro Perez), Unknown (Alejandro Pérez), 2026-04-28T00:49:49Z, 2026-05-02T14:27:52Z, 41, 9, 3
  Claude/help with project 1h boq | Author: blkfndr (Unknown)," blkfndr (Elxctro), claude (Claude)", 2026-04-29T02:04:49Z, 2026-04-29T02:10:17Z, 851, 709, 8
  Default theme should follow system preference instead of light theme | Author: GSR187T (Unknown), GSR187T (Isaias), 2026-04-30T13:40:40Z, 2026-05-02T14:27:56Z, 13, 10, 1
- feat: color a selected range within a text element (#1126) | Author: kevintang513 (Kevin Tang)," claude (Claude Opus 4.7 (1M context)), kevintang513 (Kevin Tang)", 2026-04-30T21:08:38Z, 2026-04-30T21:14:30Z, 287, 7, 7
+ feat: color a selected range within a text element (#1126) | Author: kevintang513 (Kevin Tang), kevintang513 (Kevin Tang), 2026-04-30T21:08:38Z, 2026-04-30T21:14:30Z, 287, 7, 7
  feat: add *.minimaxi.com to web embed whitelist | Author: mixelburg (mixelburg), mixelburg (Maks Pikov), 2026-04-30T22:22:17Z, 2026-07-24T22:17:21Z, 8, 0, 2
  refactor: add generic point types to math package | Author: LuSrodri (Lucas Santos Rodrigues), LuSrodri (Lucas Santos Rodrigues), 2026-05-04T09:57:39Z, 2026-05-23T21:45:45Z, 156, 162, 11
 " feat: add Cursor agent safety hooks for env, destructive git, and rm -rf | Author: rileyphillips802 (Riley Phillips)"," cursoragent (Cursor), rileyphillips802 (rileyphillips802)", 2026-05-04T15:14:12Z, 2026-05-04T15:15:37Z, 57, 0, 4
@@ -939,7 +945,7 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  feat: Replace stroke width presets with slider | Author: 0-mstrmind (Dinesh), 0-mstrmind (0-mstrmind), 2026-06-21T12:43:34Z, 2026-06-25T18:02:53Z, 55, 61, 2
  fix: keep vertical center anchored when alt-resizing bound text container | Author: minato32 (minato32), minato32 (minato32), 2026-06-22T14:13:46Z, 2026-06-22T14:16:13Z, 46, 8, 3
  fix(repo): remove deprecated public property from vercel.json | Author: knowald (Kevin Nowald), knowald (Kevin Nowald), 2026-06-22T18:13:47Z, 2026-07-26T11:08:02Z, 0, 1, 1
- Feat/storage token provider | Author: quitrk (Avram Tudor)," Calinteodor (Calin-Teodor), Calinteodor (Calinteodor), bgrozev (bgrozev), mihhu (Mihaela Dumitru), saghul (saghul), yashop7 (Yash)", 2026-06-23T13:08:11Z, 2026-06-23T13:08:20Z, 4942, 2753, 66
+ Feat/storage token provider | Author: quitrk (Avram Tudor)," Calinteodor (Calinteodor), saghul (saghul), yashop7 (Yash)", 2026-06-23T13:08:11Z, 2026-06-23T13:08:20Z, 4942, 2753, 66
  feat: shared collaborative revision history | Author: rus-artur4ik (Artur Garifullin), rus-artur4ik (Artur Garifullin), 2026-06-23T13:25:06Z, 2026-09-27T21:02:22Z, 2346, 65, 10
  Plan: transaction-layer-proposal | Author: TyroniUA (Volodymyr Rudov-Tsymbalist), TyroniUA (tyroniua), 2026-06-23T15:27:34Z, 2026-06-23T16:11:29Z, 643, 0, 1
  (feat: editor) add an editor transaction system | Author: grimor (Mikołaj Stolarski), grimor (Mikołaj Stolarski), 2026-06-23T16:34:02Z, 2026-06-23T16:42:20Z, 1294, 7, 8
@@ -1025,17 +1031,18 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  fix(laser-pointer): count each path segment once | Author: mehuljariwala (Mehul Jariwala), mehuljariwala (Mehul Jariwala), 2026-09-05T08:27:23Z, 2026-09-09T08:09:33Z, 38, 2, 2
  fix: ensure deleted elements are synced in collaboration when ESC is pressed | Author: Larslllllll (Unknown), Unknown (Pilars Agent), 2026-09-06T00:40:47Z, 2026-10-06T13:12:39Z, 3, 1, 1
  Fix: toppicks window reference | Author: zsviczian (Unknown), zsviczian (zsviczian), 2026-09-06T12:21:14Z, 2026-09-06T12:21:33Z, 11144, 15504, 210
+ fix(build): bump PWA precache size limit to 4MB and add build check to CI | Author: Ansh-dS (ANSHDEEP SINGH), Unknown (Ansh-dS), 2026-09-06T13:37:05Z, 2026-10-21T10:36:42Z, 3, 2, 2
  Excalidraw frontend | Author: ahmediq-git (Ahmed Iqbal), ahmediq-git (ahmediq-git), 2026-09-06T18:42:42Z, 2026-09-06T18:42:56Z, 2737, 118, 41
  docs: remove obsolete CodeSandbox contribution workflow | Author: deepikavalluru (Unknown), deepikavalluru (Deepika Valluru), 2026-09-08T05:28:23Z, 2026-09-27T20:55:25Z, 0, 15, 2
  fix: move to iTXt png chunks (#9269) | Author: bobby404-K (bobby ), bobby404-K (bobby404-K), 2026-09-08T08:57:22Z, 2026-09-08T09:00:34Z, 142, 10, 3
- fix(repo): Revert config | Author: manuelragusadev (Manuel Ragusa)," abobich675 (Adam), claude (Claude Opus 5 (1M context)), cosimochellini (Cosimo Chellini), cyforkk (cyforkk), mtolmacs (Mark Tolmacs)", 2026-09-08T15:17:26Z, 2026-09-08T15:17:34Z, 10061, 416, 71
+ fix(repo): Revert config | Author: manuelragusadev (Manuel Ragusa)," claude (Claude Opus 5 (1M context)), cosimochellini (Cosimo Chellini)", 2026-09-08T15:17:26Z, 2026-09-08T15:17:34Z, 10061, 416, 71
  fix: Add search/filter to HelpDialog for Ctrl+F support (issue #9276) | Author: CJstate (JINHUICHEN), CJstate (CJstate), 2026-09-11T10:42:39Z, 2026-09-22T09:56:47Z, 375, 375, 4
  fix: Prevent browser save dialog when Ctrl+S pressed in text field (issue #9281) | Author: CJstate (JINHUICHEN), CJstate (CJstate), 2026-09-11T11:32:06Z, 2026-10-01T12:24:32Z, 5, 1, 1
  Hotfix/correctif urgent | Author: AnaisSay (Anaïs Saï), antPinot (antPinot), 2026-09-11T14:51:05Z, 2026-09-11T14:59:18Z, 98, 0, 3
 " feat: add <GenerateMenuItem> slot for host-defined ""Generate"" items | Author: arkadyzalko (Arkady Zalkowitsch)"," arkadyzalko (Arkady Zalkowitsch), claude (Claude Opus 4.7)", 2026-09-15T04:05:49Z, 2026-09-27T20:53:32Z, 82, 2, 6
  feat: add emoji canvas tool | Author: jahnavi-ardberg (Jahnavi), aadityajagdale-ardbergAI (satish), 2026-09-15T09:20:54Z, 2026-09-15T09:21:06Z, 298, 0, 12
   add one-click deploy button | Author: muskanbandta23 (Muskan Bandta), Unknown (Muskan Bandta), 2026-09-16T10:29:54Z, 2026-09-25T06:17:53Z, 6, 0, 1
- fix: keep frame labels readable when zoomed out | Author: davidgeorgehope (David Hope)," cursor[bot] (cursor[bot]), cursoragent (Cursor Agent), cursoragent (Cursor), davidgeorgehope (David Hope)", 2026-09-17T16:16:12Z, 2026-09-17T16:16:37Z, 203, 20, 13
+ fix: keep frame labels readable when zoomed out | Author: davidgeorgehope (David Hope)," cursoragent (Cursor Agent), davidgeorgehope (David Hope)", 2026-09-17T16:16:12Z, 2026-09-17T16:16:37Z, 203, 20, 13
  Feature/experiment | Author: Saeed1989 (Md Saeed Sharman)," Saeed1989 (Md Saeed Sharman), claude (Claude Opus 5)", 2026-09-20T05:14:17Z, 2026-09-20T05:17:37Z, 5136, 2063, 32
  Create test222 | Author: gunn3rforlife (Unknown), gunn3rforlife (gunn3rforlife), 2026-09-21T15:35:06Z, 2026-09-21T15:35:58Z, 1, 0, 1
  fix(collab): broadcast canceled multi-point arrows as deleted | Author: shi-felix (Felix Shi), Unknown (石敬荣), 2026-09-24T03:48:36Z, 2026-10-06T13:08:34Z, 64, 8, 3
@@ -1044,10 +1051,12 @@ Title,Contributors,Created at,Closed at,Additions,Deletions,Files Changed
  Dev | Author: stansz (Unknown)," oatclaw88 (Sz), stansz (stansz)", 2026-09-29T02:36:07Z, 2026-09-29T12:02:49Z, 2491, 2600, 20
  feat: allow Docker builds to inject local store Vite backend URLs | Author: Code-Parth (Parth Parmar )," Code-Parth (Parth Parmar), cursoragent (Cursor)", 2026-09-29T12:39:53Z, 2026-09-29T12:40:22Z, 29, 0, 2
  feat: self-hosted collaborative workspace around the Excalidraw editor | Author: RithwikBandi (Rithwik Bandi)," RithwikBandi (Ricky Bandi), claude (Claude Sonnet 5.5)", 2026-09-30T15:27:29Z, 2026-10-05T12:56:23Z, 29915, 53, 164
-" fix: начало штриха, границы лазера и числовой размер текста | Author: emevart (Pavel Artemev)"," claude (Claude Opus 4.6 (1M context)), emevart (emevart)", 2026-10-01T08:46:30Z, 2026-10-01T08:47:07Z, 41195, 6161, 448
+" fix: начало штриха, границы лазера и числовой размер текста | Author: emevart (Pavel Artemev)", emevart (emevart), 2026-10-01T08:46:30Z, 2026-10-01T08:47:07Z, 41195, 6161, 448
  Fix/deep zoom wysiwyg upscale | Author: redaphid (Aaron Herres)," claude (Claude Opus 5.5), redaphid (redaphid)", 2026-10-02T03:32:29Z, 2026-10-02T03:32:39Z, 6860, 693, 131
  fix: bump version when finalizing multi-element for collaboration sync | Author: dikshit-n (Dikshit), dikshit-n (Githena), 2026-10-05T02:48:38Z, 2026-10-06T13:09:13Z, 57, 1, 2
  updated readme | Author: GitUtk (Utkarsh), GitUtk (GitUtk), 2026-10-07T07:01:25Z, 2026-10-07T07:02:30Z, 1, 1, 1
  Feat/collab access | Author: zerwiz (zerwiz), zerwiz (zerwiz), 2026-10-11T12:25:08Z, 2026-10-11T12:27:15Z, 12986, 2322, 148
  Changing the homepage | Author: apar4054 (Unknown), apar4054 (apar4054), 2026-10-15T07:06:10Z, 2026-10-15T07:07:49Z, 2, 2, 2
  support physical keyboard shortcuts for non-latin layouts  | Author: ReutRot12 (Unknown), ReutRot12 (Reut), 2026-10-19T12:30:47Z, 2026-10-19T17:41:25Z, 57, 17, 4
+  fix(editor): right-align new free text that starts with RTL characters. | Author: shirushit (Shira)," claude (Claude Sonnet 5.5), shirushit (Shira Toledano)", 2026-10-21T19:58:59Z, 2026-10-22T14:32:55Z, 78, 1, 2
+ feat: notes gallery stored in SQLite + macOS app | Author: LucassSantoss (Lucas Santos)," LucasssSantoss (LucasssSantoss), claude (Claude Opus 5.5)", 2026-10-23T17:15:08Z, 2026-10-23T17:15:32Z, 3725, 3, 20

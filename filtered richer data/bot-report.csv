@@ -1,7 +1,6 @@
 Author,Score,Records,Evidence
 dependabot-preview[bot],3,232,author name contains an explicit bot/service marker; 100% of titles match dependency/release automation patterns; the same normalised title appears 24 times
+dependabot-preview[bot] (dependabot-preview[bot]),3,30,author name contains an explicit bot/service marker; 100% of titles match dependency/release automation patterns; the same normalised title appears 8 times
 dependabot[bot],3,605,author name contains an explicit bot/service marker; 100% of titles match dependency/release automation patterns; the same normalised title appears 25 times
+dependabot[bot] (dependabot[bot]),3,451,author name contains an explicit bot/service marker; 100% of titles match dependency/release automation patterns; the same normalised title appears 41 times
 Excalidraw Bot,3,70,author name contains an explicit bot/service marker; 97% of titles match dependency/release automation patterns; the same normalised title appears 64 times
-dependabot-preview[bot] (dependabot-preview[bot]),2,262,author name contains an explicit bot/service marker; the same normalised title appears 232 times
-dependabot[bot] (dependabot[bot]),2,1059,author name contains an explicit bot/service marker; the same normalised title appears 606 times
-excalibot (Excalidraw Bot),2,76,author name contains an explicit bot/service marker; the same normalised title appears 70 times
