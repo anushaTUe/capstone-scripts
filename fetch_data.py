@@ -1,27 +1,66 @@
-import requests
+import os
 import time
 
-TOKEN = "GITHUB_TOKEN"
+import requests
+
+TOKEN = os.getenv("GITHUB_TOKEN")
+PAGE_SIZE = 25
+MAX_RETRIES = 8
 
 headers = {
-    "Authorization": f"Bearer {TOKEN}",
-    "Accept": "application/vnd.github+json"
+    "Authorization": f"Bearer {TOKEN}" if TOKEN else "",
+    "Accept": "application/vnd.github+json",
 }
+
+
+def safe_author(author):
+    if not author:
+        return "Unknown"
+    return f'{author.get("login", "Unknown")} ({author.get("name") or "Unknown"})'
+
+
+def get_commit_contributors(commit_nodes):
+    contributors = set()
+    for commit in commit_nodes:
+        for author in commit.get("commit", {}).get("authors", {}).get("nodes", []):
+            name = author.get("name") or "Unknown"
+            user = author.get("user") or {}
+            username = user.get("login") or "Unknown"
+            contributors.add(f"{username} ({name})")
+    return ", ".join(sorted(contributors))
+
+
+def get_comment_contributors(comment_nodes):
+    contributors = set()
+    for comment in comment_nodes:
+        author = comment.get("author")
+        if author:
+            username = author.get("login") or "Unknown"
+            name = author.get("name") or "Unknown"
+            contributors.add(f"{username} ({name})")
+    return ", ".join(sorted(contributors))
 
 
 def github_search(item_type, states):
     url = "https://api.github.com/graphql"
     all_items = []
     cursor = None
+    session = requests.Session()
 
     if item_type == "pullRequests":
         fields = """
-            title author { login ... on User { name } }
-            createdAt closedAt additions deletions changedFiles
-            commits(first: 20) {
+            title
+            author { login ... on User { name } }
+            createdAt
+            closedAt
+            merged
+            additions
+            deletions
+            changedFiles
+            commits(first: 10) {
                 nodes {
                     commit {
-                        authors(first: 10) {
+                        authors(first: 5) {
                             nodes {
                                 name
                                 user { login }
@@ -32,9 +71,12 @@ def github_search(item_type, states):
             }
         """
     else:
-        fields = fields = """
-            title author { login ... on User { name } }
-            createdAt closedAt stateReason
+        fields = """
+            title
+            author { login ... on User { name } }
+            createdAt
+            closedAt
+            stateReason
             comments(first: 20) {
                 nodes {
                     author {
@@ -45,45 +87,82 @@ def github_search(item_type, states):
             }
         """
 
-    query = """
-    query($cursor: String) {
-        repository(owner: "excalidraw", name: "excalidraw") {
-            ITEM(first: 100, after: $cursor, states: STATES) {
+    query = f"""
+    query($cursor: String) {{
+        repository(owner: "excalidraw", name: "excalidraw") {{
+            {item_type}(first: {PAGE_SIZE}, after: $cursor, states: {states}) {{
                 totalCount
-                pageInfo {
+                pageInfo {{
                     hasNextPage
                     endCursor
-                }
-                nodes {
-                    FIELDS
-                }
-            }
-        }
-    }
+                }}
+                nodes {{
+                    {fields}
+                }}
+            }}
+        }}
+    }}
     """
 
-    query = query.replace("ITEM", item_type)
-    query = query.replace("STATES", states)
-    query = query.replace("FIELDS", fields)
-
     while True:
-        response = requests.post(
-            url,
-            json={"query": query, "variables": {"cursor": cursor}},
-            headers=headers,
-            timeout=30
-        )
+        retry_count = 0
+        while True:
+            try:
+                response = session.post(
+                    url,
+                    json={"query": query, "variables": {"cursor": cursor}},
+                    headers=headers,
+                    timeout=(15, 90),
+                )
+            except requests.RequestException as error:
+                retry_count += 1
+                if retry_count >= MAX_RETRIES:
+                    raise RuntimeError(
+                        f"GitHub request failed after {retry_count} attempts: {error}"
+                    ) from error
+                delay = min(60, 2 ** retry_count)
+                print(
+                    f"GitHub request failed ({error}). Retrying in {delay} seconds "
+                    f"({retry_count}/{MAX_RETRIES})..."
+                )
+                time.sleep(delay)
+                continue
 
-        if response.status_code in (502, 503, 504):
-            print("GitHub server error. Retrying in 10 seconds...")
-            time.sleep(10)
-            continue
+            if response.status_code in (429, 502, 503, 504):
+                retry_count += 1
+                if retry_count >= MAX_RETRIES:
+                    raise RuntimeError(
+                        f"GitHub returned HTTP {response.status_code} after "
+                        f"{retry_count} attempts: {response.text[:500]}"
+                    )
+                retry_after = response.headers.get("Retry-After")
+                delay = (
+                    int(retry_after)
+                    if retry_after and retry_after.isdigit()
+                    else min(60, 2 ** retry_count)
+                )
+                print(
+                    f"GitHub returned HTTP {response.status_code} "
+                    f"({response.reason}). Retrying in {delay} seconds "
+                    f"({retry_count}/{MAX_RETRIES})..."
+                )
+                time.sleep(delay)
+                continue
 
-        response.raise_for_status()
+            response.raise_for_status()
+            break
+
         data = response.json()
 
         if "errors" in data:
-            raise RuntimeError(data["errors"])
+            errors = "; ".join(
+                error.get("message", str(error)) for error in data["errors"]
+            )
+            if any("rate limit" in error.lower() for error in errors.split("; ")):
+                print("GitHub GraphQL rate limit reached. Retrying in 60 seconds...")
+                time.sleep(60)
+                continue
+            raise RuntimeError(f"GitHub GraphQL error: {errors}")
 
         result = data["data"]["repository"][item_type]
         all_items.extend(result["nodes"])
@@ -99,141 +178,96 @@ def github_search(item_type, states):
     return {"items": all_items, "total_count": result["totalCount"]}
 
 
-# Number of pull requests open and closed
-prso = github_search("pullRequests", "[OPEN]")
-prsum = github_search("pullRequests", "[CLOSED]")
-prsm = github_search("pullRequests", "[MERGED]")
+def write_prs(file_name, prs, include_closed=False):
+    with open(file_name, "w", encoding="utf-8") as output_file:
+        for pr in prs:
+            contributors = get_commit_contributors(pr.get("commits", {}).get("nodes", []))
+            author = safe_author(pr.get("author"))
+            created = pr.get("createdAt")
+            additions = pr.get("additions")
+            deletions = pr.get("deletions")
+            files_changed = pr.get("changedFiles")
 
-# Number of issues open and closed
-issueso = github_search("issues", "[OPEN]")
-issuesc = github_search("issues", "[CLOSED]")
-
-
-# Create files and fetch data from PRs & Issues
-prsoFile = open("openPRs.txt", "w", encoding="utf-8")
-for pr in prso["items"]:
-    prsoFile_titles = pr["title"]
-    prsoFile_authors = f'{pr["author"]["login"]} ({pr["author"].get("name") or "Unknown"})' if pr["author"] else "Unknown"
-
-    contributors = set()
-
-    for commit in pr["commits"]["nodes"]:
-        for author in commit["commit"]["authors"]["nodes"]:
-            name = author["name"]
-            username = author["user"]["login"] if author["user"] else "Unknown"
-            contributors.add(f"{username} ({name})")
-
-    prsoFile_contributors = ", ".join(sorted(contributors))
-
-    prsoFile_created = pr["createdAt"]
-    prsoFile_additions = pr["additions"]
-    prsoFile_deletions = pr["deletions"]
-    prsoFile_filesChanged = pr["changedFiles"]
-
-    prsoFile.write(f"Title: {prsoFile_titles} | Author: {prsoFile_authors} | Contributors: {prsoFile_contributors} | Created at: {prsoFile_created} | Additions: {prsoFile_additions} | Deletions: {prsoFile_deletions} | Files Changed: {prsoFile_filesChanged}\n")
+            if include_closed:
+                closed = pr.get("closedAt")
+                output_file.write(
+                    f"Title: {pr['title']} | Author: {author} | Contributors: {contributors} | "
+                    f"Created at: {created} | Closed at: {closed} | "
+                    f"Additions: {additions} | Deletions: {deletions} | Files Changed: {files_changed}\n"
+                )
+            else:
+                output_file.write(
+                    f"Title: {pr['title']} | Author: {author} | Contributors: {contributors} | "
+                    f"Created at: {created} | Additions: {additions} | Deletions: {deletions} | "
+                    f"Files Changed: {files_changed}\n"
+                )
 
 
-prsumFile = open("unmergedPRs.txt", "w", encoding="utf-8")
-for pr in prsum["items"]:
-    prsumFile_titles = pr["title"]
-    prumFile_authors = f'{pr["author"]["login"]} ({pr["author"].get("name") or "Unknown"})' if pr["author"] else "Unknown"
+def write_issues(file_name, issues, closed=False):
+    with open(file_name, "w", encoding="utf-8") as output_file:
+        for issue in issues:
+            contributors = get_comment_contributors(issue.get("comments", {}).get("nodes", []))
+            author = safe_author(issue.get("author"))
+            created = issue.get("createdAt")
 
-    contributors = set()
-
-    for commit in pr["commits"]["nodes"]:
-        for author in commit["commit"]["authors"]["nodes"]:
-            name = author["name"]
-            username = author["user"]["login"] if author["user"] else "Unknown"
-            contributors.add(f"{username} ({name})")
-
-    prsumFile_contributors = ", ".join(sorted(contributors))
-
-    prsumFile_created = pr["createdAt"]
-    prsumFile_closed = pr["closedAt"]
-    prsumFile_additions = pr["additions"]
-    prsumFile_deletions = pr["deletions"]
-    prsumFile_filesChanged = pr["changedFiles"]
-
-    prsumFile.write(f"Title: {prsumFile_titles} | Author: {prsumFile_authors} | Contributors: {prsumFile_contributors} | Created at: {prsumFile_created} | Closed at: {prsumFile_closed} | Additions: {prsumFile_additions} | Deletions: {prsumFile_deletions} | Files Changed: {prsumFile_filesChanged}\n")
-
-prsmFile = open("mergedPRs.txt", "w", encoding="utf-8")
-for pr in prsm["items"]:
-    prsmFile_titles = pr["title"]
-    prsmFile_authors = f'{pr["author"]["login"]} ({pr["author"].get("name") or "Unknown"})' if pr["author"] else "Unknown"
-
-    contributors = set()
-
-    for commit in pr["commits"]["nodes"]:
-        for author in commit["commit"]["authors"]["nodes"]:
-            name = author["name"]
-            username = author["user"]["login"] if author["user"] else "Unknown"
-            contributors.add(f"{username} ({name})")
-
-    prsmFile_contributors = ", ".join(sorted(contributors))
-
-    prsmFile_created = pr["createdAt"]
-    prsmFile_closed = pr["closedAt"]
-    prsmFile_additions = pr["additions"]
-    prsmFile_deletions = pr["deletions"]
-    prsmFile_filesChanged = pr["changedFiles"]
-
-    prsmFile.write(f"Title: {prscFile_titles} | Author: {prscFile_authors} | Contributors: {prsmFile_contributors} | Created at: {prscFile_created} | Closed at: {prscFile_closed} | Additions: {prscFile_additions} | Deletions: {prscFile_deletions} | Files Changed: {prscFile_filesChanged}\n")
+            if closed:
+                closed_at = issue.get("closedAt")
+                reason = issue.get("stateReason")
+                output_file.write(
+                    f"Title: {issue['title']} | Author: {author} | Contributors: {contributors} | "
+                    f"Created at: {created} | Closed at: {closed_at} | Reason: {reason}\n"
+                )
+            else:
+                output_file.write(
+                    f"Title: {issue['title']} | Author: {author} | Contributors: {contributors} | "
+                    f"Created at: {created}\n"
+                )
 
 
-issuesoFile = open("openIssues.txt", "w", encoding="utf-8")
-for issues in issueso["items"]:
-    issuesoFile_titles = issues["title"]
-    issuesoFile_authors = f'{issues["author"]["login"]} ({issues["author"].get("name") or "Unknown"})' if issues["author"] else "Unknown"
-
-    contributors = set()
-
-    for comment in issues["comments"]["nodes"]:
-        author = comment["author"]
-
-        if author:
-            username = author["login"]
-            name = author.get("name") or "Unknown"
-            contributors.add(f"{username} ({name})")
-
-    issuesoFile_contributors = ", ".join(sorted(contributors))
-    
-    issuesoFile_created = issues["createdAt"]
-
-    issuesoFile.write(f"Title: {issuesoFile_titles} | Author: {issuesoFile_authors} | Contributors: {issuesoFile_contributors} | Created at: {issuesoFile_created}\n")
+def require_token():
+    if not TOKEN:
+        raise RuntimeError(
+            "GITHUB_TOKEN is not set. Set it before running the script, for example: "
+            "$env:GITHUB_TOKEN = '<your-token>'"
+        )
 
 
-issuescFile = open("closedIssues.txt", "w", encoding="utf-8")
-for issues in issuesc["items"]:
-    issuescFile_titles = issues["title"]
-    issuescFile_authors = f'{issues["author"]["login"]} ({issues["author"].get("name") or "Unknown"})' if issues["author"] else "Unknown"
+if __name__ == "__main__":
+    require_token()
+    pr_open = github_search("pullRequests", "[OPEN]")
+    closed_prs = github_search("pullRequests", "[CLOSED]")
+    pr_merged_items = [pr for pr in closed_prs["items"] if pr["merged"]]
+    pr_closed_items = [pr for pr in closed_prs["items"] if not pr["merged"]]
+    pr_merged = {"items": pr_merged_items, "total_count": len(pr_merged_items)}
+    pr_closed = {"items": pr_closed_items, "total_count": len(pr_closed_items)}
 
-    contributors = set()
+    issues_open = github_search("issues", "[OPEN]")
+    issues_closed = github_search("issues", "[CLOSED]")
 
-    for comment in issues["comments"]["nodes"]:
-        author = comment["author"]
+    write_prs("openPRs.txt", pr_open["items"])
+    write_prs("unmergedPRs.txt", pr_closed["items"], include_closed=True)
+    write_prs("mergedPRs.txt", pr_merged["items"], include_closed=True)
 
-        if author:
-            username = author["login"]
-            name = author.get("name") or "Unknown"
-            contributors.add(f"{username} ({name})")
+    write_issues("openIssues.txt", issues_open["items"])
+    write_issues("closedIssues.txt", issues_closed["items"], closed=True)
 
-    issuescFile_contributors = ", ".join(sorted(contributors))
-
-    issuescFile_created = issues["createdAt"]
-    issuescFile_closed = issues["closedAt"]
-    issuescFile_reason = issues["stateReason"]
-
-    issuescFile.write(f"Title: {issuescFile_titles} | Author: {issuescFile_authors} | Contributors: {issuescFile_contributors} | Created at: {issuescFile_created} | Closed at: {issuescFile_closed} | Reason: {issuescFile_reason}\n")
-
-
-prsoFile.close()
-prsumFile.close()
-prsmFile.close()
-issuesoFile.close()
-issuescFile.close()
-
-
-# Print result stuff..
-print()
-print("PULL REQUESTS:", prso["total_count"], "open,", prsum["total_count"], "unmerged,", prsm["total_count"], "merged.", "TOTAL:", prso["total_count"] + prsum["total_count"] + prsm["total_count"])
-print("ISSUES:", issueso["total_count"], "open,", issuesc["total_count"], "closed. TOTAL:", issueso["total_count"] + issuesc["total_count"])
+    print()
+    print(
+        "PULL REQUESTS:",
+        pr_open["total_count"],
+        "open,",
+        pr_closed["total_count"],
+        "unmerged,",
+        pr_merged["total_count"],
+        "merged.",
+        "TOTAL:",
+        pr_open["total_count"] + pr_closed["total_count"] + pr_merged["total_count"],
+    )
+    print(
+        "ISSUES:",
+        issues_open["total_count"],
+        "open,",
+        issues_closed["total_count"],
+        "closed. TOTAL:",
+        issues_open["total_count"] + issues_closed["total_count"],
+    )

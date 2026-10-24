@@ -25,6 +25,7 @@ DEFAULT_FILES = (
 )
 AUTHOR_COLUMN = "Author"
 ISSUE_PR_AUTHOR_COLUMN = "Authors"
+CONTRIBUTORS_COLUMN = "Contributors"
 TITLE_COLUMNS = ("Subject", "Title")
 DATE_COLUMNS = ("Date", "Created at")
 BOT_NAME_RE = re.compile(
@@ -49,10 +50,15 @@ def parse_date(value: str) -> datetime:
 
 
 def author_column(fieldnames: Sequence[str]) -> str:
-	for column in (AUTHOR_COLUMN, ISSUE_PR_AUTHOR_COLUMN):
+	for column in (AUTHOR_COLUMN, ISSUE_PR_AUTHOR_COLUMN, CONTRIBUTORS_COLUMN):
 		if column in fieldnames:
 			return column
-	raise ValueError("CSV must contain an Author or Authors column")
+	raise ValueError("CSV must contain an Author, Authors, or Contributors column")
+
+
+def author_values(row: dict[str, str], column: str) -> list[str]:
+	value = (row.get(column) or "").strip()
+	return [part.strip() for part in value.split(",") if part.strip()]
 
 
 def title_column(fieldnames: Sequence[str]) -> str:
@@ -88,13 +94,13 @@ def load_rows(paths: list[Path]) -> tuple[dict[Path, list[dict[str, str]]], dict
 			rows = list(reader)
 			files[path] = rows
 			for row in rows:
-				author = (row.get(author_key) or "").strip()
-				if author in {"", "Unknown", "null"}:
-					continue
-				by_author[author].append({
-					"title": (row.get(title_key) or "").strip(),
-					"date": parse_date(row[date_key]),
-				})
+				for author in author_values(row, author_key):
+					if author in {"Unknown", "null"}:
+						continue
+					by_author[author].append({
+						"title": (row.get(title_key) or "").strip(),
+						"date": parse_date(row[date_key]),
+					})
 	return files, by_author
 
 
@@ -158,7 +164,16 @@ def main() -> None:
 	bot_authors = set(evidence)
 
 	for path, rows in files.items():
-		filtered = [row for row in rows if (row.get(AUTHOR_COLUMN) or row.get(ISSUE_PR_AUTHOR_COLUMN) or "").strip() not in bot_authors]
+		filtered = [
+			row
+			for row in rows
+			if not any(
+				author in bot_authors
+				for column in (AUTHOR_COLUMN, ISSUE_PR_AUTHOR_COLUMN, CONTRIBUTORS_COLUMN)
+				if column in row
+				for author in author_values(row, column)
+			)
+		]
 		write_csv(args.output_dir / path.name, filtered)
 
 	report_path = args.output_dir / "bot-report.csv"
